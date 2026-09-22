@@ -1,5 +1,0 @@
-Blocker: image generation/save unavailable.
-
-- FS: read-only
-- Tool error: `windows sandbox failed: spawn setup refresh`
-- Saved path: none

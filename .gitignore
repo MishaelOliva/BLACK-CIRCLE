@@ -7,3 +7,19 @@ tmp-*
 *.tmp
 .DS_Store
 Thumbs.db
+
+# Offline Reference & Authoring Notes (Kept locally on disk only)
+SOURCE OF TRUTH ARTSTYLE/
+SOURCE OF TRUTH CHARACTER FEATURES/
+archived-episodes/
+.mcp/
+mcp-schema.json
+tools/
+bin/
+bootstrap.ps1
+Open Black Circle Reader.vbs
+CONTINUITY-BIBLE.md
+STORY-SPINE.md
+EPISODE-QUALITY-CHECKLIST.md
+AGENTS.md
+STORY-FLOW-RECHECK-36-46.md
