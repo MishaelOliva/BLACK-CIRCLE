@@ -1,6 +1,8 @@
 node_modules/
 tmp/
-/rtk.exe
+backups/
+*.exe
+tmp-*
 *.log
 *.tmp
 .DS_Store
