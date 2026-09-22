@@ -1,0 +1,5 @@
+Intended use: small fantasy academy icon for a story reader UI.
+Subject: one simple enchanted magic circle emblem, academy crest feel, circular arcane glyph geometry, soft glowing ring, subtle star points, clean silhouette.
+Composition: centered square icon, generous padding, readable at small size, no background scene.
+Style: polished anime fantasy UI asset, crisp edges, luminous gold and cyan accents on deep transparent-looking dark backdrop, simple not ornate.
+Constraints: no text, no letters, no numbers, no watermark, no characters, no buildings, no complex scenery.
