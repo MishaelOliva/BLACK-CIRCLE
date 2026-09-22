@@ -1,0 +1,15 @@
+﻿{
+    "schema":  "codex-image.wrapper.manifest",
+    "schema_version":  1,
+    "status":  "success",
+    "recovered_from":  "response_contract.image_generation",
+    "prompt":  "Generate one small simple fantasy academy magic circle icon, no text.",
+    "out_dir":  "C:\\STORY\\.mcp\\codex-image\\smoke-wrapper",
+    "images":  [
+                   {
+                       "path":  "C:\\STORY\\.mcp\\codex-image\\smoke-wrapper\\image-0001.png",
+                       "source_path":  "C:\\Users\\CODEX 2\\.codex\\generated_images\\019e8b03-bf72-7a82-908e-a1f296f6f0fa\\ig_0181fc9d01041204016a1f7dea73388191a4769498541fcb43.png",
+                       "byte_count":  1578502
+                   }
+               ]
+}

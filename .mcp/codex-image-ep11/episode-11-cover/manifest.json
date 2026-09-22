@@ -1,0 +1,15 @@
+﻿{
+    "schema":  "codex-image.wrapper.manifest",
+    "schema_version":  1,
+    "status":  "success",
+    "recovered_from":  "response_contract.image_generation",
+    "prompt":  "Intended use: production episode cover for Black Circle Episode 11, The Record That Knew Him. Subject: Haru Aerlen, quiet dark-haired Green Circle transfer student concealing immense Black Circle power, stands at the threshold of the old Aurelis east archive with Elira Vale beside him, blonde Yellow Circle prodigy, composed and protective; behind them Rhea, Halden with a thin black case, Aira with record sheets, Leon, Cassian, Cael, and Mira form a witness line. Composition: vertical manga/anime light-novel cover, cinematic academy fantasy, old pale stone corridor with copper veins, seven luminous witness marks around an arch, fountain colors implied in background. Lighting: silver-blue archive light, faint gold from Elira, restrained black-violet pressure hidden near Haru, clean dramatic rim light. Style: match established Black Circle project visuals from Episodes 1-36, authorized gallery, and cast portraits; polished anime/manga academy fantasy, crisp linework, elegant faces, high resolution, maximum quality, clean WebP-ready detail. Constraints: directly episode 11 archive and witness review theme; no text, no logos, no extra characters, no visual noise, no blur, no distorted hands, no modern objects, no public Black Circle reveal, Haru still visibly Green Circle.",
+    "out_dir":  "C:\\STORY\\.mcp\\codex-image-ep11\\episode-11-cover",
+    "images":  [
+                   {
+                       "path":  "C:\\STORY\\.mcp\\codex-image-ep11\\episode-11-cover\\image-0001.png",
+                       "source_path":  "C:\\Users\\CODEX 2\\.codex\\generated_images\\019e8c32-2e26-70d3-ab75-b45fa376246f\\ig_01b89b0aeb8e6c5d016a1fcb66351c81919551054d5d9dff1c.png",
+                       "byte_count":  2555266
+                   }
+               ]
+}

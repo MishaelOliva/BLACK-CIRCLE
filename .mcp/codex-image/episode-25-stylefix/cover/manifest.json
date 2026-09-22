@@ -1,0 +1,15 @@
+﻿{
+    "schema":  "codex-image.wrapper.manifest",
+    "schema_version":  1,
+    "status":  "success",
+    "recovered_from":  "response_contract.image_generation",
+    "prompt":  "ART STYLE SOURCE OF TRUTH: match Black Circle Episodes 1-24 assets in this repository.\nStyle must feel like existing Episode 1-24 covers/scenes: dark academy fantasy anime/manga key art, painterly high-contrast rendering, cool blue-black shadows, warm gold/green/blue/red magic circle accents, gothic academy stone and glass architecture, detailed but slightly gritty brush texture, dramatic luminous circular glyph geometry, cinematic depth, elegant Aurelis uniforms, sharp silhouettes, moody atmosphere.\nCharacter continuity: Haru Aerlen has black hair, quiet introverted expression, dark Aurelis academy uniform, subtle hidden green circle glow at chest when visible, restrained power. Elira Vale has long blonde hair, golden eyes, elegant black-white academy uniform, dark crystal pendant at throat, composed and protective. Do not redesign them.\nOutput: wide 16:9 story-reader artwork. No text, no logos, no watermarks.\nAvoid: modern glossy poster style, plastic 3D render, plain clean digital art, soft romance-poster style, chibi, western comic style, washed-out daylight, over-bright pastel palette, excessive smoothness, random glitter speckles, micro-dot noise, malformed hands, distorted faces.\nSCENE: Episode 25 cover, Wounded City Protocol. Haru and Elira foreground inside old chapel Foundation chamber; behind them a ruined phantom city unfolds with witness rails, seven wounded markers, public observers, large circular glyphs overhead. Composition like prior Black Circle covers: dense gothic academy fantasy, dark dramatic frame, characters prominent, no title text.",
+    "out_dir":  "C:\\STORY\\.mcp\\codex-image\\episode-25-stylefix\\cover",
+    "images":  [
+                   {
+                       "path":  "C:\\STORY\\.mcp\\codex-image\\episode-25-stylefix\\cover\\image-0001.png",
+                       "source_path":  "C:\\Users\\CODEX 2\\.codex\\generated_images\\019e8b0c-144a-7cb1-b47d-6cb1d390790e\\ig_01aafe4bd8a118f2016a1f801483788191828b0f112264efd7.png",
+                       "byte_count":  2753503
+                   }
+               ]
+}

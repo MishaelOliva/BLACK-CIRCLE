@@ -1,0 +1,15 @@
+﻿{
+    "schema":  "codex-image.wrapper.manifest",
+    "schema_version":  1,
+    "status":  "success",
+    "recovered_from":  "response_contract.image_generation",
+    "prompt":  "Episode 5 cover art for Black Circle story reader: Haru Aerlen and Elira Vale caught in bright academy breakfast rumor pressure as tournament announcement light gathers above Aurelis, Haru quiet teenage magician with black hair in academy uniform and faint hidden green disguise, Elira long blonde hair golden eyes elegant academy uniform with dark crystal pendant near collarbone, Aira Solen nearby with alert dry tactical expression and notes, distant Professor Halden watching analytically from elevated faculty shadow; cinematic polished manga/anime academy fantasy matching Episodes 1-36 gallery, high resolution, clean linework, rich but balanced color, centered cover composition, sunlight through tall windows, silver and gold magical geometry, no readable text, no watermark, no visual noise, no extra limbs, no warped hands, no clutter.",
+    "out_dir":  "C:\\STORY\\.mcp\\codex-image\\episode-05-regeneration\\01",
+    "images":  [
+                   {
+                       "path":  "C:\\STORY\\.mcp\\codex-image\\episode-05-regeneration\\01\\image-0001.png",
+                       "source_path":  "C:\\Users\\CODEX 2\\.codex\\generated_images\\019e8c33-56c5-79b0-b765-2e1abaa6b8da\\ig_07ad5dc9f3608ff2016a1fcba533e48191b9b550da146ba538.png",
+                       "byte_count":  3135231
+                   }
+               ]
+}

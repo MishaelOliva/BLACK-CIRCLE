@@ -1,0 +1,15 @@
+﻿{
+    "schema":  "codex-image.wrapper.manifest",
+    "schema_version":  1,
+    "status":  "success",
+    "recovered_from":  "response_contract.image_generation",
+    "prompt":  "ART STYLE SOURCE OF TRUTH: match Black Circle Episodes 1-24 assets in this repository.\nStyle must feel like existing Episode 1-24 covers/scenes: dark academy fantasy anime/manga key art, painterly high-contrast rendering, cool blue-black shadows, warm gold/green/blue/red magic circle accents, gothic academy stone and glass architecture, detailed but slightly gritty brush texture, dramatic luminous circular glyph geometry, cinematic depth, elegant Aurelis uniforms, sharp silhouettes, moody atmosphere.\nCharacter continuity: Haru Aerlen has black hair, quiet introverted expression, dark Aurelis academy uniform, subtle hidden green circle glow at chest when visible, restrained power. Elira Vale has long blonde hair, golden eyes, elegant black-white academy uniform, dark crystal pendant at throat, composed and protective. Do not redesign them.\nOutput: wide 16:9 story-reader artwork. No text, no logos, no watermarks.\nAvoid: modern glossy poster style, plastic 3D render, plain clean digital art, soft romance-poster style, chibi, western comic style, washed-out daylight, over-bright pastel palette, excessive smoothness, random glitter speckles, micro-dot noise, malformed hands, distorted faces.\nSCENE: Public witnesses gathered behind luminous rails: academy students, faculty, Valemere delegates, student recorders. They overlook the Wounded City chamber from a gothic balcony/rail. Formal accountability, political pressure, dark academy mood.",
+    "out_dir":  "C:\\STORY\\.mcp\\codex-image\\episode-25-stylefix\\03-public-witness-rails",
+    "images":  [
+                   {
+                       "path":  "C:\\STORY\\.mcp\\codex-image\\episode-25-stylefix\\03-public-witness-rails\\image-0001.png",
+                       "source_path":  "C:\\Users\\CODEX 2\\.codex\\generated_images\\019e8b15-8166-7a63-bee5-84a7143d20ba\\ig_0a03d9e821af0827016a1f827b90e88191b2a04d278cc7e0e9.png",
+                       "byte_count":  2644813
+                   }
+               ]
+}

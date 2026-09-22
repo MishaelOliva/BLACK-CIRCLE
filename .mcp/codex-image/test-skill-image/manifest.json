@@ -1,0 +1,15 @@
+﻿{
+    "schema":  "codex-image.wrapper.manifest",
+    "schema_version":  1,
+    "status":  "success",
+    "recovered_from":  "response_contract.image_generation",
+    "prompt":  "Test image: dark academy fantasy anime magic circle over old stone floor, blue-black shadows, gold and green glyph accents, no text, no watermark.",
+    "out_dir":  "C:\\STORY\\.mcp\\codex-image\\test-skill-image",
+    "images":  [
+                   {
+                       "path":  "C:\\STORY\\.mcp\\codex-image\\test-skill-image\\image-0001.png",
+                       "source_path":  "C:\\Users\\CODEX 2\\.codex\\generated_images\\019e8c28-8bd1-78e2-9547-51150b63e925\\ig_01d81c171d63bb21016a1fc8e9e8b08191aba30465be14c58a.png",
+                       "byte_count":  3258468
+                   }
+               ]
+}

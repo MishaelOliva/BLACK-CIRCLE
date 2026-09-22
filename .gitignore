@@ -1,0 +1,7 @@
+node_modules/
+tmp/
+/rtk.exe
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

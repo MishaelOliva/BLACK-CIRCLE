@@ -1,0 +1,32 @@
+{
+	"name": "black-circle-story-reader",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"build": "node ./build-site.mjs",
+		"serve": "node ./serve-reader.mjs",
+		"test": "node --test",
+		"check": "node --check ./build-site.mjs && node --check ./serve-reader.mjs && node --check ./assets/ui/black-circle-overhaul.js && node --check .mcp/bridge.mjs && node --check .mcp/probe.mjs && node --check .mcp/probe-start.mjs && node --check .mcp/audit.mjs && node --check .mcp/doctor.mjs && node --check .mcp/sync-server.mjs",
+		"bridge": "node .mcp/bridge.mjs",
+		"probe": "node .mcp/probe.mjs",
+		"probe:start": "node .mcp/probe-start.mjs",
+		"audit": "node .mcp/audit.mjs",
+		"audit:story": "node ./tools/audit-story-standards.mjs",
+		"doctor": "node .mcp/doctor.mjs",
+		"sync-server": "node .mcp/sync-server.mjs",
+		"bootstrap": "powershell -ExecutionPolicy Bypass -File .\\bootstrap.ps1",
+		"fresh-machine": "powershell -ExecutionPolicy Bypass -File .\\bootstrap.ps1",
+		"lint": "biome lint .",
+		"format": "biome format --write .",
+		"ci": "biome check ."
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "1.29.0",
+		"gsap": "^3.13.0",
+		"playwright-core": "^1.59.1",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4"
+	}
+}
