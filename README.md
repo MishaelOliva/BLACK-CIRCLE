@@ -1,67 +1,101 @@
 # Black Circle: The Quietest Power
 
-Local, offline-first reader and active long-form manuscript for **Black Circle**, an academy-fantasy series about rank, restraint, witness, and the only known Black Circle magician.
+Offline-first web reader and original long-form fantasy manuscript detailing the journey of the only known Black Circle academy mage.
 
-## Open the reader
+[![CI](https://github.com/MishaelOliva/BLACK-CIRCLE/actions/workflows/ci.yml/badge.svg)](https://github.com/MishaelOliva/BLACK-CIRCLE/actions/workflows/ci.yml)
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-brightgreen.svg)](https://nodejs.org)
+[![License: Dual](https://img.shields.io/badge/License-MIT%20%2F%20All%20Rights%20Reserved-blue.svg)](LICENSE)
 
-Double-click `Open Black Circle Reader.vbs`, or run:
+## About the Project
+
+*Black Circle: The Quietest Power* is an ongoing original fiction project combined with a custom local reading application. The narrative explores themes of rank, institutional pressure, and restraint through Finn, an unranked student at the Oakhaven arcane academy whose power operates through subtle observation and dampening rather than dramatic force.
+
+This repository contains both the active serialized episode manuscripts and the offline web reader application.
+
+## What it does
+
+- **Offline-first reading**: Serves an episodic web reader with chapter navigation, reading position tracking, and clean typographic controls.
+- **Automated compilation**: Builds raw episodic text files into structured browser payloads and single-page reading views.
+- **Local server sandbox**: Includes a lightweight Node.js static file server (`serve-reader.mjs`) configured with loopback binding and path-traversal guards.
+
+## Architecture / How it works
+
+The repository separates creative literary sources from reader application components:
+
+```
++-----------------------------------------------------------+
+|                   CREATIVE SOURCES                        |
+|   episodes/EPISODE 1.txt ... EPISODE 32.txt               |
++-----------------------------+-----------------------------+
+                              |
+                              | npm run build (build-site.mjs)
+                              v
++-----------------------------------------------------------+
+|                   COMPILED READER PAYLOAD                 |
+|   index.html + assets/data/reader-content.js              |
++-----------------------------+-----------------------------+
+                              |
+                              | npm run serve (serve-reader.mjs)
+                              v
++-----------------------------------------------------------+
+|                   LOCAL WEB READER (SPA)                  |
+|   Loopback 127.0.0.1:4174 (strict path-traversal guards)  |
++-----------------------------------------------------------+
+```
+
+## Quick start
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org) (v18 or higher)
+
+### Running the Reader Locally
 
 ```powershell
+git clone https://github.com/MishaelOliva/BLACK-CIRCLE.git
+cd BLACK-CIRCLE
+
+# Install dependencies
+npm install
+
+# Start local reader server
 npm run serve
 ```
 
-Then open `http://127.0.0.1:4174/index.html`.
+Then open `http://127.0.0.1:4174/index.html` in your web browser.
 
-## Source of truth
+## Rebuilding the Reader
 
-- `START HERE.txt`: world primer.
-- `episodes/EPISODE 1.txt` through `episodes/EPISODE 32.txt`: active story.
-- `episodes/ALL EPISODES.txt`: generated complete-story copy; rebuilt from active sources.
-- `STORY-SPINE.md`: long-horizon arc and mystery ownership.
-- `CONTINUITY-BIBLE.md`: character and canon state.
-- `EPISODE-QUALITY-CHECKLIST.md`: drafting gate.
-- `build-site.mjs`: reader generator.
-- `index.html`: generated output; do not hand-edit.
-- `assets/data/reader-content.js`: generated reader payload.
-
-Story edits belong in the text sources first. Rebuild afterward:
+When episode source texts in `episodes/` are modified, regenerate the reader bundle:
 
 ```powershell
 npm run build
 ```
 
-## Episode Media Standards
+## Testing
 
-- **Grand 4K Cover Banner**: Every episode cover must be rendered as a prominent, cinematic full-width banner at the top of the reading section, formatted in 4K crisp quality (`3840x2160` high-DPI key visual).
-- **Scene Callouts**: Canonical story scene illustrations must sit in the right-side gutter directly adjacent to their corresponding text narrative on desktop, and collapse cleanly into inline cards on mobile.
-
-## Project commands
+The project includes an automated test verifying the loopback server and path-traversal rejection:
 
 ```powershell
-npm run doctor       # environment preflight
-npm run build        # regenerate reader + data payload
-npm run serve        # local reader server
-npm run audit:story  # prose and structure advisories
-npm run check        # JavaScript syntax checks
-npm test             # focused local-server test
-npm run lint         # Biome lint
-npm run ci           # Biome formatting/lint gate
+npm test
 ```
 
-## Local security
-
-`serve-reader.mjs` exposes only `index.html` and `assets/**` on loopback. Source manuscripts, MCP files, archives, and repository metadata are not public routes.
-
-The optional MCP bridge also binds to loopback and rejects unapproved browser origins. For bearer authentication, start and probe it from the same shell:
+To run JavaScript syntax checks across build and server scripts:
 
 ```powershell
-$env:MCP_AUTH_TOKEN = "use-a-long-random-local-token"
-npm run bridge
-npm run probe
+npm run check
 ```
 
-Additional trusted origins can be supplied explicitly with `MCP_ALLOWED_ORIGINS` as a comma-separated list.
+## Security
 
-## Release rule
+`serve-reader.mjs` restricts file serving strictly to loopback (`127.0.0.1`) and only resolves `index.html` and `assets/**`. Requests attempting relative directory traversal (e.g. `../`) are rejected with `403 Forbidden`.
 
-Before shipping reader changes: rebuild, run focused checks, start through the VBS launcher, confirm HTTP `200`, then smoke-test desktop and mobile layouts on localhost.
+## License
+
+This repository uses a dual license model:
+
+- **Reader software and build tools**: Licensed under the [MIT License](LICENSE).
+- **Story manuscript, episodes, world lore, and artwork**: All Rights Reserved &copy; 2026 Mishael Dioneda Oliva.
+
+---
+*Written and built by [Mishael Oliva](https://github.com/MishaelOliva) • [LinkedIn](https://linkedin.com/in/mishael-oliva)*
