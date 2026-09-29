@@ -1,0 +1,3 @@
+# Exclude generated reader payload and bundled single-page HTML from language statistics
+index.html linguist-generated=true
+assets/data/reader-content.js linguist-generated=true
