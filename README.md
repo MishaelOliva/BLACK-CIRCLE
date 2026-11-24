@@ -1,16 +1,19 @@
 # Black Circle: The Quietest Power
 
-Offline-first web reader and original long-form fantasy manuscript detailing the journey of the only known Black Circle academy mage.
+Offline-first web reader and original long-form academy-fantasy manuscript following the only known Black Circle magician.
 
+**Live Reader:** https://mishaeloliva.github.io/BLACK-CIRCLE/
+
+[![Live Site](https://img.shields.io/badge/Live%20Reader-GitHub%20Pages-6d28d9.svg)](https://mishaeloliva.github.io/BLACK-CIRCLE/)
 [![CI](https://github.com/MishaelOliva/BLACK-CIRCLE/actions/workflows/ci.yml/badge.svg)](https://github.com/MishaelOliva/BLACK-CIRCLE/actions/workflows/ci.yml)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-brightgreen.svg)](https://nodejs.org)
 [![License: Dual](https://img.shields.io/badge/License-MIT%20%2F%20All%20Rights%20Reserved-blue.svg)](LICENSE)
 
 ## About the Project
 
-*Black Circle: The Quietest Power* is an ongoing original fiction project combined with a custom local reading application. The narrative explores themes of rank, institutional pressure, and restraint through Finn, an unranked student at the Oakhaven arcane academy whose power operates through subtle observation and dampening rather than dramatic force.
+*Black Circle: The Quietest Power* pairs an ongoing original academy-fantasy series with a static web reading app. The story follows **Haru Aerlen**, who enters Aurelis Arcane Academy wearing a false Green crest to hide a celestial **Black Circle** rank and tries to keep restraint while elite politics and tournament rivalries close in around **Elira Vale** and the students around him.
 
-This repository contains both the active serialized episode manuscripts and the offline web reader application.
+This repository contains both the serialized episode manuscripts and the offline-first web reader.
 
 ## What it does
 
@@ -45,11 +48,15 @@ The repository separates creative literary sources from reader application compo
 
 ## Quick start
 
-### Prerequisites
+### Option 1: Read Online (GitHub Pages)
+
+Open **[Black Circle Web Reader](https://mishaeloliva.github.io/BLACK-CIRCLE/)** directly in any browser—no install or build step required.
+
+### Option 2: Run the Reader Locally
+
+#### Prerequisites
 
 - [Node.js](https://nodejs.org) (v18 or higher)
-
-### Running the Reader Locally
 
 ```powershell
 git clone https://github.com/MishaelOliva/BLACK-CIRCLE.git
