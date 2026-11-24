@@ -73,15 +73,20 @@
 		duration: 0.75,
 		ease: "power3.out",
 	});
-	landing.addEventListener("pointermove", (event) => {
-		if (window.matchMedia?.("(pointer: coarse)").matches) return;
-		const bounds = landing.getBoundingClientRect();
-		pointerX(((event.clientX - bounds.left) / bounds.width - 0.5) * 18);
-		pointerY(((event.clientY - bounds.top) / bounds.height - 0.5) * 14);
-	});
+	landing.addEventListener(
+		"pointermove",
+		(event) => {
+			if (!document.body.classList.contains("landing-active")) return;
+			if (window.matchMedia?.("(pointer: coarse)").matches) return;
+			const bounds = landing.getBoundingClientRect();
+			pointerX(((event.clientX - bounds.left) / bounds.width - 0.5) * 18);
+			pointerY(((event.clientY - bounds.top) / bounds.height - 0.5) * 14);
+		},
+		{ passive: true },
+	);
 
 	const revealTargets = document.querySelectorAll(
-		".reader-hero, .reader-start, .magic-ranks, .reader-tools, .episode-card, .tome-page .cast-card, .tome-page .gallery-card",
+		".reader-hero, .reader-start, .magic-ranks, .tome-page .cast-card, .tome-page .gallery-card",
 	);
 	for (const target of revealTargets) target.classList.add("chapter-reveal");
 	const observer = new IntersectionObserver(
@@ -91,13 +96,14 @@
 				window.gsap.to(entry.target, {
 					opacity: 1,
 					y: 0,
-					duration: 0.72,
+					duration: 0.48,
 					ease: "power3.out",
+					clearProps: "transform",
 				});
 				observer.unobserve(entry.target);
 			}
 		},
-		{ threshold: 0.12 },
+		{ threshold: 0.1 },
 	);
 	for (const target of revealTargets) observer.observe(target);
 })();

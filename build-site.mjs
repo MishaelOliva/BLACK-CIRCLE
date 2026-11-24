@@ -14442,6 +14442,7 @@ const html = `<!doctype html>
     }
 
     function initLandingMotion() {
+      if (document.body.classList.contains("design-overhaul")) return;
       const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       if (!window.gsap || reduceMotion) {
         document.querySelectorAll(".landing-orbital-item").forEach((item) => {
@@ -14757,7 +14758,12 @@ const html = `<!doctype html>
       requestAnimationFrame(updateScrollProgress);
     }
 
+    let scrollProgressFrame = 0;
+    let lastProgressScale = -1;
+    let lastProgressLabel = "";
+
     function updateScrollProgress() {
+      scrollProgressFrame = 0;
       const episode = EPISODES[currentEpisodeIndex];
       if (!episode || !reader) return;
       const inReader = document.body.classList.contains("reader-active") && !document.body.classList.contains("landing-active");
@@ -14768,12 +14774,23 @@ const html = `<!doctype html>
         const scrollable = Math.max(1, reader.offsetHeight - window.innerHeight * 0.55);
         scrollPct = Math.max(0, Math.min(100, Math.round(((window.scrollY - articleTop) / scrollable) * 100)));
       }
-      const widthPct = scrollPct + "%";
-      if (scrollProgressFill) scrollProgressFill.style.width = widthPct;
-      if (progressFill) progressFill.style.width = widthPct;
-      if (progressLabel) {
-        progressLabel.textContent = episode.displayLabel + ": " + episode.title + " • " + scrollPct + "% (" + (currentEpisodeIndex + 1) + "/" + EPISODES.length + ")";
+      const scale = scrollPct / 100;
+      if (scale !== lastProgressScale) {
+        lastProgressScale = scale;
+        const transformValue = "scaleX(" + scale + ")";
+        if (scrollProgressFill) scrollProgressFill.style.transform = transformValue;
+        if (progressFill) progressFill.style.transform = transformValue;
       }
+      const nextLabel = episode.displayLabel + ": " + episode.title + " • " + scrollPct + "% (" + (currentEpisodeIndex + 1) + "/" + EPISODES.length + ")";
+      if (progressLabel && nextLabel !== lastProgressLabel) {
+        lastProgressLabel = nextLabel;
+        progressLabel.textContent = nextLabel;
+      }
+    }
+
+    function scheduleScrollProgressUpdate() {
+      if (scrollProgressFrame) return;
+      scrollProgressFrame = requestAnimationFrame(updateScrollProgress);
     }
 
     function openLightbox(image) {
@@ -15132,8 +15149,8 @@ const html = `<!doctype html>
       const storedTheme = localStorage.getItem("blackCircleTheme");
       setTheme(storedTheme || "dark");
       window.addEventListener("resize", refreshLandingArtReady, { passive: true });
-      window.addEventListener("scroll", updateScrollProgress, { passive: true });
-      window.addEventListener("resize", updateScrollProgress, { passive: true });
+      window.addEventListener("scroll", scheduleScrollProgressUpdate, { passive: true });
+      window.addEventListener("resize", scheduleScrollProgressUpdate, { passive: true });
       setPanelMode(localStorage.getItem("blackCirclePanelMode") === "on");
       setFontScale(localStorage.getItem(fontScaleKey) || 1);
       setReaderWidth(localStorage.getItem(readerWidthKey) || "wide");
