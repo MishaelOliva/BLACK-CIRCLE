@@ -7314,7 +7314,7 @@ const episode1Scenes = [
     alt: "Haru walking through the academy courtyard past whispering students judging his Green Circle crest",
     title: "The Courtyard Whispers",
     caption: "Nearby students murmured as I passed, Blue and Red crests flashing as they noticed my Green emblem with amused disbelief.",
-    after: "They knew the three facts before I reached my first corridor: transfer student, mid-year entry, Green Circle.",
+    after: "They knew the three facts before I reached the main steps: transfer student, mid-year entry, Green Circle.",
     orientation: "portrait",
   },
   {
@@ -7350,7 +7350,7 @@ const episode1Scenes = [
     alt: "Haru raising his hand to question the mythical fifth Black Circle while students smirk",
     title: "Questioning the Fifth Circle",
     caption: "In academic practice, Black Circle is not treated as reality-yet Haru asks about the suppressed records.",
-    after: 'Instructor Dren: "But there is no verified historical evidence that any human has ever possessed such a circle. In academic practice, Black Circle is not treated as reality."',
+    after: 'Instructor Dren: "There is no verified historical evidence that any human has ever carried such a circle. In academic practice, Black Circle is not treated as reality."',
     orientation: "portrait",
   },
   {
@@ -7359,7 +7359,7 @@ const episode1Scenes = [
     alt: "The grand circular arena with crystal spires, ward barriers, and amphitheater stands for assessment combat",
     title: "The Assessment Arena",
     caption: "The training complex opened into a vast circular arena enclosed by crystalline ward pylons and tiers of watchful students.",
-    after: "The training complex was larger than the classroom blocks, built in white stone reinforced with metallic mana-",
+    after: "The training complex dwarfed the classroom blocks, built from white stone braided with metallic mana-thread",
     orientation: "portrait",
   },
   {
@@ -7368,7 +7368,7 @@ const episode1Scenes = [
     alt: "Leon Varek conjuring water arcs against Haru Aerlen in the academy assessment arena",
     title: "The Arena Assessment Duel",
     caption: "Leon dropped into the arena with easy confidence, blue mana curling around his hands like ribbons of water.",
-    after: "Leon dropped from the platform into the arena with easy confidence.",
+    after: "Leon dropped from the platform into the ring with practiced ease.",
     orientation: "wide",
   },
   {
@@ -7377,7 +7377,7 @@ const episode1Scenes = [
     alt: "Leon unleashing whipping streams of water mana while Haru raises a subtle geometric mana shield",
     title: "Water Lances & Faint Shield",
     caption: "Three whip-like streams crack across the arena floor as Haru deflects the pressure with a faint, precise mana shield.",
-    after: "A thin mana shield appeared in front of me-faint, uneven",
+    after: "I raised one hand and threw up a thin, uneven mana shield",
     orientation: "portrait",
   },
   {
@@ -7386,7 +7386,7 @@ const episode1Scenes = [
     alt: "Leon staring in shock at his collapsing water spell as Haru stands restrained and Dren observes",
     title: "Subtle Cancellation",
     caption: "The unstable water sphere folded inward with a wet, airless thump, falling as harmless rain while Leon stared at his hand.",
-    after: "The unstable sphere above Leon's hand folded inward with a wet, airless thump.",
+    after: "The unstable sphere folded inward with a wet, airless thump.",
     orientation: "portrait",
   },
   {
@@ -7395,79 +7395,7 @@ const episode1Scenes = [
     alt: "Student Council President Rhea Valmont observing Haru from the high arena balcony",
     title: "Rhea Valmont's Gaze",
     caption: "At the top of the stairs stood the Student Council President, her calculation sharp behind an unreadable smile.",
-    after: "At the top of the stairs stood a girl in the formal elite mantle reserved for special-ranking students.",
-    orientation: "portrait",
-  },
-  {
-    id: "scene-ep1-rumor-courtyard",
-    src: "assets/scenes/episode-02-rumor-courtyard.webp",
-    alt: "Haru and Aira walking through the sunlit academy courtyard as students whisper and Leon glares from the colonnade",
-    title: "The Courtyard Rumors",
-    caption: "Whispers ripple across the courtyard as students dissect how a Green Circle transfer broke Leon Varek's water spell.",
-    after: "By the time I entered the main courtyard of **Aurelis Arcane Academy**, students were already talking",
-    orientation: "portrait",
-  },
-  {
-    id: "scene-ep1-aira-tea",
-    src: "assets/scenes/episode-01-04-aira-tea-corridor.webp",
-    alt: "Aira offering Haru tea in the sunlit gallery corridor after classes",
-    title: "Efficient Friendliness",
-    caption: "Aira offers Haru tea in the corridor as rumors of the assessment duel ripple through the academy.",
-    after: 'Aira: "It\'s tea. I didn\'t know what you liked, so I picked the least risky option."',
-    orientation: "wide",
-  },
-  {
-    id: "scene-ep1-elira-corridor",
-    src: "assets/scenes/episode-02-09-elira-corridor-radiance-imagegen.webp",
-    alt: "Elira Vale walking down the academy corridor in ceremonial gold mantle as students part in natural deference",
-    title: "The Parting Corridor",
-    caption: "Students instinctively clear a path down the center of the sunlit gallery as Yellow Circle prodigy Elira Vale passes.",
-    after: "The students ahead began moving aside almost instinctively, clearing a path down the center of the corridor.",
-    orientation: "wide",
-  },
-  {
-    id: "scene-ep1-elira-lunch",
-    src: "assets/scenes/episode-01-05-elira-lunch-table.webp",
-    alt: "Elira Vale sitting gracefully at the lunch table with Haru and Aira in the grand hall",
-    title: "The Yellow Circle at Lunch",
-    caption: "Elira Vale joins Haru and Aira at their side table, quiet elegance commanding the attention of the hall.",
-    after: "Elira sat gracefully across from us.",
-    orientation: "wide",
-  },
-  {
-    id: "scene-ep1-training-terrace",
-    src: "assets/scenes/episode-02-training-gardens.webp",
-    alt: "Elira demonstrating intricate mana circles on the high training terrace overlooking Aurelis spires",
-    title: "Training Terrace Gathering",
-    caption: "Elite students take positions on the high open terrace as Elira demonstrates spell formation above the valley cliffs.",
-    after: "At the center of the terrace, several elite students took their positions. Two high-grade Reds. One specialized Blue. And Elira.",
-    orientation: "portrait",
-  },
-  {
-    id: "scene-ep1-elira-garden",
-    src: "assets/scenes/episode-01-06-elira-yellow-circle-garden.webp",
-    alt: "Elira demonstrating radiant golden-white threads in the upper training terrace gardens",
-    title: "Radiant Silk in the Gardens",
-    caption: "Golden-white threads unfolded from Elira's fingertips like woven silk, refining the spell structure with effortless grace.",
-    after: "Golden-white threads unfolded from her fingertips and spread across the air like woven silk",
-    orientation: "wide",
-  },
-  {
-    id: "scene-ep1-terrace-challenge",
-    src: "assets/scenes/episode-02-terrace-challenge.webp",
-    alt: "Leon Varek confronting Haru and Elira on the sunset terrace with narrowed eyes and clenched fists",
-    title: "The Terrace Confrontation",
-    caption: "Leon stops a few paces away in disbelief as sunset gilds the terrace, demanding Haru answer for the assessment duel.",
-    after: "Leon stopped a few paces away from us, his eyes moving from Elira to me with visible disbelief.",
-    orientation: "portrait",
-  },
-  {
-    id: "scene-ep1-hidden-watcher",
-    src: "assets/scenes/episode-02-hidden-watcher.webp",
-    alt: "A hooded figure watching Haru and Elira from the shadows of the evening courtyard garden pillars",
-    title: "The Hidden Watcher",
-    caption: "A quiet, calculating presence lingers at the edge of the twilight gardens, observing from the marble colonnade.",
-    after: "Before I could isolate the mana signature, it vanished.",
+    after: "At the top of the stairs stood a girl in the formal elite mantle reserved for special-ranking officers.",
     orientation: "portrait",
   },
   {
@@ -7476,7 +7404,79 @@ const episode1Scenes = [
     alt: "Elira and Haru conversing in the moonlit west corridor as Elira offers clean healer fabric for his arm",
     title: "The Healer's Cloth",
     caption: "In the quiet west corridor beneath moonlit glass, Elira offers medicinal healer fabric for Haru's wounded arm.",
-    after: "She held a folded strip of white cloth in one hand. Healer fabric.",
+    after: "In one hand she held a folded strip of white healer cloth",
+    orientation: "portrait",
+  },
+  {
+    id: "scene-ep1-rumor-courtyard",
+    src: "assets/scenes/episode-02-rumor-courtyard.webp",
+    alt: "Haru and Aira walking through the sunlit academy courtyard as students whisper and Leon glares from the colonnade",
+    title: "The Courtyard Rumors",
+    caption: "Whispers ripple across the courtyard as students dissect how a Green Circle transfer broke Leon Varek's water spell.",
+    after: "By the time I crossed the main courtyard of **Aurelis Arcane Academy**, students were already retelling",
+    orientation: "portrait",
+  },
+  {
+    id: "scene-ep1-aira-tea",
+    src: "assets/scenes/episode-01-04-aira-tea-corridor.webp",
+    alt: "Aira offering Haru tea in the sunlit gallery corridor after classes",
+    title: "Efficient Friendliness",
+    caption: "Aira offers Haru tea in the corridor as rumors of the assessment duel ripple through the academy.",
+    after: 'Aira: "Tea. I didn\'t know what you drink, so I picked the lowest-risk option."',
+    orientation: "wide",
+  },
+  {
+    id: "scene-ep1-elira-corridor",
+    src: "assets/scenes/episode-02-09-elira-corridor-radiance-imagegen.webp",
+    alt: "Elira Vale walking down the academy corridor in ceremonial gold mantle as students part in natural deference",
+    title: "The Parting Corridor",
+    caption: "Students instinctively clear a path down the center of the sunlit gallery as Yellow Circle prodigy Elira Vale passes.",
+    after: "Students ahead shifted sideways almost by reflex, clearing the center of the stone walkway.",
+    orientation: "wide",
+  },
+  {
+    id: "scene-ep1-elira-lunch",
+    src: "assets/scenes/episode-01-05-elira-lunch-table.webp",
+    alt: "Elira Vale sitting gracefully at the lunch table with Haru and Aira in the grand hall",
+    title: "The Yellow Circle at Lunch",
+    caption: "Elira Vale joins Haru and Aira at their side table, quiet elegance commanding the attention of the hall.",
+    after: "Elira took the seat across from us.",
+    orientation: "wide",
+  },
+  {
+    id: "scene-ep1-training-terrace",
+    src: "assets/scenes/episode-02-training-gardens.webp",
+    alt: "Elira demonstrating intricate mana circles on the high training terrace overlooking Aurelis spires",
+    title: "Training Terrace Gathering",
+    caption: "Elite students take positions on the high open terrace as Elira demonstrates spell formation above the valley cliffs.",
+    after: "At the terrace's center, four elite students took their marks: two high-grade Reds, one specialized Blue, and Elira.",
+    orientation: "portrait",
+  },
+  {
+    id: "scene-ep1-elira-garden",
+    src: "assets/scenes/episode-01-06-elira-yellow-circle-garden.webp",
+    alt: "Elira demonstrating radiant golden-white threads in the upper training terrace gardens",
+    title: "Radiant Silk in the Gardens",
+    caption: "Golden-white threads unfolded from Elira's fingertips like woven silk, refining the spell structure with effortless grace.",
+    after: "Golden-white threads unspooled from her fingertips like silk",
+    orientation: "wide",
+  },
+  {
+    id: "scene-ep1-terrace-challenge",
+    src: "assets/scenes/episode-02-terrace-challenge.webp",
+    alt: "Leon Varek confronting Haru and Elira on the sunset terrace with narrowed eyes and clenched fists",
+    title: "The Terrace Confrontation",
+    caption: "Leon stops a few paces away in disbelief as sunset gilds the terrace, demanding Haru answer for the assessment duel.",
+    after: "Leon stopped three paces off, glancing from Elira to me with stiff disbelief.",
+    orientation: "portrait",
+  },
+  {
+    id: "scene-ep1-hidden-watcher",
+    src: "assets/scenes/episode-02-hidden-watcher.webp",
+    alt: "A hooded figure watching Haru and Elira from the shadows of the evening courtyard garden pillars",
+    title: "The Hidden Watcher",
+    caption: "A quiet, calculating presence lingers at the edge of the twilight gardens, observing from the marble colonnade.",
+    after: "Before I could isolate the signature, it vanished cleanly.",
     orientation: "portrait",
   },
 ];
@@ -14112,18 +14112,10 @@ const html = `<!doctype html>
         <section class="landing-journey">
           <p class="landing-section-label">Choose a point of entry</p>
           <div class="landing-episode-row">
-            <button class="landing-episode-jump active" type="button" data-episode-jump="0">Start<small>Primer</small></button>
-            <button class="landing-episode-jump" type="button" data-episode-jump="1">Ep. 1<small>Awakening</small></button>
-            <button class="landing-episode-jump" type="button" data-episode-jump="2">Ep. 2<small>Whispers</small></button>
-            <button class="landing-episode-jump" type="button" data-episode-jump="3">Ep. 3<small>Shadows</small></button>
-            <button class="landing-episode-jump" type="button" data-episode-jump="4">Ep. 4<small>Revelation</small></button>
-            <button class="landing-episode-jump" type="button" data-episode-jump="5">Ep. 5<small>Trials</small></button>
-            <button class="landing-episode-jump" type="button" data-episode-jump="6">Ep. 6<small>Betrayal</small></button>
-            <button class="landing-episode-jump" type="button" data-episode-jump="7">Ep. 7<small>Ascension</small></button>
-            <button class="landing-episode-jump" type="button" data-episode-jump="8">Ep. 8<small>Reckoning</small></button>
-            <button class="landing-episode-jump" type="button" data-episode-jump="9">Ep. 9<small>Truth</small></button>
-            <button class="landing-episode-jump" type="button" data-episode-jump="10">Ep. 10<small>Collapse</small></button>
-            <button class="landing-episode-jump" type="button" data-episode-jump="11">Ep. 11<small>Legacy</small></button>
+            ${episodes.map((episode, index) => {
+              const shortLabel = episode.id === "start" ? "Start" : `Ep. ${Number(episode.displayNumber)}`;
+              return `<button class="landing-episode-jump${index === 0 ? " active" : ""}" type="button" data-episode-jump="${index}" title="${escapeHtml(`${episode.displayLabel}: ${episode.title}`)}">${escapeHtml(shortLabel)}<small>${escapeHtml(episode.title)}</small></button>`;
+            }).join("\n            ")}
           </div>
         </section>
         <div class="landing-card-grid">
@@ -14174,6 +14166,9 @@ const html = `<!doctype html>
         <button class="reader-menu-button" type="button" id="readerMenuButton" aria-label="Open reader menu" aria-expanded="false" aria-controls="readerNavLinks">Menu</button>
       </div>
     </nav>
+    <div class="scroll-progress-bar" id="scrollProgressBar" aria-hidden="true">
+      <div class="scroll-progress-fill" id="scrollProgressFill"></div>
+    </div>
     <header class="hero" id="readerStart">
       <div class="hero-inner">
         <button class="cover-return" type="button" id="coverButton" aria-label="Return to cover landing">
@@ -14223,29 +14218,29 @@ const html = `<!doctype html>
       </header>
 
       <div class="reader-layout">
+        <section class="reader-controls-bar" id="readerTools" aria-label="Reader controls">
+          <div class="reader-tools">
+            <button class="reader-tool-button" type="button" id="continueButton">Continue reading</button>
+            <button class="reader-tool-button" type="button" id="bookmarkButton" aria-pressed="false">Bookmark Episode</button>
+            <button class="reader-tool-button" type="button" id="panelToggle" aria-pressed="false" title="Toggle manga-style panel cards with color-coded character voices">Panel mode</button>
+            <span class="reader-tool-divider" aria-hidden="true"></span>
+            <div class="reader-tool-group" role="group" aria-label="Reading typography and width">
+              <button class="reader-tool-button reader-tool-compact" type="button" id="fontSmaller" aria-label="Decrease font size" title="Decrease font size">A-</button>
+              <button class="reader-tool-button reader-tool-compact" type="button" id="fontLarger" aria-label="Increase font size" title="Increase font size">A+</button>
+              <button class="reader-tool-button" type="button" id="widthToggle" aria-pressed="false" title="Switch between Wide full-screen reading and Focused column">Width: Wide</button>
+            </div>
+            <span class="reader-tool-divider" aria-hidden="true"></span>
+            <button class="reader-tool-button" type="button" id="readerCoverButton">Cover</button>
+            <button class="reader-tool-button" type="button" id="readerTomeButton">Open Tome</button>
+          </div>
+          <div class="progress-box progress-inline">
+            <p class="progress-label" id="progressLabel"></p>
+            <div class="progress-line" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+          </div>
+        </section>
+
         <article class="reader" id="reader" tabindex="-1"></article>
         <p class="visually-hidden" id="readerStatus" aria-live="polite"></p>
-
-        <aside class="side-stack">
-          <section class="side-panel" id="readerTools">
-            <h2>Reader Tools</h2>
-            <div class="reader-tools">
-              <button class="reader-tool-button" type="button" id="continueButton">Continue reading</button>
-              <button class="reader-tool-button" type="button" id="bookmarkButton" aria-pressed="false">Bookmark Episode</button>
-              <button class="reader-tool-button" type="button" id="panelToggle" aria-pressed="false">Panel mode</button>
-              <button class="reader-tool-button" type="button" id="readerCoverButton">Back to cover</button>
-              <button class="reader-tool-button" type="button" id="readerTomeButton">Open Tome</button>
-              <p class="tool-hint">Panel mode breaks the prose into manga-style reading cards and keeps character voices color-coded.</p>
-            </div>
-          </section>
-          <section class="side-panel">
-            <h2>Reading Progress</h2>
-            <div class="progress-box">
-              <div class="progress-line" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
-              <p class="progress-label" id="progressLabel"></p>
-            </div>
-          </section>
-        </aside>
       </div>
 
       <section class="side-panel tome-page" id="tomePage">
@@ -14287,6 +14282,10 @@ const html = `<!doctype html>
     const episodeScrollNext = document.getElementById("episodeScrollNext");
     const progressFill = document.getElementById("progressFill");
     const progressLabel = document.getElementById("progressLabel");
+    const scrollProgressFill = document.getElementById("scrollProgressFill");
+    const fontSmallerButton = document.getElementById("fontSmaller");
+    const fontLargerButton = document.getElementById("fontLarger");
+    const widthToggleButton = document.getElementById("widthToggle");
     const themeToggle = document.getElementById("themeToggle");
     const landingThemeToggle = document.getElementById("landingThemeToggle");
     const coverButton = document.getElementById("coverButton");
@@ -14325,6 +14324,8 @@ const html = `<!doctype html>
     const episodeNavScrollKey = "blackCircleEpisodeNavScrollLeft";
     const bookmarkEpisodeKey = "blackCircleBookmarkedEpisode";
     const lastViewKey = "blackCircleLastView";
+    const fontScaleKey = "blackCircleFontScale";
+    const readerWidthKey = "blackCircleReaderWidth";
     const searchIndex = EPISODES.map((episode) =>
       [episode.displayLabel, episode.title, episode.displayEyebrow, episode.recap, episode.body]
         .filter(Boolean)
@@ -14332,6 +14333,7 @@ const html = `<!doctype html>
         .toLowerCase(),
     );
     let currentEpisodeIndex = 0;
+    let currentFontScale = 1;
     let lightboxReturnFocus = null;
     let searchTimer = 0;
 
@@ -14348,6 +14350,7 @@ const html = `<!doctype html>
       landingCover?.removeAttribute("hidden");
       landingCover?.removeAttribute("aria-hidden");
       localStorage.setItem(lastViewKey, "landingCover");
+      updateScrollProgress();
       window.scrollTo({ top: 0, behavior: "smooth" });
       const url = new URL(window.location.href);
       url.hash = "";
@@ -14368,7 +14371,12 @@ const html = `<!doctype html>
           ? (document.querySelector(".nav-panel") || target || reader)
           : (targetId === "readerStart" && window.matchMedia("(max-width: 700px)").matches ? reader : target);
       if (scrollTarget && options.scroll !== false) {
-        requestAnimationFrame(() => scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" }));
+        requestAnimationFrame(() => {
+          scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+          requestAnimationFrame(updateScrollProgress);
+        });
+      } else {
+        requestAnimationFrame(updateScrollProgress);
       }
     }
 
@@ -14378,6 +14386,7 @@ const html = `<!doctype html>
       document.body.classList.add("reader-active", "tome-active");
       landingCover?.setAttribute("aria-hidden", "true");
       localStorage.setItem(lastViewKey, targetId);
+      updateScrollProgress();
       const target = document.getElementById(targetId) || document.getElementById("tomePage");
       requestAnimationFrame(() => target?.scrollIntoView({ behavior: "smooth", block: "start" }));
       const url = new URL(window.location.href);
@@ -14724,6 +14733,49 @@ const html = `<!doctype html>
       panelToggle.textContent = enabled ? "Novel mode" : "Panel mode";
     }
 
+    function setFontScale(scale) {
+      const numeric = Number(scale);
+      const clamped = Number.isFinite(numeric)
+        ? Math.min(1.35, Math.max(0.9, Math.round(numeric * 100) / 100))
+        : 1;
+      currentFontScale = clamped;
+      document.documentElement.style.setProperty("--reader-font-scale", String(clamped));
+      localStorage.setItem(fontScaleKey, String(clamped));
+      if (fontSmallerButton) fontSmallerButton.disabled = clamped <= 0.9;
+      if (fontLargerButton) fontLargerButton.disabled = clamped >= 1.35;
+    }
+
+    function setReaderWidth(mode) {
+      const isFocused = mode === "focused";
+      document.body.classList.toggle("reader-focused", isFocused);
+      localStorage.setItem(readerWidthKey, isFocused ? "focused" : "wide");
+      if (widthToggleButton) {
+        widthToggleButton.classList.toggle("active", isFocused);
+        widthToggleButton.setAttribute("aria-pressed", isFocused ? "true" : "false");
+        widthToggleButton.textContent = isFocused ? "Width: Focused" : "Width: Wide";
+      }
+      requestAnimationFrame(updateScrollProgress);
+    }
+
+    function updateScrollProgress() {
+      const episode = EPISODES[currentEpisodeIndex];
+      if (!episode || !reader) return;
+      const inReader = document.body.classList.contains("reader-active") && !document.body.classList.contains("landing-active");
+      let scrollPct = 0;
+      if (inReader && reader.offsetHeight > 0) {
+        const rect = reader.getBoundingClientRect();
+        const articleTop = window.scrollY + rect.top - 120;
+        const scrollable = Math.max(1, reader.offsetHeight - window.innerHeight * 0.55);
+        scrollPct = Math.max(0, Math.min(100, Math.round(((window.scrollY - articleTop) / scrollable) * 100)));
+      }
+      const widthPct = scrollPct + "%";
+      if (scrollProgressFill) scrollProgressFill.style.width = widthPct;
+      if (progressFill) progressFill.style.width = widthPct;
+      if (progressLabel) {
+        progressLabel.textContent = episode.displayLabel + ": " + episode.title + " • " + scrollPct + "% (" + (currentEpisodeIndex + 1) + "/" + EPISODES.length + ")";
+      }
+    }
+
     function openLightbox(image) {
       lightboxReturnFocus = document.activeElement instanceof HTMLElement
         ? document.activeElement
@@ -14773,6 +14825,9 @@ const html = `<!doctype html>
           "aria-label",
           \`\${EPISODES[buttonIndex]?.displayLabel || "Episode"}\${isBookmarked ? " (bookmarked)" : ""}\`,
         );
+      });
+      document.querySelectorAll(".landing-episode-jump").forEach((button, buttonIndex) => {
+        button.classList.toggle("active", buttonIndex === activeIndex);
       });
     }
 
@@ -14965,7 +15020,10 @@ const html = `<!doctype html>
           else if (/^\\*\\*[^*]+\\*\\*$/.test(block) || /^[A-Z0-9 .:-]+$/.test(block)) {
             html = \`<div class="system-card">\${markdownInline(escapeHtml(block))}</div>\`;
           } else {
-            const dialogue = block.match(/^([A-Z][A-Za-z0-9 .'-]{1,34}):\\s*(.+)$/s);
+            const dialogueMatch = block.match(/^([A-Z][A-Za-z0-9 .'-]{1,28}):\\s*(["“].+)$/s);
+            const dialogue = dialogueMatch && !/\\b(whispered|added|wrote|written|called|read|copied|returned|stayed|left|showed|answered|asked|murmured|thought|felt|said)\\b/i.test(dialogueMatch[1])
+              ? dialogueMatch
+              : null;
             if (dialogue) {
               html = \`<p class="dialogue" data-speaker="\${speakerKey(dialogue[1])}"><span class="speaker">\${escapeHtml(dialogue[1])}:</span>\${markdownInline(escapeHtml(dialogue[2]))}</p>\`;
             } else {
@@ -15002,8 +15060,6 @@ const html = `<!doctype html>
       updateEpisodeTabStates(index);
       updateBookmarkButton();
       document.querySelector(".episode-tab.active")?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
-      progressFill.style.width = \`\${((index + 1) / EPISODES.length) * 100}%\`;
-      progressLabel.textContent = \`\${episode.displayLabel} • \${episode.arcLabel}\`;
       const prevLabel = index > 0 ? EPISODES[index - 1].displayLabel : "Previous";
       const nextLabel = index < EPISODES.length - 1 ? EPISODES[index + 1].displayLabel : "Next";
 
@@ -15053,6 +15109,7 @@ const html = `<!doctype html>
         localStorage.setItem(lastViewKey, episode.id);
       }
       updateContinueButton();
+      updateScrollProgress();
       const url = new URL(window.location.href);
       url.hash = episode.id;
       if (options.route !== false) {
@@ -15066,6 +15123,7 @@ const html = `<!doctype html>
           } else {
             document.getElementById("episodeTitle")?.focus({ preventScroll: true });
           }
+          requestAnimationFrame(updateScrollProgress);
         });
       }
     }
@@ -15074,7 +15132,11 @@ const html = `<!doctype html>
       const storedTheme = localStorage.getItem("blackCircleTheme");
       setTheme(storedTheme || "dark");
       window.addEventListener("resize", refreshLandingArtReady, { passive: true });
+      window.addEventListener("scroll", updateScrollProgress, { passive: true });
+      window.addEventListener("resize", updateScrollProgress, { passive: true });
       setPanelMode(localStorage.getItem("blackCirclePanelMode") === "on");
+      setFontScale(localStorage.getItem(fontScaleKey) || 1);
+      setReaderWidth(localStorage.getItem(readerWidthKey) || "wide");
       updateContinueButton();
       initLandingMotion();
       initLandingCanvas();
@@ -15183,6 +15245,15 @@ const html = `<!doctype html>
       tomeStoryButton?.addEventListener("click", () => showReader("readerStart"));
       panelToggle.addEventListener("click", () => {
         setPanelMode(!document.body.classList.contains("panel-mode"));
+      });
+      fontSmallerButton?.addEventListener("click", () => {
+        setFontScale(currentFontScale - 0.08);
+      });
+      fontLargerButton?.addEventListener("click", () => {
+        setFontScale(currentFontScale + 0.08);
+      });
+      widthToggleButton?.addEventListener("click", () => {
+        setReaderWidth(document.body.classList.contains("reader-focused") ? "wide" : "focused");
       });
       episodeScrollPrev?.addEventListener("click", () => scrollEpisodeNav(-1));
       episodeScrollNext?.addEventListener("click", () => scrollEpisodeNav(1));
