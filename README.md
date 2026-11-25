@@ -28,7 +28,7 @@ The repository separates creative literary sources from reader application compo
 ```
 +-----------------------------------------------------------+
 |                   CREATIVE SOURCES                        |
-|   episodes/EPISODE 1.txt ... EPISODE 32.txt               |
+|   episodes/EPISODE 1.txt ... EPISODE 34.txt               |
 +-----------------------------+-----------------------------+
                               |
                               | npm run build (build-site.mjs)

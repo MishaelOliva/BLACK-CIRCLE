@@ -68,7 +68,7 @@ test("sentence highlight markup, builder output, and CSS assets are present", as
   assert.match(css, /\.reader-tool-button\.has-highlight\b/);
 });
 
-test("wrapSentencesHtml splits sentences safely and keeps all 33 built episodes tag-balanced", async () => {
+test("wrapSentencesHtml splits sentences safely and keeps all 35 built episodes tag-balanced", async () => {
   const fs = await import("node:fs/promises");
   const vm = await import("node:vm");
   const [html, contentJs] = await Promise.all([
@@ -89,7 +89,7 @@ test("wrapSentencesHtml splits sentences safely and keeps all 33 built episodes 
   const dataCtx = vm.createContext({ globalThis: {} });
   vm.runInContext(contentJs, dataCtx);
   const { episodes } = dataCtx.globalThis.BLACK_CIRCLE_CONTENT;
-  assert.equal(episodes.length, 33);
+  assert.equal(episodes.length, 35);
 
   const context = vm.createContext({});
   vm.runInContext(

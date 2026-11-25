@@ -39,6 +39,8 @@ const inputFiles = {
   ep36: "episodes/EPISODE 30.txt",
   ep37: "episodes/EPISODE 31.txt",
   ep38: "episodes/EPISODE 32.txt",
+  ep39: "episodes/EPISODE 33.txt",
+  ep40: "episodes/EPISODE 34.txt",
 };
 
 function readText(file) {
@@ -3536,20 +3538,20 @@ const episodeMeta = [
     label: "Episode 39",
     number: "39",
     file: "episode-39-cover.webp",
-    fallback: "Return to the Academy That Feared Him",
-    eyebrow: "Return",
-    recap: "Haru returns openly to Aurelis as the Black Circle while the academy discovers Lucien left a Dominion route under the old tournament medical annex.",
-    accent: ["#0f172a", "#d4af37", "#22c55e"],
+    fallback: "The Seal That Let Them Through",
+    eyebrow: "Fifth Tower",
+    recap: "A shadow message beneath the Fifth Tower pulls Council seal-auditor Tamsin Falk, clerk Bramwell Orren, and Noctis rigger Petra Brin into the trail of Eris Vell.",
+    accent: ["#0f172a", "#7c2d3c", "#bbf7d0"],
   },
   {
     id: "ep40",
     label: "Episode 40",
     number: "40",
     file: "episode-40-cover.webp",
-    fallback: "The Annex Beneath the Tournament",
-    eyebrow: "Hidden Annex",
-    recap: "The witness team uncovers Noctis conduit hooks beneath Aurelis and frees eleven routes before a local trace points toward a trapped first-year.",
-    accent: ["#111827", "#60a5fa", "#ef4444"],
+    fallback: "The Seventh Beat",
+    eyebrow: "Fifth Tower",
+    recap: "Before dawn, seven distributed hands open Corin Aerlen's sanctuary arch to pull Petra Brin's rigging crew and Eris Vell's Charter plates free of Noctis's setting-lime.",
+    accent: ["#111827", "#facc15", "#bbf7d0"],
   },
   {
     id: "ep41",
@@ -7275,6 +7277,8 @@ const longFormActiveIds = new Set([
   "ep36",
   "ep37",
   "ep38",
+  "ep39",
+  "ep40",
 ]);
 
 for (const meta of episodeMeta) {
@@ -7696,6 +7700,36 @@ const cast = [
     accent: "#e6d8ff",
     summary: "An Inter-National Schools Council investigator whose professional neutrality begins to fracture under what she sees.",
   },
+  {
+    id: "orren",
+    name: "Bramwell Orren",
+    circle: "Blue Circle",
+    role: "Former transit registrar",
+    image: "assets/cast/orren.webp",
+    color: "#3b5978",
+    accent: "#d9e6f2",
+    summary: "A demoted Aurelis customs clerk whose quiet habits and buried receipts hold older cross-school records than the academy admits.",
+  },
+  {
+    id: "falk",
+    name: "Auditor Tamsin Falk",
+    circle: "Red Circle",
+    role: "Council seal-auditor",
+    image: "assets/cast/falk.webp",
+    color: "#7c2d3c",
+    accent: "#e2e8f0",
+    summary: "A Valemere-trained Council forensic auditor examining old office seals whose faith in quiet procedure collides with public witness work.",
+  },
+  {
+    id: "petra",
+    name: "Petra Brin",
+    circle: "Green Circle",
+    role: "Noctis bell-rigger",
+    image: "assets/cast/petra.webp",
+    color: "#3f6248",
+    accent: "#d6ccc2",
+    summary: "A sharp-tongued Green Circle maintenance senior inside Noctis's lower bell-shafts who measures survival by weight, rope tension, and warning beats.",
+  },
 ];
 
 const castGallery = [
@@ -7912,13 +7946,15 @@ fs.mkdirSync(path.join(root, "assets", "episodes"), { recursive: true });
 fs.mkdirSync(path.join(root, "assets", "cast"), { recursive: true });
 
 for (const meta of episodeMeta) {
-  if (meta.file.endsWith(".svg")) {
-    fs.writeFileSync(path.join(root, "assets", "episodes", meta.file), episodeSvg(meta), "utf8");
+  const episodeFilePath = path.join(root, "assets", "episodes", meta.file);
+  if (meta.file.endsWith(".svg") && !fs.existsSync(episodeFilePath)) {
+    fs.writeFileSync(episodeFilePath, episodeSvg(meta), "utf8");
   }
 }
 for (const person of cast) {
-  if (person.image.endsWith(".svg")) {
-    fs.writeFileSync(path.join(root, person.image), castSvg(person), "utf8");
+  const castFilePath = path.join(root, person.image);
+  if (person.image.endsWith(".svg") && !fs.existsSync(castFilePath)) {
+    fs.writeFileSync(castFilePath, castSvg(person), "utf8");
   }
 }
 
