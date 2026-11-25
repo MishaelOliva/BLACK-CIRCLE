@@ -14222,6 +14222,7 @@ const html = `<!doctype html>
           <div class="reader-tools">
             <button class="reader-tool-button" type="button" id="continueButton">Continue reading</button>
             <button class="reader-tool-button" type="button" id="bookmarkButton" aria-pressed="false">Bookmark Episode</button>
+            <button class="reader-tool-button" type="button" id="jumpHighlightButton" disabled title="Double-tap or double-click any sentence to highlight it">Jump to Highlight</button>
             <button class="reader-tool-button" type="button" id="panelToggle" aria-pressed="false" title="Toggle manga-style panel cards with color-coded character voices">Panel mode</button>
             <span class="reader-tool-divider" aria-hidden="true"></span>
             <div class="reader-tool-group" role="group" aria-label="Reading typography and width">
@@ -14295,6 +14296,7 @@ const html = `<!doctype html>
     const tomeCoverButton = document.getElementById("tomeCoverButton");
     const continueButton = document.getElementById("continueButton");
     const bookmarkButton = document.getElementById("bookmarkButton");
+    const jumpHighlightButton = document.getElementById("jumpHighlightButton");
     const panelToggle = document.getElementById("panelToggle");
     const landingCover = document.getElementById("landingCover");
     const landingFxCanvas = document.getElementById("landingFxCanvas");
@@ -14323,6 +14325,7 @@ const html = `<!doctype html>
     const emptyLightboxImage = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
     const episodeNavScrollKey = "blackCircleEpisodeNavScrollLeft";
     const bookmarkEpisodeKey = "blackCircleBookmarkedEpisode";
+    const highlightSentenceKey = "blackCircleHighlightedSentences";
     const lastViewKey = "blackCircleLastView";
     const fontScaleKey = "blackCircleFontScale";
     const readerWidthKey = "blackCircleReaderWidth";
@@ -14870,6 +14873,103 @@ const html = `<!doctype html>
       renderEpisode(savedIndex, { scroll: true });
     }
 
+    function readHighlightsMap() {
+      try {
+        const parsed = JSON.parse(localStorage.getItem(highlightSentenceKey) || "{}");
+        return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+      } catch {
+        return {};
+      }
+    }
+
+    function writeHighlightsMap(nextMap) {
+      try {
+        localStorage.setItem(highlightSentenceKey, JSON.stringify(nextMap));
+      } catch {
+        // Ignore storage quota errors in restricted webviews.
+      }
+    }
+
+    function currentEpisodeHighlightId() {
+      const currentId = EPISODES[currentEpisodeIndex]?.id || "";
+      if (!currentId) return "";
+      const entry = readHighlightsMap()[currentId];
+      return typeof entry === "string" ? entry : (entry?.id || "");
+    }
+
+    function updateJumpHighlightButton() {
+      if (!jumpHighlightButton) return;
+      const currentId = EPISODES[currentEpisodeIndex]?.id || "";
+      const entry = currentId ? readHighlightsMap()[currentId] : null;
+      const highlightId = typeof entry === "string" ? entry : (entry?.id || "");
+      const target = highlightId
+        ? reader.querySelector('[data-sentence-id="' + highlightId + '"]')
+        : null;
+      const active = Boolean(target);
+      jumpHighlightButton.disabled = !active;
+      jumpHighlightButton.classList.toggle("has-highlight", active);
+      const preview = (entry && typeof entry === "object" && entry.preview) ? entry.preview : (target?.textContent?.trim() || "");
+      jumpHighlightButton.title = active
+        ? "Jump to highlighted sentence: " + preview
+        : "Double-tap or double-click any sentence to highlight it";
+      jumpHighlightButton.setAttribute(
+        "aria-label",
+        active ? "Jump to highlighted sentence" : "Jump to Highlight (none saved in this episode)",
+      );
+    }
+
+    function applyEpisodeHighlight() {
+      const activeId = currentEpisodeHighlightId();
+      reader.querySelectorAll(".story-sentence.is-highlighted").forEach((el) => {
+        if (el.dataset.sentenceId !== activeId) el.classList.remove("is-highlighted");
+      });
+      if (activeId) {
+        const target = reader.querySelector('[data-sentence-id="' + activeId + '"]');
+        if (target) target.classList.add("is-highlighted");
+      }
+      updateJumpHighlightButton();
+    }
+
+    function toggleSentenceHighlight(sentenceEl) {
+      const sentenceId = sentenceEl?.dataset?.sentenceId;
+      const currentId = EPISODES[currentEpisodeIndex]?.id || "";
+      if (!sentenceId || !currentId) return;
+      const map = readHighlightsMap();
+      const existingId = typeof map[currentId] === "string" ? map[currentId] : (map[currentId]?.id || "");
+      const nextMap = { ...map };
+      if (existingId === sentenceId) {
+        delete nextMap[currentId];
+        writeHighlightsMap(nextMap);
+        applyEpisodeHighlight();
+        readerStatus.textContent = "Sentence highlight cleared";
+        return;
+      }
+      const rawPreview = (sentenceEl.textContent || "").trim().replace(/\\s+/g, " ");
+      const preview = rawPreview.length > 72 ? rawPreview.slice(0, 69) + "..." : rawPreview;
+      nextMap[currentId] = { id: sentenceId, preview };
+      writeHighlightsMap(nextMap);
+      applyEpisodeHighlight();
+      readerStatus.textContent = "Highlighted sentence saved: " + preview;
+    }
+
+    function jumpToHighlightedSentence() {
+      const highlightId = currentEpisodeHighlightId();
+      if (!highlightId) return;
+      const target = reader.querySelector('[data-sentence-id="' + highlightId + '"]');
+      if (!target) return;
+      target.classList.remove("is-highlight-pulse");
+      target.scrollIntoView({ behavior: "smooth", block: "center" });
+      void target.offsetWidth;
+      target.classList.add("is-highlight-pulse");
+      window.setTimeout(() => {
+        const rect = target.getBoundingClientRect();
+        if (Math.abs(rect.top + rect.height / 2 - window.innerHeight / 2) > 90) {
+          target.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+        scheduleScrollProgressUpdate();
+      }, 420);
+    }
+
     function downloadArchiveText() {
       const text = EPISODES.map((episode) => {
         return \`\${episode.displayLabel} - \${episode.title}\\n\\n\${episode.body}\`;
@@ -15023,8 +15123,201 @@ const html = `<!doctype html>
       return \`<figure class="scene-figure" data-frame-style="\${frame.style}" data-orientation="\${orientation}" data-fit="\${fit}" style="\${escapeHtml(frame.css)}"><img src="\${escapeHtml(scene.src)}" alt="\${escapeHtml(scene.alt)}" loading="lazy" data-lightbox-image></figure>\`;
     }
 
-    function renderBody(body, scenes = []) {
+    function wrapSentencesHtml(rawHtml, episodeId, counter) {
+      if (!rawHtml) return "";
+      const out = [];
+      const openTags = [];
+      let buf = "";
+      let plain = "";
+      let pendingBreak = false;
+      const closingChars = "\\"'”’)]";
+      const openingChars = " \\t\\n\\r\\"'“”‘’([";
+      const decodeEntity = (ent) => {
+        if (ent === "&quot;") return '"';
+        if (ent === "&#39;" || ent === "&apos;") return "'";
+        if (ent === "&amp;") return "&";
+        if (ent === "&lt;") return "<";
+        if (ent === "&gt;") return ">";
+        if (ent === "&hellip;") return "…";
+        if (ent === "&mdash;") return "—";
+        if (ent === "&ndash;") return "–";
+        if (ent === "&nbsp;") return " ";
+        return ent;
+      };
+      const flushSentence = () => {
+        if (!plain.trim()) {
+          if (buf) out.push(buf);
+          buf = "";
+          plain = "";
+          pendingBreak = false;
+          return;
+        }
+        const closeHtml = openTags.slice().reverse().map((tag) => "</" + tag + ">").join("");
+        const id = episodeId + "-s" + counter.value;
+        counter.value += 1;
+        out.push('<span class="story-sentence" data-sentence-id="' + id + '">' + buf + closeHtml + "</span>");
+        buf = "";
+        plain = "";
+        pendingBreak = false;
+      };
+      const ensureReopened = () => {
+        if (!buf && openTags.length) {
+          buf = openTags.map((tag) => "<" + tag + ">").join("");
+        }
+      };
+      const nextContentChar = (fromIdx) => {
+        let k = fromIdx;
+        while (k < rawHtml.length) {
+          if (rawHtml[k] === "<") {
+            const endTag = rawHtml.indexOf(">", k);
+            if (endTag === -1) break;
+            k = endTag + 1;
+            continue;
+          }
+          if (rawHtml[k] === "&") {
+            const semi = rawHtml.indexOf(";", k);
+            if (semi !== -1 && semi - k <= 10) {
+              const decoded = decodeEntity(rawHtml.slice(k, semi + 1));
+              if (openingChars.indexOf(decoded[0]) !== -1) {
+                k = semi + 1;
+                continue;
+              }
+              return decoded[0];
+            }
+          }
+          const ch = rawHtml[k];
+          if (openingChars.indexOf(ch) !== -1) {
+            k += 1;
+            continue;
+          }
+          return ch;
+        }
+        return "";
+      };
+      let i = 0;
+      while (i < rawHtml.length) {
+        if (rawHtml[i] === "<") {
+          const endTag = rawHtml.indexOf(">", i);
+          if (endTag !== -1) {
+            const tag = rawHtml.slice(i, endTag + 1);
+            if (/^<br\\b/i.test(tag)) {
+              if (pendingBreak && plain.trim()) {
+                flushSentence();
+                out.push(tag);
+              } else if (!plain.trim() && !buf) {
+                out.push(tag);
+              } else {
+                ensureReopened();
+                buf += tag;
+              }
+              i = endTag + 1;
+              continue;
+            }
+            const closeMatch = tag.match(/^<\\/(strong|em)>$/i);
+            const openMatch = tag.match(/^<(strong|em)(?:\\s[^>]*)?>$/i);
+            if (openMatch) {
+              openTags.push(openMatch[1].toLowerCase());
+              if (buf || plain.trim()) buf += tag;
+            } else if (closeMatch) {
+              const name = closeMatch[1].toLowerCase();
+              const pos = openTags.lastIndexOf(name);
+              if (pos !== -1) openTags.splice(pos, 1);
+              if (buf || plain.trim()) buf += tag;
+            } else {
+              ensureReopened();
+              buf += tag;
+            }
+            i = endTag + 1;
+            continue;
+          }
+        }
+        let token = rawHtml[i];
+        let ch = token;
+        let step = 1;
+        if (token === "&") {
+          const semi = rawHtml.indexOf(";", i);
+          if (semi !== -1 && semi - i <= 10) {
+            token = rawHtml.slice(i, semi + 1);
+            ch = decodeEntity(token);
+            step = token.length;
+          }
+        }
+        if (/^\\s+$/.test(ch)) {
+          if (pendingBreak) {
+            const nextCh = nextContentChar(i + step);
+            const isEllipsisBreak = /(?:\\.\\.\\.|…)[\\"'"”’\\)\\]]*$/.test(plain);
+            const isLowerNext = /^[a-z]$/.test(nextCh);
+            const isNumericDot = /\\d\\.$/.test(plain) && /^[0-9]$/.test(nextCh);
+            if (isLowerNext || isNumericDot || (isEllipsisBreak && nextCh && !/^[A-Z]$/.test(nextCh))) {
+              pendingBreak = false;
+              ensureReopened();
+              buf += token;
+              plain += ch;
+            } else {
+              flushSentence();
+              out.push(token);
+            }
+          } else if (!plain.trim() && !buf) {
+            out.push(token);
+          } else {
+            ensureReopened();
+            buf += token;
+            plain += ch;
+          }
+          i += step;
+          continue;
+        }
+        ensureReopened();
+        buf += token;
+        plain += ch;
+        if (pendingBreak && ".!?…".indexOf(ch) === -1 && closingChars.indexOf(ch) === -1) {
+          pendingBreak = false;
+        }
+        const isTerminalPunct = ".!?…".indexOf(ch) !== -1;
+        const isClosingAfterPunct = closingChars.indexOf(ch) !== -1 && /[.!?…][\\"'"”’\\)\\]]*$/.test(plain);
+        if (isTerminalPunct || isClosingAfterPunct) {
+          let j = i + step;
+          let hasMoreEnd = false;
+          while (j < rawHtml.length) {
+            if (rawHtml[j] === "<") {
+              const endTag = rawHtml.indexOf(">", j);
+              if (endTag === -1) break;
+              const aheadTag = rawHtml.slice(j, endTag + 1);
+              if (/^<\\/(?:strong|em)>$/i.test(aheadTag)) {
+                j = endTag + 1;
+                continue;
+              }
+              if (/^<br\\b/i.test(aheadTag)) break;
+              break;
+            }
+            let aheadCh = rawHtml[j];
+            if (aheadCh === "&") {
+              const semi = rawHtml.indexOf(";", j);
+              if (semi !== -1 && semi - j <= 10) {
+                aheadCh = decodeEntity(rawHtml.slice(j, semi + 1));
+              }
+            }
+            if (/^\\s$/.test(aheadCh)) break;
+            hasMoreEnd = true;
+            break;
+          }
+          if (!hasMoreEnd) {
+            const abbrRe = /(?:^|[^A-Za-z])(?:Mr|Mrs|Ms|Dr|Prof|Sr|Jr|St|Col|Lt|Capt|Sgt|Gen|Rev|Hon|Pres|Gov|No|vs|etc|e\\.g|i\\.e|Ep|Ch|Vol|Fig)\\.$/i;
+            const singleCapRe = /(?:^|\\s)[A-Z]\\.$/;
+            if (!abbrRe.test(plain) && !singleCapRe.test(plain)) {
+              pendingBreak = true;
+            }
+          }
+        }
+        i += step;
+      }
+      flushSentence();
+      return out.join("");
+    }
+
+    function renderBody(body, scenes = [], episodeId = "ep") {
       const pendingScenes = scenes.map((scene) => ({ ...scene, placed: false }));
+      const sentenceCounter = { value: 0 };
       return body
         .split(/\\n{2,}/)
         .map((block) => block.trim())
@@ -15042,9 +15335,11 @@ const html = `<!doctype html>
               ? dialogueMatch
               : null;
             if (dialogue) {
-              html = \`<p class="dialogue" data-speaker="\${speakerKey(dialogue[1])}"><span class="speaker">\${escapeHtml(dialogue[1])}:</span>\${markdownInline(escapeHtml(dialogue[2]))}</p>\`;
+              const speechHtml = wrapSentencesHtml(markdownInline(escapeHtml(dialogue[2])), episodeId, sentenceCounter);
+              html = \`<p class="dialogue" data-speaker="\${speakerKey(dialogue[1])}"><span class="speaker">\${escapeHtml(dialogue[1])}:</span>\${speechHtml}</p>\`;
             } else {
-              html = \`<p>\${markdownInline(escapeHtml(block).replace(/\\n/g, "<br>"))}</p>\`;
+              const paraHtml = wrapSentencesHtml(markdownInline(escapeHtml(block).replace(/\\n/g, "<br>")), episodeId, sentenceCounter);
+              html = \`<p>\${paraHtml}</p>\`;
             }
           }
           const scene = pendingScenes.find((item) => !item.placed && block.includes(item.after));
@@ -15112,12 +15407,13 @@ const html = `<!doctype html>
           <h2 class="episode-title" id="episodeTitle" tabindex="-1">\${escapeHtml(episode.title)}</h2>
           \${episode.recap ? \`<p class="recap">\${escapeHtml(episode.recap)}</p>\` : ""}
         </header>
-        <div class="story-body">\${renderBody(episode.body, episode.scenes || [])}</div>
+        <div class="story-body">\${renderBody(episode.body, episode.scenes || [], episode.id)}</div>
         <footer class="episode-actions">
           <button class="episode-action" type="button" data-move="-1" \${index === 0 ? "disabled" : ""}>Back: \${escapeHtml(prevLabel)}</button>
           <button class="episode-action" type="button" data-move="1" \${index === EPISODES.length - 1 ? "disabled" : ""}>Next: \${escapeHtml(nextLabel)}</button>
         </footer>
       \`;
+      applyEpisodeHighlight();
       readerStatus.textContent = \`\${episode.displayLabel}: \${episode.title} loaded\`;
       if (options.save !== false) {
         localStorage.setItem("blackCircleLastEpisode", episode.id);
@@ -15327,6 +15623,57 @@ const html = `<!doctype html>
         }
         updateEpisodeTabStates();
         updateBookmarkButton();
+      });
+      jumpHighlightButton?.addEventListener("click", jumpToHighlightedSentence);
+      let lastTouchTap = { time: 0, x: 0, y: 0, sentenceId: "" };
+      let touchMoved = false;
+      let lastTouchToggleAt = 0;
+      reader.addEventListener("touchstart", (event) => {
+        if (event.touches.length !== 1) {
+          touchMoved = true;
+          return;
+        }
+        touchMoved = false;
+      }, { passive: true });
+      reader.addEventListener("touchmove", () => {
+        touchMoved = true;
+      }, { passive: true });
+      reader.addEventListener("touchend", (event) => {
+        if (touchMoved || event.changedTouches.length !== 1) return;
+        if (event.target.closest("a, button, img, .scene-callout, .episode-actions")) return;
+        const sentence = event.target.closest(".story-sentence");
+        if (!sentence) {
+          lastTouchTap = { time: 0, x: 0, y: 0, sentenceId: "" };
+          return;
+        }
+        const touch = event.changedTouches[0];
+        const now = Date.now();
+        const sentenceId = sentence.dataset.sentenceId || "";
+        const dx = Math.abs(touch.clientX - lastTouchTap.x);
+        const dy = Math.abs(touch.clientY - lastTouchTap.y);
+        if (
+          lastTouchTap.sentenceId &&
+          lastTouchTap.sentenceId === sentenceId &&
+          now - lastTouchTap.time <= 340 &&
+          dx <= 36 &&
+          dy <= 36
+        ) {
+          event.preventDefault();
+          lastTouchTap = { time: 0, x: 0, y: 0, sentenceId: "" };
+          lastTouchToggleAt = now;
+          window.getSelection?.()?.removeAllRanges?.();
+          toggleSentenceHighlight(sentence);
+          return;
+        }
+        lastTouchTap = { time: now, x: touch.clientX, y: touch.clientY, sentenceId };
+      }, { passive: false });
+      reader.addEventListener("dblclick", (event) => {
+        if (Date.now() - lastTouchToggleAt < 500) return;
+        if (event.target.closest("a, button, img, .scene-callout, .episode-actions")) return;
+        const sentence = event.target.closest(".story-sentence");
+        if (!sentence) return;
+        window.getSelection?.()?.removeAllRanges?.();
+        toggleSentenceHighlight(sentence);
       });
       nav.innerHTML = EPISODES.map((episode, index) => {
         return \`<button class="episode-tab" type="button" data-index="\${index}">\${episode.displayLabel}</button>\`;

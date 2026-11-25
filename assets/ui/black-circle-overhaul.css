@@ -2370,7 +2370,8 @@ html[data-theme="light"] .reader-tool-button {
 
 .reader-tool-button:hover:not(:disabled),
 .reader-tool-button.active,
-.reader-tool-button.bookmarked {
+.reader-tool-button.bookmarked,
+.reader-tool-button.has-highlight {
 	border-color: var(--bc-gold) !important;
 	background: var(--bc-gold-glow) !important;
 	color: var(--bc-gold) !important;
@@ -2379,6 +2380,46 @@ html[data-theme="light"] .reader-tool-button {
 .reader-tool-button:disabled {
 	opacity: 0.4 !important;
 	cursor: not-allowed !important;
+}
+
+/* Double-tap / double-click in-episode sentence highlight bookmark */
+.story-sentence {
+	display: inline;
+	touch-action: manipulation;
+	border-radius: 4px;
+	transition: background-color 0.18s ease, box-shadow 0.18s ease, color 0.18s ease;
+}
+
+.story-sentence.is-highlighted {
+	background: rgba(250, 204, 21, 0.26) !important;
+	color: #fff8db !important;
+	border-bottom: 1.5px solid rgba(250, 204, 21, 0.82) !important;
+	padding: 1px 4px;
+	margin: 0 -2px;
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+}
+
+html[data-theme="light"] .story-sentence.is-highlighted {
+	background: rgba(250, 204, 21, 0.44) !important;
+	color: #1a1226 !important;
+	border-bottom: 2px solid #ca8a04 !important;
+}
+
+@keyframes bcHighlightPulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.72);
+	}
+	55% {
+		box-shadow: 0 0 0 8px rgba(250, 204, 21, 0.18);
+	}
+	100% {
+		box-shadow: 0 0 0 12px rgba(250, 204, 21, 0);
+	}
+}
+
+.story-sentence.is-highlight-pulse {
+	animation: bcHighlightPulse 0.9s ease-out 1;
 }
 
 .progress-box {
