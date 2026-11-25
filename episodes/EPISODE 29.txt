@@ -12,7 +12,7 @@ No drill-master waited behind it. No obedience line burned against the threshold
 
 It did not own the silence either.
 
-I stood outside with Elira beside me and Leon on my other side, close enough that his shoulder nearly touched the doorframe. He had not entered. None of us had. Maelin had unlocked the room herself, then stepped back with the blunt discretion of a healer who understood that some wounds needed witnesses and some needed air before they could become either.
+I stood outside with Elira beside me and Leon on my other side, close enough that his shoulder nearly touched the doorframe. He had not entered. None of us had. Maelin had unlocked the room herself, then stepped back with the brisk tact of a healer who understood that some wounds needed witnesses and some needed air before they could become either.
 
 Maelin: "Eight minutes."
 
@@ -24,7 +24,7 @@ Maelin: "It is a threat wearing a clock."
 
 Cassian leaned a shoulder against the opposite wall behind us, keeping his voice low.
 
-Cassian: "Good to see institutional consistency."
+Cassian: "Good to see the rules stay consistent."
 
 Aira's pencil moved once, then stopped. Even she knew some first lines should not be stolen too quickly. Elira looked at me.
 
@@ -144,7 +144,7 @@ Leon: "Then open it ugly."
 
 Rhea entered only far enough to set a witness seal on the desk. It did not touch the paper. It marked the dark wood beside it.
 
-Rhea: "Record recognizes Cael Nox as deceased Protected Witness of Aurelis. Personal document will be opened by voluntary witness circle. Noctis has no custody claim over contents unless named by the writer."
+Rhea: "The record recognizes Cael Nox as a deceased Protected Witness of Aurelis. His personal paper will be opened by willing witnesses. Noctis has no custody claim over what is inside unless he named them."
 
 From the corridor, Nera's breath caught at the word deceased. Oric stood beside her, never stepping in front. Rhea looked at Leon.
 
@@ -186,7 +186,7 @@ Mira copied the statement by hand. Then Finn copied Mira's copy, blotting the wo
 
 Nera entered after the second copy was complete.
 
-She did not ask to see the original. She stood before the desk and bowed, neither the Noctis obedience bow nor the formal Aurelis condolence angle, just something unfinished and human.
+She did not ask to see the original. She stood before the desk and bowed, neither the Noctis obedience bow nor the formal Aurelis condolence bow, just something unfinished and human.
 
 Nera: "He is right."
 
@@ -222,7 +222,7 @@ Elira: "Practice."
 
 The witness seal accepted the word without brightening. That felt right.
 
-Later, the Council would ask for copies. Noctis would object to the term deceased Protected Witness because even death did not stop them from searching for ownership grammar. The public boards would carry three versions of Cael's statement: one formal, one handwritten, one blotched by Finn's shaking pen. Students would stop before the line I wanted to live. I chose anyway. Both are true. Some would cry. Some would argue. Some would copy it badly into notebooks because bad copies were still copies, and perfect silence had served Noctis long enough.
+Later, the Council would ask for copies. Noctis would object to the term deceased Protected Witness because even death did not stop them from hunting for wording that gave them ownership. The public boards would carry three versions of Cael's statement: one formal, one handwritten, one blotched by Finn's shaking pen. Students would stop before the line I wanted to live. I chose anyway. Both are true. Some would cry. Some would argue. Some would copy it badly into notebooks because bad copies were still copies, and perfect silence had served Noctis long enough.
 
 First, we stood in the room. Eight minutes became twelve. Maelin did not interrupt.
 
@@ -252,7 +252,7 @@ Leon closed his fingers around the stone. For once, he did not ask what. That wa
 
 We carried the copies down to the Grand Courtyard before midday, and the public board refused the first one.
 
-Not with magic. That would have been easier to hate. It refused bureaucratically.
+Not with magic. That would have been easier to hate. It refused with red tape.
 
 The relay slate above the courtyard accepted the heading, accepted the witness date, accepted Rhea's seal, accepted the phrase personal document, and then dimmed when Aira tried to enter Cael's own words. The surface turned pale gray. A polite warning appeared in the center.
 
@@ -298,17 +298,17 @@ Maelin: "That was not an accusation. It was a reminder that your pulse has opini
 
 Elira breathed once through her nose, then looked at the board.
 
-Elira: "The board is using inheritance logic."
+Elira: "The board is using inheritance rules."
 
 Halden, who had arrived with three archive slates and no apparent ability to stand somewhere unobtrusive, answered immediately.
 
-Halden: "Custodial logic. Similar root, uglier application."
+Halden: "Custody rules. Same root, uglier use."
 
 Cassian: "Excellent. The board has ancestry issues."
 
 Halden ignored him because Professor Halden had discovered one could survive Cassian only by refusing to feed him.
 
-Halden: "Older inter-school transfer law assumed a student remained under origin institution custody until graduation or formal replacement of guardianship. Aurelis patched the language after the Foundation Trial. The public board is likely reading from pre-patch archive substrate."
+Halden: "Older transfer law assumed a student stayed under their home school's custody until graduation or a formal transfer of guardianship. Aurelis patched that wording after the Foundation Trial. The public board is probably reading from the old, unpatched archive rules."
 
 Aira: "Likely?"
 
@@ -342,7 +342,7 @@ Oric stood beside her, not in front, while his hand opened at his side in a way 
 
 Rhea lifted her council seal, her voice level across the courtyard.
 
-Rhea: "Aurelis Council Authority rejects custody framing. Enter Protected Witness continuity."
+Rhea: "Aurelis Council Authority rejects the custody claim. Keep Protected Witness continuity."
 
 The board accepted her seal. Then refused the wording.
 
@@ -390,7 +390,7 @@ Rhea: "You opened and read Cael Nox's personal document under Aurelis witness se
 
 Leon flinched at the name.
 
-Rhea: "That gives you standing to object to misclassification of his words."
+Rhea: "That gives you standing to object when his words are mislabeled."
 
 Leon laughed once, bitter.
 
@@ -430,7 +430,7 @@ Rhea: "Mira Castellan recognized."
 
 Mira stepped onto the lowest fountain stair. Her Green Circle showed at her wrist, small and bright and shaking.
 
-Mira: "Record witness. Cael Nox verbally instructed that ugly copies survive better and corrections written before guilt edited them should not be made prettier. Returning his statement to Noctis is an editorial act."
+Mira: "Record witness. Cael Nox verbally instructed that ugly copies survive better and corrections written before guilt edited them should not be made prettier. Sending his statement back to Noctis is editing it."
 
 Aira's whisper barely carried past my elbow.
 
@@ -454,11 +454,11 @@ Cassian: "The system admitting more than one person exists. Historic."
 
 Rhea's seal brightened.
 
-Rhea: "Enter Council clarification. Death does not terminate witness continuity where active coercion, institutional custody dispute, or hostile terminology risk is present."
+Rhea: "Enter Council clarification. Death does not end witness protection when there is active pressure, a custody dispute, or a risk of hostile rewriting."
 
 The board tried to dim. Halden stepped forward.
 
-Halden: "Enter faculty archive note. Pre-patch substrate conflicts with current Aurelis protected record standard. Board has no authority to privilege origin institution over documented final witness preference."
+Halden: "Enter faculty archive note. The old archive rules conflict with Aurelis's current record standards. This board has no authority to put an old school ahead of a witness's written wishes."
 
 Elira stepped beside Leon.
 
@@ -548,7 +548,7 @@ Director Vaust: "Leon Varek."
 
 Leon straightened.
 
-Director Vaust: "Your family will be disappointed to see you lend your name to a procedural disturbance."
+Director Vaust: "Your family will be disappointed to see you lend your name to disrupting official procedure."
 
 Leon went very still.
 
@@ -580,7 +580,7 @@ Then two more. No one stood in front.
 
 Mira's hands shook. Her voice did not.
 
-Mira: "Cael Nox's statement names the risk of Noctis admiration. Your objection confirms relevance."
+Mira: "Cael Nox's statement names the risk of Noctis admiration. Your objection proves why this matters."
 
 Director Vaust: "And you are?"
 
@@ -590,11 +590,11 @@ Mira: "Still copying."
 
 For one second, Cassian looked like he might propose marriage to the sentence as a concept. Director Vaust's eyes cooled.
 
-Director Vaust: "Aurelis has allowed public witnesses to mistake emotional participation for legal competence."
+Director Vaust: "Aurelis has let public witnesses mistake strong feelings for legal authority."
 
 Halden answered, his voice carrying the dry flatness of a man discovering someone had insulted his favorite kind of evidence.
 
-Halden: "Public witness is not legal competence. It is evidentiary distribution. You may challenge interpretation. You cannot unmake copies already observed by independent parties."
+Halden: "Public witness is not legal authority. It is making sure the proof is spread out. You may argue over what it means. You cannot erase copies that independent people have already read and written down."
 
 Director Vaust: "Professor Halden. I expected better rigor from you."
 
@@ -616,7 +616,7 @@ Director Vaust: "Do you endorse this misuse of a dead student's name?"
 
 There were many traps in the question.
 
-Endorse turned me into authority. Misuse turned defense into desecration. Dead student's name turned Cael into an object I could either claim or abandon.
+Endorse made me the judge. Misuse turned defending him into disrespect. Dead student's name turned Cael into an object I could either claim or abandon.
 
 Lucien had learned from her. That was obvious now.
 
@@ -652,7 +652,7 @@ Nera's breath gave way in a sharp whisper.
 
 Nera: "No."
 
-Director Vaust: "Cael Nox could not simultaneously want life and choose death under coercive conditions created by Aurelis proximity. The statement is emotionally compelling, legally unstable, and medically suspect. Noctis requests suspension of publication pending spirit-state verification."
+Director Vaust: "Cael Nox could not want to live and choose to die at the same time under pressure from Aurelis. The note is moving, legally shaky, and medically suspect. Noctis asks that you pull it down pending spirit-state verification."
 
 Maelin's healer bag hit the stone with a thud.
 
@@ -660,7 +660,7 @@ Maelin: "Absolutely not."
 
 Director Vaust looked at her.
 
-Maelin: "No one is using necromantic adjacent verification language on a dead child because you dislike his handwriting."
+Maelin: "No one is using half-necromancy jargon on a dead boy just because you dislike what he wrote."
 
 The courtyard went silent enough to hear the fountain.
 
@@ -674,13 +674,13 @@ Cassian: "I am definitely notifying Haru."
 
 I did not look away from Vaust. Rhea stepped forward.
 
-Rhea: "Aurelis rejects spirit-state verification. Cael Nox's death was witnessed, recorded, and ritually completed. Noctis will not reopen his death as a route to overwrite his life."
+Rhea: "Aurelis rejects spirit-state verification. Cael Nox's death was witnessed, recorded, and properly laid to rest. Noctis will not reopen his death to rewrite his life."
 
 Director Vaust: "Then Noctis files formal complaint."
 
 Rhea: "Accepted."
 
-Director Vaust: "And requests immediate sequestration of all copies."
+Director Vaust: "And requests that all copies be locked away immediately."
 
 Mira, Finn, Aira, and half the courtyard answered together, ragged and loud.
 
@@ -726,7 +726,7 @@ Students approached the board one at a time. Not to bow or worship, only to copy
 
 Nera stood at the edge of the fountain, reading Cael's sentence again and again. Oric remained beside her.
 
-Darian watched them both with the look of someone realizing defection did not end when one left an institution. It continued each time one refused to carry the institution's habits into a safer room.
+Darian watched them both with the look of someone realizing walking away did not end when you left a school. It kept going every time you refused to bring that school's habits into a safer room.
 
 Elira leaned more heavily against me. Maelin noticed instantly.
 
@@ -734,7 +734,7 @@ Maelin: "Vale."
 
 Elira: "I know."
 
-Maelin: "Your knowing has historically poor compliance."
+Maelin: "Your knowing has a terrible track record."
 
 Elira closed her eyes for half a breath.
 
@@ -850,7 +850,7 @@ Classes where wrong answers did not become discipline.
 
 Leon asking terrible questions and learning better ones.
 
-Aira forcing him to annotate his own sarcasm for public record.
+Aira forcing him to write footnotes on his own sarcasm.
 
 Elira teaching him that no could be gentle without becoming weak.
 
@@ -862,7 +862,7 @@ Haru: "No."
 
 The word was not for Cael. It was for me: no restoration, no echo, no bending the room until loss became easier to look at.
 
-Elira had died in my arms and come back because death had been forced through a hostile route still attached to life. Cael had chosen in a field of consequences none of us could make clean. Those were not the same. If I blurred them because grief wanted one more miracle, I would make every future death a referendum on whether I had loved hard enough to break the world.
+Elira had died in my arms and come back because death had been forced through an enemy spell still tied to life. Cael had made his choice in a tangle of consequences none of us could clean up. Those were not the same. If I blurred them because grief wanted one more miracle, I would make every future death a test of whether I had loved someone enough to break the world.
 
 That way lay worship, and hatred, and madness wearing mercy.
 
@@ -1038,7 +1038,7 @@ Outside, the academy bell rang evening close.
 
 It sounded better than the morning bell. I disliked that.
 
-Some part of me wanted the world to remain audibly broken until it had earned repair. Yet bells were not moral instruments. They rang because someone pulled the line, because metal held shape, because sound did not know whom it had failed to mourn.
+Some part of me wanted the world to sound broken until it had earned fixing. Yet bells were not moral instruments. They rang because someone pulled the line, because metal held shape, because sound did not know whom it had failed to mourn.
 
 Elira leaned against me again.
 
@@ -1112,11 +1112,11 @@ Rhea: "Report."
 
 Mira stepped forward with her notebook open.
 
-Mira: "Board surface altered at 00:13. No visible intruder. Correction syntax resembles Noctis administrative challenge but lacks relay seal."
+Mira: "Board surface changed at 00:13. No visible intruder. The wording looks like a Noctis official challenge, though it has no relay seal."
 
 Aira knelt by the fountain base, pen already moving.
 
-Aira: "Because it is cowardly graffiti wearing a procedural hat."
+Aira: "Because it is cowardly graffiti wearing an official badge."
 
 Halden stood on the other side of the board with three floating lenses rotating around the text.
 
@@ -1124,7 +1124,7 @@ Halden: "Not graffiti."
 
 Aira looked up sharply.
 
-Halden: "Residual substrate command. Someone planted it before the board accepted witness continuity. It activated when courtyard traffic dropped below twelve active observers."
+Halden: "A leftover command buried in the stone. Someone planted it before the board accepted the witness record. It triggered once fewer than twelve people were watching the courtyard."
 
 Finn stared.
 
@@ -1190,11 +1190,11 @@ Aira: "Copying. Hating. Copying more."
 
 Finn looked at the phrase again. He sounded less afraid now, more insulted.
 
-Finn: "Emotional contamination. That is not even internally consistent."
+Finn: "Emotional contamination. That doesn't even follow its own rules."
 
 Halden's head turned with academic interest. Finn flushed, then kept going.
 
-Finn: "If emotion invalidates final declaration, then Noctis funeral honors are invalid too. They use reverence language in death records all the time. Honored sacrifice. Noble closure. Loyal completion. Those are emotional terms."
+Finn: "If emotion ruins a final statement, then Noctis funeral honors are ruined too. They use emotional words in death records all the time. Honored sacrifice. Noble closure. Loyal completion. Those are all feelings."
 
 Aira pointed at him with her pen.
 

@@ -32,7 +32,7 @@ That stopped me. She stepped closer, lowering her voice while the others argued 
 
 Elira: "Knowing means you do not turn this into a reason to make decisions around me."
 
-I looked down at the corridor flagstones. Residual pale light clung to the old stone, cold and washed out like dawn even though sunset had just passed.
+I looked down at the corridor flagstones. Faint pale light clung to the old stone, cold and washed out like dawn even though sunset had just passed.
 
 Haru: "I built it to protect you."
 
@@ -84,7 +84,7 @@ Nera stood before the restoration wall with her sleeves rolled to the elbow and 
 
 When Oric saw her bare wrists, he rolled his own cuffs back too. His scars sat crooked and overlapping, messier because Noctis instructors had corrected him harder and more often. Nobody commented on it. The room did not need further proof that cruelty kept legible handwriting.
 
-Mira had been permitted inside for ten minutes as public record aide, under Rhea's direct watch and Aira's promise to haul her out by the collar if any diagram started reaching for observers. She hovered near the doorway with her green folio open, trying very hard not to stare at Nera's forearms.
+Mira had been allowed inside for ten minutes as the public record keeper, under Rhea's watch and Aira's promise to haul her out by the collar if any diagram started reaching for spectators. She hovered near the doorway with her green folio open, trying very hard not to stare at Nera's forearms.
 
 Nera caught her anyway. Mira flushed crimson.
 
@@ -152,7 +152,7 @@ Cael: "They call plenty of things honor before teaching the part that hurts."
 
 Nera slashed a chalk containment bracket around the black line. The mark strained against her chalk hard enough to make the small bones in Cael's wrist jump beneath his skin. Elira stepped smoothly between Cael and the diagram. The line halted, blind once it lost sight of the route it wanted.
 
-Nera: "It is not standard healing. The spell forces a failing or dead channel pattern back into coherence through a living conduit."
+Nera: "It is not standard healing. The spell forces a failing or dead magic channel back into shape through a living conduit."
 
 Professor Halden: "The cost?"
 
@@ -218,17 +218,17 @@ My own surname, stitched to Valen's, spoken out of a buried Aurelis record. Befo
 
 Liora: "My brother believed seven hands meant no life stood alone."
 
-The silver image tore sideways. For one sharp heartbeat, a man's forearm appeared beside hers, a band of black and silver curling tight around his wrist. Then a heavy institutional seal burned right through his face.
+The silver image tore sideways. For one sharp heartbeat, a man's forearm appeared beside hers, a band of black and silver curling tight around his wrist. Then a heavy official seal burned right through his face.
 
 Cold metal surged up my throat. Beneath my cuff, the false Green crest around my wrist shuddered violently against the sudden drag of the Black Circle behind my ribs. I locked my jaw, pinned both hands flat against my thighs, and forced my breathing smooth before Halden, Valen, or Elira could catch the disguise slipping.
 
-Liora's expression hardened from recorded formality into raw, unaged fury.
+Liora's expression hardened from stiff formality into raw, fresh fury.
 
 Liora: "They kept the return. They erased the sharing."
 
 Her gaze found Cael in his chair.
 
-Liora: "If a system asks one child to stand where witnesses once stood, do not call the spending mercy."
+Liora: "If a system asks one child to stand where witnesses once stood, do not call spending them mercy."
 
 The silver dust began to unravel at her shoulders. Valen lifted a hand toward her, then stopped short before touch could turn into another demand.
 
@@ -260,7 +260,7 @@ Professor Halden: "And we cannot prove why the original form failed."
 
 Professor Valen: "No. The record breaks off after an emergency protection order. After that, the witnesses vanish from the page."
 
-Noctis had not invented the habit of reducing a living person to a mechanism. They had inherited the blade, erased the other six hands, and polished the handle.
+Noctis had not invented the habit of turning a living person into a tool. They had inherited the blade, erased the other six hands, and polished the handle.
 
 Around the table, the weight landed differently on each face. Leon looked ready to put his fist through the plaster. Cassian stared at the severed folio as if memorizing terrain before an ambush. Aira looked furious that tomorrow's disaster fit so neatly into an archive filing system. Cael seemed to shrink inside his coat.
 
@@ -312,7 +312,7 @@ Nera turned sharply from the wall.
 
 Nera: "Already?"
 
-President Valmont: "They want a controlled autonomy demonstration inside a Foundation procedural field."
+President Valmont: "They want a controlled independence test inside a Foundation trial field."
 
 Cassian straightened, sparks ghosting near his knuckles.
 
@@ -320,7 +320,7 @@ Cassian: "Activity field as in combat?"
 
 Rhea shot him a dry glance.
 
-President Valmont: "As in a procedural environment built to simulate crisis pressure without fatal consequence."
+President Valmont: "As in a trial field built to mimic a real crisis without killing anyone."
 
 Leon: "Because Lucien always keeps things non-fatal."
 
@@ -336,7 +336,7 @@ Haru: "The frost followed a route directly into the pendant. Either we wait for 
 
 Nera studied my face, weighing the risk.
 
-Nera: "You want to turn his demonstration into a grammar search."
+Nera: "You want to turn his test into a search for the hidden spell."
 
 Haru: "Yes. The goal is not proving I am harmless. It is exposing what he mapped."
 
@@ -346,9 +346,9 @@ Elira: "On our conditions. I enter by choice, and I can withdraw without anyone 
 
 Haru: "Agreed."
 
-Rhea lifted the crimson-edged counterfiling from her portfolio.
+Rhea lifted the crimson-edged response from her portfolio.
 
-President Valmont: "Which is why I submitted Aurelis counterconditions before walking in here."
+President Valmont: "Which is why I filed Aurelis's counter-terms before walking in here."
 
 Aira sat up straight.
 
@@ -358,7 +358,7 @@ President Valmont: "Lucien is not the only one who reads a sequence two steps ah
 
 She set the parchment squarely across the oak table, pinning its corner with her red seal.
 
-President Valmont: "No private isolation. No removal of healers. No direct classification prompts. No Noctis relay shards inside the perimeter. Aurelis sets anchor distribution. The Foundation logs every pressure shift. If the field attempts live channel harm, the session terminates by council authority."
+President Valmont: "No locking anyone away alone. No pulling healers out. No direct rank tests. No Noctis relay shards inside the boundary. Aurelis places the anchors. The Foundation logs every pressure shift. If the field tries to cause real channel harm, the council shuts it down."
 
 Leon: "Will Noctis sign off on that?"
 
@@ -370,9 +370,9 @@ Nera's eyes moved back to Elira's collar.
 
 Nera: "They do."
 
-The next morning, the procedural field unfolded beneath the council tower.
+The next morning, the trial field unfolded beneath the council tower.
 
-It bore no resemblance to a dueling arena. White stone streets and silver-glass facades rose from the floor to form a bright civic square, complete with narrow alleys, relief markers, shifting mana weather, and faceless wounded-simulation figures slumped along the curb. The Foundation called it an autonomy activity. Aira called it a trap with interior design.
+It bore no resemblance to a dueling arena. White stone streets and silver-glass facades rose from the floor to form a bright civic square, complete with narrow alleys, relief markers, shifting mana weather, and faceless wounded-simulation figures slumped along the curb. The Foundation called it an independence drill. Aira called it a trap with interior design.
 
 She had a point. Stone benches sat exactly where exhausted students would want to lean. Recessed doorways opened onto alleys that looked cleaner and safer than the main avenue. The simulated wounded were blank enough to count as neutral props and human enough to make walking past them feel cruel.
 
@@ -418,7 +418,7 @@ Elira: "Name the present before the past gives orders."
 
 Cael swallowed hard.
 
-Cael: "Aurelis procedural field. Public witnesses overhead. Council protections active. Noctis observers restricted."
+Cael: "Aurelis trial field. Public witnesses overhead. Council protections active. Noctis observers restricted."
 
 Leon cut in from his other flank, blunt and immediate.
 
@@ -444,7 +444,7 @@ President Valmont: "Sufficiently disciplined for entry."
 
 Leon muttered something under his breath that sounded like a man refusing to argue with official praise.
 
-On paper, the exercise was simple: extract three simulated wounded markers to the safe zone while hostile procedural waves tried to force single-leader command dependency. In practice, every corner of the square asked the same quiet question: *who decides?*
+On paper, the exercise was simple: extract three simulated wounded markers to the safe zone while hostile waves tried to force everyone to obey one leader. In practice, every corner of the square asked the same quiet question: *who decides?*
 
 Leon spotted the first wounded marker pinned beneath a collapsed stone arch and moved before I could open my mouth.
 
@@ -512,7 +512,7 @@ Lucien: "Now let us learn whether it can bleed."
 
 Every window in the square snapped pure black.
 
-The Foundation emergency bell tolled once overhead, a heavy iron boom that did not shut the field down. It warned that something unauthorized had stepped inside while every negotiated rule stayed technically intact.
+The Foundation emergency bell tolled once overhead, a heavy iron boom that did not shut the field down. It warned that something unauthorized had stepped inside while every agreed rule stayed intact on paper.
 
 Instinct hit the square all at once. Leon pivoted toward Cael; fire jumped across Cassian's forearms; Rhea stepped forward to kill the session; inside my chest, an ugly, clean certainty urged me to flatten the whole square until nothing inside it remembered how to threaten anyone. Knowing that urge was not protection did not make it quieter.
 
@@ -572,7 +572,7 @@ Oric: "Name the room, Cael."
 
 Cael pressed his bandaged hand hard against his sternum.
 
-Cael: "Aurelis procedural field. Lower council level. Public witnesses overhead."
+Cael: "Aurelis trial field. Lower council level. Public witnesses overhead."
 
 A hairline fracture ran across the training-hall glass.
 
@@ -640,7 +640,7 @@ Professor Halden: "Do not overcommit to the veins. They are secondary."
 
 Nera caught the trap half a second later.
 
-Nera: "He wants Elira to rush the safe zone and expose the pendant's priority order."
+Nera: "He wants Elira to rush the safe zone and expose what the pendant protects first."
 
 Elira heard her. I watched the set of her shoulders tighten as she forced herself to step *backward* instead of toward the threat. Every instinct in her had been forged to move into danger with enough gold light to settle it; refusing to charge when movement had been baited cost her visibly.
 
@@ -720,7 +720,7 @@ A clean vertical crack split the window top to bottom.
 
 Mira shouted from above:
 
-Mira: "Aira Solen's autonomy statement renewed under active pressure!"
+Mira: "Aira Solen's independence statement renewed under live pressure!"
 
 Cassian grinned without taking his eyes off his fire lane.
 
@@ -746,7 +746,7 @@ Aira: "No. You do not get to edit my map while I am holding it."
 
 The word struck like an iron nail. Her Blue Circle flared hard enough to burn the black threads back off her knuckles.
 
-Aira: "I am the person who noticed your relay spacing is far too clean to be improvised. Rhea, he is not forcing the field from outside. He planted a grammar route inside the activity terms before the gates even opened."
+Aira: "I am the person who noticed your relay spacing is far too clean to be improvised. Rhea, he is not forcing the field from outside. He hid a spell route inside the drill's rules before the gates even opened."
 
 Nera whipped around toward the black glass.
 
@@ -786,7 +786,7 @@ Mara: "Mara Kest. Drakenshard combat observer. Formal objection."
 
 Lucien's reflections angled upward toward the iron-gray banner.
 
-Mara: "Using a living witness's likeness as extraction bait is psychological torture, not evaluation."
+Mara: "Using a living witness's face as rescue bait is mental torture, not a test."
 
 Lucien: "Honor is a luxury for those who can afford to lose."
 
@@ -800,7 +800,7 @@ Two sections over, Soren Ashvale rose in Valemere's white-and-blue trim.
 
 Soren: "Valemere seconds Drakenshard's objection."
 
-The Foundation bell struck a single clear note. The false Cael flickered along its shoulders. It did not vanish, yet the field was forced to tag the likeness as contested before it could leverage him.
+The Foundation bell struck a single clear note. The false Cael flickered along its shoulders. It did not vanish, yet the field was forced to mark the likeness as disputed before it could use him.
 
 Across the rail, panic broke into disciplined pieces. Green Circle recorders scratched out hasty first lines and rewrote them neatly. Blue Circle observers began plotting coordinates until Aira barked that the body was bait. One Yellow Circle professor surged halfway from his bench before Professor Valen's hand clamped firm over his sleeve.
 
@@ -836,7 +836,7 @@ Lucien: "Tell me, Haru Aerlen. What do you save first when the room refuses to a
 
 The false Green crest glowed thin and fragile around my wrist beneath my cuff.
 
-I could see the entire architecture laid bare: every pressure line braided through Noctis's acceptance wording, every false casualty, every hidden trigger tucked beneath the white paving stones. Lucien had coiled his clause so deep inside the Foundation's own autonomy prompts that the field could no longer tell external sabotage from legal procedure.
+I could see the whole trap laid bare: every pressure line braided through Noctis's acceptance wording, every false casualty, every hidden trigger tucked beneath the white paving stones. Lucien had woven his trap so deep into the Foundation's own test prompts that the field could no longer tell outside sabotage from its own rules.
 
 I could end all of it in half a breath.
 
@@ -1078,7 +1078,7 @@ Aira turned slowly.
 
 Aira: "Terminology."
 
-President Valmont: "They object to entering *Dominion Severance* as hostile doctrine before full procedural verification."
+President Valmont: "They object to recording *Dominion Severance* as a hostile spell before a full formal review."
 
 Cassian, arriving half a pace behind Rhea, stared.
 
@@ -1098,7 +1098,7 @@ Mira: "Sorry. I mean, the public witness copy rejects that wording. We saw thirt
 
 Aira stared at her in pure awe.
 
-Aira: "Mira Castellan, did you just procedurally tell Noctis to choke on a euphemism?"
+Aira: "Mira Castellan, did you just use the official record to tell Noctis to choke on a euphemism?"
 
 Mira went scarlet.
 

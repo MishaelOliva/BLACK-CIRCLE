@@ -2,7 +2,7 @@
 
 The infirmary clock struck three before I understood that the night had continued without my permission.
 
-Elira slept on Maelin's cot beneath three warming cloths, one hand open near the edge as if even unconscious she expected someone to need proof that she had returned by choice. Cael had been carried out of the broken chapel to the eastern preparation room under Rhea's seal while the healers stabilized her. Leon went with him. Nera and Oric went too. I had remained because Maelin asked me to hold the Black Circle still until Elira's channels stopped trying to remember death.
+Elira slept on Maelin's cot beneath three warming cloths, one hand open near the edge as if even unconscious she expected someone to need proof that she had returned by choice. Cael had been carried out of the broken chapel to the eastern preparation room under Rhea's seal while the healers stabilized Elira. Leon went with him. Nera and Oric went too. I had remained because Maelin asked me to hold the Black Circle still until Elira's channels stopped trying to remember death.
 
 The circle no longer filled the chapel, yet its reflection turned behind me in every dark pane. Hiding it was impossible now. Leaving it unanswerable was worse.
 
@@ -22,7 +22,7 @@ Aira: "Rhea is moving his bier back to the Wounded City chamber at midmorning fo
 
 The world could not wait for us to finish grieving. The relay windows had shown too much.
 
-Every academy, council branch, and public record office with a functioning crystal had seen the Black Circle, Elira's death, Cael's choice, Noctis' coercive doctrine, and the old Aurelis warning not to isolate the safeguard.
+Every academy, council office, and public archive with a working crystal had seen the Black Circle, Elira's death, Cael's choice, Noctis' forced-service doctrine, and the old Aurelis warning not to lock the safeguard away.
 
 By midmorning, messages gathered above the Wounded City chamber like storm clouds made of formal language. Cael lay in state before the restoration pool under Rhea's red protection seal, where anyone looking through an authorized crystal could see who guarded him.
 
@@ -84,19 +84,19 @@ Suspicion did not vanish, but the registry gave it somewhere visible to stand. S
 
 The message unfolded into a recorded statement. Senna stood in a council office with nothing behind her except a wall of floating case files, her hair pinned neatly, her face older than it had looked two days ago.
 
-Magistra Voss: "This preliminary report is entered under emergency witness priority. I was dispatched to evaluate institutional instability surrounding Aurelis, Noctis Dominion College, and the contested Foundation Witness Trial."
+Magistra Voss: "This initial report is filed under emergency witness priority. I was sent to investigate the growing crisis around Aurelis, Noctis Dominion College, and the disputed Foundation Witness Trial."
 
 The file panes behind her brightened.
 
-Magistra Voss: "What I witnessed was not a spontaneous threat event. It was a sequence."
+Magistra Voss: "What I witnessed was not a sudden, random threat. It was a sequence."
 
 Mira's pencil stopped for the first time all morning.
 
-Magistra Voss: "A student under Noctis doctrine was targeted through reclamation pressure. A second student intervened to prevent that harm. Dominion Severance killed her. Votive Return, a doctrine tied to fatal conduit expenditure, restored her at the cost of Cael Nox's life. The Black Circle manifested after the death event, under visible grief pressure, and did not attack witnesses despite ample capacity to do so."
+Magistra Voss: "A student claimed under Noctis rules was targeted with force to drag her back. A second student stepped in to stop that harm. Dominion Severance killed her. Votive Return—a spell built to burn a conduit's life away—brought her back at the cost of Cael Nox's life. The Black Circle appeared after she died, under open grief, and did not attack a single witness, even though it clearly had the power to."
 
 The Black Circle behind me dimmed by a degree because sequence carried weight.
 
-Magistra Voss: "The risk before this Council is not power beyond Yellow classification. The risk is the institutional reflex to isolate, claim, spend, or destroy students when ordinary categories fail. I recommend immediate protection of all Aurelis witnesses, suspension of Noctis final conduit clauses across member jurisdictions pending full investigation, emergency review of Dominion Severance as unlawful coercive magic, and explicit prohibition on isolated classification proceedings concerning Haru Aerlen."
+Magistra Voss: "The danger facing this Council is not power beyond Yellow rank. The danger is how quickly our institutions reach to isolate, claim, spend, or break students the moment their usual labels fail. I recommend immediate protection for all Aurelis witnesses, freezing Noctis' final-conduit clauses across all member schools pending a full inquiry, an emergency review to outlaw Dominion Severance as forced-harm magic, and a strict ban on secret rank hearings for Haru Aerlen."
 
 She paused. For one moment, the formal mask thinned.
 
@@ -184,7 +184,7 @@ That small act nearly undid me, perhaps because it was the opposite of resurrect
 
 ---
 
-We learned about Noctis' internal fracture through a leak before official channels spoke.
+We learned about the split inside Noctis through a leak before any official word came out.
 
 The leaked relay carried no image, only audio and a flickering transcript copied in a hurry. Darian Thorne's name appeared at the top.
 
@@ -200,7 +200,7 @@ Darian Thorne: "-then charge me with disloyalty in a public room. Do not do it b
 
 A second voice answered.
 
-Noctis Councilor: "You assisted Aurelis in obstructing a sanctioned reclamation proceeding."
+Noctis Councilor: "You helped Aurelis block an approved reclamation order."
 
 Darian Thorne: "I assisted a child in saying no."
 
@@ -280,7 +280,7 @@ We heard pieces of it: healers moving in pairs, students gathering in stairwells
 
 Near midafternoon, a message from Drakenshard arrived in heavy red-gold script with Mara Kest's seal at the bottom. Rhea read it aloud.
 
-President Valmont: "Drakenshard Martial Academy acknowledges the courage of Cael Nox, the restraint of Haru Aerlen, and the dishonor of doctrines that force students to become weapons against their own consent. We do not fear power. We fear cruelty wearing rank. Drakenshard will not support containment of the Black Circle bearer without evidence of hostile action. We will support investigation of Noctis practices with full witness access."
+President Valmont: "Drakenshard Martial Academy acknowledges the courage of Cael Nox, the restraint of Haru Aerlen, and the dishonor of doctrines that force students to become weapons against their will. We do not fear power. We fear cruelty wearing rank. Drakenshard will not support containment of the Black Circle bearer without evidence of hostile action. We will support investigation of Noctis practices with full witness access."
 
 Aira stared.
 
@@ -368,7 +368,7 @@ Liora: "Wall or witness."
 
 Aira looked over from the medical corner, eyes sharp despite exhaustion.
 
-Liora: "The Black Circle can close around grief and become a wall no one can reach through. Many will encourage that, through fear or worship, or because walls are easier to administer than wounded people."
+Liora: "The Black Circle can close around grief and become a wall no one can reach through. Many will encourage that, through fear or worship, or because walls are easier to manage than wounded people."
 
 Rhea's mouth tightened.
 
@@ -452,7 +452,7 @@ No one asked who left it by the pool, and everyone pretended not to look.
 
 Rhea knelt beside Cael. Dust still marked one knee of her uniform from the night before; she had not brushed it off.
 
-President Valmont: "The Council has authorized full public honors. Cael Nox will be recognized as Protected Witness of Aurelis, deceased by voluntary activation under catastrophic coercive pressure. His testimony and final choice will remain in the public Foundation record."
+President Valmont: "The Council has approved full public honors. Cael Nox will be recognized as a Protected Witness of Aurelis, who gave his life by choice under crushing, forced pressure. His testimony and final choice will remain in the public Foundation record."
 
 Elira had woken at the first sentence. She pushed herself upright before Professor Valen could stop her.
 
@@ -460,7 +460,7 @@ Elira: "When?"
 
 President Valmont: "Tomorrow at sunset. Grand Courtyard."
 
-A murmur moved through the student watch. Public, not buried beneath the council tower where Noctis jurisdiction could contest it and Foundation clerks could file it out of sight.
+A murmur moved through the student watch. Public, not buried beneath the council tower where Noctis authority could contest it and Foundation clerks could file it out of sight.
 
 Elira looked at Cael's face, her voice raw.
 
@@ -544,7 +544,7 @@ Aira: "Loudly."
 
 Elira's mouth trembled into something almost like a laugh.
 
-Above the pool, the final Foundation notice of the night lit in dim, uncommanding script.
+Above the pool, the final Foundation notice of the night lit in dim, quiet script.
 
 **VIGIL RECORDED**
 
@@ -716,7 +716,7 @@ Elira: "In the end, Cael did spend his life. Not because Noctis ordered him to. 
 
 Her eyes lifted, and a thin line of gold trembled around her wrist.
 
-Elira: "He chose. That difference between coercion and choice is everything. Cael chose mercy, chose me, chose Haru, chose to make his final act belong to him when too many people spent too long arranging his life as if it belonged to them."
+Elira: "He chose. That difference between being forced and choosing is everything. Cael chose mercy, chose me, chose Haru, chose to make his final act belong to him when too many people spent too long arranging his life as if it belonged to them."
 
 Her voice broke. She did not smooth it over.
 
@@ -756,7 +756,7 @@ Darian Thorne's relay opened behind her before the Noctis officials could block 
 
 Darian appeared in a narrow pane of light, seated in a bare room with a restraint sigil glowing on the wall behind him. House arrest, confirmed. His face looked hollow.
 
-Darian Thorne: "Cael Nox was my student. I watched Noctis break him into functions small enough to praise, and called it advancement because cowardice is easier when it shares vocabulary. I watched Lucien Voss use him in the tournament and did not stop it in time."
+Darian Thorne: "Cael Nox was my student. I watched Noctis break him down into tasks small enough to praise, and called it advancement because cowardice is easier when it uses the same polite words. I watched Lucien Voss use him in the tournament and did not stop it in time."
 
 Nera closed her eyes.
 
@@ -876,7 +876,7 @@ Nera covered her mouth. Oric wrote the line down through tears.
 
 Magistra Senna Voss arrived as the last light left the sky.
 
-The council registry tag flickered beside her name again, clearing her of house ties to Lucien Voss; she glanced at it with the flat patience of someone used to defending her own surname, then bowed first to Cael's bier, next to Elira, and finally to me with level acknowledgment rather than awe.
+The council registry tag flickered beside her name again, clearing her of house ties to Lucien Voss; she glanced at it with the flat patience of someone used to defending her own surname, then bowed first to Cael's bier, next to Elira, and finally to me with steady respect rather than awe.
 
 She drew off one glove. A white emergency-seal burn crossed her palm from wrist to thumb. The Council had made her pay for speed.
 
@@ -890,7 +890,7 @@ The first relay crystal opened above the fountain.
 
 The lead Noctis official stepped forward.
 
-Noctis Official: "The Council has heard contaminated testimony gathered under an extra-classification event."
+Noctis Official: "The Council has heard tainted testimony gathered during an unranked incident."
 
 Senna turned the relay toward Cael's bier.
 
@@ -908,11 +908,11 @@ Three directives wrote themselves above the water.
 
 Nera folded over a breath; Oric caught her elbow until she steadied. Relief that arrived after Cael had teeth.
 
-Noctis Official: "You are suspending accredited curriculum on the word of defectors."
+Noctis Official: "You are shutting down approved training on the word of defectors."
 
 Senna's burned hand closed.
 
-Magistra Voss: "I am suspending a fatal route after its activation was witnessed across every relay your institution demanded."
+Magistra Voss: "I am shutting down a lethal practice after its use was broadcast across every relay your own school demanded."
 
 A second crystal lit beside the first.
 
@@ -946,7 +946,7 @@ Magistra Voss: "Entered into public record."
 
 **ENTERED** appeared above the seal. Then she drew a single clean line through **CONTAINMENT**.
 
-Magistra Voss: "Denied in immediate form. I will not authorize removing a student from everyone who can name what happens to him and call isolation caution. No containment. No elimination order. No compulsory demonstration. No isolated classification panel. Any stability review must include Aurelis witnesses and student consent."
+Magistra Voss: "Denied on the spot. I will not sign off on cutting a student off from everyone who can speak for him and calling isolation caution. No lockup. No kill order. No forced power demonstrations. No closed-door rank panel. Any stability review must include Aurelis witnesses and the student's consent."
 
 Rhea stepped beside the relay.
 
@@ -966,7 +966,7 @@ One last notice opened above the fountain.
 
 Valemere's seal lit in agreement. Drakenshard accepted in grim silence.
 
-Magistra Voss: "Haru Aerlen, do you accept stability review under distributed witness protocol?"
+Magistra Voss: "Haru Aerlen, do you agree to a stability review under shared witness rules?"
 
 The Black Circle pressed beneath my skin. Everyone waited for the myth to speak.
 
@@ -1202,7 +1202,7 @@ Professor Halden: "That is a selective summary."
 
 Professor Valen did not look away from me.
 
-Professor Valen: "I also argued that anyone who could translate pre-standardization mercy clauses without being taught them deserved a room with better questions than the entrance board was asking."
+Professor Valen: "I also argued that anyone who could translate old mercy clauses from before the current ranks—without being taught them—deserved a room with better questions than the entrance board was asking."
 
 My fingers tightened on Cael's notebook.
 
@@ -1252,7 +1252,7 @@ Together, we stayed by the fountain until the moon cleared the western tower and
 
 No one removed Cael's chair from the witness room that night.
 
-Practical reasons existed. The room was crowded, evidence still needed sealing, and healers were moving too fast to argue over furniture. By midnight, nobody could bear to touch it.
+There were practical reasons. The room was crowded, evidence still needed sealing, and healers were moving too fast to argue over furniture. By midnight, nobody could bear to touch it.
 
 Leon sat on the floor beside it instead. Not in it. Beside.
 

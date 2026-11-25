@@ -114,7 +114,7 @@ The Grand Arena floated above the central courtyard on six enormous mana pylons.
 
 During normal school weeks, it was dormant.
 
-Today it had unfolded into the tournament's opening qualification block, large enough to hold the academy, visiting delegations, city officials, sponsors, judges, faculty, and thousands of projected spectators watching from remote viewing halls across the continent.
+Today it had unfolded into the tournament's opening round, large enough to hold the academy, visiting delegations, city officials, sponsors, judges, faculty, and thousands of projected spectators watching from remote viewing halls across the continent.
 
 Tiered seats curved around a massive central field of white stone and black glass. Floating screens displayed school crests. Barrier rings turned slowly overhead like transparent halos. At the highest platform, the judges sat beneath the continental tournament banner.
 
@@ -224,7 +224,7 @@ Aira: "I have built my identity around overthinking."
 
 Professor Halden ignored her. His gaze settled on me.
 
-Professor Halden: "Aerlen, your role remains tactical movement analysis."
+Professor Halden: "Aerlen, your job is still reading movement on the field."
 
 Haru: "Understood."
 
@@ -332,7 +332,7 @@ Aira: "False floor."
 
 Leon crouched.
 
-Leon: "Backlash net under it. If we grab the crest directly, it marks a penalty."
+Leon: "Trap net under it. If we grab the crest straight out, it flags a penalty."
 
 Cassian: "Can we break it?"
 
@@ -348,7 +348,7 @@ Cassian: "The tournament hates clean targets."
 
 Elira lifted one hand. Golden threads extended into the hollow, not touching the crest, only measuring the light around it.
 
-Elira: "It wants simultaneous stabilization from three points."
+Elira: "It needs three points steadied at the same time."
 
 Aira: "I can take left."
 
@@ -358,9 +358,9 @@ Haru: "The third point is not in the hollow."
 
 They looked at me. Leon frowned.
 
-Leon: "The hollow signature is cleaner."
+Leon: "The mana in the hollow feels cleaner."
 
-Haru: "Too clean. Real mana under this much distortion should have micro-fluctuations."
+Haru: "Too clean. Real mana under this much warping should flicker a little."
 
 That sounded like something a careful Green Circle support student might notice. It was not the whole truth.
 
@@ -394,13 +394,13 @@ Lucien did not seem to hurry. That was the worst part.
 
 His team moved as if the field had already been explained to them by someone who disliked surprises.
 
-Nera and Oric did not waste motion binding the forest hazards. They touched only the joints that mattered, letting roots freeze half-grown and flash-birds fall asleep mid-dive. Tovan cleared the larger threats with short red strikes that never exceeded the minimum force required.
+Nera and Oric did not waste motion binding the forest hazards. They touched only the joints that mattered, letting roots freeze half-grown and flash-birds fall asleep mid-dive. Tovan cleared the larger threats with short red strikes that never used an ounce more force than needed.
 
 Cael followed three steps behind Lucien with both hands held near his chest, lightless lines running from his wrists into the ground whenever Lucien lifted a finger. Conduit support.
 
 The phrase looked worse in motion.
 
-Cael was not being harmed visibly. The tournament barriers would have reacted if his channels crossed injury thresholds. Instead, he was being spent constantly, quietly, efficiently.
+Cael was not being harmed visibly. The tournament barriers would have reacted if his channels hit the injury limit. Instead, he was being spent constantly, quietly, efficiently.
 
 Lucien did not turn to check whether the strain hurt. He simply assumed the route would carry him.
 
@@ -446,7 +446,7 @@ Elira: "Valemere."
 
 Soren's gaze flicked from Elira to me, then to our fragment.
 
-Soren: "Temporary passage conflict."
+Soren: "Looks like we share the same path."
 
 Leon: "There are two routes."
 
@@ -464,7 +464,7 @@ Behind Valemere, a Noctis lightless thread slipped along the floor. Thin. Almost
 
 It was not aimed at us. It was aimed at the bridge beneath Valemere's rear support student.
 
-If it cut the support line, the bridge would collapse. Valemere would lose time, possibly take injury, and Noctis would gain advantage while remaining technically uninvolved.
+If it cut the support line, the bridge would collapse. Valemere would lose time, possibly take injury, and Noctis would pull ahead without breaking a single rule.
 
 Lucien was across the field, not looking at us. I had three choices: warn Valemere and reveal what I should not see, do nothing and let the trap spring, or intervene subtly and risk Halden catching another impossible correction.
 
@@ -528,7 +528,7 @@ The crowd roared.
 
 The visible scoreboard called it equal progress. The field did not.
 
-Beneath the cheering, the terrain gave one subtle shudder under Noctis' path. Neither a penalty nor an alarm, more like a living thing flinching after being handled too neatly. The tournament system recorded outcomes; the old academy infrastructure remembered pressure.
+Beneath the cheering, the terrain gave one subtle shudder under Noctis' path. Neither a penalty nor an alarm, more like a living thing flinching under too tight a grip. The tournament board only tracked scores; the old academy stonework remembered how it was used.
 
 Professor Halden's head turned toward the lower field array. Lucien's did not.
 
@@ -584,7 +584,7 @@ The ruins broke apart beneath our feet and became floating platforms over a blac
 
 That meant everyone became a problem. Drakenshard charged first.
 
-Their front-line student, Mara Kest, crossed three unstable platforms with raw reinforcement and no visible concern for physics. She swung a blunt training blade into a barrier pylon, forcing the gate angle to shift toward her team.
+Their front-line student, Mara Kest, crossed three unstable platforms with brute-force magic and zero respect for physics. She swung a blunt training blade into a barrier pylon, forcing the gate angle to shift toward her team.
 
 Cassian's eyes lit up.
 
@@ -604,7 +604,7 @@ Elira's expression cooled.
 
 Elira: "He is forcing rescue penalties."
 
-Her jaw tightened. She had seen this before: the same suppression logic from the junior circuit, refined until cruelty fit inside tournament legality.
+Her jaw tightened. She had seen this before: the same choking tactics from the junior matches, polished until cruelty fit neatly inside the rules.
 
 Haru: "Yes."
 
@@ -624,7 +624,7 @@ Haru: "I did not say I approved."
 
 The first victim was a Sol Aeternum student.
 
-Her platform slid sideways under her foot. She caught herself with a burst of golden fire, but the flame triggered a water inversion. The lake pulled up like a hand and dragged her toward the surface.
+Her platform slid sideways under her foot. She caught herself with a burst of golden fire, but the flame triggered a sudden water surge. The lake pulled up like a hand and dragged her toward the surface.
 
 Her team moved too slowly. Lucien watched without smiling, which made it worse.
 
@@ -672,7 +672,7 @@ Lucien: "Clarity does not require kindness."
 
 Elira: "No. But strength does."
 
-Their mana met. The center gate shook from pure contradiction.
+Their mana met. The center gate shuddered where their two magics clashed.
 
 Golden threads pushed through lightless rings. Pale bands tried to close around the fragment. Elira did not flinch. She shifted one foot, drew his binding pattern wide, and left an opening behind it for our team.
 
@@ -690,7 +690,7 @@ Lucien's field tightened.
 
 The necklace at Elira's throat warmed: a quiet warning, not an activation. Lucien's pale mana slid toward the pendant, curious and invasive.
 
-Elira didn't flinch or glance back. She angled her light a fraction sharper, peeling his probe off the crystal and exposing the right pylon cleanly.
+Elira didn't flinch or glance back. She angled her light a fraction sharper, peeling his magic off the crystal and exposing the right pylon cleanly.
 
 Cassian: "Now?"
 
@@ -712,7 +712,7 @@ Haru: "Move."
 
 We ran.
 
-Platforms collapsed behind us in sequence. Nothing visibly illegal, just timed with precision meant to wound.
+Platforms collapsed behind us in sequence. Nothing visibly illegal, just timed cleanly enough to hurt.
 
 I called the path as fast as I could without sounding impossible.
 
@@ -846,7 +846,7 @@ And Lucien Voss had not stopped smiling.
 
 It was the least comforting part.
 
-We sat in a preparation room beneath the Grand Arena while the tournament officials recalibrated the field for the afternoon match. The room was meant to be quiet. Instead, it held the kind of silence that came before something broke.
+We sat in a preparation room beneath the Grand Arena while the tournament officials reset the field for the afternoon match. The room was meant to be quiet. Instead, it held the kind of silence that came before something broke.
 
 Aira had three projected rule sheets open at once.
 
@@ -926,7 +926,7 @@ Professor Halden: "Yes."
 
 He adjusted his spectacles, clearing his throat. Lady Seraphine stepped forward.
 
-Lady Seraphine: "Noctis will attempt to divide your priorities. They watched the relay. They know Varek will rescue, Solen will stabilize, Veyr will overcommit if provoked, Vale will protect the field from collateral harm, and Aerlen will read patterns."
+Lady Seraphine: "Noctis will attempt to divide your priorities. They watched the relay. They know Varek will rescue, Solen will stabilize, Veyr will overcommit if provoked, Vale will protect the field from stray damage, and Aerlen will read patterns."
 
 Cassian: "I object to the word overcommit."
 
@@ -952,7 +952,7 @@ Haru: "Noctis will not try to overpower Elira immediately. Lucien wants her atte
 
 Leon stopped adjusting his gloves.
 
-Haru: "Their binders will target Aira first because she repaired too many field problems during the relay. Their striker will pressure Cassian because he looks easiest to provoke. Lucien will use terrain response to isolate Elira from support, then create a situation where I either stay useful within Green limits or fail publicly."
+Haru: "Their binders will target Aira first because she repaired too many field problems during the relay. Their striker will pressure Cassian because he looks easiest to provoke. Lucien will use the shifting ground to cut Elira off from backup, then create a situation where I either stay useful within Green limits or fail publicly."
 
 Aira stared at me.
 
@@ -970,7 +970,7 @@ Cassian: "Then tell me where to stand."
 
 Leon blinked.
 
-Aira: "Did Cassian just ask for tactical placement?"
+Aira: "Did Cassian just ask where to stand?"
 
 Cassian: "Do not make it sentimental."
 
@@ -1064,7 +1064,7 @@ Aira: "I am going to develop a medical condition from disliking him."
 
 The judge raised one hand.
 
-Judge: "Crown Field Team Combat begins on signal. Remember: surrender markers are binding. Channel damage beyond recovery thresholds results in disqualification."
+Judge: "Crown Field Team Combat begins on signal. Remember: surrender markers are binding. Channel damage beyond safe recovery means instant disqualification."
 
 The crown sigil pulsed. The arena quieted.
 
@@ -1132,7 +1132,7 @@ Aira: "Oh."
 
 Her barrier collapsed inward like cloth being folded.
 
-The lightless cords pulled at an empty layer and overextended.
+The lightless cords yanked on an empty shell and snapped forward.
 
 Leon cut the right cord with a water blade.
 
@@ -1182,7 +1182,7 @@ Haru: "Leon, jump."
 
 He did, without questioning, without checking for confirmation. Immediately.
 
-The ring closed on empty air. Cassian drove Tovan back two steps, and Aira flicked a support glyph through Leon's landing path before he touched down. Small choices. Fast trust. That was how a team became harder to dismantle.
+The ring closed on empty air. Cassian drove Tovan back two steps, and Aira flicked a support glyph through Leon's landing path before he touched down. Small choices. Fast trust. That was how a team became harder to break apart.
 
 Tovan drove Cassian backward with a heavy strike. Cassian blocked, slid, and nearly answered with a wide flame burst, then caught himself.
 
@@ -1234,7 +1234,7 @@ Cael stiffened behind him. The boy's mana surged, too fast and too unstable.
 
 Lucien was using him as a conduit.
 
-Not enough to trip the rules instantly, just enough to force the field's lightless pressure through a student with lower tolerance, making coercion look like team amplification. Cael's face went white.
+Not enough to trip the rules instantly, just enough to force the field's lightless pressure through a student with lower limit, making force look like teamwork. Cael's face went white.
 
 Elira saw it. So did I. So did the judges, a heartbeat too slowly.
 
@@ -1256,7 +1256,7 @@ Aira's head snapped toward the Noctis back line.
 
 Aira: "He's overloading."
 
-Leon: "If we cut him loose wrong, it rebounds."
+Leon: "If we snap it wrong, the spell kicks back into him."
 
 Cassian: "Can we reach him?"
 
@@ -1300,7 +1300,7 @@ Lucien's ring lost its conduit and fractured into harmless pale sparks. The anch
 
 The crown field stabilized under Elira's light.
 
-For the first time since I had met him, Lucien's expression broke open: offense, sharp and cold, as if reality itself had contradicted him.
+For the first time since I had met him, Lucien's expression broke open: outrage, sharp and cold, as if the world itself had dared to disagree with him.
 
 The judges' emergency sigils flashed.
 
@@ -1538,7 +1538,7 @@ Lucien: "Good. Doubt is contagious."
 
 He stepped through the ward and left them inside it.
 
-Only after the black shimmer settled did Nera cross to the bench. She kept her hands at her sides; Noctis had trained every gesture of care to look deniable.
+Only after the black shimmer settled did Nera cross to the bench. She kept her hands at her sides; Noctis had trained every kind gesture to look like an accident.
 
 Nera: "You should have signaled distress earlier."
 
@@ -1580,7 +1580,7 @@ An Inter-National Schools Council crystal opened above the platform in emergency
 
 The arena did not know whether to boo, argue, or applaud. It attempted all three.
 
-Valemere moved first. Soren Ashvale entered a formal demand that the Crown Field sequence remain attached to the bracket record, so no later ruling could describe Cael's collapse without the match that caused it. Drakenshard requested the raw terrain and conduit-pressure logs. Sol Aeternum placed two healers beside the recovery record and refused to let either school summarize their findings alone.
+Valemere moved first. Soren Ashvale filed a formal demand keeping the Crown Field footage tied to the official record, so no later ruling could talk about Cael's collapse without showing what caused it. Drakenshard requested the raw terrain and conduit-pressure logs. Sol Aeternum placed two healers beside the recovery record and refused to let either school summarize their findings alone.
 
 The tournament had not ended. It had changed arenas. Every visiting school still had points, reputation, injured pride, and a reason to watch what Aurelis and Noctis did next.
 
@@ -1624,7 +1624,7 @@ Cael: "Here."
 
 Rhea opened a red witness seal between him and the departing formation. Two neutral tournament healers stepped into it, leaving the road back to Noctis visible and the path into Aurelis unblocked.
 
-Rhea: "Overnight medical hold recognized under the student-harm order. No delegation removes him before healer clearance and recorded review."
+Rhea: "Overnight medical hold recognized under the student-harm order. No team takes him out of here until the healers clear him and the review is on record."
 
 Lucien studied Cael for one long second. Then he stepped aside so Rusk, Nera, Oric, and Tovan could board the black carriage. The door shut.
 
@@ -1772,7 +1772,7 @@ Elira felt my hand tighten.
 
 Elira: "Haru?"
 
-I looked toward the darkening sky above Aurelis. For years, Black Circle had been a myth, a rumor, a lie according to almost everyone alive. Tonight, somewhere inside the academy's buried infrastructure, the myth had opened its eyes.
+I looked toward the darkening sky above Aurelis. For years, Black Circle had been a myth, a rumor, a lie according to almost everyone alive. Tonight, somewhere deep under the academy's old foundations, the myth had opened its eyes.
 
 Haru: "The opening block is over."
 

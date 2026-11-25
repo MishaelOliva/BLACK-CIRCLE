@@ -78,7 +78,7 @@ Dren: "Medical restrictions?"
 
 Maelin materialized behind him with a healer's satchel and the posture of judgment given legs.
 
-Maelin: "No high-output casting, no standing at endless hearings, no martyrdom, no dueling, and no pretending emotional regulation counts as rest."
+Maelin: "No heavy magic, no standing through endless hearings, no playing martyr, no duels, and no pretending that holding your temper counts as rest."
 
 Elira: "I agreed to most of those."
 
@@ -106,7 +106,7 @@ Elira: "Professor."
 
 All our tangled history hung between us: his early suspicion, my concealment, the old observatory, and his decision not to lock me in a cell when he had the chance.
 
-Halden: "I have been asked to chair Aurelis' internal Black Circle stability observation."
+Halden: "I have been asked to lead Aurelis's internal watch on the Black Circle."
 
 Leon muttered under his breath.
 
@@ -114,13 +114,13 @@ Leon: "That sounds comforting."
 
 Halden's eyes cut toward him. Leon straightened.
 
-Halden: "It is not intended to comfort."
+Halden: "It is not meant to comfort."
 
 Aira: "Spectacular. We are doomed by branding."
 
 Halden let the remark pass, though his jaw twitched.
 
-Halden: "I refused twice. The first request from the board called it classification. The second from Councilor Krail's office called it containment readiness. I accepted only after Magistra Senna rewrote the mandate."
+Halden: "I refused twice. The first request from the board called it classification. The second, from Councilor Krail's office, called it containment readiness. I accepted only after Magistra Senna rewrote the orders."
 
 Rhea: "Witness stability."
 
@@ -142,7 +142,7 @@ Senna: "Aurelis, report."
 
 Rhea stepped forward, crisp as flint.
 
-Rhea: "Haru Aerlen, Elira Vale, and registered witnesses have returned under escort. No hostile Black Circle manifestation in transit. One Noctis origin-hold attempt at the outer ridge marker was bypassed and logged. A partial hostile registry fragment names Iven Sahl; independent conduit confirmation remains pending."
+Rhea: "Haru Aerlen, Elira Vale, and registered witnesses have returned under escort. No Black Circle outbreak on the road. One Noctis hold trap at the outer ridge marker was bypassed and logged. A partial list names Iven Sahl; we are still confirming his conduit match."
 
 Senna: "Received. Drakenshard and Valemere have sealed their student registries. Three minor academies report unauthorized relay pings. Noctis Dominion College has refused our conduit audit."
 
@@ -178,11 +178,11 @@ Senna: "Then the Council has probable cause for a protective audit of Noctis."
 
 Councilor Krail's voice sliced across the projection.
 
-Krail: "The Council has probable cause to contain the extra-classification student who provoked Lucien Voss into threatening children."
+Krail: "The Council has cause to lock down the unclassified student who provoked Lucien Voss into threatening children."
 
 The fountain water flattened into glass. Krail's image formed beside Senna's, sharp and unwelcome.
 
-Krail: "Do not confuse sequence with innocence. Voss is a criminal actor, and Aerlen is the event around which criminal actors are now organizing."
+Krail: "Do not confuse timing with innocence. Voss is a criminal, and Aerlen is the excuse criminals are rallying around."
 
 Elira stepped forward. Maelin hissed a warning, but Elira kept her hands still and let her voice carry.
 
@@ -212,7 +212,7 @@ Krail: "How cooperative."
 
 A sharp crack split the air.
 
-A black fracture tore vertically down the fountain's water column from rim to basin. Too old for Lucien's frost, too structured for stray mana. Gold-black letters burned across the mist above the stone.
+A black fracture tore vertically down the fountain's water column from rim to basin. Too old for Lucien's frost, too deliberate for stray mana. Gold-black letters burned across the mist above the stone.
 
 **CIRCLE ZERO SAFEGUARD REVIEW: FIELD RESPONSE REQUIRED**
 
@@ -250,7 +250,7 @@ Elira stepped up beside me.
 
 Maelin: "Absolutely not."
 
-Elira: "I am not casting high-output."
+Elira: "I won't cast anything heavy."
 
 Maelin: "You are walking straight into a Dominion route."
 
@@ -312,7 +312,7 @@ Dren: "Behind the combat line."
 
 Maelin: "Behind my medical line."
 
-Halden: "Where their notes stay uncontaminated by direct interference."
+Halden: "Where nobody can claim their notes were tampered with."
 
 Aira: "That is three different lines and none of you drew a map."
 
@@ -340,7 +340,7 @@ Leon: "It is not."
 
 The second interruption came from a Yellow Circle senior in spotless white and gold, wearing the bright certainty of someone who thought emergencies were stages for rebuilding reputation.
 
-Senior: "If Black Circle action is occurring on academy grounds, Yellow Circle rank should be represented."
+Senior: "If the Black Circle is active on academy grounds, the Yellow Circle should be represented."
 
 Elira turned slowly. The senior lost half his color.
 
@@ -424,7 +424,7 @@ Haru: "Examiner."
 
 Her eyes swept Elira, the crystal at her collar, and the column behind us.
 
-Seraphine: "The gate holds three conflicting locks: medical archive, tournament jurisdiction, and visiting custody. Whoever rigged it wanted investigators arguing on the steps."
+Seraphine: "The gate holds three clashing locks: medical archive, tournament authority, and visiting custody. Whoever rigged it wanted investigators arguing on the steps."
 
 Rhea: "Can you open it?"
 
@@ -492,7 +492,7 @@ Elira: "Log that the annex failed to classify Haru without asking him to perform
 
 Rhea: "Logged."
 
-Halden's pen scratched fast. Seraphine watched me with hard, battlefield assessment.
+Halden's pen scratched fast. Seraphine watched me with a soldier's sharp eye.
 
 Seraphine: "Can you still move?"
 
@@ -510,13 +510,13 @@ The badge was Noctis white. Someone had scraped the student's name raw off the b
 
 **CONDUIT CANDIDATE RESPONSIVE TO EXTERNAL CROWN PRESSURE**
 
-Nobody breathed. Crown terminology didn't belong in a thirty-ninth tournament review, not unless someone had been testing older Dominion tools under Aurelis' roof.
+Nobody breathed. Crown language didn't belong in a modern tournament file, not unless someone had been testing older Dominion tools under Aurelis's roof.
 
 Valen went pale in the way scholars did when a modern nightmare turned up an older footnote.
 
 Halden: "Professor."
 
-Valen: "Crown pressure is not tournament phrasing."
+Valen: "Crown pressure isn't a tournament term."
 
 Seraphine: "Noctis?"
 
@@ -660,7 +660,7 @@ Just beyond the recovery room, an open stone arch led into a lower side chamber 
 
 Finn stepped up to the basin without waiting for orders, scrolls tucked tight.
 
-Finn: "The deletion followed a fixed syntax. I cannot pull the names back cleanly without tripping a backlash, yet I can prove twelve active student files were intentionally purged."
+Finn: "Whoever wiped them used a set pattern. I cannot pull the names back cleanly without tripping a backlash, yet I can prove twelve active student files were erased on purpose."
 
 Aira clicked her tongue in approval.
 
@@ -678,7 +678,7 @@ Nera blinked back tears and gave one sharp nod.
 
 Behind Finn's basin, the rear wall parted smoothly without anyone touching a stone. Lucien wanted us looking inside.
 
-A wide circular room dropped half a flight below the annex floor, older than the corridors above. Seven chairs ringed a sunken relay well, each fitted with white metal and black thread restraints. Above the well hung twelve small crest lights, spectral hooks waiting to yank twelve missing students straight through Aurelis infrastructure the second the right trigger dropped.
+A wide circular room dropped half a flight below the annex floor, older than the corridors above. Seven chairs ringed a sunken relay well, each fitted with white metal and black thread restraints. Above the well hung twelve small crest lights, ghostly hooks waiting to yank twelve missing students straight through Aurelis's own magic lines the second the right trigger dropped.
 
 The Black Circle slammed upward so hard the wall sconces guttered dark.
 
@@ -736,7 +736,7 @@ Aira: "Lucien."
 
 Rhea: "Krail's containment bloc."
 
-Halden: "Anyone looking for a single classified weapon instead of an institutional failure."
+Halden: "Anyone looking for one hidden weapon to blame instead of a rotting system."
 
 Nera: "Noctis."
 
@@ -750,7 +750,7 @@ Finn: "The erasure ledger."
 
 Elira: "Then neither alone nor nothing works. Third: who is present enough to refuse?"
 
-Light bloomed gently along the ancient floor seams, warm enough to remind the circular room it had once been built for healing before someone turned it into an apparatus. The cold weight behind my sternum shifted.
+Light bloomed gently along the ancient floor seams, warm enough to remind the circular room it had once been built for healing before someone turned it into a trap. The cold weight behind my sternum shifted.
 
 Haru: "Everyone here."
 
@@ -792,13 +792,13 @@ Nera swallowed hard.
 
 Nera: "Thread three runs straight through Cael's old conduit scar."
 
-Lucien had built his bridge out of the institutional wound left behind after Cael died. The Black Circle surged at my feet, eager to wipe the whole chamber out of existence. I held it down as a thin ring of shadow around my boots.
+Lucien had built his bridge out of the open wound Aurelis left behind after Cael died. The Black Circle surged at my feet, eager to wipe the whole chamber out of existence. I held it down as a thin ring of shadow around my boots.
 
 Haru: "How do we drop the hooks without dragging the kids through?"
 
 Valen: "Split the weight."
 
-Halden: "Dangerous. Each hook wants a single dominant caster to seize it. If Haru grabs them all, Lucien claims Black Circle seizure. If we hack them blindly, the students eat the backlash."
+Halden: "Dangerous. Each hook is built to bait one strong mage into grabbing it. If Haru grabs them all, Lucien claims Black Circle takeover. If we slash them blindly, the students eat the backlash."
 
 Leon rolled his neck.
 
@@ -812,7 +812,7 @@ Cassian: "Mark the calendar."
 
 Dren: "Focus."
 
-Witness magic hated secrecy, so we broke the circuit right in front of Lucien's eyes. Leon drowned Obedience beneath flowing water so it couldn't lock. Cassian scorched Return at the edges without touching the names underneath. Rhea pinned Proof under council evidentiary law. Aira dissected Reserve in ink until the word looked obscene. Mira gripped her pen with trembling hands and wrote along the glowing air beside Use: a person cannot be a function. Finn wrapped Property in his seam-recovery syntax. Nera held Final, tears running down her cheeks while her rings bit deep.
+Witness magic hated secrecy, so we broke the circuit right in front of Lucien's eyes. Leon drowned Obedience beneath flowing water so it couldn't lock. Cassian scorched Return at the edges without touching the names underneath. Rhea pinned Proof under strict council law. Aira dissected Reserve in ink until the word looked obscene. Mira gripped her pen with trembling hands and wrote along the glowing air beside Use: a person cannot be a function. Finn wrapped Property in his seam-tracking marks. Nera held Final, tears running down her cheeks while her rings bit deep.
 
 Elira anchored the center with her seven gold needles. I stayed on the outer ring, hands empty.
 
@@ -896,7 +896,7 @@ Leon's mouth twitched into a brief, crooked grin, and the tension eased just eno
 
 Valen knelt at the tunnel threshold and held a strip of archive vellum over the opening. The edge browned without catching fire. Halden crouched across from her, his slate hovering over the floor sigils as his fingers traced the diagram's border on the stone.
 
-Halden: "Three layers. First, a distress lure keyed to familiar names. Second, custody grammar waiting for unauthorized extraction. Third..."
+Halden: "Three layers. First, a distress lure keyed to familiar names. Second, a lock spell waiting for anyone trying to pull him out. Third..."
 
 He paused, frowning as broken old circles glowed beneath the Noctis hooks.
 
@@ -916,7 +916,7 @@ Mira: "Can the older magic help us?"
 
 Valen laid her palm flat on the floor stone outside the tunnel.
 
-Valen: "Aurelis witness inquiry. We are not claiming patient custody. We are checking whether a living student is below and whether the path carries active coercion."
+Valen: "Aurelis witness inquiry. We are not claiming patient custody. We are checking whether a living student is below and whether the path holds active traps."
 
 The older floor circles flared gold. The Noctis hooks overhead jerked tight. Somewhere down in the dark, a muffled sound broke loose, a child fighting not to cry out.
 
@@ -926,7 +926,7 @@ Haru: "Boundary only."
 
 Halden's pen moved instantly.
 
-Halden: "Minimal manifestation. Witnessed. Stated function: boundary."
+Halden: "Minimal cast. Witnessed. Purpose: boundary."
 
 Dren kept his eyes on the dark tunnel.
 
@@ -998,7 +998,7 @@ Dren: "I heard him. That is why the line holds."
 
 Cold poured out of the tunnel mouth, thick with the sensory ghost of winter drill yards and numb fingers. Maelin swept low healer light across the threshold without crossing the stone line.
 
-Maelin: "Live pain response. Breath cut, followed by a suppression spell. Not an archive echo."
+Maelin: "Real pain. His breath hitched, then a silence spell clamped down. That isn't a recording."
 
 Pella pressed her slate tight against her ribs, voice barely audible.
 
@@ -1074,7 +1074,7 @@ Nera looked sick.
 
 Nera: "For the evaluator."
 
-Care had once meant keeping someone close enough to hold your hand. Someone had scrubbed that chair out of the room and left a distant watcher in its place, then called the subtraction neutral procedure.
+Care had once meant keeping someone close enough to hold your hand. Someone had scrubbed that chair out of the room and left a distant watcher in its place, then called the missing piece standard procedure.
 
 Elira stood over the dust scar, fingers hovering above the clean tile.
 
@@ -1160,7 +1160,7 @@ Rhea: "Aurelis did this?"
 
 Valen didn't flinch or defend the academy.
 
-Valen: "Old tournament medicine grew obsessed with clinical detachment after Circle Zero failed. Chosen presence was labeled contamination. Noctis just inherited our scar and sharpened it into a weapon."
+Valen: "Old tournament healers grew obsessed with cold distance after Circle Zero failed. Chosen presence was treated like contamination. Noctis just inherited our scar and sharpened it into a weapon."
 
 Mira's pencil moved fast across her notebook.
 
@@ -1182,13 +1182,13 @@ Iven hadn't been freed, yet the tremor from the restored room had reached him. H
 
 Leon crouched and ran a fresh ribbon of water over the threshold lip. It returned humming with two uneven, frightened pulses.
 
-Maelin: "Live motor control."
+Maelin: "He moved on his own."
 
 Rhea: "Could someone force him to tap?"
 
 Nera swallowed hard.
 
-Nera: "Compulsion forces clean, metronome rhythm. Those taps were uneven. Scared. Deliberate."
+Nera: "A control spell forces an even, mechanical beat. Those taps were ragged. Scared. On purpose."
 
 Elira knelt beside the restored bed rather than the tunnel mouth, speaking calmly so her voice carried down the corridor.
 
