@@ -51,12 +51,14 @@ html {
 	background: var(--bc-ink);
 	color: var(--bc-paper);
 	font-family: var(--bc-font-body);
-	scroll-behavior: smooth;
-	text-rendering: optimizeLegibility;
+	scroll-behavior: auto;
+	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	width: 100%;
 	max-width: 100%;
 	overflow-x: clip;
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -68,6 +70,15 @@ body {
 	width: 100%;
 	max-width: 100%;
 	overflow-x: clip;
+	touch-action: manipulation;
+}
+
+a,
+button,
+input,
+[role="button"] {
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: transparent;
 }
 
 body.landing-active {
@@ -363,7 +374,7 @@ html[data-theme="light"] .landing-navlinks a.active {
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
-	transition: all 0.2s ease;
+	transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
 }
 
 html[data-theme="light"] .landing-icon-button,
@@ -403,7 +414,7 @@ html[data-theme="light"] .reader-icon-button {
 	font-size: 0.76rem;
 	letter-spacing: 0.06em;
 	cursor: pointer;
-	transition: all 0.2s ease;
+	transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
 }
 
 html[data-theme="light"] .landing-theme-toggle,
@@ -638,7 +649,7 @@ html[data-theme="light"] .landing-rank-chip:hover {
 	letter-spacing: 0.1em !important;
 	text-transform: uppercase !important;
 	cursor: pointer !important;
-	transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease !important;
+	transition: transform 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease !important;
 	box-sizing: border-box !important;
 	text-decoration: none !important;
 }
@@ -770,7 +781,7 @@ html[data-theme="light"] .landing-dashboard {
 	font-family: var(--bc-font-mono) !important;
 	font-size: 0.82rem !important;
 	font-weight: 600 !important;
-	transition: all 0.2s ease !important;
+	transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease !important;
 	text-align: left !important;
 }
 
@@ -837,7 +848,7 @@ html[data-theme="light"] .landing-dashboard {
 	color: var(--bc-paper) !important;
 	cursor: pointer !important;
 	text-align: left !important;
-	transition: all 0.2s ease !important;
+	transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease !important;
 }
 
 .landing-tool:hover {
@@ -1013,7 +1024,7 @@ html[data-theme="light"] .hero {
 	font-size: 0.76rem !important;
 	letter-spacing: 0.06em !important;
 	cursor: pointer !important;
-	transition: all 0.2s ease !important;
+	transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease !important;
 	margin: 0 !important;
 }
 
@@ -1073,7 +1084,7 @@ html[data-theme="light"] .cover-return {
 	font-size: 0.72rem !important;
 	font-weight: 600 !important;
 	letter-spacing: 0.02em !important;
-	transition: all 0.2s ease !important;
+	transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease !important;
 }
 
 .circle-chip:hover {
@@ -1398,7 +1409,7 @@ html[data-theme="light"] .nav-panel {
 	background: rgba(255, 255, 255, 0.05) !important;
 	color: var(--bc-paper) !important;
 	cursor: pointer !important;
-	transition: all 0.15s ease !important;
+	transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease !important;
 }
 
 .nav-scroll-button:hover {
@@ -1447,7 +1458,7 @@ html[data-theme="light"] .nav-panel {
 	font-family: var(--bc-font-mono) !important;
 	font-size: 0.78rem !important;
 	cursor: pointer !important;
-	transition: all 0.2s ease !important;
+	transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease !important;
 	white-space: nowrap !important;
 }
 
@@ -1566,6 +1577,8 @@ html[data-theme="light"] .episode-tab.active {
 .scene-callout .scene-img-wrap {
 	position: relative !important;
 	width: 100% !important;
+	aspect-ratio: 16 / 10;
+	max-height: 70vh !important;
 	overflow: hidden !important;
 	background: #08060d !important;
 	display: flex !important;
@@ -1581,8 +1594,7 @@ html[data-theme="light"] .scene-callout .scene-img-wrap {
 .scene-figure img {
 	display: block !important;
 	width: 100% !important;
-	height: auto !important;
-	aspect-ratio: auto !important;
+	height: 100% !important;
 	max-height: 70vh !important;
 	object-fit: contain !important;
 	border: 0 !important;
@@ -1792,7 +1804,7 @@ html[data-theme="light"] .scene-desc {
 	font-weight: 700 !important;
 	letter-spacing: 0.08em !important;
 	cursor: pointer !important;
-	transition: all 0.25s ease !important;
+	transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease !important;
 	text-decoration: none !important;
 }
 
@@ -2000,30 +2012,9 @@ html[data-theme="light"] .story-body {
 	word-break: break-word !important;
 }
 
-.story-body > p,
-.story-body > .dialogue,
-.story-body > .system-card {
-	content-visibility: auto;
-	contain-intrinsic-size: auto 72px;
-}
-
-.story-body > .scene-anchor {
-	content-visibility: auto;
-	contain-intrinsic-size: auto 420px;
-}
-
-.story-body > p:first-child,
-.story-body > .scene-anchor:first-child {
-	content-visibility: visible;
-}
-
 html.is-instant-jump,
 html.is-instant-jump body {
 	scroll-behavior: auto !important;
-}
-
-html.is-instant-jump .story-body > * {
-	content-visibility: visible !important;
 }
 
 .story-body h2,
@@ -2271,7 +2262,7 @@ html[data-theme="light"] body.panel-mode .story-body > h3 {
 	font-family: var(--bc-font-mono) !important;
 	font-size: 0.82rem !important;
 	cursor: pointer !important;
-	transition: all 0.2s ease !important;
+	transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease !important;
 }
 
 .episode-action:hover:not(:disabled) {
@@ -2360,7 +2351,7 @@ html[data-theme="light"] #readerTools {
 	font-weight: 500 !important;
 	white-space: nowrap !important;
 	cursor: pointer !important;
-	transition: all 0.15s ease !important;
+	transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease !important;
 	display: inline-flex !important;
 	align-items: center !important;
 	justify-content: center !important;
@@ -2396,7 +2387,6 @@ html[data-theme="light"] .reader-tool-button {
 	display: inline;
 	touch-action: manipulation;
 	border-radius: 4px;
-	transition: background-color 0.18s ease, box-shadow 0.18s ease, color 0.18s ease;
 }
 
 .story-sentence.is-highlighted {
@@ -2417,18 +2407,16 @@ html[data-theme="light"] .story-sentence.is-highlighted {
 
 @keyframes bcHighlightPulse {
 	0% {
-		box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.72);
-	}
-	55% {
-		box-shadow: 0 0 0 8px rgba(250, 204, 21, 0.18);
+		outline: 2px solid rgba(250, 204, 21, 0.92);
+		background-color: rgba(250, 204, 21, 0.46);
 	}
 	100% {
-		box-shadow: 0 0 0 12px rgba(250, 204, 21, 0);
+		outline: 2px solid rgba(250, 204, 21, 0);
 	}
 }
 
 .story-sentence.is-highlight-pulse {
-	animation: bcHighlightPulse 0.9s ease-out 1;
+	animation: bcHighlightPulse 0.45s ease-out 1;
 }
 
 .progress-box {
@@ -2474,6 +2462,7 @@ html[data-theme="light"] .progress-line {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	contain: layout style;
 }
 
 /* ==========================================================================
@@ -2771,13 +2760,92 @@ html[data-theme="light"] .cast-card {
 }
 
 @media (max-width: 900px), (pointer: coarse) {
+	html {
+		text-rendering: optimizeSpeed;
+	}
+
 	.landing-nav,
+	.landing-dashboard,
 	.reader-archive-nav,
 	.landing-search,
 	.nav-panel,
+	.cover-return,
 	.scene-callout .scene-figure {
 		backdrop-filter: none !important;
 		-webkit-backdrop-filter: none !important;
+	}
+
+	.episode-nav {
+		-webkit-mask-image: none !important;
+		mask-image: none !important;
+		scroll-behavior: auto !important;
+	}
+
+	.landing-title span {
+		filter: none !important;
+	}
+
+	.reader,
+	.dialogue,
+	.scene-callout .scene-figure,
+	.episode-hero-banner,
+	.reader-controls-bar,
+	#readerTools,
+	.nav-panel,
+	.reader-archive-nav,
+	.landing-dashboard,
+	.cast-card,
+	.gallery-card,
+	body.panel-mode .story-body > p:not(.dialogue),
+	body.panel-mode .story-body > h2,
+	body.panel-mode .story-body > h3 {
+		box-shadow: none !important;
+	}
+}
+
+@media (max-width: 900px), (hover: none), (pointer: coarse) {
+	.reader-tool-button,
+	.episode-tab,
+	.episode-action,
+	.nav-scroll-button,
+	.reader-theme-button,
+	.reader-menu-button,
+	.landing-action,
+	.landing-episode-jump,
+	.landing-tool,
+	.cover-return,
+	.hero-banner-action,
+	.scene-callout .scene-figure,
+	.scene-callout img,
+	.cast-card,
+	.gallery-card {
+		transition: none !important;
+	}
+
+	.reader-tool-button:hover,
+	.episode-tab:hover,
+	.episode-action:hover,
+	.nav-scroll-button:hover,
+	.landing-action:hover,
+	.landing-episode-jump:hover,
+	.landing-tool:hover,
+	.cover-return:hover,
+	.hero-banner-action:hover,
+	.scene-callout .scene-figure:hover,
+	.scene-callout:hover img,
+	.cast-card:hover,
+	.gallery-card:hover {
+		transform: none !important;
+	}
+
+	.reader-tool-button:active:not(:disabled),
+	.episode-tab:active,
+	.episode-action:active:not(:disabled),
+	.nav-scroll-button:active,
+	.reader-menu-button:active,
+	.reader-theme-button:active,
+	.landing-action:active {
+		opacity: 0.78 !important;
 	}
 }
 
@@ -3103,6 +3171,10 @@ html[data-theme="light"] .cast-card {
 
 	.scene-callout {
 		margin: 1.5em auto !important;
+	}
+
+	.scene-callout .scene-img-wrap {
+		max-height: 55vh !important;
 	}
 
 	.scene-callout img,

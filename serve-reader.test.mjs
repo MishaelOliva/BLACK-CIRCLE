@@ -67,7 +67,10 @@ test("sentence highlight markup, builder output, and CSS assets are present", as
   assert.match(css, /\.story-sentence\.is-highlighted\b/);
   assert.match(css, /\.reader-tool-button\.has-highlight\b/);
   assert.match(css, /html\.is-instant-jump[\s\S]*scroll-behavior:\s*auto\s*!important/);
-  assert.match(css, /html\.is-instant-jump\s+\.story-body\s*>\s*\*[\s\S]*content-visibility:\s*visible\s*!important/);
+  assert.doesNotMatch(css, /\.story-body\s*>\s*p[\s\S]*content-visibility:\s*auto/);
+  assert.doesNotMatch(css, /text-rendering:\s*optimizeLegibility/);
+  assert.match(css, /@media\s*\(max-width:\s*900px\),\s*\(pointer:\s*coarse\)[\s\S]*\.landing-dashboard[\s\S]*backdrop-filter:\s*none\s*!important/);
+  assert.match(css, /@media\s*\(max-width:\s*900px\),\s*\(pointer:\s*coarse\)[\s\S]*\.episode-nav[\s\S]*mask-image:\s*none\s*!important/);
 });
 
 test("wrapSentencesHtml splits sentences safely and keeps all 35 built episodes tag-balanced", async () => {
@@ -139,6 +142,13 @@ test("wrapSentencesHtml splits sentences safely and keeps all 35 built episodes 
     );
     if (episode.id === "ep1") {
       assert.equal((rendered.match(/class="scene-anchor"/g) || []).length, 20);
+      assert.equal(episode.scenes.length, 20);
+      for (const scene of episode.scenes) {
+        assert.ok(Number.isFinite(scene.width) && scene.width > 0, `${scene.id} must have positive width`);
+        assert.ok(Number.isFinite(scene.height) && scene.height > 0, `${scene.id} must have positive height`);
+        assert.ok(rendered.includes(`aspect-ratio: ${scene.width} / ${scene.height}`), `${scene.id} must reserve aspect-ratio`);
+        assert.ok(rendered.includes(`width="${scene.width}" height="${scene.height}"`), `${scene.id} must include img dimensions`);
+      }
     }
   }
 });
@@ -159,6 +169,9 @@ test("highlight persistence, text-shift recovery, and exact instant jump", async
   let currentScrollY = 0;
   let scheduledProgress = false;
   let cookieJar = "";
+  let idbValue = null;
+  let archiveNavMock = null;
+  let navPanelMock = { getBoundingClientRect: () => ({ top: 64, bottom: 116, height: 52 }) };
   function makeClassList(initial = []) {
     const set = new Set(initial);
     return {
@@ -197,6 +210,42 @@ test("highlight persistence, text-shift recovery, and exact instant jump", async
   };
   const readerStatus = { textContent: "" };
 
+  const mockIndexedDB = {
+    open: () => {
+      const db = {
+        objectStoreNames: { contains: () => true },
+        createObjectStore: () => {},
+        transaction: () => {
+          const tx = {
+            objectStore: () => ({
+              put: (val) => {
+                idbValue = structuredClone(val);
+                queueMicrotask(() => tx.oncomplete?.());
+              },
+              get: () => {
+                const r = { result: idbValue ? structuredClone(idbValue) : undefined, onsuccess: null, onerror: null };
+                queueMicrotask(() => {
+                  r.onsuccess?.();
+                  tx.oncomplete?.();
+                });
+                return r;
+              }
+            }),
+            oncomplete: null,
+            onerror: null,
+            abort: null
+          };
+          return tx;
+        }
+      };
+      const req = { result: db, onupgradeneeded: null, onsuccess: null, onerror: null, onblocked: null };
+      queueMicrotask(() => {
+        req.onsuccess?.();
+      });
+      return req;
+    }
+  };
+
   const context = vm.createContext({
     EPISODES: [{ id: "ep1", title: "Ep 1" }, { id: "ep2", title: "Ep 2" }],
     currentEpisodeIndex: 0,
@@ -204,9 +253,13 @@ test("highlight persistence, text-shift recovery, and exact instant jump", async
     jumpHighlightButton: jumpBtn,
     readerStatus,
     scheduleScrollProgressUpdate: () => { scheduledProgress = true; },
+    indexedDB: mockIndexedDB,
     reader: {
       querySelectorAll: (sel) => (sel.includes("is-highlighted") ? nodes.filter((n) => n.classList.contains("is-highlighted")) : nodes),
       querySelector: (sel) => {
+        if (sel === ".story-sentence.is-highlighted") {
+          return nodes.find((n) => n.classList.contains("is-highlighted")) || null;
+        }
         const m = sel.match(/data-sentence-id="([^"]+)"/);
         return m ? nodes.find((n) => n.dataset.sentenceId === m[1]) || null : null;
       }
@@ -215,7 +268,11 @@ test("highlight persistence, text-shift recovery, and exact instant jump", async
       get cookie() { return cookieJar; },
       set cookie(val) { cookieJar = String(val).split(";")[0]; },
       documentElement: { classList: rootClassList, scrollHeight: 9000 },
-      querySelector: (sel) => (sel === ".nav-panel" ? { getBoundingClientRect: () => ({ top: 64, bottom: 116, height: 52 }) } : null)
+      querySelector: (sel) => {
+        if (sel === ".reader-archive-nav") return archiveNavMock;
+        if (sel === ".nav-panel") return navPanelMock;
+        return null;
+      }
     },
     localStorage: {
       getItem: (k) => (storage.has(k) ? storage.get(k) : null),
@@ -228,7 +285,7 @@ test("highlight persistence, text-shift recovery, and exact instant jump", async
       location: { protocol: "https:" },
       scrollTo: (opts) => {
         assert.equal(opts.behavior, "instant", "window.scrollTo must be instant");
-        assert.equal(rootClassList.contains("is-instant-jump"), true, "is-instant-jump must disable content-visibility/smooth scroll during jump");
+        assert.equal(rootClassList.contains("is-instant-jump"), true, "is-instant-jump must disable smooth scroll during jump");
         currentScrollY = opts.top;
         scrollCalls.push({ via: "scrollTo", top: opts.top, behavior: opts.behavior });
       },
@@ -239,9 +296,10 @@ test("highlight persistence, text-shift recovery, and exact instant jump", async
   });
 
   vm.runInContext(
-    `${highlightCode}\nthis.toggleSentenceHighlight = toggleSentenceHighlight;\nthis.jumpToHighlightedSentence = jumpToHighlightedSentence;\nthis.applyEpisodeHighlight = applyEpisodeHighlight;\nthis.resetMemoryCache = () => { highlightsMemoryCache = null; };`,
+    `${highlightCode}\nthis.toggleSentenceHighlight = toggleSentenceHighlight;\nthis.jumpToHighlightedSentence = jumpToHighlightedSentence;\nthis.applyEpisodeHighlight = applyEpisodeHighlight;\nthis.getStickyHeaderOffset = getStickyHeaderOffset;\nthis.hydrateHighlightsFromPersistentStore = hydrateHighlightsFromPersistentStore;\nthis.readHighlightsMap = readHighlightsMap;\nthis.resetMemoryCache = () => { highlightsMemoryCache = null; };`,
     context
   );
+  context.setIdbValue = (v) => { idbValue = v; };
 
   assert.equal(jumpBtn.disabled, true);
   context.toggleSentenceHighlight(s0);
@@ -258,6 +316,17 @@ test("highlight persistence, text-shift recovery, and exact instant jump", async
   assert.equal(rootClassList.contains("is-instant-jump"), false, "is-instant-jump must clean up after settling");
   assert.equal(scheduledProgress, true);
 
+  // Starting at scrollY=0 when .nav-panel sits below .hero (top: 240, bottom: 292, height: 52),
+  // getStickyHeaderOffset must return stuck height (56 + 52 = 108), NOT 292!
+  currentScrollY = 0;
+  archiveNavMock = { offsetHeight: 56, getBoundingClientRect: () => ({ top: 0, bottom: 56, height: 56 }) };
+  navPanelMock = { offsetHeight: 52, getBoundingClientRect: () => ({ top: 240, bottom: 292, height: 52 }) };
+  assert.equal(context.getStickyHeaderOffset(), 108);
+  context.jumpToHighlightedSentence();
+  // visibleHeight = 800 - 108 = 692; desiredTop = 108 + (692 - 24)/2 = 442; nextY = 2400 - 442 = 1958
+  assert.equal(currentScrollY, 1958);
+  assert.equal(Math.abs(s0.getBoundingClientRect().top - 442) <= 2, true);
+
   // Survives localStorage clear via cookie backup + self-heals after episode text edits shift sentence IDs
   storage.clear();
   context.resetMemoryCache();
@@ -272,7 +341,25 @@ test("highlight persistence, text-shift recovery, and exact instant jump", async
   assert.equal(s1.classList.contains("is-highlighted"), true);
   assert.equal(jumpBtn.disabled, false);
 
+  // Clearing highlight stores a tombstone so older backup does NOT resurrect cleared highlight,
+  // while newer backup for another episode DOES restore
   context.toggleSentenceHighlight(s1);
+  await new Promise((r) => setTimeout(r, 20));
+  assert.equal(s1.classList.contains("is-highlighted"), false);
+  assert.equal(jumpBtn.disabled, true);
+  const afterClear = context.readHighlightsMap();
+  assert.equal(afterClear.ep1.cleared, true);
+  const olderTimestamp = Math.max(0, (afterClear.ep1.updatedAt || Date.now()) - 5000);
+  const newerTimestamp = (afterClear.ep1.updatedAt || Date.now()) + 5000;
+  context.setIdbValue({
+    ep1: { id: "ep1-s1", text: s1.textContent, index: 1, updatedAt: olderTimestamp },
+    ep2: { id: "ep2-s0", text: "Restored ep2 sentence.", index: 0, updatedAt: newerTimestamp }
+  });
+  context.hydrateHighlightsFromPersistentStore();
+  await new Promise((r) => setTimeout(r, 30));
+  const afterHydrate = context.readHighlightsMap();
+  assert.equal(afterHydrate.ep1.cleared, true, "older IDB backup must not resurrect cleared highlight");
+  assert.equal(afterHydrate.ep2.id, "ep2-s0", "newer IDB backup must restore missing episode highlight");
   assert.equal(s1.classList.contains("is-highlighted"), false);
   assert.equal(jumpBtn.disabled, true);
 });

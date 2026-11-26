@@ -6,7 +6,10 @@
 
 	document.body.classList.add("design-overhaul");
 
-	if (!landing || reduceMotion || !window.gsap) return;
+	const compactOrTouch = window.matchMedia?.(
+		"(max-width: 900px), (pointer: coarse)",
+	).matches;
+	if (!landing || reduceMotion || compactOrTouch || !window.gsap) return;
 
 	// Hyperframes-compatible convention: named, paused timeline with deterministic labels.
 	const timeline = window.gsap.timeline({

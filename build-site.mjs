@@ -7485,9 +7485,50 @@ const episode1Scenes = [
   },
 ];
 
+function getImageDimensions(filePath) {
+  try {
+    const fd = fs.openSync(filePath, "r");
+    const buf = Buffer.alloc(64);
+    const bytesRead = fs.readSync(fd, buf, 0, 64, 0);
+    fs.closeSync(fd);
+    if (bytesRead < 24) return null;
+    if (buf[0] === 0x89 && buf[1] === 0x50 && buf[2] === 0x4e && buf[3] === 0x47) {
+      return { width: buf.readUInt32BE(16), height: buf.readUInt32BE(20) };
+    }
+    if (buf.toString("ascii", 0, 4) === "RIFF" && buf.toString("ascii", 8, 12) === "WEBP") {
+      const chunk = buf.toString("ascii", 12, 16);
+      if (chunk === "VP8X" && bytesRead >= 30) {
+        return { width: 1 + buf.readUIntLE(24, 3), height: 1 + buf.readUIntLE(27, 3) };
+      }
+      if (chunk === "VP8 " && bytesRead >= 30) {
+        return { width: buf.readUInt16LE(26) & 0x3fff, height: buf.readUInt16LE(28) & 0x3fff };
+      }
+      if (chunk === "VP8L" && bytesRead >= 25) {
+        const b0 = buf[21];
+        const b1 = buf[22];
+        const b2 = buf[23];
+        const b3 = buf[24];
+        const bits = (b0 | (b1 << 8) | (b2 << 16) | (b3 << 24)) >>> 0;
+        return { width: (bits & 0x3fff) + 1, height: ((bits >>> 14) & 0x3fff) + 1 };
+      }
+    }
+  } catch {
+    return null;
+  }
+  return null;
+}
+
 const episodes = episodeMeta.filter((meta) => !meta.skip).map((meta) => {
   const extracted = extractTitleAndBody(cleaned[meta.id], meta.fallback);
   const display = getPublishedEpisodeDisplay(meta);
+  const scenes = meta.id === "ep1"
+    ? episode1Scenes
+      .filter((scene) => fs.existsSync(path.join(root, scene.src)))
+      .map((scene) => {
+        const dims = getImageDimensions(path.join(root, scene.src));
+        return dims ? { ...scene, width: dims.width, height: dims.height } : scene;
+      })
+    : [];
   return {
     ...meta,
     ...display,
@@ -7496,7 +7537,7 @@ const episodes = episodeMeta.filter((meta) => !meta.skip).map((meta) => {
     cover: meta.file && fs.existsSync(path.join(root, "assets", "episodes", meta.file))
       ? `assets/episodes/${meta.file}`
       : "",
-    scenes: meta.id === "ep1" ? episode1Scenes.filter((scene) => fs.existsSync(path.join(root, scene.src))) : [],
+    scenes,
   };
 });
 
@@ -8059,7 +8100,7 @@ const html = `<!doctype html>
     * { box-sizing: border-box; }
 
     html {
-      scroll-behavior: smooth;
+      scroll-behavior: auto;
       text-size-adjust: 100%;
       -webkit-text-size-adjust: 100%;
     }
@@ -8067,10 +8108,6 @@ const html = `<!doctype html>
     html.is-instant-jump,
     html.is-instant-jump body {
       scroll-behavior: auto !important;
-    }
-
-    html.is-instant-jump .story-body > * {
-      content-visibility: visible !important;
     }
 
     body {
@@ -8086,7 +8123,7 @@ const html = `<!doctype html>
 
     button, input { font: inherit; }
 
-    button {
+    a, button, input, [role="button"] {
       -webkit-tap-highlight-color: transparent;
       touch-action: manipulation;
     }
@@ -14371,6 +14408,8 @@ const html = `<!doctype html>
     const episodeNavScrollKey = "blackCircleEpisodeNavScrollLeft";
     const bookmarkEpisodeKey = "blackCircleBookmarkedEpisode";
     const highlightSentenceKey = "blackCircleHighlightedSentences";
+    const lastEpisodeKey = "blackCircleLastEpisode";
+    const lastEpisodeCookieName = "bc_ep_v1";
     const lastViewKey = "blackCircleLastView";
     const fontScaleKey = "blackCircleFontScale";
     const readerWidthKey = "blackCircleReaderWidth";
@@ -14384,11 +14423,63 @@ const html = `<!doctype html>
     let currentFontScale = 1;
     let lightboxReturnFocus = null;
     let searchTimer = 0;
+    let navScrollSaveTimer = 0;
+    let tomeRendered = false;
+
+    function isCompactOrTouch() {
+      return Boolean(window.matchMedia && window.matchMedia("(max-width: 900px), (pointer: coarse)").matches);
+    }
+
+    function navScrollBehavior() {
+      return isCompactOrTouch() ? "auto" : "smooth";
+    }
+
+    function readCookieValue(name) {
+      try {
+        if (typeof document === "undefined" || typeof document.cookie !== "string" || !document.cookie) return "";
+        const prefix = name + "=";
+        const part = document.cookie.split(";").map((item) => item.trim()).find((item) => item.startsWith(prefix));
+        return part ? decodeURIComponent(part.slice(prefix.length)) : "";
+      } catch {
+        return "";
+      }
+    }
+
+    function writeCookieValue(name, value) {
+      try {
+        if (typeof document === "undefined" || typeof document.cookie !== "string") return;
+        const secureFlag = typeof window !== "undefined" && window.location?.protocol === "https:" ? "; Secure" : "";
+        document.cookie = name + "=" + encodeURIComponent(value) + "; path=/; max-age=31536000; SameSite=Lax" + secureFlag;
+      } catch {
+        // Ignore cookie restrictions on file:// or sandboxed webviews.
+      }
+    }
+
+    function readSavedLastEpisode() {
+      try {
+        const stored = localStorage.getItem(lastEpisodeKey);
+        if (stored && EPISODES.some((episode) => episode.id === stored)) return stored;
+      } catch {
+        // Fall through to cookie backup.
+      }
+      const fromCookie = readCookieValue(lastEpisodeCookieName);
+      return EPISODES.some((episode) => episode.id === fromCookie) ? fromCookie : "";
+    }
+
+    function writeSavedLastEpisode(episodeId) {
+      if (!episodeId) return;
+      try {
+        localStorage.setItem(lastEpisodeKey, episodeId);
+      } catch {
+        // Ignore storage errors.
+      }
+      writeCookieValue(lastEpisodeCookieName, episodeId);
+    }
 
     function scrollToTarget(targetId) {
       const target = document.getElementById(targetId);
       if (!target) return;
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
+      target.scrollIntoView({ behavior: navScrollBehavior(), block: "start" });
     }
 
     function showLanding() {
@@ -14399,7 +14490,7 @@ const html = `<!doctype html>
       landingCover?.removeAttribute("aria-hidden");
       localStorage.setItem(lastViewKey, "landingCover");
       updateScrollProgress();
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top: 0, behavior: navScrollBehavior() });
       const url = new URL(window.location.href);
       url.hash = "";
       history.replaceState(null, "", url);
@@ -14413,6 +14504,7 @@ const html = `<!doctype html>
       if (options.save !== false) {
         localStorage.setItem(lastViewKey, targetId);
       }
+      markReaderMetricsDirty();
       const target = document.getElementById(targetId);
       const scrollTarget =
         targetId === "reader" || targetId === "episodeNav"
@@ -14420,7 +14512,8 @@ const html = `<!doctype html>
           : (targetId === "readerStart" && window.matchMedia("(max-width: 700px)").matches ? reader : target);
       if (scrollTarget && options.scroll !== false) {
         requestAnimationFrame(() => {
-          scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+          scrollTarget.scrollIntoView({ behavior: navScrollBehavior(), block: "start" });
+          markReaderMetricsDirty();
           requestAnimationFrame(updateScrollProgress);
         });
       } else {
@@ -14428,7 +14521,32 @@ const html = `<!doctype html>
       }
     }
 
+    function ensureTomeRendered() {
+      if (tomeRendered || !castGrid || !characterGallery) return;
+      tomeRendered = true;
+      castGrid.innerHTML = CAST.map((person) => \`
+        <article class="cast-card">
+          <img src="\${person.image}" alt="\${escapeHtml(person.name)} anime character portrait" loading="lazy" decoding="async" data-lightbox-image role="button" tabindex="0" aria-label="Expand \${escapeHtml(person.name)} portrait">
+          <div>
+            <h3>\${escapeHtml(person.name)}</h3>
+            <span class="cast-meta">\${escapeHtml(person.circle)}</span>
+            <p>\${escapeHtml(person.summary)}</p>
+          </div>
+        </article>
+      \`).join("");
+      characterGallery.innerHTML = CAST_GALLERY.map((item) => \`
+        <figure class="gallery-card">
+          <img src="\${item.image}" alt="\${escapeHtml(item.alt)}" loading="lazy" decoding="async" data-lightbox-image role="button" tabindex="0" aria-label="Expand \${escapeHtml(item.title)}">
+          <figcaption>
+            <strong>\${escapeHtml(item.name)}</strong>
+            <span>\${escapeHtml(item.title)}</span>
+          </figcaption>
+        </figure>
+      \`).join("");
+    }
+
     function showTome(targetId = "tomePage") {
+      ensureTomeRendered();
       closeLandingMenu();
       document.body.classList.remove("landing-active");
       document.body.classList.add("reader-active", "tome-active");
@@ -14436,7 +14554,7 @@ const html = `<!doctype html>
       localStorage.setItem(lastViewKey, targetId);
       updateScrollProgress();
       const target = document.getElementById(targetId) || document.getElementById("tomePage");
-      requestAnimationFrame(() => target?.scrollIntoView({ behavior: "smooth", block: "start" }));
+      requestAnimationFrame(() => target?.scrollIntoView({ behavior: navScrollBehavior(), block: "start" }));
       const url = new URL(window.location.href);
       url.hash = targetId;
       history.replaceState(null, "", url);
@@ -14740,7 +14858,7 @@ const html = `<!doctype html>
     let landingArtLoadToken = 0;
 
     function refreshLandingArtReady() {
-      if (!landingCover) return;
+      if (!landingCover || !document.body.classList.contains("landing-active")) return;
       const token = ++landingArtLoadToken;
       landingCover.classList.remove("cover-art-ready");
       requestAnimationFrame(() => {
@@ -14780,6 +14898,7 @@ const html = `<!doctype html>
       panelToggle.classList.toggle("active", enabled);
       panelToggle.setAttribute("aria-pressed", enabled ? "true" : "false");
       panelToggle.textContent = enabled ? "Novel mode" : "Panel mode";
+      markReaderMetricsDirty();
     }
 
     function setFontScale(scale) {
@@ -14792,6 +14911,7 @@ const html = `<!doctype html>
       localStorage.setItem(fontScaleKey, String(clamped));
       if (fontSmallerButton) fontSmallerButton.disabled = clamped <= 0.9;
       if (fontLargerButton) fontLargerButton.disabled = clamped >= 1.35;
+      markReaderMetricsDirty();
     }
 
     function setReaderWidth(mode) {
@@ -14803,12 +14923,32 @@ const html = `<!doctype html>
         widthToggleButton.setAttribute("aria-pressed", isFocused ? "true" : "false");
         widthToggleButton.textContent = isFocused ? "Width: Focused" : "Width: Wide";
       }
+      markReaderMetricsDirty();
       requestAnimationFrame(updateScrollProgress);
     }
 
     let scrollProgressFrame = 0;
     let lastProgressScale = -1;
     let lastProgressLabel = "";
+    let cachedArticleTop = 0;
+    let cachedScrollable = 0;
+    let readerMetricsDirty = true;
+
+    function markReaderMetricsDirty() {
+      readerMetricsDirty = true;
+    }
+
+    function refreshReaderMetrics() {
+      readerMetricsDirty = false;
+      if (!reader || reader.offsetHeight <= 0) {
+        cachedArticleTop = 0;
+        cachedScrollable = 0;
+        return;
+      }
+      const rect = reader.getBoundingClientRect();
+      cachedArticleTop = window.scrollY + rect.top - 120;
+      cachedScrollable = Math.max(1, reader.offsetHeight - window.innerHeight * 0.55);
+    }
 
     function updateScrollProgress() {
       scrollProgressFrame = 0;
@@ -14816,11 +14956,11 @@ const html = `<!doctype html>
       if (!episode || !reader) return;
       const inReader = document.body.classList.contains("reader-active") && !document.body.classList.contains("landing-active");
       let scrollPct = 0;
-      if (inReader && reader.offsetHeight > 0) {
-        const rect = reader.getBoundingClientRect();
-        const articleTop = window.scrollY + rect.top - 120;
-        const scrollable = Math.max(1, reader.offsetHeight - window.innerHeight * 0.55);
-        scrollPct = Math.max(0, Math.min(100, Math.round(((window.scrollY - articleTop) / scrollable) * 100)));
+      if (inReader) {
+        if (readerMetricsDirty) refreshReaderMetrics();
+        if (cachedScrollable > 0) {
+          scrollPct = Math.max(0, Math.min(100, Math.round(((window.scrollY - cachedArticleTop) / cachedScrollable) * 100)));
+        }
       }
       const scale = scrollPct / 100;
       if (scale !== lastProgressScale) {
@@ -14905,7 +15045,7 @@ const html = `<!doctype html>
     }
 
     function updateContinueButton() {
-      const savedIndex = episodeIndexById(localStorage.getItem("blackCircleLastEpisode"));
+      const savedIndex = episodeIndexById(readSavedLastEpisode());
       continueButton.textContent = \`Continue: \${EPISODES[savedIndex].displayLabel}\`;
       if (landingProgressText) {
         landingProgressText.textContent = \`\${Math.round(((savedIndex + 1) / EPISODES.length) * 100)}% complete\`;
@@ -14914,7 +15054,7 @@ const html = `<!doctype html>
 
     function openSavedBookmark() {
       const savedBookmark = bookmarkedEpisodeId();
-      const savedIndex = savedBookmark ? episodeIndexById(savedBookmark) : episodeIndexById(localStorage.getItem("blackCircleLastEpisode"));
+      const savedIndex = savedBookmark ? episodeIndexById(savedBookmark) : episodeIndexById(readSavedLastEpisode());
       renderEpisode(savedIndex, { scroll: true });
     }
 
@@ -14922,7 +15062,12 @@ const html = `<!doctype html>
     const highlightDbName = "blackCircleReaderDB";
     const highlightDbStore = "kv";
     const highlightDbKey = "highlightedSentences";
+    const highlightCacheName = "bc-reader-state-v1";
+    const highlightCachePath = "./__bc_highlights_v1__.json";
     let highlightsMemoryCache = null;
+    let highlightsDbPromise = null;
+    let highlightsDirty = false;
+    let persistRequested = false;
 
     function normalizeHighlightText(value) {
       return String(value || "").replace(/\\s+/g, " ").trim();
@@ -14936,9 +15081,15 @@ const html = `<!doctype html>
     function normalizeHighlightEntry(raw) {
       if (typeof raw === "string" && raw.trim()) {
         const id = raw.trim();
-        return { id, text: "", preview: "", index: parseSentenceIndex(id), updatedAt: 0 };
+        return { id, text: "", preview: "", index: parseSentenceIndex(id), updatedAt: 0, cleared: false };
       }
       if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
+      const updatedAt = Number.isFinite(Number(raw.updatedAt))
+        ? Number(raw.updatedAt)
+        : (Number.isFinite(Number(raw.u)) ? Number(raw.u) : 0);
+      if (raw.cleared || raw.c) {
+        return { cleared: true, updatedAt };
+      }
       const id = typeof raw.id === "string" ? raw.id.trim() : "";
       if (!id) return null;
       const text = normalizeHighlightText(raw.text || raw.t || "");
@@ -14946,10 +15097,11 @@ const html = `<!doctype html>
       const index = Number.isFinite(Number(raw.index))
         ? Number(raw.index)
         : (Number.isFinite(Number(raw.i)) ? Number(raw.i) : parseSentenceIndex(id));
-      const updatedAt = Number.isFinite(Number(raw.updatedAt))
-        ? Number(raw.updatedAt)
-        : (Number.isFinite(Number(raw.u)) ? Number(raw.u) : 0);
-      return { id, text, preview, index, updatedAt };
+      return { id, text, preview, index, updatedAt, cleared: false };
+    }
+
+    function isActiveHighlightEntry(entry) {
+      return Boolean(entry && !entry.cleared && entry.id);
     }
 
     function normalizeHighlightsMap(rawMap) {
@@ -14960,6 +15112,45 @@ const html = `<!doctype html>
         if (entry) out[epId] = entry;
       }
       return out;
+    }
+
+    function pickPreferredHighlightEntry(a, b) {
+      if (!a) return b;
+      if (!b) return a;
+      const aTime = a.updatedAt || 0;
+      const bTime = b.updatedAt || 0;
+      if (bTime !== aTime) return bTime > aTime ? b : a;
+      if (Boolean(b.cleared) !== Boolean(a.cleared)) return a.cleared ? b : a;
+      if ((b.text || "").length !== (a.text || "").length) {
+        return (b.text || "").length > (a.text || "").length ? b : a;
+      }
+      return a;
+    }
+
+    function mergeHighlightMaps(baseMap, incomingMap) {
+      const base = normalizeHighlightsMap(baseMap);
+      const incoming = normalizeHighlightsMap(incomingMap);
+      const out = { ...base };
+      for (const [epId, entry] of Object.entries(incoming)) {
+        out[epId] = pickPreferredHighlightEntry(out[epId], entry);
+      }
+      return out;
+    }
+
+    function highlightMapsEqual(a, b) {
+      const keysA = Object.keys(a);
+      const keysB = Object.keys(b);
+      if (keysA.length !== keysB.length) return false;
+      for (const key of keysA) {
+        const ea = a[key];
+        const eb = b[key];
+        if (!eb) return false;
+        if (Boolean(ea.cleared) !== Boolean(eb.cleared)) return false;
+        if ((ea.updatedAt || 0) !== (eb.updatedAt || 0)) return false;
+        if ((ea.id || "") !== (eb.id || "")) return false;
+        if ((ea.text || "") !== (eb.text || "")) return false;
+      }
+      return true;
     }
 
     function readHighlightsCookie() {
@@ -14982,18 +15173,18 @@ const html = `<!doctype html>
           .sort((a, b) => (b[1].updatedAt || 0) - (a[1].updatedAt || 0));
         const compact = {};
         for (const [epId, entry] of entries) {
-          const candidate = {
-            ...compact,
-            [epId]: {
-              id: entry.id,
-              p: (entry.text || entry.preview || "").slice(0, 84),
-              i: entry.index,
-              u: entry.updatedAt || 0,
-            },
-          };
+          const packed = entry.cleared
+            ? { c: 1, u: entry.updatedAt || 0 }
+            : {
+                id: entry.id,
+                p: (entry.text || entry.preview || "").slice(0, 84),
+                i: entry.index,
+                u: entry.updatedAt || 0,
+              };
+          const candidate = { ...compact, [epId]: packed };
           const encoded = encodeURIComponent(JSON.stringify(candidate));
           if (encoded.length > 3200) break;
-          compact[epId] = candidate[epId];
+          compact[epId] = packed;
         }
         const secureFlag = typeof window !== "undefined" && window.location?.protocol === "https:" ? "; Secure" : "";
         document.cookie = highlightCookieName + "=" + encodeURIComponent(JSON.stringify(compact)) + "; path=/; max-age=31536000; SameSite=Lax" + secureFlag;
@@ -15003,7 +15194,8 @@ const html = `<!doctype html>
     }
 
     function openHighlightsDb() {
-      return new Promise((resolve) => {
+      if (highlightsDbPromise) return highlightsDbPromise;
+      highlightsDbPromise = new Promise((resolve) => {
         try {
           if (typeof indexedDB === "undefined") {
             resolve(null);
@@ -15016,23 +15208,46 @@ const html = `<!doctype html>
               db.createObjectStore(highlightDbStore);
             }
           };
-          req.onsuccess = () => resolve(req.result);
-          req.onerror = () => resolve(null);
+          req.onsuccess = () => {
+            const db = req.result;
+            db.onclose = () => { highlightsDbPromise = null; };
+            db.onversionchange = () => {
+              try { db.close(); } catch {}
+              highlightsDbPromise = null;
+            };
+            resolve(db);
+          };
+          req.onerror = () => {
+            highlightsDbPromise = null;
+            resolve(null);
+          };
+          req.onblocked = () => {
+            highlightsDbPromise = null;
+            resolve(null);
+          };
         } catch {
+          highlightsDbPromise = null;
           resolve(null);
         }
       });
+      return highlightsDbPromise;
     }
 
     function writeHighlightsIdb(map) {
-      openHighlightsDb().then((db) => {
-        if (!db) return;
-        try {
-          const tx = db.transaction(highlightDbStore, "readwrite");
-          tx.objectStore(highlightDbStore).put(normalizeHighlightsMap(map), highlightDbKey);
-        } catch {
-          // Ignore IndexedDB write failures in private browsing.
-        }
+      return openHighlightsDb().then((db) => {
+        if (!db) return false;
+        return new Promise((resolve) => {
+          try {
+            const tx = db.transaction(highlightDbStore, "readwrite");
+            tx.objectStore(highlightDbStore).put(normalizeHighlightsMap(map), highlightDbKey);
+            tx.oncomplete = () => resolve(true);
+            tx.onerror = () => resolve(false);
+            tx.onabort = () => resolve(false);
+          } catch {
+            highlightsDbPromise = null;
+            resolve(false);
+          }
+        });
       });
     }
 
@@ -15046,28 +15261,70 @@ const html = `<!doctype html>
             req.onsuccess = () => resolve(req.result && typeof req.result === "object" ? normalizeHighlightsMap(req.result) : null);
             req.onerror = () => resolve(null);
           } catch {
+            highlightsDbPromise = null;
             resolve(null);
           }
         });
       });
     }
 
+    function readHighlightsCache() {
+      try {
+        if (typeof caches === "undefined" || typeof caches.open !== "function" || typeof Request === "undefined") {
+          return Promise.resolve(null);
+        }
+        return caches.open(highlightCacheName)
+          .then((cache) => cache.match(highlightCachePath))
+          .then((res) => (res ? res.json() : null))
+          .then((data) => (data && typeof data === "object" ? normalizeHighlightsMap(data) : null))
+          .catch(() => null);
+      } catch {
+        return Promise.resolve(null);
+      }
+    }
+
+    function writeHighlightsCache(map) {
+      try {
+        if (typeof caches === "undefined" || typeof caches.open !== "function" || typeof Response === "undefined") {
+          return Promise.resolve(false);
+        }
+        const payload = JSON.stringify(normalizeHighlightsMap(map));
+        return caches.open(highlightCacheName)
+          .then((cache) => cache.put(highlightCachePath, new Response(payload, { headers: { "Content-Type": "application/json" } })))
+          .then(() => true)
+          .catch(() => false);
+      } catch {
+        return Promise.resolve(false);
+      }
+    }
+
     function readHighlightsMap() {
+      let fromLocal = {};
+      let hasLocal = false;
       try {
         const raw = localStorage.getItem(highlightSentenceKey);
         if (raw !== null) {
-          const parsed = JSON.parse(raw);
-          const normalized = normalizeHighlightsMap(parsed);
-          highlightsMemoryCache = normalized;
-          return normalized;
+          hasLocal = true;
+          fromLocal = normalizeHighlightsMap(JSON.parse(raw));
         }
       } catch {
-        // Fall through to persistent backups.
-      }
-      if (highlightsMemoryCache && Object.keys(highlightsMemoryCache).length) {
-        return { ...highlightsMemoryCache };
+        hasLocal = false;
       }
       const fromCookie = readHighlightsCookie();
+      if (hasLocal) {
+        const merged = Object.keys(fromCookie).length ? mergeHighlightMaps(fromCookie, fromLocal) : fromLocal;
+        highlightsMemoryCache = merged;
+        if (!highlightMapsEqual(fromLocal, merged)) {
+          try {
+            localStorage.setItem(highlightSentenceKey, JSON.stringify(merged));
+          } catch {}
+        }
+        return merged;
+      }
+      if (highlightsMemoryCache && Object.keys(highlightsMemoryCache).length) {
+        const merged = Object.keys(fromCookie).length ? mergeHighlightMaps(fromCookie, highlightsMemoryCache) : { ...highlightsMemoryCache };
+        return merged;
+      }
       if (Object.keys(fromCookie).length) {
         highlightsMemoryCache = fromCookie;
         try {
@@ -15080,55 +15337,51 @@ const html = `<!doctype html>
       return {};
     }
 
-    function writeHighlightsMap(nextMap) {
+    function writeHighlightsMap(nextMap, options = {}) {
       const normalized = normalizeHighlightsMap(nextMap);
       highlightsMemoryCache = normalized;
+      highlightsDirty = true;
       try {
         localStorage.setItem(highlightSentenceKey, JSON.stringify(normalized));
       } catch {
         // Ignore storage quota errors in restricted webviews.
       }
       writeHighlightsCookie(normalized);
-      writeHighlightsIdb(normalized);
+      if (!persistRequested) {
+        persistRequested = true;
+        try {
+          if (typeof navigator !== "undefined" && navigator.storage && typeof navigator.storage.persist === "function") {
+            navigator.storage.persist().catch(() => {});
+          }
+        } catch {}
+      }
+      if (options.syncBackups !== false) {
+        Promise.all([writeHighlightsIdb(normalized), writeHighlightsCache(normalized)]).then(() => {
+          highlightsDirty = false;
+        });
+      }
     }
 
     function hydrateHighlightsFromPersistentStore() {
-      readHighlightsIdb().then((fromIdb) => {
-        if (!fromIdb || !Object.keys(fromIdb).length) return;
-        let hasLocalKey = false;
-        let current = {};
-        try {
-          const raw = localStorage.getItem(highlightSentenceKey);
-          if (raw !== null) {
-            hasLocalKey = true;
-            current = normalizeHighlightsMap(JSON.parse(raw));
-          }
-        } catch {
-          hasLocalKey = false;
+      Promise.all([readHighlightsIdb(), readHighlightsCache()]).then(([fromIdb, fromCache]) => {
+        const current = readHighlightsMap();
+        let merged = current;
+        if (fromIdb && Object.keys(fromIdb).length) {
+          merged = mergeHighlightMaps(merged, fromIdb);
         }
-        const merged = { ...current };
-        let changed = false;
-        for (const [epId, entry] of Object.entries(fromIdb)) {
-          const existing = merged[epId];
-          if (!hasLocalKey || !existing) {
-            if (!hasLocalKey) {
-              merged[epId] = entry;
-              changed = true;
-            }
-          } else if ((entry.updatedAt || 0) > (existing.updatedAt || 0)) {
-            merged[epId] = entry;
-            changed = true;
-          }
+        if (fromCache && Object.keys(fromCache).length) {
+          merged = mergeHighlightMaps(merged, fromCache);
         }
-        if (changed) {
-          highlightsMemoryCache = merged;
-          try {
-            localStorage.setItem(highlightSentenceKey, JSON.stringify(merged));
-          } catch {
-            // Ignore storage errors.
-          }
-          writeHighlightsCookie(merged);
+        if (!highlightMapsEqual(current, merged)) {
+          writeHighlightsMap(merged);
           applyEpisodeHighlight();
+          return;
+        }
+        const idbDiffers = !fromIdb || !highlightMapsEqual(fromIdb, merged);
+        const cacheDiffers = !fromCache || !highlightMapsEqual(fromCache, merged);
+        if (Object.keys(merged).length && (idbDiffers || cacheDiffers)) {
+          if (idbDiffers) writeHighlightsIdb(merged);
+          if (cacheDiffers) writeHighlightsCache(merged);
         }
       });
     }
@@ -15136,11 +15389,12 @@ const html = `<!doctype html>
     function currentEpisodeHighlightEntry() {
       const currentId = EPISODES[currentEpisodeIndex]?.id || "";
       if (!currentId) return null;
-      return readHighlightsMap()[currentId] || null;
+      const entry = readHighlightsMap()[currentId] || null;
+      return isActiveHighlightEntry(entry) ? entry : null;
     }
 
     function findHighlightedSentenceElement(episodeId, entry) {
-      if (!episodeId || !entry) return null;
+      if (!episodeId || !isActiveHighlightEntry(entry)) return null;
       const direct = entry.id
         ? reader.querySelector('[data-sentence-id="' + entry.id + '"]')
         : null;
@@ -15182,7 +15436,7 @@ const html = `<!doctype html>
           const healedId = bestMatch.dataset.sentenceId || "";
           if (healedId && healedId !== entry.id) {
             const map = readHighlightsMap();
-            if (map[episodeId]) {
+            if (isActiveHighlightEntry(map[episodeId])) {
               const nextMap = {
                 ...map,
                 [episodeId]: {
@@ -15190,6 +15444,7 @@ const html = `<!doctype html>
                   id: healedId,
                   text: normalizeHighlightText(bestMatch.textContent),
                   index: parseSentenceIndex(healedId),
+                  updatedAt: Math.max(Date.now(), map[episodeId].updatedAt || 0),
                 },
               };
               writeHighlightsMap(nextMap);
@@ -15205,13 +15460,13 @@ const html = `<!doctype html>
       const currentId = EPISODES[currentEpisodeIndex]?.id || "";
       const entry = currentEpisodeHighlightEntry();
       const target = findHighlightedSentenceElement(currentId, entry);
-      return target?.dataset?.sentenceId || entry?.id || "";
+      return target?.dataset?.sentenceId || (entry ? entry.id : "") || "";
     }
 
     function updateJumpHighlightButton() {
       if (!jumpHighlightButton) return;
       const currentId = EPISODES[currentEpisodeIndex]?.id || "";
-      const entry = currentId ? readHighlightsMap()[currentId] : null;
+      const entry = currentId ? currentEpisodeHighlightEntry() : null;
       const target = findHighlightedSentenceElement(currentId, entry);
       const active = Boolean(target);
       jumpHighlightButton.disabled = !active;
@@ -15228,7 +15483,7 @@ const html = `<!doctype html>
 
     function applyEpisodeHighlight() {
       const currentId = EPISODES[currentEpisodeIndex]?.id || "";
-      const entry = currentId ? readHighlightsMap()[currentId] : null;
+      const entry = currentId ? currentEpisodeHighlightEntry() : null;
       const target = findHighlightedSentenceElement(currentId, entry);
       const activeId = target?.dataset?.sentenceId || "";
       reader.querySelectorAll(".story-sentence.is-highlighted").forEach((el) => {
@@ -15243,12 +15498,12 @@ const html = `<!doctype html>
       const currentId = EPISODES[currentEpisodeIndex]?.id || "";
       if (!sentenceId || !currentId) return;
       const map = readHighlightsMap();
-      const existingEntry = map[currentId] || null;
+      const existingEntry = isActiveHighlightEntry(map[currentId]) ? map[currentId] : null;
       const existingTarget = findHighlightedSentenceElement(currentId, existingEntry);
       const existingId = existingTarget?.dataset?.sentenceId || existingEntry?.id || "";
       const nextMap = { ...map };
       if (existingId === sentenceId) {
-        delete nextMap[currentId];
+        nextMap[currentId] = { cleared: true, updatedAt: Date.now() };
         writeHighlightsMap(nextMap);
         applyEpisodeHighlight();
         readerStatus.textContent = "Sentence highlight cleared";
@@ -15262,6 +15517,7 @@ const html = `<!doctype html>
         preview,
         index: parseSentenceIndex(sentenceId),
         updatedAt: Date.now(),
+        cleared: false,
       };
       writeHighlightsMap(nextMap);
       applyEpisodeHighlight();
@@ -15270,44 +15526,62 @@ const html = `<!doctype html>
 
     function getStickyHeaderOffset() {
       if (typeof document === "undefined" || typeof document.querySelector !== "function") return 0;
-      let maxBottom = 0;
-      const selectors = [".reader-archive-nav", ".nav-panel"];
-      for (const selector of selectors) {
-        const el = document.querySelector(selector);
-        if (!el || typeof el.getBoundingClientRect !== "function") continue;
-        const rect = el.getBoundingClientRect();
-        if (rect.height > 0 && rect.top >= -4 && rect.bottom > maxBottom) {
-          maxBottom = rect.bottom;
-        }
+      const archiveNav = document.querySelector(".reader-archive-nav");
+      const navPanel = document.querySelector(".nav-panel");
+      const archiveRect = archiveNav && typeof archiveNav.getBoundingClientRect === "function" ? archiveNav.getBoundingClientRect() : null;
+      const navRect = navPanel && typeof navPanel.getBoundingClientRect === "function" ? navPanel.getBoundingClientRect() : null;
+      const archiveH = archiveNav ? (Number(archiveNav.offsetHeight) || (archiveRect ? archiveRect.height : 0) || 0) : 0;
+      const navH = navPanel ? (Number(navPanel.offsetHeight) || (navRect ? navRect.height : 0) || 0) : 0;
+      let stuckBottom = 0;
+      if (archiveH > 0 && navH > 0) {
+        stuckBottom = archiveH + navH;
+      } else if (navH > 0) {
+        stuckBottom = (navRect && navRect.top >= -4 && navRect.top <= 80 && navRect.bottom > navH)
+          ? navRect.bottom
+          : navH;
+      } else if (archiveH > 0) {
+        stuckBottom = archiveH;
       }
-      const maxAllowed = Math.round((window.innerHeight || 800) * 0.45);
-      return Math.max(0, Math.min(maxAllowed, Math.round(maxBottom)));
+      const viewportHeight = (window.visualViewport && window.visualViewport.height) || window.innerHeight || 800;
+      const maxAllowed = Math.round(viewportHeight * 0.45);
+      return Math.max(0, Math.min(maxAllowed, Math.round(stuckBottom)));
     }
 
     function jumpToHighlightedSentence() {
       const currentId = EPISODES[currentEpisodeIndex]?.id || "";
-      const entry = currentId ? readHighlightsMap()[currentId] : null;
-      const target = findHighlightedSentenceElement(currentId, entry);
+      const entry = currentId ? currentEpisodeHighlightEntry() : null;
+      let target = reader.querySelector(".story-sentence.is-highlighted");
+      if (!target || (entry && target.dataset?.sentenceId !== entry.id && entry.text && normalizeHighlightText(target.textContent) !== normalizeHighlightText(entry.text))) {
+        target = findHighlightedSentenceElement(currentId, entry);
+      }
       if (!target) return;
       const rootEl = typeof document !== "undefined" ? document.documentElement : null;
       rootEl?.classList?.add("is-instant-jump");
-      void target.offsetWidth;
 
       const alignInstant = () => {
         const rect = target.getBoundingClientRect();
+        const viewportHeight = (window.visualViewport && window.visualViewport.height) || window.innerHeight || 800;
         if (typeof window.scrollTo === "function" && rootEl && typeof window.scrollY === "number") {
           const stickyOffset = getStickyHeaderOffset();
-          const visibleHeight = Math.max(120, window.innerHeight - stickyOffset);
+          const visibleHeight = Math.max(120, viewportHeight - stickyOffset);
           const desiredTop = stickyOffset + Math.max(16, (visibleHeight - rect.height) / 2);
           const scrollHeight = rootEl.scrollHeight || 0;
-          const maxScroll = Math.max(0, scrollHeight - window.innerHeight);
+          const maxScroll = Math.max(0, scrollHeight - viewportHeight);
           const rawY = window.scrollY + rect.top - desiredTop;
           const nextY = scrollHeight > 0 ? Math.max(0, Math.min(maxScroll, Math.round(rawY))) : Math.max(0, Math.round(rawY));
-          window.scrollTo({ top: nextY, left: 0, behavior: "instant" });
+          try {
+            window.scrollTo({ top: nextY, left: 0, behavior: "instant" });
+          } catch {
+            window.scrollTo(0, nextY);
+          }
           return desiredTop;
         }
-        target.scrollIntoView({ behavior: "instant", block: "center" });
-        return Math.max(0, (window.innerHeight - rect.height) / 2);
+        try {
+          target.scrollIntoView({ behavior: "instant", block: "center" });
+        } catch {
+          target.scrollIntoView(true);
+        }
+        return Math.max(0, (viewportHeight - rect.height) / 2);
       };
 
       const desiredTop = alignInstant();
@@ -15320,10 +15594,18 @@ const html = `<!doctype html>
       target.classList.add("is-highlight-pulse");
       scheduleScrollProgressUpdate();
 
-      const finishInstantJump = () => {
-        const settleRect = target.getBoundingClientRect();
-        if (Math.abs(settleRect.top - desiredTop) > 4) {
-          alignInstant();
+      let userInteractedDuringJump = false;
+      const markUserInteraction = () => {
+        userInteractedDuringJump = true;
+      };
+      if (typeof window.addEventListener === "function") {
+        window.addEventListener("touchstart", markUserInteraction, { once: true, passive: true });
+        window.addEventListener("wheel", markUserInteraction, { once: true, passive: true });
+      }
+      const cleanupJump = () => {
+        if (typeof window.removeEventListener === "function") {
+          window.removeEventListener("touchstart", markUserInteraction);
+          window.removeEventListener("wheel", markUserInteraction);
         }
         rootEl?.classList?.remove("is-instant-jump");
         scheduleScrollProgressUpdate();
@@ -15331,20 +15613,16 @@ const html = `<!doctype html>
 
       if (typeof window.requestAnimationFrame === "function") {
         window.requestAnimationFrame(() => {
-          const rafRect = target.getBoundingClientRect();
-          if (Math.abs(rafRect.top - desiredTop) > 3) {
-            alignInstant();
+          if (!userInteractedDuringJump) {
+            const rafRect = target.getBoundingClientRect();
+            if (Math.abs(rafRect.top - desiredTop) > 4) {
+              alignInstant();
+            }
           }
-          if (typeof window.setTimeout === "function") {
-            window.setTimeout(finishInstantJump, 80);
-          } else {
-            finishInstantJump();
-          }
+          cleanupJump();
         });
-      } else if (typeof window.setTimeout === "function") {
-        window.setTimeout(finishInstantJump, 0);
       } else {
-        finishInstantJump();
+        cleanupJump();
       }
     }
 
@@ -15723,12 +16001,15 @@ const html = `<!doctype html>
           const scene = pendingScenes.find((item) => !item.placed && block.includes(item.after));
           if (scene) {
             scene.placed = true;
+            const hasDims = Number.isFinite(scene.width) && Number.isFinite(scene.height) && scene.width > 0 && scene.height > 0;
+            const wrapStyle = hasDims ? \` style="aspect-ratio: \${scene.width} / \${scene.height}"\` : "";
+            const imgDims = hasDims ? \` width="\${scene.width}" height="\${scene.height}"\` : "";
             return \`<div class="scene-anchor" id="\${escapeHtml(scene.id || "")}">
   \${html}
   <aside class="scene-callout" aria-label="\${escapeHtml(scene.title || "Scene illustration")}">
     <figure class="scene-figure">
-      <div class="scene-img-wrap">
-        <img src="\${escapeHtml(scene.src)}" alt="\${escapeHtml(scene.alt)}" loading="lazy" decoding="async" data-lightbox-image role="button" tabindex="0" aria-label="Expand \${escapeHtml(scene.title || "scene illustration")}">
+      <div class="scene-img-wrap"\${wrapStyle}>
+        <img src="\${escapeHtml(scene.src)}" alt="\${escapeHtml(scene.alt)}"\${imgDims} loading="lazy" decoding="async" data-lightbox-image role="button" tabindex="0" aria-label="Expand \${escapeHtml(scene.title || "scene illustration")}">
       </div>
       \${scene.title || scene.caption ? \`
       <figcaption class="scene-caption">
@@ -15749,7 +16030,7 @@ const html = `<!doctype html>
       currentEpisodeIndex = index;
       updateEpisodeTabStates(index);
       updateBookmarkButton();
-      document.querySelector(".episode-tab.active")?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+      document.querySelector(".episode-tab.active")?.scrollIntoView({ behavior: navScrollBehavior(), inline: "center", block: "nearest" });
       const prevLabel = index > 0 ? EPISODES[index - 1].displayLabel : "Previous";
       const nextLabel = index < EPISODES.length - 1 ? EPISODES[index + 1].displayLabel : "Next";
 
@@ -15791,10 +16072,11 @@ const html = `<!doctype html>
           <button class="episode-action" type="button" data-move="1" \${index === EPISODES.length - 1 ? "disabled" : ""}>Next: \${escapeHtml(nextLabel)}</button>
         </footer>
       \`;
+      markReaderMetricsDirty();
       applyEpisodeHighlight();
       readerStatus.textContent = \`\${episode.displayLabel}: \${episode.title} loaded\`;
       if (options.save !== false) {
-        localStorage.setItem("blackCircleLastEpisode", episode.id);
+        writeSavedLastEpisode(episode.id);
       }
       if (options.saveView !== false) {
         localStorage.setItem(lastViewKey, episode.id);
@@ -15810,10 +16092,11 @@ const html = `<!doctype html>
         showReader("reader");
         requestAnimationFrame(() => {
           if (banner && !banner.hidden) {
-            banner.scrollIntoView({ behavior: "smooth", block: "start" });
+            banner.scrollIntoView({ behavior: navScrollBehavior(), block: "start" });
           } else {
             document.getElementById("episodeTitle")?.focus({ preventScroll: true });
           }
+          markReaderMetricsDirty();
           requestAnimationFrame(updateScrollProgress);
         });
       }
@@ -15824,7 +16107,10 @@ const html = `<!doctype html>
       setTheme(storedTheme || "dark");
       window.addEventListener("resize", refreshLandingArtReady, { passive: true });
       window.addEventListener("scroll", scheduleScrollProgressUpdate, { passive: true });
-      window.addEventListener("resize", scheduleScrollProgressUpdate, { passive: true });
+      window.addEventListener("resize", () => {
+        markReaderMetricsDirty();
+        scheduleScrollProgressUpdate();
+      }, { passive: true });
       setPanelMode(localStorage.getItem("blackCirclePanelMode") === "on");
       setFontScale(localStorage.getItem(fontScaleKey) || 1);
       setReaderWidth(localStorage.getItem(readerWidthKey) || "wide");
@@ -15896,7 +16182,7 @@ const html = `<!doctype html>
       landingBookmarkButton?.addEventListener("click", openSavedBookmark);
       landingProfileButton?.addEventListener("click", () => showTome("castGrid"));
       landingContinueButton?.addEventListener("click", () => {
-        renderEpisode(episodeIndexById(localStorage.getItem("blackCircleLastEpisode")), { scroll: true });
+        renderEpisode(episodeIndexById(readSavedLastEpisode()), { scroll: true });
       });
       landingBookmarkTool?.addEventListener("click", openSavedBookmark);
       landingProgressTool?.addEventListener("click", () => activateLandingTarget("episodeNav"));
@@ -15953,10 +16239,11 @@ const html = `<!doctype html>
         if (img) openLightbox(img);
       });
       document.getElementById("heroBannerReadBtn")?.addEventListener("click", () => {
-        document.getElementById("reader")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        document.getElementById("reader")?.scrollIntoView({ behavior: navScrollBehavior(), block: "start" });
       });
       nav?.addEventListener("scroll", () => {
-        window.requestAnimationFrame(saveEpisodeNavScroll);
+        window.clearTimeout(navScrollSaveTimer);
+        navScrollSaveTimer = window.setTimeout(saveEpisodeNavScroll, 250);
       }, { passive: true });
       window.addEventListener("beforeunload", saveEpisodeNavScroll);
       lightbox.addEventListener("click", (event) => {
@@ -15989,7 +16276,7 @@ const html = `<!doctype html>
         openLightbox(image);
       });
       continueButton.addEventListener("click", () => {
-        renderEpisode(episodeIndexById(localStorage.getItem("blackCircleLastEpisode")), { scroll: true });
+        renderEpisode(episodeIndexById(readSavedLastEpisode()), { scroll: true });
       });
       bookmarkButton.addEventListener("click", () => {
         const currentId = EPISODES[currentEpisodeIndex]?.id || "";
@@ -16015,8 +16302,10 @@ const html = `<!doctype html>
         }
       });
       const flushHighlightsSnapshot = () => {
+        if (!highlightsDirty) return;
         const current = readHighlightsMap();
         if (Object.keys(current).length) writeHighlightsMap(current);
+        highlightsDirty = false;
       };
       window.addEventListener("pagehide", flushHighlightsSnapshot);
       document.addEventListener("visibilitychange", () => {
@@ -16055,15 +16344,15 @@ const html = `<!doctype html>
           dx <= 36 &&
           dy <= 36
         ) {
-          event.preventDefault();
           lastTouchTap = { time: 0, x: 0, y: 0, sentenceId: "" };
           lastTouchToggleAt = now;
           window.getSelection?.()?.removeAllRanges?.();
+          requestAnimationFrame(() => window.getSelection?.()?.removeAllRanges?.());
           toggleSentenceHighlight(sentence);
           return;
         }
         lastTouchTap = { time: now, x: touch.clientX, y: touch.clientY, sentenceId };
-      }, { passive: false });
+      }, { passive: true });
       reader.addEventListener("dblclick", (event) => {
         if (Date.now() - lastTouchToggleAt < 500) return;
         if (event.target.closest("a, button, img, .scene-callout, .episode-actions")) return;
@@ -16090,30 +16379,13 @@ const html = `<!doctype html>
           renderEpisode(nextIndex, { scroll: true });
         }
       });
-      castGrid.innerHTML = CAST.map((person) => \`
-        <article class="cast-card">
-          <img src="\${person.image}" alt="\${escapeHtml(person.name)} anime character portrait" loading="lazy" decoding="async" data-lightbox-image role="button" tabindex="0" aria-label="Expand \${escapeHtml(person.name)} portrait">
-          <div>
-            <h3>\${escapeHtml(person.name)}</h3>
-            <span class="cast-meta">\${escapeHtml(person.circle)}</span>
-            <p>\${escapeHtml(person.summary)}</p>
-          </div>
-        </article>
-      \`).join("");
-      characterGallery.innerHTML = CAST_GALLERY.map((item) => \`
-        <figure class="gallery-card">
-          <img src="\${item.image}" alt="\${escapeHtml(item.alt)}" loading="lazy" decoding="async" data-lightbox-image role="button" tabindex="0" aria-label="Expand \${escapeHtml(item.title)}">
-          <figcaption>
-            <strong>\${escapeHtml(item.name)}</strong>
-            <span>\${escapeHtml(item.title)}</span>
-          </figcaption>
-        </figure>
-      \`).join("");
       const hash = window.location.hash.replace("#", "");
       const savedView = resolveLastView();
       const effectiveHash = hash || "";
-      const index = Math.max(0, EPISODES.findIndex((episode) => episode.id === effectiveHash));
       const hasEpisodeHash = EPISODES.some((episode) => episode.id === effectiveHash);
+      const index = hasEpisodeHash
+        ? Math.max(0, EPISODES.findIndex((episode) => episode.id === effectiveHash))
+        : episodeIndexById(readSavedLastEpisode());
       renderEpisode(index, { save: hasEpisodeHash, route: hasEpisodeHash, saveView: hasEpisodeHash });
       if (!effectiveHash || effectiveHash === "landingCover") {
         showLanding();
