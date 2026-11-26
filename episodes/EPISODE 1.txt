@@ -44,7 +44,7 @@ I took a breath and stepped through the gates.
 
 The stares started right away.
 
-Some students were too busy greeting friends or checking class lists on floating boards to care. Others were already pretending not to look at anyone ranked below them.
+Some students were too busy greeting friends or checking the newly posted mid-year rosters on floating boards to care. Others were already pretending not to look at anyone ranked below them.
 
 No one walked beside me.
 
@@ -52,7 +52,7 @@ Within ten steps, enough eyes had shifted my way that the mood was clear. They k
 
 At a school like Aurelis, those three facts could turn into gossip before first bell. I kept walking.
 
-Near the fountain to my right, two Blue Circle boys lowered their voices just enough to make sure I heard them. Farther along the path, Red and Blue crests flashed as students noticed the pale green glow at my cuff with amused disbelief. I walked past without reacting. Casual cruelty worked best when you refused to give it a face.
+Near the fountain to my right, two Blue Circle boys lowered their voices just enough to make sure I heard them. Farther along the path, Red and Blue crests flashed as students noticed the pale green glow at my cuff with amused disbelief. Halfway up the stone steps, the first-period bell tolled deep across the towers, cutting the courtyard chatter short as students hurried indoors. I walked inside without reacting. Casual cruelty worked best when you refused to give it a face.
 
 The entrance hall opened around me like a grand cathedral built for noble mages.
 
@@ -184,7 +184,11 @@ Instructor Dren: "Release."
 
 Her disk settled cleanly without cracking.
 
-Leon raised his hand and stood before Dren even called on him.
+A blond boy near the front raised his hand and stood before Dren even called on him.
+
+Aira leaned in beside me, speaking just low enough not to carry.
+
+Aira: "Leon Varek. He never misses a chance to look impressive."
 
 Instructor Dren: "Mr. Varek. Same exercise."
 
@@ -350,11 +354,15 @@ Haru: "He makes good use of it."
 
 That got a small, real laugh out of her. For some reason, it stayed with me longer than Leon's warning.
 
-When the next bell echoed down the hall, the class headed toward the eastern training building in neat groups. Red Circles walked like people used to being admired without even asking. Blues clustered in loud debates. Greens hugged the walls out of habit.
+Aira didn't bother heading out toward the west courtyard. She tossed a look toward the side hall instead.
+
+Aira: "He says 'we' when he means 'stand around while my friends talk.' Come on—I'll show you the shortcut to the eastern training hall."
+
+By the time the next bell echoed down the corridor, our class was moving toward the eastern training building in neat groups. Red Circles walked like people used to being admired without even asking. Blues clustered in loud debates. Greens hugged the walls out of habit.
 
 Ahead of us, a second-year in a green-trimmed coat stepped aside for a Red group and nearly bumped into a sweeping bot rather than slow them down.
 
-Aira walked beside me anyway. Not close enough to make a scene, yet close enough that people noticed. That alone seemed to annoy Leon, who kept glancing back from the group ahead.
+Aira walked beside me anyway. Not close enough to make a scene, yet close enough that people noticed. That alone seemed to annoy Leon, whose group had just merged onto the main hall path ahead of us and who kept glancing back.
 
 The training building was much larger than the classroom wing, built from white stone woven with silver mana-wires and covered wall to wall with steady-field runes. Inside opened a wide round arena circled by stepped seating and a glowing board overhead.
 
@@ -392,7 +400,7 @@ Aira: "Not as much as he hopes."
 
 The corner of my mouth tugged upward before I caught it.
 
-Dren raised one hand, and a match board lit up above the ring. Pairings scrolled into place. Students reacted with quiet relief, groans, or poorly hidden dread. Friends avoided eye contact. Rivals sat up straight. Then my name popped up near the bottom.
+Dren raised one hand, and a match board lit up above the ring. Pairings scrolled into place. Students reacted with quiet relief, groans, or poorly hidden dread. Friends avoided eye contact. Rivals sat up straight. Then my name popped right into the opening slot.
 
 **HARU AERLEN vs LEON VAREK**
 
@@ -436,9 +444,9 @@ I walked down to the stone floor across from him.
 
 A shield dome sealed overhead with a low hum. Right away, I felt the eyes of the stands pressing down. The Greens watched quietly. The Blues leaned forward. The Reds watched with cool boredom. Aira leaned over the rail with tight focus.
 
-Instructor Dren stepped outside the barrier line and raised one hand.
+Instructor Dren stepped outside the barrier line and raised one hand. Three balance pads hummed alight on my half of the floor, and three more across the ring behind Leon.
 
-Instructor Dren: "The match starts on my mark. Hit three balance pads, force your opponent to quit, or knock them out to win. Follow the rules."
+Instructor Dren: "The match starts on my mark. Score three hits on your opponent's side pads, force them to quit, or knock them out to win. Follow the rules."
 
 Leon smiled across the ring.
 
@@ -504,7 +512,7 @@ Three whip-like water lashes snapped toward me from three sides: left, right, ov
 
 Sharp pain shot up my arm—real enough to make my fingers clench.
 
-I landed near one of the round balance pads set into the floor. Leon spotted it immediately and switched angles mid-step, slamming a focused pulse of water straight into the stone beneath my boots.
+I landed near one of the lit balance pads defending my half of the floor. Leon spotted it immediately and switched angles mid-step, slamming a focused pulse of water straight through my guard into the stone beneath my boots.
 
 I pushed off a split second too late. The tile cracked under impact and the pad lit up bright blue.
 
@@ -548,7 +556,7 @@ I stepped inside his swing, caught his wrist, and tapped two fingers against the
 
 His water blade burst into spray. Leon's eyes went wide.
 
-I spun past his shoulder and pressed my palm flat on the nearest balance pad while he was still stumbling. The pad flashed bright.
+I spun past his shoulder onto his half of the floor and pressed my palm flat on the nearest of his balance pads while he was still stumbling. The pad flashed bright.
 
 **POINT: AERLEN**
 
@@ -622,7 +630,7 @@ The unstable ball of water folded inward with a dull, airless thump.
 
 No blast. No shockwave. No broken bones. The trapped water simply dropped around us like warm rain.
 
-My fingers went numb to the knuckles. On my torn inner wrist, my fake Green mark flickered half a beat behind my pulse. I lowered my arm before anyone caught the thin black gleam fading under my skin.
+My fingers went numb to the knuckles. Beneath my torn left sleeve, my fake Green mark flickered half a beat behind my pulse. I lowered my arm before anyone caught the thin black gleam fading under my skin.
 
 High on the upper balcony, a tall student in an elite cloak went completely still. Pale-gold hair caught the arena lights, a bright **Yellow Circle** glowing at her collarbone as she started to stand before the rest of the hall even realized Leon was safe.
 
@@ -644,17 +652,17 @@ Student: "That kind of control makes no sense—"
 
 Leon stumbled back a step, wet hair plastered to his forehead.
 
-Dren walked straight through the dropping shield wall.
+Dren walked straight through the dropping shield wall and tapped his slate to lock the ring's damaged stone and tripped ward sensors.
 
-Instructor Dren: "Match over."
+Instructor Dren: "Match over. Remaining matches move to Thursday once the safety log and ward reset clear."
 
 The board overhead flashed white.
 
-**ASSESSMENT ENDED**
+**ASSESSMENT PAUSED — WARD CHECK**
 
 Complaints rolled down from the benches.
 
-Student: "What? Why?"
+Student: "What? Today's whole block?"
 
 Student: "Sir, that's it?"
 
@@ -720,33 +728,33 @@ She looked down at Dren, then Leon, then locked her eyes squarely onto mine. Not
 
 Instructor Dren: "Student Council President."
 
-So this was her. Even my transfer papers and hallway whispers mentioned her name. Aurelis's student council didn't hang party banners—they handled rule punishments, crisis hearings, duel passes, and enough real power to make noble heirs mind their manners in public.
+So that was who ran the student council. I hadn't seen her face before, though even my transfer papers and hallway whispers warned that Aurelis's council didn't hang party banners—they handled rule punishments, crisis hearings, duel passes, and enough real power to make noble heirs mind their manners in public.
 
 She walked down the stairs without hurrying.
 
-Rhea: "Excuse the interruption. I heard there was an unusual match in the practice hall."
+Council President: "Excuse the interruption. An emergency ward alert reached the council desk from this hall."
 
 Her voice was calm, smooth, and completely guarded.
 
 Instructor Dren: "The matter is settled."
 
-Rhea: "Settled, then. Still, it looks like this year's transfer student is already making waves."
+Council President: "Settled, then. Still, it looks like this year's transfer student already triggers safety alarms on day one."
 
 Nearby students traded quick glances. I kept my face blank.
 
 She studied me one beat longer, then offered a thin smile—the look of someone who had just found a loose thread and planned to keep pulling until the seam ripped open.
 
-Rhea: "I look forward to seeing more."
+Council President: "I look forward to seeing more."
 
 She turned and left at the same steady pace, leaving half the hall pretending not to watch her climb back up the stairs.
 
 Aira: "That's bad."
 
-Haru: "Who was that?"
+Haru: "Who is she?"
 
 Aira stared at me as if I had just asked the name of a hurricane everyone else knew to board windows for.
 
-Aira: "Rhea Valmont. Student Council President. Red Circle. Once she takes an interest in you, even school paperwork grows teeth."
+Aira: "Rhea Valmont. Red Circle. Once the council president takes an interest in you, even school paperwork grows teeth."
 
 I looked back toward the empty steps where Rhea had gone. My first day at Aurelis wasn't even over yet, and keeping a low profile had already turned into a live show.
 
@@ -874,7 +882,7 @@ Elira: "I stood up because you looked hurt and pretended you weren't."
 
 Then she was gone.
 
-Quiet settled back under the arch. After she turned the corner, I wrapped the cloth around my torn sleeve and numb wrist anyway. Unnecessary. Still helpful. That made it worse.
+Quiet settled back under the arch. After she turned the corner, I tied the cloth loosely around my ripped sleeve for the walk back to the dorm. Unnecessary. Still helpful. That made it worse.
 
 ---
 
@@ -978,7 +986,7 @@ Aira followed my gaze and leaned in closer.
 
 Aira: "That's **Elira Vale**."
 
-I kept yesterday's hallway—and the clean folded cloth still in my coat pocket—to myself.
+I kept yesterday's hallway—and Elira's cloth, neatly refolded in my coat pocket after I stitched my cuff back together last night—to myself.
 
 Haru: "I guessed she was a big deal."
 
@@ -1112,9 +1120,9 @@ Elira: "Questions are rarely the problem. Fear of them usually is."
 
 Not exactly normal academy talk.
 
-Haru: "Do you think Black Circle theory has any truth to it?"
+Haru: "Do you really think history left chapters out?" I asked quietly under the clatter of trays.
 
-Two students at the next table nearly choked trying to eavesdrop quietly.
+Even at half-voice, two students at the next table nearly choked leaning in to catch every word.
 
 Elira glanced down at her cup, then back up at me.
 
@@ -1136,23 +1144,19 @@ For a short moment none of us spoke, and the clatter of trays and forks faded un
 
 Elira folded her hands lightly beside her tray.
 
-Elira: "I also wanted to thank you."
-
-Haru: "For what?"
-
-Elira: "Yesterday. You stopped Leon's spell from collapsing hard enough to tear up his arm."
+Elira: "I also wanted to check on your arm after yesterday's assessment."
 
 Aira spun toward me so fast her chair scraped the stone.
 
-Aira: "You did what?"
+Aira: "Hold on—why did Elira Vale notice your arm?"
 
-Across the hall, people stopped pretending not to listen. Several tables leaned closer.
+Across the hall, several tables leaned closer. I kept my cuff steady on the table edge.
 
-Haru: "I just reacted."
+Haru: "Just a torn sleeve from Leon's spell."
 
-Elira: "With unusual accuracy."
+Elira: "You held your ground cleaner than most second-years would."
 
-Haru: "So I've been told."
+Haru: "Luck and timing."
 
 This time her smile was real—not grand or polite, just warm. It changed her whole face, and for one awkward second I forgot what to say back.
 
@@ -1314,7 +1318,7 @@ Her smile came right away, warm and quick enough to vanish before I could brace 
 
 Elira: "I'd rather hear what you really think."
 
-I looked back at the empty circles where the last gold wisps were fading into evening air.
+I looked back at the empty circles where the last gold wisps were fading into cooling afternoon air.
 
 Haru: "It was beautiful."
 
@@ -1440,7 +1444,7 @@ Haru: "Usually helps."
 
 Elira: "Maybe. Being quiet also makes people underestimate how much you really mean."
 
-Behind us, the terrace was clearing out as teachers sent the last students down and the glowing circles clicked off one by one. Cool night air drifted up from the cliffs.
+Behind us, the terrace was clearing out as teachers ushered remaining students—Aira included, after throwing one helpless glance my way—down toward the garden stairs, and the glowing circles clicked off one by one. Cool canyon air drifted up from the cliffs as shadows stretched toward sunset.
 
 Elira stepped away from the rail.
 
@@ -1480,11 +1484,11 @@ Leon: "Of course."
 
 Aira walked one step behind him, looking deeply annoyed.
 
-Aira: "I told him this was a terrible idea."
+Aira: "He caught me right outside the lower garden gate. I told him coming back up here was a terrible idea."
 
 Leon stopped three steps away, looking from Elira to me with stiff disbelief.
 
-Leon: "Lady Elira, I didn't know you spent time listening to first-year rumors."
+Leon: "Lady Elira, I didn't know you spent time listening to second-year rumors."
 
 All the warmth vanished from the terrace in a second. Elira's posture cooled by one clear degree.
 
@@ -1556,7 +1560,7 @@ Leon spun toward her quickly, desperate to save face.
 
 Leon: "Then he can turn it down without shame, can't he?"
 
-The dare hung in the cool evening air.
+The dare hung in the cooling evening air.
 
 I had zero interest in attention, zero interest in a school tournament, and definitely no desire to give Leon a stage. Yet I could already hear the talk if I walked away: *the Green transfer who got lucky once against a Blue and hid behind Elira Vale.*
 
@@ -1684,7 +1688,7 @@ I followed her down into the lantern-lit halls.
 
 ## Coda: The Gate Remembered
 
-After dinner, Aira turned toward the east dorm stairs, leaving me to take the quieter stone path past Aurelis's old inner foundation gate.
+After dinner, Aira turned toward the east dorm stairs, leaving me to take the quieter stone path back past Aurelis's old outer gate arch.
 
 Twilight settled deep purple over the towers. My mind kept drifting back to the upper garden path—to that cold stare vanishing into the trees before I could trace it, and to Elira saying being seen wasn't the same as being exposed.
 
@@ -1698,13 +1702,13 @@ A thin line of light ran across the weathered crest carved high over the arch. G
 
 Below them, where solid stone should have stayed dark, a fifth ring pressed once from inside the rock—ink-black, razor-sharp, older than the towers around it—and vanished before the fake Green mark on my wrist could even flicker.
 
-The gate hadn't welcomed me when I walked through yesterday morning.
+The cold pressure I'd felt stepping through this gate yesterday morning finally made sense. It hadn't checked my pass.
 
 It had counted me.
 
 Two first-years hurried past under the arch, arguing loudly about tournament odds. One glanced down at the pale green glow peeking under my left cuff, wrote me off without slowing down, and kept walking. Normal cruelty. Useful cover.
 
-Inside my coat pocket, my fingers brushed the clean folded edge of Elira's healer cloth, still kept from yesterday's hallway.
+Inside my coat pocket, my fingers brushed the folded edge of Elira's healer cloth, still kept from yesterday's hallway.
 
 Up on the garden deck, someone had watched me closely. Inside Aurelis's old stone, ancient magic had seen straight through the lie on my wrist. And somewhere across the yard, a girl with gold eyes had looked straight past it too.
 

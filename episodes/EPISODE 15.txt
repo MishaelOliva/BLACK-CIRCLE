@@ -98,7 +98,7 @@ Elira: "You are allowed to want comfort too."
 
 The Black Circle ached beneath my ribs, not with power, with recognition. I bowed my head until our joined hands rested against my forehead. For a while neither of us spoke.
 
-Senior Healer Maelin Orr entered without knocking, which I was beginning to understand was strategy rather than rudeness. Panic hid in the pause before a knock was answered.
+Head Healer Maelin entered without knocking, which I was beginning to understand was strategy rather than rudeness. Panic hid in the pause before a knock was answered.
 
 Maelin carried a tray with two cups, three folded reports, and the expression of a woman prepared to fight a government with a spoon if the government stood between her and a patient.
 
@@ -178,7 +178,7 @@ Elira stared at the window. Morning light made her hair look almost white where 
 
 Elira: "Would Haru be allowed to come?"
 
-Maelin: "Allowed is a weak word. Your sleep worsens when he is outside the ward. His circle pressure worsens when he is ordered away from you. Councilor Krail dislikes this evidence, which improves my confidence in it."
+Maelin: "Allowed is a weak word. Whenever my night healers clear visitors past the ward curtain, your pulse spikes before you even wake. Whenever clerks try keeping him out of sight during shift changes, his circle pressure dents my door-wards. High Councilor Krail—who filed last night's containment motion—dislikes shift evidence, which improves my confidence in it."
 
 For the first time that morning, Elira smiled. Small. Tired. Real.
 
@@ -224,11 +224,11 @@ Aira: "Logistically, yes. Emotionally, we are improvising."
 
 Rhea arrived five minutes later with Professor Valen, two council seals, and enough authority to make the hallway straighten. I yielded my chair so Professor Valen could step beside the bed, drifting back toward the wall without meaning to.
 
-Rhea: "The route is clean. Three relay points are disabled. Two are being watched. One clerk attempted to label recovery leave as refusing to appear."
+President Valmont: "The route is clean. Three relay points are disabled. Two are being watched. One clerk attempted to label recovery leave as refusing to appear."
 
 Cassian: "Attempted?"
 
-Rhea: "He has learned vocabulary."
+President Valmont: "He has learned vocabulary."
 
 Professor Valen came to Elira's bedside and took her hand with a gentleness that made her authority sharper, not softer.
 
@@ -266,7 +266,7 @@ Aira placed one hand over her heart.
 
 Aira: "Recognition from a senior healer."
 
-Leon, standing near the door with the posture of a guard trying to pass for furniture, muttered:
+Leon stood near the door with the posture of a guard trying to pass for furniture.
 
 Leon: "Please do not encourage her."
 
@@ -314,7 +314,7 @@ Elira: "Do you really?"
 
 Maelin: "No. But I should."
 
-The pendant gave one small violet pulse, not magic enough to register on a ward, only enough to make my fingers ache with wanting to break whatever could not be mended by force. Elira saw my hand tighten against the wall. She did not let me hide there.
+The pendant gave one cold silver-dark pulse, not magic enough to register on a ward, only enough to make my fingers ache with wanting to break whatever could not be mended by force. Elira saw my hand tighten against the wall. She did not let me hide there.
 
 Elira: "Haru."
 
@@ -332,7 +332,7 @@ Elira: "You are doing it in your eyes."
 
 Aira looked at me. Leon looked at the floor. Cassian suddenly found the ceiling fascinating.
 
-Maelin, merciless as weather, said:
+Maelin stayed merciless as weather.
 
 Maelin: "Counting can be a bridge. It can also become a cage. Decide which one you are building before you finish the walls."
 
@@ -364,13 +364,13 @@ Maelin: "Good. Emotional hazard named. Physical hazard next."
 
 Ten minutes later, two council assistants brought Rhea three sealed documents. Her expression kept both of them half a step back.
 
-Rhea: "Noctis has filed an objection to protected recovery leave."
+President Valmont: "Noctis has filed an objection to protected recovery leave."
 
 Elira closed her eyes.
 
 Leon: "They object to her recovering?"
 
-Rhea: "They object to the leave being protected."
+President Valmont: "They object to the leave being protected."
 
 Cassian: "Ah. They prefer injured witnesses where they can reach them."
 
@@ -378,11 +378,11 @@ Rhea's silence confirmed more than a yes would have. Something cold stirred unde
 
 Rhea crossed the room and set the documents on the small table beside Maelin's chart.
 
-Rhea: "The objection was denied on the spot. Senna Voss filed the ruling under medical authority, witness safety, and public record protection. I am here because turning them down doesn't mean they'll stop pushing."
+President Valmont: "The objection was denied on the spot. Senna Voss filed the ruling under medical authority, witness safety, and public record protection. I am here because turning them down doesn't mean they'll stop pushing."
 
 Maelin: "Translation: they will try to make rest look suspicious."
 
-Rhea: "Yes."
+President Valmont: "Yes."
 
 She set her emergency seal flat on the dark wood. Aira took out her notebook.
 
@@ -408,7 +408,7 @@ Professor Valen: "Old houses are allowed opinions."
 
 Maelin: "The medical wards are mine."
 
-Rhea: "The outer route authority is mine."
+President Valmont: "The outer route authority is mine."
 
 Aira lifted her pen.
 
@@ -432,9 +432,9 @@ Professor Valen: "Always, if the old builders were having a good century."
 
 Humor lived in her voice, though not carelessness. Rhea's gaze sharpened.
 
-Rhea: "Can Noctis subpoena the house's record?"
+President Valmont: "Can Noctis subpoena the house's record?"
 
-Professor Valen closed the box.
+Professor Valen closed the box and slid it into the advance supply pouch Rhea's courier was already buckling for the early wagon.
 
 Professor Valen: "They may attempt to subpoena the lake if they enjoy humiliation."
 
@@ -460,7 +460,7 @@ The sentence settled over the room more gently than any ward.
 
 Rhea placed one more item on the table, not a document this time, but a small square of folded black cloth sealed with Aurelis blue and the plain white mark Senna Voss used for protected witness material. Elira's smile faded.
 
-Rhea: "Cael's public funeral record has been copied for the restoration house archive. Not the Council version. The Aurelis student version."
+President Valmont: "Cael's public funeral record has been copied for the restoration house archive. Not the Council version. The Aurelis student version."
 
 No one moved. The ward-stone in the bed frame hummed once, soft as a held breath.
 
@@ -468,13 +468,13 @@ Elira: "Why bring it here?"
 
 Rhea kept her voice formal, the way she always kept tenderness intact in public.
 
-Rhea: "Because recovery leave is not exile from grief. And because Noctis filed a correction request at dawn."
+President Valmont: "Because recovery leave is not exile from grief. And because Noctis filed a correction request at dawn."
 
 Leon swore under his breath. Cassian's smile vanished. Aira's pen stopped.
 
 Haru: "Correction?"
 
-Rhea: "They object to the phrase voluntary refusal of ownership. They prefer final service under catastrophic confusion."
+President Valmont: "They object to the phrase voluntary refusal of ownership. They prefer final service under catastrophic confusion."
 
 The Black Circle did not rise. It went colder, which was worse. Elira's fingers tightened around mine until it hurt, and the pain kept me anchored in the room.
 
@@ -482,13 +482,13 @@ Elira: "No."
 
 One quiet, wounded word, completely alive. Rhea inclined her head.
 
-Rhea: "The correction was denied. Mira's gallery copy, Nera's testimony, Darian's dissent, and Iven Sahl's funeral presence all support the existing language."
+President Valmont: "The correction was denied. Mira's gallery copy, Nera's testimony, Darian's dissent, and Iven Sahl's funeral presence all support the existing language."
 
 Elira looked at the folded cloth.
 
 Elira: "Iven?"
 
-Rhea: "He asked if students from Noctis may sign the Aurelis copy without being absorbed into Noctis' official delegation."
+President Valmont: "He asked if students from Noctis may sign the Aurelis copy without being absorbed into Noctis' official delegation."
 
 Aira's eyes filled before she could blink them sharp.
 
@@ -496,23 +496,23 @@ Aira: "Good."
 
 Leon: "Is he safe?"
 
-Rhea: "As safe as a Noctis student publicly refusing convenient language can be, which is to say not enough. Senna Voss has opened a protected channel."
+President Valmont: "As safe as a Noctis student publicly refusing convenient language can be, which is to say not enough. Senna Voss has opened a protected channel."
 
 Elira closed her eyes. For a moment I thought the news would push her back under the weight of the funeral. Instead she opened them and looked at Rhea.
 
 Elira: "Send him my thanks."
 
-Rhea: "As Elira Vale or as primary witness?"
+President Valmont: "As Elira Vale or as primary witness?"
 
 Elira's jaw tightened, then steadied.
 
 Elira: "As Elira."
 
-Professor Valen's eyes softened behind her glasses. Maelin pretended to adjust the chart. Aira wrote the answer down. I wanted to memorize the way Elira said her own name there, stripped of title and function, and hated that memorizing it felt like another record. So I did not turn it into a monument. I only held her hand.
+Professor Valen's sharp eyes softened. Maelin pretended to adjust the chart. Aira wrote the answer down. I wanted to memorize the way Elira said her own name there, stripped of title and function, and hated that memorizing it felt like another record. So I did not turn it into a monument. I only held her hand.
 
-Rhea folded the cloth back into her satchel.
+Rhea folded the cloth into the same advance courier pouch beside Valen's cedar box, Aira's supply hamper, and two sealed personal envelopes Mira and Iven had asked the courier runner to include.
 
-Rhea: "The copy will wait at the house if you request it. It will not present itself otherwise."
+President Valmont: "The copy and letters will ride ahead on the supply wagon and wait at the house if you request them. They will not present themselves otherwise."
 
 Elira breathed in slowly.
 
@@ -596,7 +596,7 @@ A small laugh moved through the doorway and broke nothing.
 
 Rhea glanced down the corridor.
 
-Rhea: "Departure terms?"
+President Valmont: "Departure terms?"
 
 Elira's fingers tightened once on my sleeve, then released.
 
@@ -680,13 +680,13 @@ I exhaled.
 
 Haru: "Tea first."
 
-Professor Valen had left the front door unlocked, which nearly made me turn the carriage around. A note waited on the small entry table beneath a vase of white lake flowers.
+Professor Valen had left the front door unlocked after her dawn inspection, which nearly made me turn the carriage around. A note waited on the small entry table beneath a vase of white lake flowers.
 
 **Small rebellions begin with entering without permission.**
 
-Below that, in Aira's handwriting:
+Tucked beside it on the lid of a blue tin, in Aira's handwriting sent ahead on the early supply wagon:
 
-**I wanted to write something useful, but Professor Valen got there first. There are buns in the blue tin. Do not become tragic before eating.**
+**I told Professor Valen to check for traps, not beat me to the first joke. There are buns inside. Do not become tragic before eating.**
 
 Elira read both notes and pressed a hand over her mouth. The laugh came out thin, but it came out.
 
@@ -816,7 +816,7 @@ When I walked toward the largest window to inspect the latch, the floorboards wa
 
 No voice. No chime. Just a clear impression that rejected asset, candidate, and Black Circle in favor of one plain word. I stared down at my boots.
 
-Elira, wrapped in a blanket on the sofa, watched me over her cup.
+Elira, pulling her coat snugly around her shoulders on the cushioned kitchen window bench, watched me over her cup.
 
 Elira: "Did the floor just scold you?"
 
@@ -868,7 +868,7 @@ Elira: "Barely."
 
 The corner of her mouth twitched. Second victory of the afternoon.
 
-The sitting room faced the lake through three tall windows. White curtains stirred in a breeze with no clear source. A low shelf held blankets, board games, blank notebooks, a small music box, and six sealed packets labeled in Aira's handwriting.
+The sitting room faced the lake through three tall windows. White curtains stirred in a breeze with no clear source. A low shelf held blankets, board games, blank notebooks, a small music box, and six sealed packets Aira had packed onto the advance wagon with strict placement notes for the house staff.
 
 **FOR WHEN HARU LOOKS LIKE HE IS ABOUT TO INVENT A PROTOCOL.**
 
@@ -960,7 +960,7 @@ Elira: "But sit close."
 
 I pulled up the second chair and sat beside her.
 
-Iven Sahl's letter was short and clumsy. He wrote that Cael had once lent him a thermal charm during winter drills and told him not to give it back until he stopped confusing obedience with survival. He wrote that he had not understood then, and was beginning to now. At the bottom, one line had been crossed out and written again.
+Iven Sahl's letter—delivered ahead in Rhea's courier pouch—was short and clumsy. He wrote that Cael had once lent him a thermal charm during winter drills and told him not to give it back until his hands stopped shaking—words Iven wrote he only understood at the funeral, when he stopped confusing obedience with survival. He wrote that he had not understood then, and was beginning to now. At the bottom, one line had been crossed out and written again.
 
 **I am sorry he had to die where we could finally see him.**
 
@@ -1036,11 +1036,11 @@ She opened one eye.
 
 Haru: "I was going to say I am glad I was beside you."
 
-Her expression softened. She let the sentence stand, and let me help her back to the sofa.
+Her expression softened. She let the sentence stand, and let me walk her back to the sitting-room sofa.
 
 By late afternoon, the security perimeter checked in through the front hall mirror. Rhea's council seal flared in the glass first.
 
-Rhea: "Status."
+President Valmont: "Status."
 
 From the sofa under her blanket, Elira raised her teacup.
 
@@ -1048,7 +1048,7 @@ Elira: "Tea achieved."
 
 Rhea blinked once.
 
-Rhea: "Acceptable."
+President Valmont: "Acceptable."
 
 Aira shoved her face into the reflection beside Rhea's shoulder.
 
@@ -1082,17 +1082,17 @@ Leon: "Green Circle students are still copying the public sequence records."
 
 Cassian: "Noctis pulled its official banner from the east dormitory. The student group stayed."
 
-Rhea: "Councilor Krail filed another risk warning at noon."
+President Valmont: "High Councilor Krail filed another risk warning at noon."
 
 Elira's fingers tightened around her cup. I felt the tension before she spoke.
 
 Haru: "About me?"
 
-Rhea: "About your proximity to every major witness, yes. Senna Voss marked it procedurally premature."
+President Valmont: "About your proximity to every major witness, yes. Senna Voss marked it procedurally premature."
 
 Aira: "Which is formal language for sit down and stop pointing at grieving students."
 
-Rhea: "Less colorful, but accurate."
+President Valmont: "Less colorful, but accurate."
 
 Elira set her cup down.
 
@@ -1114,7 +1114,7 @@ The mirror dimmed once Rhea set the morning check-in time, leaving the house qui
 
 Before we went down the hall to look at bedrooms for the night, Elira decided supper should include hot soup.
 
-That was not one of Maelin's directives. Maelin had left jars of broth and written instructions with the grim satisfaction of a healer who believed nourishment could overrule shock by sheer stubbornness. Elira's decision was smaller, and far less polite to grief.
+That was not one of Maelin's directives. Maelin had sent jars of broth and written instructions ahead on the infirmary supply wagon with the grim satisfaction of a healer who believed nourishment could overrule shock by sheer stubbornness. Elira's decision was smaller, and far less polite to grief.
 
 She insisted on holding the spoon herself.
 
@@ -1132,11 +1132,11 @@ Elira: "There. Alive."
 
 I let out a long breath, something tight beneath my ribs giving way at last. For that minute, no council owned the word.
 
-After I carried the soup bowls to the sink, I noticed Maelin had prepared two bedrooms at the far end of the first-floor hall.
+After I carried the soup bowls to the sink, I noticed the advance infirmary orderlies had prepared two bedrooms at the far end of the first-floor hall according to Maelin's packing list.
 
-The larger room faced the lake. A smaller one waited across the corridor with its door open, blankets turned down, and a bedside lamp already lit. Fresh clothes had been split evenly between both rooms rather than laid out like orders.
+The larger room faced the lake. A smaller one waited across the corridor with its door open, blankets turned down, and a self-igniting lamp warm on the sill. Fresh clothes had been split evenly between both rooms rather than laid out like orders.
 
-On the larger room's bedside table sat another note in Maelin's neat hand.
+On the larger room's bedside table sat a sealed note in Maelin's neat hand, packed that morning after watching my chair vigil in the ward.
 
 **The patient sleeps worse alone. The proximity witness destabilizes when exiled to chairs. Two beds exist. Use one or both. Ask each other instead of inventing a medical doctrine about it.**
 

@@ -7496,7 +7496,7 @@ const episodes = episodeMeta.filter((meta) => !meta.skip).map((meta) => {
     cover: meta.file && fs.existsSync(path.join(root, "assets", "episodes", meta.file))
       ? `assets/episodes/${meta.file}`
       : "",
-    scenes: meta.id === "ep1" ? episode1Scenes : [],
+    scenes: meta.id === "ep1" ? episode1Scenes.filter((scene) => fs.existsSync(path.join(root, scene.src))) : [],
   };
 });
 
@@ -8062,6 +8062,15 @@ const html = `<!doctype html>
       scroll-behavior: smooth;
       text-size-adjust: 100%;
       -webkit-text-size-adjust: 100%;
+    }
+
+    html.is-instant-jump,
+    html.is-instant-jump body {
+      scroll-behavior: auto !important;
+    }
+
+    html.is-instant-jump .story-body > * {
+      content-visibility: visible !important;
     }
 
     body {
@@ -14909,42 +14918,305 @@ const html = `<!doctype html>
       renderEpisode(savedIndex, { scroll: true });
     }
 
-    function readHighlightsMap() {
+    const highlightCookieName = "bc_hl_v1";
+    const highlightDbName = "blackCircleReaderDB";
+    const highlightDbStore = "kv";
+    const highlightDbKey = "highlightedSentences";
+    let highlightsMemoryCache = null;
+
+    function normalizeHighlightText(value) {
+      return String(value || "").replace(/\\s+/g, " ").trim();
+    }
+
+    function parseSentenceIndex(sentenceId) {
+      const match = String(sentenceId || "").match(/-s(\\d+)$/);
+      return match ? Number(match[1]) : -1;
+    }
+
+    function normalizeHighlightEntry(raw) {
+      if (typeof raw === "string" && raw.trim()) {
+        const id = raw.trim();
+        return { id, text: "", preview: "", index: parseSentenceIndex(id), updatedAt: 0 };
+      }
+      if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
+      const id = typeof raw.id === "string" ? raw.id.trim() : "";
+      if (!id) return null;
+      const text = normalizeHighlightText(raw.text || raw.t || "");
+      const preview = normalizeHighlightText(raw.preview || raw.p || (text.length > 72 ? text.slice(0, 69) + "..." : text));
+      const index = Number.isFinite(Number(raw.index))
+        ? Number(raw.index)
+        : (Number.isFinite(Number(raw.i)) ? Number(raw.i) : parseSentenceIndex(id));
+      const updatedAt = Number.isFinite(Number(raw.updatedAt))
+        ? Number(raw.updatedAt)
+        : (Number.isFinite(Number(raw.u)) ? Number(raw.u) : 0);
+      return { id, text, preview, index, updatedAt };
+    }
+
+    function normalizeHighlightsMap(rawMap) {
+      if (!rawMap || typeof rawMap !== "object" || Array.isArray(rawMap)) return {};
+      const out = {};
+      for (const [epId, value] of Object.entries(rawMap)) {
+        const entry = normalizeHighlightEntry(value);
+        if (entry) out[epId] = entry;
+      }
+      return out;
+    }
+
+    function readHighlightsCookie() {
       try {
-        const parsed = JSON.parse(localStorage.getItem(highlightSentenceKey) || "{}");
-        return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+        if (typeof document === "undefined" || typeof document.cookie !== "string" || !document.cookie) return {};
+        const prefix = highlightCookieName + "=";
+        const part = document.cookie.split(";").map((item) => item.trim()).find((item) => item.startsWith(prefix));
+        if (!part) return {};
+        const parsed = JSON.parse(decodeURIComponent(part.slice(prefix.length)));
+        return normalizeHighlightsMap(parsed);
       } catch {
         return {};
       }
     }
 
-    function writeHighlightsMap(nextMap) {
+    function writeHighlightsCookie(map) {
       try {
-        localStorage.setItem(highlightSentenceKey, JSON.stringify(nextMap));
+        if (typeof document === "undefined" || typeof document.cookie !== "string") return;
+        const entries = Object.entries(normalizeHighlightsMap(map))
+          .sort((a, b) => (b[1].updatedAt || 0) - (a[1].updatedAt || 0));
+        const compact = {};
+        for (const [epId, entry] of entries) {
+          const candidate = {
+            ...compact,
+            [epId]: {
+              id: entry.id,
+              p: (entry.text || entry.preview || "").slice(0, 84),
+              i: entry.index,
+              u: entry.updatedAt || 0,
+            },
+          };
+          const encoded = encodeURIComponent(JSON.stringify(candidate));
+          if (encoded.length > 3200) break;
+          compact[epId] = candidate[epId];
+        }
+        const secureFlag = typeof window !== "undefined" && window.location?.protocol === "https:" ? "; Secure" : "";
+        document.cookie = highlightCookieName + "=" + encodeURIComponent(JSON.stringify(compact)) + "; path=/; max-age=31536000; SameSite=Lax" + secureFlag;
+      } catch {
+        // Ignore cookie restrictions on file:// or sandboxed webviews.
+      }
+    }
+
+    function openHighlightsDb() {
+      return new Promise((resolve) => {
+        try {
+          if (typeof indexedDB === "undefined") {
+            resolve(null);
+            return;
+          }
+          const req = indexedDB.open(highlightDbName, 1);
+          req.onupgradeneeded = () => {
+            const db = req.result;
+            if (!db.objectStoreNames.contains(highlightDbStore)) {
+              db.createObjectStore(highlightDbStore);
+            }
+          };
+          req.onsuccess = () => resolve(req.result);
+          req.onerror = () => resolve(null);
+        } catch {
+          resolve(null);
+        }
+      });
+    }
+
+    function writeHighlightsIdb(map) {
+      openHighlightsDb().then((db) => {
+        if (!db) return;
+        try {
+          const tx = db.transaction(highlightDbStore, "readwrite");
+          tx.objectStore(highlightDbStore).put(normalizeHighlightsMap(map), highlightDbKey);
+        } catch {
+          // Ignore IndexedDB write failures in private browsing.
+        }
+      });
+    }
+
+    function readHighlightsIdb() {
+      return openHighlightsDb().then((db) => {
+        if (!db) return null;
+        return new Promise((resolve) => {
+          try {
+            const tx = db.transaction(highlightDbStore, "readonly");
+            const req = tx.objectStore(highlightDbStore).get(highlightDbKey);
+            req.onsuccess = () => resolve(req.result && typeof req.result === "object" ? normalizeHighlightsMap(req.result) : null);
+            req.onerror = () => resolve(null);
+          } catch {
+            resolve(null);
+          }
+        });
+      });
+    }
+
+    function readHighlightsMap() {
+      try {
+        const raw = localStorage.getItem(highlightSentenceKey);
+        if (raw !== null) {
+          const parsed = JSON.parse(raw);
+          const normalized = normalizeHighlightsMap(parsed);
+          highlightsMemoryCache = normalized;
+          return normalized;
+        }
+      } catch {
+        // Fall through to persistent backups.
+      }
+      if (highlightsMemoryCache && Object.keys(highlightsMemoryCache).length) {
+        return { ...highlightsMemoryCache };
+      }
+      const fromCookie = readHighlightsCookie();
+      if (Object.keys(fromCookie).length) {
+        highlightsMemoryCache = fromCookie;
+        try {
+          localStorage.setItem(highlightSentenceKey, JSON.stringify(fromCookie));
+        } catch {
+          // Ignore storage quota errors in restricted webviews.
+        }
+        return fromCookie;
+      }
+      return {};
+    }
+
+    function writeHighlightsMap(nextMap) {
+      const normalized = normalizeHighlightsMap(nextMap);
+      highlightsMemoryCache = normalized;
+      try {
+        localStorage.setItem(highlightSentenceKey, JSON.stringify(normalized));
       } catch {
         // Ignore storage quota errors in restricted webviews.
       }
+      writeHighlightsCookie(normalized);
+      writeHighlightsIdb(normalized);
+    }
+
+    function hydrateHighlightsFromPersistentStore() {
+      readHighlightsIdb().then((fromIdb) => {
+        if (!fromIdb || !Object.keys(fromIdb).length) return;
+        let hasLocalKey = false;
+        let current = {};
+        try {
+          const raw = localStorage.getItem(highlightSentenceKey);
+          if (raw !== null) {
+            hasLocalKey = true;
+            current = normalizeHighlightsMap(JSON.parse(raw));
+          }
+        } catch {
+          hasLocalKey = false;
+        }
+        const merged = { ...current };
+        let changed = false;
+        for (const [epId, entry] of Object.entries(fromIdb)) {
+          const existing = merged[epId];
+          if (!hasLocalKey || !existing) {
+            if (!hasLocalKey) {
+              merged[epId] = entry;
+              changed = true;
+            }
+          } else if ((entry.updatedAt || 0) > (existing.updatedAt || 0)) {
+            merged[epId] = entry;
+            changed = true;
+          }
+        }
+        if (changed) {
+          highlightsMemoryCache = merged;
+          try {
+            localStorage.setItem(highlightSentenceKey, JSON.stringify(merged));
+          } catch {
+            // Ignore storage errors.
+          }
+          writeHighlightsCookie(merged);
+          applyEpisodeHighlight();
+        }
+      });
+    }
+
+    function currentEpisodeHighlightEntry() {
+      const currentId = EPISODES[currentEpisodeIndex]?.id || "";
+      if (!currentId) return null;
+      return readHighlightsMap()[currentId] || null;
+    }
+
+    function findHighlightedSentenceElement(episodeId, entry) {
+      if (!episodeId || !entry) return null;
+      const direct = entry.id
+        ? reader.querySelector('[data-sentence-id="' + entry.id + '"]')
+        : null;
+      const wantedText = normalizeHighlightText(entry.text || "");
+      const wantedPreview = normalizeHighlightText((entry.preview || "").replace(/\\.\\.\\.$/, ""));
+      if (direct) {
+        if (!wantedText) return direct;
+        if (normalizeHighlightText(direct.textContent) === wantedText) return direct;
+      }
+      const allSentences = Array.from(reader.querySelectorAll(".story-sentence"));
+      if (allSentences.length && (wantedText || wantedPreview.length >= 12)) {
+        const targetIndex = Number.isFinite(entry.index) && entry.index >= 0 ? entry.index : parseSentenceIndex(entry.id);
+        let bestMatch = null;
+        let bestDistance = Infinity;
+        if (wantedText) {
+          for (const el of allSentences) {
+            if (normalizeHighlightText(el.textContent) === wantedText) {
+              const dist = targetIndex >= 0 ? Math.abs(parseSentenceIndex(el.dataset.sentenceId) - targetIndex) : 0;
+              if (dist < bestDistance) {
+                bestDistance = dist;
+                bestMatch = el;
+              }
+            }
+          }
+        }
+        if (!bestMatch && wantedPreview.length >= 12) {
+          for (const el of allSentences) {
+            const candidate = normalizeHighlightText(el.textContent);
+            if (candidate.startsWith(wantedPreview) || candidate.includes(wantedPreview)) {
+              const dist = targetIndex >= 0 ? Math.abs(parseSentenceIndex(el.dataset.sentenceId) - targetIndex) : 0;
+              if (dist < bestDistance) {
+                bestDistance = dist;
+                bestMatch = el;
+              }
+            }
+          }
+        }
+        if (bestMatch) {
+          const healedId = bestMatch.dataset.sentenceId || "";
+          if (healedId && healedId !== entry.id) {
+            const map = readHighlightsMap();
+            if (map[episodeId]) {
+              const nextMap = {
+                ...map,
+                [episodeId]: {
+                  ...map[episodeId],
+                  id: healedId,
+                  text: normalizeHighlightText(bestMatch.textContent),
+                  index: parseSentenceIndex(healedId),
+                },
+              };
+              writeHighlightsMap(nextMap);
+            }
+          }
+          return bestMatch;
+        }
+      }
+      return direct;
     }
 
     function currentEpisodeHighlightId() {
       const currentId = EPISODES[currentEpisodeIndex]?.id || "";
-      if (!currentId) return "";
-      const entry = readHighlightsMap()[currentId];
-      return typeof entry === "string" ? entry : (entry?.id || "");
+      const entry = currentEpisodeHighlightEntry();
+      const target = findHighlightedSentenceElement(currentId, entry);
+      return target?.dataset?.sentenceId || entry?.id || "";
     }
 
     function updateJumpHighlightButton() {
       if (!jumpHighlightButton) return;
       const currentId = EPISODES[currentEpisodeIndex]?.id || "";
       const entry = currentId ? readHighlightsMap()[currentId] : null;
-      const highlightId = typeof entry === "string" ? entry : (entry?.id || "");
-      const target = highlightId
-        ? reader.querySelector('[data-sentence-id="' + highlightId + '"]')
-        : null;
+      const target = findHighlightedSentenceElement(currentId, entry);
       const active = Boolean(target);
       jumpHighlightButton.disabled = !active;
       jumpHighlightButton.classList.toggle("has-highlight", active);
-      const preview = (entry && typeof entry === "object" && entry.preview) ? entry.preview : (target?.textContent?.trim() || "");
+      const preview = (entry && entry.preview) ? entry.preview : normalizeHighlightText(target?.textContent || "");
       jumpHighlightButton.title = active
         ? "Jump to highlighted sentence: " + preview
         : "Double-tap or double-click any sentence to highlight it";
@@ -14955,14 +15227,14 @@ const html = `<!doctype html>
     }
 
     function applyEpisodeHighlight() {
-      const activeId = currentEpisodeHighlightId();
+      const currentId = EPISODES[currentEpisodeIndex]?.id || "";
+      const entry = currentId ? readHighlightsMap()[currentId] : null;
+      const target = findHighlightedSentenceElement(currentId, entry);
+      const activeId = target?.dataset?.sentenceId || "";
       reader.querySelectorAll(".story-sentence.is-highlighted").forEach((el) => {
         if (el.dataset.sentenceId !== activeId) el.classList.remove("is-highlighted");
       });
-      if (activeId) {
-        const target = reader.querySelector('[data-sentence-id="' + activeId + '"]');
-        if (target) target.classList.add("is-highlighted");
-      }
+      if (target) target.classList.add("is-highlighted");
       updateJumpHighlightButton();
     }
 
@@ -14971,7 +15243,9 @@ const html = `<!doctype html>
       const currentId = EPISODES[currentEpisodeIndex]?.id || "";
       if (!sentenceId || !currentId) return;
       const map = readHighlightsMap();
-      const existingId = typeof map[currentId] === "string" ? map[currentId] : (map[currentId]?.id || "");
+      const existingEntry = map[currentId] || null;
+      const existingTarget = findHighlightedSentenceElement(currentId, existingEntry);
+      const existingId = existingTarget?.dataset?.sentenceId || existingEntry?.id || "";
       const nextMap = { ...map };
       if (existingId === sentenceId) {
         delete nextMap[currentId];
@@ -14980,30 +15254,98 @@ const html = `<!doctype html>
         readerStatus.textContent = "Sentence highlight cleared";
         return;
       }
-      const rawPreview = (sentenceEl.textContent || "").trim().replace(/\\s+/g, " ");
-      const preview = rawPreview.length > 72 ? rawPreview.slice(0, 69) + "..." : rawPreview;
-      nextMap[currentId] = { id: sentenceId, preview };
+      const rawText = normalizeHighlightText(sentenceEl.textContent || "");
+      const preview = rawText.length > 72 ? rawText.slice(0, 69) + "..." : rawText;
+      nextMap[currentId] = {
+        id: sentenceId,
+        text: rawText,
+        preview,
+        index: parseSentenceIndex(sentenceId),
+        updatedAt: Date.now(),
+      };
       writeHighlightsMap(nextMap);
       applyEpisodeHighlight();
       readerStatus.textContent = "Highlighted sentence saved: " + preview;
     }
 
+    function getStickyHeaderOffset() {
+      if (typeof document === "undefined" || typeof document.querySelector !== "function") return 0;
+      let maxBottom = 0;
+      const selectors = [".reader-archive-nav", ".nav-panel"];
+      for (const selector of selectors) {
+        const el = document.querySelector(selector);
+        if (!el || typeof el.getBoundingClientRect !== "function") continue;
+        const rect = el.getBoundingClientRect();
+        if (rect.height > 0 && rect.top >= -4 && rect.bottom > maxBottom) {
+          maxBottom = rect.bottom;
+        }
+      }
+      const maxAllowed = Math.round((window.innerHeight || 800) * 0.45);
+      return Math.max(0, Math.min(maxAllowed, Math.round(maxBottom)));
+    }
+
     function jumpToHighlightedSentence() {
-      const highlightId = currentEpisodeHighlightId();
-      if (!highlightId) return;
-      const target = reader.querySelector('[data-sentence-id="' + highlightId + '"]');
+      const currentId = EPISODES[currentEpisodeIndex]?.id || "";
+      const entry = currentId ? readHighlightsMap()[currentId] : null;
+      const target = findHighlightedSentenceElement(currentId, entry);
       if (!target) return;
+      const rootEl = typeof document !== "undefined" ? document.documentElement : null;
+      rootEl?.classList?.add("is-instant-jump");
+      void target.offsetWidth;
+
+      const alignInstant = () => {
+        const rect = target.getBoundingClientRect();
+        if (typeof window.scrollTo === "function" && rootEl && typeof window.scrollY === "number") {
+          const stickyOffset = getStickyHeaderOffset();
+          const visibleHeight = Math.max(120, window.innerHeight - stickyOffset);
+          const desiredTop = stickyOffset + Math.max(16, (visibleHeight - rect.height) / 2);
+          const scrollHeight = rootEl.scrollHeight || 0;
+          const maxScroll = Math.max(0, scrollHeight - window.innerHeight);
+          const rawY = window.scrollY + rect.top - desiredTop;
+          const nextY = scrollHeight > 0 ? Math.max(0, Math.min(maxScroll, Math.round(rawY))) : Math.max(0, Math.round(rawY));
+          window.scrollTo({ top: nextY, left: 0, behavior: "instant" });
+          return desiredTop;
+        }
+        target.scrollIntoView({ behavior: "instant", block: "center" });
+        return Math.max(0, (window.innerHeight - rect.height) / 2);
+      };
+
+      const desiredTop = alignInstant();
+      const afterRect = target.getBoundingClientRect();
+      if (Math.abs(afterRect.top - desiredTop) > 2) {
+        alignInstant();
+      }
       target.classList.remove("is-highlight-pulse");
-      target.scrollIntoView({ behavior: "smooth", block: "center" });
       void target.offsetWidth;
       target.classList.add("is-highlight-pulse");
-      window.setTimeout(() => {
-        const rect = target.getBoundingClientRect();
-        if (Math.abs(rect.top + rect.height / 2 - window.innerHeight / 2) > 90) {
-          target.scrollIntoView({ behavior: "smooth", block: "center" });
+      scheduleScrollProgressUpdate();
+
+      const finishInstantJump = () => {
+        const settleRect = target.getBoundingClientRect();
+        if (Math.abs(settleRect.top - desiredTop) > 4) {
+          alignInstant();
         }
+        rootEl?.classList?.remove("is-instant-jump");
         scheduleScrollProgressUpdate();
-      }, 420);
+      };
+
+      if (typeof window.requestAnimationFrame === "function") {
+        window.requestAnimationFrame(() => {
+          const rafRect = target.getBoundingClientRect();
+          if (Math.abs(rafRect.top - desiredTop) > 3) {
+            alignInstant();
+          }
+          if (typeof window.setTimeout === "function") {
+            window.setTimeout(finishInstantJump, 80);
+          } else {
+            finishInstantJump();
+          }
+        });
+      } else if (typeof window.setTimeout === "function") {
+        window.setTimeout(finishInstantJump, 0);
+      } else {
+        finishInstantJump();
+      }
     }
 
     function downloadArchiveText() {
@@ -15661,6 +16003,25 @@ const html = `<!doctype html>
         updateBookmarkButton();
       });
       jumpHighlightButton?.addEventListener("click", jumpToHighlightedSentence);
+      hydrateHighlightsFromPersistentStore();
+      window.addEventListener("pageshow", () => {
+        applyEpisodeHighlight();
+        hydrateHighlightsFromPersistentStore();
+      });
+      window.addEventListener("storage", (event) => {
+        if (event.key === highlightSentenceKey) {
+          highlightsMemoryCache = null;
+          applyEpisodeHighlight();
+        }
+      });
+      const flushHighlightsSnapshot = () => {
+        const current = readHighlightsMap();
+        if (Object.keys(current).length) writeHighlightsMap(current);
+      };
+      window.addEventListener("pagehide", flushHighlightsSnapshot);
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "hidden") flushHighlightsSnapshot();
+      });
       let lastTouchTap = { time: 0, x: 0, y: 0, sentenceId: "" };
       let touchMoved = false;
       let lastTouchToggleAt = 0;

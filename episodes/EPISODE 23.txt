@@ -88,7 +88,7 @@ Lucien: "She wants release. Ask a cold child whether she wants warmth and call t
 
 Elira did not look at him.
 
-Elira: "Sela, if you say yes, we will send warmth slowly. If you say no, we will not. If you do not know, we wait. If the hall punishes any answer, we call that a trap and stop right there."
+Elira: "Sela, if you say yes, we will send warmth slowly. Even if you say yes, yes can stop anytime after it starts. If you say no, we will not. If you do not know, we wait. If the hall punishes any answer, we call that a trap and stop right there."
 
 Sela's eyes shifted from Elira to Mira.
 
@@ -202,11 +202,11 @@ Nera: "You do not have to answer."
 
 His crying turned audible. Darian studied the boy's crest.
 
-Darian: "Possible Tovin Reiss. Not confirmed."
+Darian: "Possible Tovin Holt. Not confirmed."
 
 The boy's shoulders jerked harder at the surname. From inside the snow line, Finn called out for the slate.
 
-Finn: "Possible match for Tovin Reiss. Not confirmed yet."
+Finn: "Possible match for Tovin Holt. Not confirmed yet."
 
 The hall wrote across the sky:
 
@@ -214,15 +214,15 @@ The hall wrote across the sky:
 
 Rhea's voice cut into the outside channel.
 
-Rhea: "Council objection. Emergency warmth does not wait on finished paperwork."
+President Valmont: "Council objection. Emergency warmth does not wait on finished paperwork."
 
 Senna's crystal pulsed beside Valen.
 
-Senna: "Recorded."
+Magistra Voss: "Recorded."
 
 Valen let out a tight breath.
 
-Valen: "And about time."
+Professor Valen: "And about time."
 
 Leon extended the ground-warmth toward the Blue line.
 
@@ -230,7 +230,7 @@ The boy did not step. He looked straight at Nera. Not Elira. Nera.
 
 Her composure cracked.
 
-Nera: "Tovin Reiss, if that is you, you do not have to forgive me to accept heat."
+Nera: "Tovin Holt, if that is you, you do not have to forgive me to accept heat."
 
 The boy sobbed once.
 
@@ -258,7 +258,7 @@ Lucien's expression shifted for half a beat. Surprise. There was the crack Elira
 
 Lucien: "Children imitate available safety. That does not make them free."
 
-Elira stood slowly. Her healer charm flashed gold, then steadied.
+Elira stood slowly. The yellow collar-light beneath her wool warmed gold, then steadied.
 
 Elira: "No. It gives them the first shape freedom can borrow."
 
@@ -494,11 +494,11 @@ Finn: "Record risk statement."
 
 Rhea looked up from the slate outside.
 
-Rhea: "State it."
+President Valmont: "State it."
 
-Through the slate, I could see Finn's hands, ink-stained and red from frost, gripping his receipts. Speaking where Noctis could hear cost a Green student far more than drama.
+Through the slate, I could see Finn's hands, ink-stained and red from frost, gripping his witness scrolls. Speaking where Noctis could hear cost a Green student far more than drama.
 
-Finn: "If I continue objecting, Noctis can identify my handwriting from the public rail copies. My family trades through two Noctis-controlled certification offices. My scholarship review is next month. I am not neutral."
+Finn: "If I continue objecting, Noctis can identify my handwriting from the public rail copies. They supply half the print orders at our parents' copy shop near the west gate, and my scholarship review is next month. I am not neutral."
 
 The channel went dead quiet. Lucien's head turned a fraction.
 
@@ -516,7 +516,7 @@ Finn: "It was my answer."
 
 Rhea's council seal flared bright beside Valen.
 
-Rhea: "Risk statement accepted. Protective copy initiated."
+President Valmont: "Risk statement accepted. Protective copy initiated."
 
 Aira chimed in without missing a beat.
 
@@ -526,7 +526,7 @@ Finn: "Why?"
 
 Aira: "Because I am unpleasantly thorough."
 
-Rhea: "Solen."
+President Valmont: "Solen."
 
 Aira: "Protectively thorough."
 
@@ -538,7 +538,7 @@ Mira: "Then record my risk too."
 
 Elira turned toward her.
 
-Mira: "My family owns a copy shop near the west gate. We print academy forms, council notices, tournament programs, and sometimes Noctis supplemental packets when their delegation office is short. If I become inconvenient, they can stop sending work and say it was preference."
+Mira: "Like Finn said—our parents' shop near the west gate prints academy forms, council notices, tournament programs, and Noctis supplemental packets when their delegation office is short. Putting both Castellan names on the record gives them every excuse to pull that work and say it was preference."
 
 She swallowed hard.
 
@@ -556,9 +556,9 @@ Mira: "No. Martyrs are useful after they stop arguing. I am still arguing."
 
 The moving hall shuddered. Outside, Halden leaned over the slate.
 
-Halden: "Excellent."
+Professor Halden: "Excellent."
 
-Dren: "Quietly."
+Instructor Dren: "Quietly."
 
 Halden shut his mouth.
 
@@ -566,7 +566,7 @@ Inside, Aric looked from Mira to Finn to Sela, then down at his own hands.
 
 Aric: "They can hurt you for this."
 
-Finn tapped his stacked receipts into neat alignment.
+Finn tapped his stacked scroll sheets into neat alignment.
 
 Finn: "Yeah."
 
@@ -588,7 +588,7 @@ Lucien's jaw tightened. Finn pressed on anyway.
 
 Finn: "Witness seems to be considering what he actually wants, separate from his assigned job."
 
-Noctis rules hated waiting for a student's inner life, and the hall fought back at once. Snow crept up from the ground over Mira's shoes, then Finn's, then the hem of Aira's coat around Mira's shoulders, turning patience into physical sting.
+Noctis rules hated waiting for a student's inner life, and the hall fought back at once. Snow crept up from the ground over Mira's bare ankles, then Finn's boots, then the hem of Aira's coat around Mira's shoulders, turning patience into physical sting.
 
 Aira's teeth chattered.
 
@@ -606,11 +606,11 @@ Mira blinked hard, the rescue finally flowing both ways: Sela steadying the note
 
 Outside, I gripped the edge of Valen's slate hard enough to bend the metal rim. Dren laid one hand over mine, steady and unmoving.
 
-Dren: "They are not waiting because you cannot help."
+Instructor Dren: "They are not waiting because you cannot help."
 
 Haru: "I know."
 
-Dren: "Say the rest."
+Instructor Dren: "Say the rest."
 
 I hated that he was right.
 
@@ -618,11 +618,11 @@ Haru: "They are waiting because he deserves time."
 
 The Black Circle eased a fraction beneath my ribs. Halden spoke almost under his breath.
 
-Halden: "That is the difference containment rules never understand."
+Professor Halden: "That is the difference containment rules never understand."
 
 Rhea heard him anyway.
 
-Rhea: "Then do not let it become theory before it becomes protection."
+President Valmont: "Then do not let it become theory before it becomes protection."
 
 Halden closed his mouth.
 
@@ -642,7 +642,7 @@ Mira's voice shook as she looked up from her page.
 
 Mira: "And if it keeps telling you that you only mattered while staying, we'll write down the truth every time until it stops."
 
-Finn glanced up from his receipts.
+Finn glanced up from his witness scrolls.
 
 Finn: "I am already in trouble. Might as well stay consistent."
 
@@ -738,9 +738,9 @@ Elira: "We have him for now."
 
 For now was not victory, yet it was enough to move.
 
-Lucien answered Aric's step with force. The false city folded inward along its white lesson-lines. Leon's water routes snapped toward the exit while Cassian caught the recoil with both hands and drove Red fire straight into the rank seal rationing warmth beneath the street.
+Lucien answered Aric's step with force. The false city folded inward along its white lesson-lines. Leon's water routes snapped toward the exit while Cassian drove Red fire left-handed straight into the rank seal rationing warmth beneath the street, slamming his splinted right forearm across the recoil to keep from falling backward.
 
-Cassian burned the color gates out. The backlash split his right glove and blistered his palm, yet heat surged through every water line at once. Leon caught it and sent a moving path straight beneath the rescued students.
+Cassian burned the color gates out. The backlash tore through the padded mitt pulled over his frost-bandaged right wrist and blistered his right palm raw, yet heat surged through every water line at once. Leon caught it and sent a moving path straight beneath the rescued students.
 
 Cassian: "Now!"
 
@@ -750,7 +750,7 @@ Aric took one step toward them. Lucien closed his hand.
 
 Black glass slammed down between Aric and the exit. The rescued children spilled into the outer court with Nera and Darian behind them; Elira, Mira, Aira, Finn, Leon, and Cassian remained trapped inside when the threshold sealed shut again.
 
-Cassian slammed his uninjured fist against the barrier. It did not budge.
+Cassian slammed his uninjured left fist against the barrier, his frost-wrapped right palm already bleeding inside torn strip cloth. It did not budge.
 
 Inside the fading channel, Aric stood beside Lucien and stared down at the single water line still shining beneath his boot.
 
@@ -760,9 +760,11 @@ Lucien erased the street around him.
 
 Outside, the returned children screamed. Beneath my boots, Aurelis asked the Black Circle whether I wanted a way under the lie.
 
+---
+
 ## Interlude: The Page Outside
 
-The Green first-year at the outer copy table had been told to copy whatever came off the slate. No one had explained what to do when the slate went black.
+Under shelter exemption, Rhea had assigned three Green student aides and two medical runners to staff the outer copy rail while the rest of the campus stayed locked inside their halls. The Green first-year at the outer copy table had been told to copy whatever came off the slate. No one had explained what to do when the slate went black.
 
 One moment, Mira's handwriting moved across the relay page in hurried gray strokes. The next, the page tore across with a vertical smear as the threshold sealed with Mira, Aira, Finn, Elira, Leon, Cassian, and Aric still inside.
 
@@ -780,7 +782,7 @@ Below them, the ink had dragged sideways when the hall snapped shut. Mira's fina
 
 The first-year did not clean it up. He copied the smear exactly.
 
-At the center of the outer court, the floor opened in a black ring. Everyone forgot the table.
+At the center of the outer court, the flagstones dark-ringed into a shallow, humming seam around Haru Aerlen's boots. Everyone forgot the table.
 
 Stone sank without falling. Darkness pressed upward without becoming light. Haru Aerlen stood at the rim with both hands visible while Instructor Dren and Professor Halden forced him to name what he intended before the old power could make intention irrelevant.
 
@@ -812,17 +814,17 @@ The first-year tore the copy straight down the middle.
 
 The aide lunged for both halves. The boy let him take the top. The bottom half vanished smoothly into the sleeve of the Green student standing beside him.
 
-No signal passed between them. They had spent days copying Mira's rule: one page can be taken; disagreement must survive elsewhere. The second student walked away into the crowd before anyone decided walking was suspicious, leaving the first-year seated with the official half-copy flattened under his palms.
+No signal passed between them. They had spent days copying Mira's rule: one page can be taken; disagreement must survive elsewhere. The second student stepped back behind Maelin's medical screen toward the two duty runners before anyone decided moving was suspicious, leaving the first-year seated with the official half-copy flattened under his palms.
 
-The hidden half of the page was already moving through other hands when his pocket relay began vibrating.
+The hidden half of the page was already moving along the sheltered runner chain when his pocket message-slate warmed against his thigh.
 
-He ignored it. It buzzed again with the private three-pulse rhythm his mother used only for family emergencies. Over the screaming children and grinding stone beneath Haru's feet, no one else could hear it. That made it harder to refuse.
+He ignored it. The stone pulsed twice more with the private three-tap rhythm his mother used only for family emergencies. Over the screaming children and grinding stone beneath Haru's feet, no one else could hear the faint chime. That made it harder to refuse.
 
-He opened the relay under the table edge. No face appeared, only text routed through the west district copy guild where she worked nights repairing municipal forms.
+He angled the palm-sized relay stone under the table edge. No mirror face formed—only chalk-pale runes etched across the slate surface, routed through the west district copy guild where she worked nights repairing municipal forms.
 
 **COME AWAY FROM THE COURT. NOW.**
 
-A second line arrived before he could thumb a reply.
+A second line burned in before he could trace a reply.
 
 **GUILD RECEIVED NOCTIS NOTICE. YOUR SCHOLARSHIP SPONSOR ASKED WHETHER YOU ARE PARTICIPATING IN UNAUTHORIZED RECORD ACTIVITY.**
 
@@ -832,7 +834,7 @@ His scholarship paid for dormitory housing, meal credits, and the medicine his y
 
 The first-year stared at the official half-page under his hands, then toward the court exit.
 
-He could walk out right now. The aide had the top half; the bottom half was already loose in the crowd. No one could say he destroyed evidence, and his mother would stop seeing his name attached to words like *unauthorized* and *Black Circle*. He had already stayed long enough to tell himself a clean story later.
+He could walk out right now. The aide had the top half; the bottom half was already moving along the exempt runner line. No one could say he destroyed evidence, and his mother would stop seeing his name attached to words like *unauthorized* and *Black Circle*. He had already stayed long enough to tell himself a clean story later.
 
 He started to push his chair back.
 
@@ -842,15 +844,15 @@ She knew nothing about his scholarship, his mother, or his brother. She saw only
 
 The first-year sat back down, not because Sela owned his choice, but because her eyes showed him the one cost he had left off his list.
 
-He typed with one thumb beneath the table.
+He tapped his bone stylus against the margin beneath the table, etching small runes onto the slate.
 
-**I AM SAFE. I AM COPYING. DO NOT ANSWER SPONSOR YET. SAVE MESSAGE.**
+**I AM SAFE. I AM COPYING. DO NOT ANSWER SPONSOR YET. SAVE SLIP.**
 
-His mother replied at once.
+His mother's answer etched through at once.
 
 **I AM AFRAID.**
 
-No order this time. He typed back:
+No order this time. He etched back:
 
 **ME TOO.**
 
@@ -884,27 +886,27 @@ First-Year: "Then it cannot violate admissible-image control."
 
 The answer surprised both of them. Aira would have sharpened it; Mira would have said it shaking. The boy simply held his dripping sleeve away from his ribs so ink would not stain the flagstones.
 
-Three other Green students saw what he had done and closed in. One pressed scrap paper to his sleeve and lifted a reversed fragment. Another copied that onto a lunch wrapper. A third read the backwards letters aloud while a Blue student wrote them forward inside a tournament program.
+Two other exempted Green aides and a Blue duty runner beside Maelin's screen saw what he had done and closed in. One pressed scrap paper to his sleeve and lifted a reversed fragment. Another copied that onto a healer-supply wrapper, while the Blue duty runner copied it forward inside a clinic clipboard.
 
-In less than a minute, the record crossed four surfaces: uniform, scrap, wrapper, program. Each jump lost a timestamp or half a word; each kept what Krail's seal had tried to erase: *Haru named a door. Sela said no. No entry yet.*
+In less than a minute, the record crossed four surfaces: uniform, scrap, wrapper, clipboard. Each jump lost a timestamp or half a word; each kept what Krail's seal had tried to erase: *Haru named a door. Sela shouted hold. No entry yet.*
 
 The red seal widened, hunting a central copy to suppress, and swung toward the students.
 
 Rhea caught it mid-air. Her council seal slammed into Krail's from the side hard enough to scatter red sparks across the court.
 
-Rhea: "My emergency powers cover student protection and immediate hazards. A remote seal trying to classify ink on a student's arm counts as both."
+President Valmont: "My emergency powers cover student protection and immediate hazards. A remote seal trying to classify ink on a student's arm counts as both."
 
 Krail's authority recoiled. Rhea did not shatter it; she pinned it above the half-erased official sheet so the attempted wipe stayed visible to everyone in the court.
 
 She glanced down at the ink dripping from the boy's sleeve onto the table wood.
 
-Rhea: "Preserve the uniform."
+President Valmont: "Preserve the uniform."
 
 First-Year: "I only have two."
 
 Rhea considered the objection more seriously than she had Krail's seal.
 
-Rhea: "Then preserve it until the ink is transcribed, and have Student Council pay for cleaning. No custody claim."
+President Valmont: "Then preserve it until the ink is transcribed, and have Student Council pay for cleaning. No custody claim."
 
 The boy looked down at the reversed words along his forearm.
 
@@ -912,7 +914,7 @@ First-Year: "Can I wear it until Mira comes back?"
 
 Rhea's jaw tightened.
 
-Rhea: "Yes."
+President Valmont: "Yes."
 
 Her emergency seal settled flat onto the dark wood. Not *if*. *Until*.
 
@@ -928,7 +930,7 @@ Maelin spotted the burn from across the court and crossed to him in three stride
 
 Maelin: "Do not move."
 
-First-Year: "The table,"
+First-Year: "The table—"
 
 Maelin: "Can be replaced. Your hand cannot."
 
@@ -944,7 +946,7 @@ He did not know whether that was true, only that he wanted it to be.
 
 Rhea looked down at the blue film wrapping his hand.
 
-Rhea: "Name for the injury record?"
+President Valmont: "Name for the injury record?"
 
 He almost gave his student number. Numbers felt safer when authority was taking notes. Then he saw Sela watching from beyond the table.
 
@@ -952,23 +954,23 @@ First-Year: "Benn Arlow."
 
 Rhea wrote it down herself.
 
-Rhea: "Benn Arlow. Green Circle outer-copy witness. Hand burned preserving a page during active hazard. Scholarship pressure reported through family guild channel."
+President Valmont: "Benn Arlow. Green Circle outer-copy witness. Hand burned preserving a page during active hazard. Scholarship pressure reported through family guild channel."
 
-Benn looked up sharply.
+Benn Arlow looked up sharply.
 
-Benn: "How did you know about the message?"
+Benn Arlow: "How did you know about the message?"
 
-Rhea: "Your relay was open when Krail's seal struck. I heard enough to protect the record, not enough to claim the conversation."
+President Valmont: "Your relay was open when Krail's seal clipped the table—I caught enough harmonic leakage to protect the record, not enough to claim the private runes."
 
-She left the message contents off the public sheet. Benn had not realized authority could admit where its hearing stopped.
+She left the message contents off the public sheet. Benn had not realized authority could admit where its reach stopped.
 
-The table legs rattled as the black ring pulsed again. Benn tried to flatten the remaining copy stack with his bandaged hand and hissed when the blister pulled. The Green student beside him took half the pile.
+The table legs rattled as the black ring pulsed again. Benn tried to flatten the remaining copy stack with his bandaged hand and hissed when the blister pulled. The Green student aide beside him took half the pile.
 
-Benn: "I can keep them."
+Benn Arlow: "I can keep them."
 
 Green Student: "You can keep half."
 
-No speech about sacrifice, just half. Benn let go of the bundles one by one until his palm stopped bleeding beneath the film. The other student lashed the loose pages to the table leg with tournament ribbon stripped from a fallen bracket banner.
+No speech about sacrifice, just half. Benn let go of the bundles one by one until his palm stopped bleeding beneath the film. The other aide lashed the loose pages to the table leg with spare linen stripped from a healer supply roll.
 
 When the stones shuddered again, Benn wrote with his uninjured hand:
 
@@ -976,21 +978,21 @@ When the stones shuddered again, Benn wrote with his uninjured hand:
 
 Beneath it, he signed his name instead of a student number.
 
-His pocket relay buzzed once more.
+His pocket message-slate warmed once more.
 
-**SAW YOUR MESSAGE. BROTHER HAS MEDICINE THROUGH MONTH-END. I AM STILL AFRAID. COME HOME WHEN THE SCHOOL RELEASES YOU, NOT WHEN A SPONSOR DOES.**
+**SAW YOUR SLIP. BROTHER HAS MEDICINE THROUGH MONTH-END. I AM STILL AFRAID. COME HOME WHEN THE SCHOOL RELEASES YOU, NOT WHEN A SPONSOR DOES.**
 
-Benn read the message twice, then tucked the relay away without copying a word onto the public sheet. Family fear did not turn into public property just because it sat beside a witness.
+Benn read the runes twice, then tucked the slate away without copying a word onto the public sheet. Family fear did not turn into public property just because it sat beside a witness.
 
 Instead, below his signature, he wrote:
 
 **PERSONAL COST EXISTS OUTSIDE VISIBLE INJURY. DETAILS WITHHELD BY CHOICE.**
 
-Rhea saw the line and shifted her seal around it, leaving the withheld margin untouched. Benn kept copying with his good hand until the student beside him pointed out blood seeping through his bandage. This time, he stopped on the first warning.
+Rhea saw the line and shifted her seal around it, leaving the withheld margin untouched. Benn kept copying with his good hand until the aide beside him pointed out blood seeping through his bandage. This time, he stopped on the first warning.
 
-Five minutes after it had vanished into the crowd, the hidden bottom half of the page returned through six different hands. Every student who carried it had added one observation along a different margin.
+Five minutes after it had vanished behind the medical screen, the hidden bottom half of the page returned along the chain of the four other sheltered aides and runners plus Maelin's triage clerk. Every person who carried it had added one observation along a different margin.
 
-**Sela said no.**
+**Sela shouted hold.**
 
 **Haru stopped widening the ring.**
 

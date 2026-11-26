@@ -66,6 +66,8 @@ test("sentence highlight markup, builder output, and CSS assets are present", as
   assert.match(css, /\.story-sentence\s*\{[\s\S]*display:\s*inline/);
   assert.match(css, /\.story-sentence\.is-highlighted\b/);
   assert.match(css, /\.reader-tool-button\.has-highlight\b/);
+  assert.match(css, /html\.is-instant-jump[\s\S]*scroll-behavior:\s*auto\s*!important/);
+  assert.match(css, /html\.is-instant-jump\s+\.story-body\s*>\s*\*[\s\S]*content-visibility:\s*visible\s*!important/);
 });
 
 test("wrapSentencesHtml splits sentences safely and keeps all 35 built episodes tag-balanced", async () => {
@@ -136,25 +138,27 @@ test("wrapSentencesHtml splits sentences safely and keeps all 35 built episodes 
       `${episode.id} rendered <strong> tags must stay balanced`
     );
     if (episode.id === "ep1") {
-      assert.equal((rendered.match(/class="scene-anchor"/g) || []).length, 21);
+      assert.equal((rendered.match(/class="scene-anchor"/g) || []).length, 20);
     }
   }
 });
 
-test("highlight toggle, single-per-episode replacement, clear, and jump button state transitions", async () => {
+test("highlight persistence, text-shift recovery, and exact instant jump", async () => {
   const fs = await import("node:fs/promises");
   const vm = await import("node:vm");
   const html = await fs.readFile(new URL("./index.html", import.meta.url), "utf8");
 
-  const fnStart = html.indexOf("    function readHighlightsMap()");
+  const fnStart = html.indexOf('    const highlightCookieName = "bc_hl_v1";');
   const fnEnd = html.indexOf("    function downloadArchiveText()", fnStart);
   assert.ok(fnStart !== -1 && fnEnd !== -1, "Highlight management functions must exist in built index.html");
   const highlightCode = html.slice(fnStart, fnEnd);
+  assert.doesNotMatch(highlightCode, /behavior:\s*"smooth"/, "Jump to highlight must never use smooth scroll");
 
   const storage = new Map();
-  let scrolledToId = "";
-  let pulsed = false;
+  let scrollCalls = [];
+  let currentScrollY = 0;
   let scheduledProgress = false;
+  let cookieJar = "";
   function makeClassList(initial = []) {
     const set = new Set(initial);
     return {
@@ -164,30 +168,24 @@ test("highlight toggle, single-per-episode replacement, clear, and jump button s
       contains: (c) => set.has(c)
     };
   }
-  const s0 = {
-    dataset: { sentenceId: "ep1-s0" },
-    textContent: "My quiet magic slept.",
-    attrs: {},
-    setAttribute(k, v) { this.attrs[k] = v; },
-    removeAttribute(k) { delete this.attrs[k]; },
-    classList: makeClassList(),
-    offsetWidth: 100,
-    getBoundingClientRect: () => ({ top: 200, height: 24 }),
-    scrollIntoView: () => { scrolledToId = "ep1-s0"; },
-    closest: (sel) => (sel === ".story-sentence" ? s0 : null)
+  const rootClassList = makeClassList();
+  const makeSentence = (id, text, absTop) => {
+    const el = {
+      dataset: { sentenceId: id },
+      textContent: text,
+      attrs: {},
+      setAttribute(k, v) { this.attrs[k] = v; },
+      removeAttribute(k) { delete this.attrs[k]; },
+      classList: makeClassList(),
+      offsetWidth: 100,
+      getBoundingClientRect: () => ({ top: absTop - currentScrollY, height: 24 }),
+      scrollIntoView: (opts) => { scrollCalls.push({ via: "scrollIntoView", id: el.dataset.sentenceId, opts }); },
+      closest: (sel) => (sel === ".story-sentence" ? el : null)
+    };
+    return el;
   };
-  const s1 = {
-    dataset: { sentenceId: "ep1-s1" },
-    textContent: "Nobody looked twice.",
-    attrs: {},
-    setAttribute(k, v) { this.attrs[k] = v; },
-    removeAttribute(k) { delete this.attrs[k]; },
-    classList: makeClassList(),
-    offsetWidth: 100,
-    getBoundingClientRect: () => ({ top: 300, height: 24 }),
-    scrollIntoView: () => { scrolledToId = "ep1-s1"; },
-    closest: (sel) => (sel === ".story-sentence" ? s1 : null)
-  };
+  const s0 = makeSentence("ep1-s0", "My quiet magic slept beneath ordinary stone.", 2400);
+  const s1 = makeSentence("ep1-s1", "Nobody looked twice at the Green crest.", 4800);
   const nodes = [s0, s1];
   const jumpBtn = {
     disabled: true,
@@ -213,6 +211,12 @@ test("highlight toggle, single-per-episode replacement, clear, and jump button s
         return m ? nodes.find((n) => n.dataset.sentenceId === m[1]) || null : null;
       }
     },
+    document: {
+      get cookie() { return cookieJar; },
+      set cookie(val) { cookieJar = String(val).split(";")[0]; },
+      documentElement: { classList: rootClassList, scrollHeight: 9000 },
+      querySelector: (sel) => (sel === ".nav-panel" ? { getBoundingClientRect: () => ({ top: 64, bottom: 116, height: 52 }) } : null)
+    },
     localStorage: {
       getItem: (k) => (storage.has(k) ? storage.get(k) : null),
       setItem: (k, v) => storage.set(k, String(v))
@@ -220,13 +224,22 @@ test("highlight toggle, single-per-episode replacement, clear, and jump button s
     CSS: { escape: (v) => v },
     window: {
       innerHeight: 800,
+      get scrollY() { return currentScrollY; },
+      location: { protocol: "https:" },
+      scrollTo: (opts) => {
+        assert.equal(opts.behavior, "instant", "window.scrollTo must be instant");
+        assert.equal(rootClassList.contains("is-instant-jump"), true, "is-instant-jump must disable content-visibility/smooth scroll during jump");
+        currentScrollY = opts.top;
+        scrollCalls.push({ via: "scrollTo", top: opts.top, behavior: opts.behavior });
+      },
       matchMedia: () => ({ matches: false }),
-      setTimeout: (fn) => { pulsed = true; fn(); }
+      requestAnimationFrame: (fn) => fn(),
+      setTimeout: (fn) => fn()
     }
   });
 
   vm.runInContext(
-    `${highlightCode}\nthis.toggleSentenceHighlight = toggleSentenceHighlight;\nthis.jumpToHighlightedSentence = jumpToHighlightedSentence;\nthis.applyEpisodeHighlight = applyEpisodeHighlight;`,
+    `${highlightCode}\nthis.toggleSentenceHighlight = toggleSentenceHighlight;\nthis.jumpToHighlightedSentence = jumpToHighlightedSentence;\nthis.applyEpisodeHighlight = applyEpisodeHighlight;\nthis.resetMemoryCache = () => { highlightsMemoryCache = null; };`,
     context
   );
 
@@ -236,10 +249,23 @@ test("highlight toggle, single-per-episode replacement, clear, and jump button s
   assert.equal(s1.classList.contains("is-highlighted"), false);
   assert.equal(jumpBtn.disabled, false);
 
+  // Instant exact jump centered in visible viewport below 116px sticky nav:
+  // visibleHeight = 800 - 116 = 684; desiredTop = 116 + (684 - 24)/2 = 446; nextY = 2400 - 446 = 1954
   context.jumpToHighlightedSentence();
-  assert.equal(scrolledToId, "ep1-s0");
-  assert.equal(pulsed, true);
+  assert.equal(scrollCalls.length >= 1, true);
+  assert.equal(currentScrollY, 1954);
+  assert.equal(Math.abs(s0.getBoundingClientRect().top - 446) <= 2, true);
+  assert.equal(rootClassList.contains("is-instant-jump"), false, "is-instant-jump must clean up after settling");
   assert.equal(scheduledProgress, true);
+
+  // Survives localStorage clear via cookie backup + self-heals after episode text edits shift sentence IDs
+  storage.clear();
+  context.resetMemoryCache();
+  s0.dataset.sentenceId = "ep1-s9";
+  s0.classList.remove("is-highlighted");
+  context.applyEpisodeHighlight();
+  assert.equal(s0.classList.contains("is-highlighted"), true, "highlight must survive localStorage reset and sentence ID shift");
+  assert.equal(jumpBtn.disabled, false);
 
   context.toggleSentenceHighlight(s1);
   assert.equal(s0.classList.contains("is-highlighted"), false);

@@ -72,7 +72,7 @@ Maelin: "Weather wards are ordinary. The house has handled worse storms than stu
 
 Aira, somewhere behind the mirror, made a strangled sound.
 
-Rhea: "Solen."
+President Valmont: "Solen."
 
 Aira: "I said nothing."
 
@@ -92,7 +92,7 @@ Maelin: "If fear stops you from doing something necessary, or if pride stops you
 
 Rhea's gaze moved to me.
 
-Rhea: "That applies to both of you."
+President Valmont: "That applies to both of you."
 
 Haru: "Understood."
 
@@ -360,7 +360,7 @@ Haru: "Especially then."
 
 That almost made her smile. Almost. Enough.
 
-The mirror in the corner brightened with an emergency alert.
+The folding mirror I had set on the corner table brightened with an emergency alert.
 
 Rhea's seal formed first, then Maelin's.
 
@@ -392,7 +392,7 @@ Maelin: "Good request."
 
 Rhea appeared behind her, fully dressed despite the hour because Rhea Valmont seemed to sleep in authority.
 
-Rhea: "Council perimeter agrees. No external pressure."
+President Valmont: "Council perimeter agrees. No external pressure."
 
 Aira's voice came from somewhere offscreen, sleepy and alarmed.
 
@@ -410,7 +410,7 @@ That may have been the most careful thing they did.
 
 Rhea gave perimeter updates in the same tone she used for council law.
 
-Rhea: "North road clear. East lake ward steady. No relay signatures within the outer ring."
+President Valmont: "North road clear. West lake ward steady. No relay signatures within the outer ring."
 
 Maelin corrected Elira's breathing once.
 
@@ -424,7 +424,7 @@ Aira, now wrapped in a blanket and apparently sitting on the floor of whatever r
 
 Aira: "Request to say something unprofessional."
 
-Rhea: "Denied."
+President Valmont: "Denied."
 
 Aira said it anyway.
 
@@ -450,7 +450,7 @@ Cassian leaned into frame with an entire candle in hand.
 
 Cassian: "I brought dramatic lighting."
 
-Rhea: "Why?"
+President Valmont: "Why?"
 
 Cassian: "Morale."
 
@@ -500,7 +500,7 @@ Maelin: "Good."
 
 Elira: "Storm. Not field."
 
-Rhea: "Confirmed."
+President Valmont: "Confirmed."
 
 Elira: "My hand. Haru's hand. I asked."
 
@@ -534,9 +534,9 @@ Elira: "No. I want the room back."
 
 Rhea nodded once.
 
-Rhea: "Granted."
+President Valmont: "Granted."
 
-Aira: "Text if weather becomes a criminal."
+Aira: "Signal the mirror if weather becomes a criminal."
 
 Elira's mouth curved.
 
@@ -546,7 +546,7 @@ The mirror began to dim.
 
 Then the lake struck the house. Not a wave. A wall.
 
-The gale spun off the water and drove half the eastern shoreline against the restoration wards in one black sheet. The impact lifted the bedroom floor under our knees. Every lamp went out. A window in the hall shattered inward, and the sound tore Elira out of the room more violently than thunder had. She screamed. The Black Circle answered.
+The gale spun off the water and drove a surging wall of lake against the western restoration wards in one black sheet. The impact lifted the first-floor bedroom planks under our knees. Every lamp went out. A window in the lakeside hall shattered inward, and the sound tore Elira out of the bed more violently than thunder had. She screamed. The Black Circle answered.
 
 Dark geometry crossed the ceiling before I could force it back. For one heartbeat I saw the solution it offered: stop the water dead, still the air over the lake, place the entire house inside a law weather could not enter. Perfect. Absolute.
 
@@ -568,7 +568,7 @@ Three brass notes rang through the walls.
 
 Professor Valen's old safety script appeared above the bedroom door:
 
-**EASTERN WATER WARD LOST**
+**WESTERN WATER WARD LOST**
 
 **LOWER FOUNDATION FLOODING**
 
@@ -582,23 +582,23 @@ The floor tilted again. A cedar beam cracked somewhere below. I reached for her,
 
 Haru: "Can you move?"
 
-She put one hand on the mattress, then stood. Her legs shook, and she stayed upright.
+She braced one hand on the mattress, then stood. Her legs shook, and she stayed upright.
 
 Elira: "Yes."
 
-She caught the edge of the bedpost as the floorboards shifted under her boots.
+She snatched her boots off the floor rack beside the bedpost, jammed her bare feet inside them while steadying herself as the floorboards shifted, and caught my eyes.
 
 Haru: "Was that an answer or pride?"
 
 Her eyes flashed.
 
-Elira: "Both. Ask me on the stairs."
+Elira: "Both. Ask me in the hall."
 
-We moved.
+I shoved my bare heels into my own boots by the door, grabbed the folding mirror off the corner table, and we moved out into the lower center hall.
 
-The corridor windows had become white rectangles under the rain. Water poured through the broken one and ran across the floorboards toward the western rooms. The old house responded by opening narrow seams between the boards, but the drainage channels below were already full. Each seam breathed cold lake air upward.
+The western corridor windows had become white rectangles under the rain. Water poured through the broken hall glass and ran across the floorboards toward the eastern rooms. The old house responded by opening narrow seams between the boards, but the drainage channels below were already full. Each seam breathed cold lake air upward.
 
-At the stair landing, the eastern wall bowed inward. Elira stopped. Not from panic. Listening.
+Beside the stair landing at the hall junction, the western wall bowed inward. Elira stopped. Not from panic. Listening.
 
 Elira: "The house is spreading pressure through the consent wards."
 
@@ -608,9 +608,9 @@ Another beam broke below us.
 
 Elira: "That sounded like no."
 
-The secure mirror on the landing flared back to life. Maelin appeared first, one hand braced against the relay frame as wind distorted the image.
+The secure folding mirror flared back to life as I propped it onto the dry stair post. Maelin appeared first, one hand braced against the relay frame as wind distorted the image.
 
-Maelin: "Leave the eastern side. Cellar safe room, now."
+Maelin: "Leave the lakeside corridor. Cellar safe room, now."
 
 Professor Valen pushed into view behind her.
 
@@ -622,17 +622,15 @@ Maelin: "You recommended this house."
 
 Professor Valen: "I did not recommend the mountain emptying a lake through it."
 
-Rhea's voice cut through both.
+President Valmont: "Available exits?"
 
-Rhea: "Available exits?"
+I read the house with ordinary senses first. Back lakeside porch: windward, underwater.
 
-I read the house with ordinary senses first. Front door: windward, impossible.
+Front road door: pinned shut by a storm-felled cedar outside.
 
-Kitchen passage: water already under it.
+East garden: higher ground, but the connecting corridor crossed beneath the bowed western wall.
 
-West garden: higher ground, but the connecting corridor crossed beneath the bowed wall.
-
-Haru: "No safe exit without passing the eastern brace."
+Haru: "No safe exit without passing the western brace."
 
 Aira appeared at the edge of the mirror with a house plan held upside down.
 
@@ -648,9 +646,9 @@ Elira: "No."
 
 Every frightened instinct in me sharpened.
 
-She pointed down the stairs.
+She pointed across the hall toward the sitting room.
 
-Elira: "The channel key is Yellow-era craft. It will answer me faster. You can hold the eastern brace."
+Elira: "The channel key turns on sun-gold restoration resonance—it will answer my Circle faster. You hold the western brace."
 
 Haru: "Your channels are unstable."
 
@@ -672,23 +670,23 @@ Elira: "Agreed."
 
 Maelin looked at me.
 
-Maelin: "Haru. Physical strength only unless the brace fails completely. If Black Circle pressure rises above the wrist, you leave the wall and both of you take the west corridor."
+Maelin: "Haru. Physical strength only unless the brace fails completely. If Black Circle pressure rises above the wrist, you leave the wall and both of you take the east corridor."
 
 Haru: "Agreed."
 
 Rhea lifted her seal.
 
-Rhea: "Witness plan entered. Move."
+President Valmont: "Witness plan entered. Move."
 
 We separated at the foot of the stairs.
 
 Every part of me rejected it.
 
-Elira went left toward the sitting room, one hand trailing along the wall for balance. I went right into the eastern passage where the house had begun coming apart.
+Elira went left toward the sitting room, one hand trailing along the wall for balance. I went right into the western lakeside passage where the house had begun coming apart.
 
 Water hit me at knee height.
 
-The corridor no longer had a floor so much as a current with furniture in it. A side table struck my thigh and spun away. Cold closed around my boots. The bowed wall groaned ahead, held by a cedar brace split almost through its center.
+The corridor no longer had a floor so much as a current with furniture in it. A side table struck my thigh and spun away. Cold closed around my unlaced boots. The bowed wall groaned ahead, held by a cedar brace split almost through its center.
 
 Behind it, the storm drove the lake against glass and stone. I waded forward.
 
@@ -698,7 +696,7 @@ I put both hands on the cedar. Wood, not law. Weight, not command.
 
 The next impact drove a splinter through my palm. I held.
 
-From the sitting room, Elira shouted:
+Elira's voice carried from the sitting room.
 
 Elira: "Key found!"
 
@@ -714,7 +712,7 @@ Elira: "Opening on three."
 
 The house script ignited under the water at my feet. Old gold lines ran from the sitting room toward the southern foundation. One stopped at the threshold, dimmed, and went dark.
 
-Aira's voice crackled from the mirror behind me.
+Aira's voice crackled from the mirror propped back on the dry stair post.
 
 Aira: "The channel is blocked under the kitchen!"
 
@@ -730,7 +728,7 @@ Haru: "No."
 
 Elira: "Annoying. Correct."
 
-The eastern brace cracked another inch.
+The western brace cracked another inch.
 
 I could not leave it.
 
@@ -738,19 +736,17 @@ Elira could not lift the pantry stones and sustain the key.
 
 For one second the plan became a trap built from our limits.
 
-Then a third voice came through the house.
+Then bright silver-gold script burned across every wet wall seam—silent, unhurried, old as bedrock.
 
-Old. Calm. Not human enough to be comforting.
+**KEY RELEASE PERMITTED. HOUSE HOLDS INTENTION FOR TWELVE BREATHS.**
 
-Restoration House: "Occupant may release key. House will remember intention for twelve breaths."
+Elira read the glow aloud, stunned.
 
-Elira went silent.
-
-Aira: "Did the building just offer a timing window?"
+Aira: "Did the wall just give us a twelve-breath timer?"
 
 Professor Valen: "Yes. Twelve breaths. Move!"
 
-Aira: "I would like history to become less conversational."
+Aira: "Even pre-Circle masonry has opinions on pacing."
 
 Elira released the Yellow pulse. The gold lines remained. She ran.
 
@@ -772,11 +768,11 @@ Maelin saw the dark pressure under my skin through the relay.
 
 Maelin: "Haru, withdraw."
 
-The wall moved again. If I let go now, it would fall across the corridor between Elira and the west exit.
+The wall moved again. If I let go now, it would fall across the corridor between Elira and the east exit.
 
 Haru: "Cannot."
 
-Rhea: "State reason."
+President Valmont: "State reason."
 
 Haru: "Brace failure blocks her return route. I hold until spill channel opens or the cedar goes."
 
@@ -814,19 +810,19 @@ Aira: "Eleven."
 
 The house opened beneath us.
 
-Water dropped so fast my stomach followed it. The current reversed, tore chairs away from the eastern passage, and vanished through the southern spill channel with a roar like a second storm under the floor.
+Water dropped so fast my stomach followed it. The current reversed, tore chairs away from the western passage, and vanished through the southern spill channel with a roar like a second storm under the floor.
 
 The pressure left the wall.
 
 The cedar brace sagged into my hands instead of breaking. I lowered it slowly.
 
-Then I ran to the pantry.
+Then I grabbed the folding mirror off the stair post and ran to the pantry.
 
 Elira sat on the floor beside the open hatch. The iron chain smoked near her boots. Her right hand shook violently. A thin line of blood ran from one nostril to her upper lip.
 
 She looked furious about the blood.
 
-I stopped in the doorway.
+I set the mirror onto the dry kitchen counter and stopped in the doorway.
 
 Haru: "May I?"
 
@@ -834,7 +830,7 @@ Elira: "Yes. Quickly, before Maelin arrives through the mirror and kills weather
 
 I knelt and caught her as the last strength left her shoulders.
 
-Maelin's voice filled the kitchen.
+Maelin's voice filled the kitchen from the counter mirror.
 
 Maelin: "Hand open where I can see it."
 
@@ -874,7 +870,7 @@ Elira laughed, then breathed carefully through another wave of nausea while Mael
 
 When the danger passed, Elira sagged against me.
 
-The house did not become quiet. Water still rushed through the spill channel, broken glass clicked across the hall whenever wind entered, and somewhere in the eastern passage the damaged cedar brace settled with a long wooden groan.
+The house did not become quiet. Water still rushed through the spill channel, broken glass clicked across the hall whenever wind entered, and somewhere in the western passage the damaged cedar brace settled with a long wooden groan.
 
 Elira flinched at each sound. She did not pretend otherwise.
 
@@ -926,7 +922,7 @@ Haru: "I am."
 
 Elira: "You are enduring dramatically. Different problem."
 
-The splinter came free with one sharp pull. Blood welled. Elira wrapped my hand in kitchen cloth because the medical bandages were upstairs and neither of us wanted another staircase yet. The knot was ugly. It held.
+The splinter came free with one sharp pull. Blood welled. Elira wrapped my hand in kitchen cloth because the medical bandages were upstairs and neither of us wanted stairs yet. The knot was ugly. It held.
 
 For several minutes, repair meant a boarded window, an open flood channel, and her hands caring for mine after her power had already done enough.
 
@@ -938,13 +934,13 @@ Haru: "Probably while insulting the knot."
 
 Elira: "She will be correct."
 
-We sat on the dry side of the kitchen with our backs against the cabinet. No symbolic view. No lake. Only wet socks, ruined herbs, and the storm breaking itself out toward the east.
+We sat on the dry side of the kitchen with our backs against the cabinet. No symbolic view. No lake. We kicked off our flooded boots by the kitchen step—water spilling onto tile—leaving soaked hems, ruined herbs, and the storm breaking itself out toward the east.
 
 Elira fell asleep there for nine minutes. I did not move her to a better room while she was finally resting.
 
 When she woke, she did not freeze halfway. I wrapped my arms around her only after she leaned in, pressing her face against my chest while the long shake finally worked its way out of her shoulders. I held her through it without trying to be a shield or a cure, just someone who loved her and had stopped pretending love was not afraid.
 
-Once the spill channel slowed to a steady rush, I helped her up the western stairs past the boarded hall window. We peeled off wet socks and damp sleeves, took the dry room at the end of the landing, and got under heavy blankets before dawn.
+Once the spill channel slowed to a steady rush, I gathered the folding mirror, Aira's emergency drawer notebook, dry spare socks from the bedroom's hall chest, and Valen's travel card pouch before helping Elira up the dry eastern stairs, glancing down once at the boarded lakeside hall window below. We peeled off damp sleeves, put on dry socks, and got under heavy blankets in the dry upper room at the end of the landing before dawn.
 
 Near dawn, the storm moved east.
 
@@ -1004,7 +1000,7 @@ Haru: "I lack the authority."
 
 Elira: "And the terrifying eyebrows."
 
-I looked toward the desk where Professor Valen's blank cards still waited. Elira followed my gaze.
+I looked toward the side table where I had stacked Professor Valen's travel card pouch. Elira followed my gaze.
 
 Elira: "Bring the notebook."
 
@@ -1012,7 +1008,7 @@ Haru: "Which one?"
 
 Elira: "Aira's emergency one."
 
-Of course. Aira had hidden a small blue notebook in the bedside drawer beneath a folded pair of socks. On the cover she had written:
+I pulled the small blue notebook from where I had laid it on top of the dry sock bundle we brought upstairs. On the cover she had written:
 
 **FOR LATE-NIGHT IDEAS THAT SHOULD NOT BECOME UNSUPERVISED SPELLCRAFT.**
 
@@ -1178,7 +1174,7 @@ Haru: "Humanly good."
 
 Professor Valen's phrase came back through me without permission. Elira's eyes warmed.
 
-Then the pendant pulsed once, neither cold nor bright, a low violet-black answer against her throat.
+Then the pendant pulsed once, neither cold nor bright, a low silver-black answer against her throat.
 
 Both of us went still.
 
@@ -1254,7 +1250,7 @@ For once, the plan did not feel like a wall. It felt like a door we had named ou
 
 The Council memo arrived before either of us had closed our eyes.
 
-It came through Rhea's secure mirror in a tone so polite it made the restoration house windows frost at the corners.
+It chimed through the folding mirror on our side table and slid a stamped copy out onto its dispatch tray in a tone so polite it made the restoration house windows frost at the corners.
 
 **PRELIMINARY PROXIMITY CONCERN**
 
@@ -1274,7 +1270,7 @@ She knew what it meant to have care converted into a question someone else owned
 
 Then the stillness cracked, ragged and far too human to look brave.
 
-Elira pushed the blanket off her knees and stood too fast. The healer charm at her cuff flashed warning gold. I reached for her before thinking. She stepped back.
+Elira pushed the blanket off her knees and stood too fast. Maelin's medical seal at her wrist flashed warning gold. I reached for her before thinking. She stepped back.
 
 Elira: "Do not."
 
@@ -1330,11 +1326,9 @@ Elira closed her eyes.
 
 Elira: "Good. Neither do I."
 
-For once, no one tried to make the silence useful. The mirror brightened.
+For once, no one tried to make the silence useful. Inside the already open mirror frame, Rhea stepped forward with her hair unpinned on one side and the expression of a person who had already argued with three senior officials before tea.
 
-Rhea appeared with her hair unpinned on one side and the expression of a person who had already argued with three senior officials before tea.
-
-Rhea: "Do not answer the memo emotionally."
+President Valmont: "Do not answer the memo emotionally."
 
 Aira's voice came from somewhere beyond the mirror frame.
 
@@ -1342,7 +1336,7 @@ Aira: "Too late emotionally. Still possible on paper."
 
 Maelin leaned into the mirror beside Rhea, eyes moving over Elira before she looked at me.
 
-Maelin: "Patient status?"
+Maelin: "Hands clear of the pendant now—patient status?"
 
 Elira: "Alive. Irritated. Under-slept."
 
@@ -1356,35 +1350,35 @@ The small exchange should have eased the room. It did not.
 
 The memo sat between us like a new kind of weather.
 
-Rhea: "Krail's office did not file the language directly. That is important. He pushed it through a welfare committee so the first draft sounds like concern."
+President Valmont: "Krail's office did not file the language directly. That is important. He pushed it through a welfare committee so the first draft sounds like concern."
 
 Aira leaned into view holding a copied page.
 
 Aira: "Concern with teeth, claws, and a little hat labeled procedure."
 
-Rhea: "Solen."
+President Valmont: "Solen."
 
 Aira: "I am coping."
 
 Rhea turned one page.
 
-Rhea: "There is also a Noctis observer notice attached to the same docket."
+President Valmont: "There is also a Noctis observer notice attached to the same docket."
 
 Elira's fingers stilled on the blanket.
 
-Rhea: "Lucien Voss did not author it. He was careful. But the phrasing uses his trick: treating closeness as suspicious influence only after someone chooses to stay."
+President Valmont: "Lucien Voss did not author it. He was careful. But the phrasing uses his trick: treating closeness as suspicious influence only after someone chooses to stay."
 
 Aira: "So if you leave, he calls distance instability. If you stay, he calls closeness contamination."
 
-Rhea: "That is the shape."
+President Valmont: "That is the shape."
 
 The quiet in the restoration house changed, no longer broken, only borrowed.
 
-Elira took the page from the blanket and set it beside her notebook.
+Elira took the stamped memo sheet from the blanket and set it beside her notebook.
 
 The four columns looked suddenly smaller.
 
-What I feared. What happened. What the spell tried to make it mean. What I choose to call it.
+Choice. Witness. Body. Route.
 
 Now the Council had offered a fifth column: what strangers might find convenient.
 
@@ -1426,7 +1420,7 @@ Aira's pen moved so fast it scratched.
 
 Rhea's expression changed by one exact degree.
 
-Rhea: "That is the answer."
+President Valmont: "That is the answer."
 
 Elira: "Not all of it."
 
@@ -1446,7 +1440,7 @@ Aira made a wounded sound.
 
 Aira: "That is disgustingly useful."
 
-Rhea: "Accepted. We are coming out to Lake Velis at noon. Valen is pulling an old ward case from the archive, and Leon is packing stabilizing plates. Do not touch the pendant until we get there."
+President Valmont: "Accepted. We are coming out to Lake Velis at noon. Valen is pulling an old ward case from the archive, and Leon is packing stabilizing plates. Do not touch the pendant until we get there."
 
 Maelin looked between us.
 
@@ -1474,28 +1468,28 @@ The worst night of recovery leave was behind us, though nothing about it felt se
 
 ## Coda: Containment Weather
 
-Rain began again before noon.
+Rain began again in midmorning after we had carried the mirror back down to the sitting-room mantle.
 
 No thunder followed it, no sudden crack in the sky, just cold water ticking against the restoration house roof while the Council memo sat on the sitting room table and tried to make fear sound responsible. Elira unlatched the unboarded window.
 
-Maelin objected from the portable mirror on the mantle with her whole face.
+Maelin objected from the folding mirror on the mantle with her whole face.
 
 Elira: "I need to hear something that is not policy."
 
-The room allowed it. Rain entered as scent first: cedar, lake stone, wet earth. Haru stood near enough to close the window if she asked and far enough that the choice stayed hers.
+The room allowed it. Rain entered as scent first: cedar, lake stone, wet earth. I stood near enough to close the window if she asked and far enough that the choice stayed hers.
 
-Elira touched the newly tied ribbon at his wrist.
+Elira touched the newly tied ribbon at my wrist.
 
 Elira: "If they call staying together suspicious, we make suspicious look boring."
 
 Haru: "Boring may be beyond us."
 
-Across the mirror, Aira did not look up from the satchel she was strapping shut in Aurelis.
+Across the mirror, Aira did not look up from the satchel she was strapping shut at Aurelis's gate.
 
-Aira: "I can draft a schedule for strategic boring on the ride out. Rhea is pulling the carriage around now."
+Aira: "I can draft a schedule for strategic boring on the carriage ride out. Rhea is pulling onto the eastern road now—we will make noon easily."
 
-Maelin muttered something under her breath and checked her watch before cutting the relay for the road.
+Maelin muttered something under her breath and glanced up at the infirmary clock before cutting the relay for the road.
 
 The mirror went dark. The house went quiet again, except for the rain and the spill channel muttering beneath the boards.
 
-For the first time since the memo arrived, Elira smiled like the room belonged to the living, then turned toward the front door with him to wait for noon.
+For the first time since the memo arrived, Elira smiled like the room belonged to the living, then turned beside me to gather the kettles before our noon guests reached the porch.

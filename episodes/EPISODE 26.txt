@@ -2,9 +2,9 @@
 
 The road north did not look heroic.
 
-That was the first thing I noticed after the Aurelis gates fell behind us. Heroic roads belonged in ballads: wide stone causeways, clean banners, clear weather. Our road was narrow, rutted, and white at the edges with packed snow.
+That was the first thing I noticed after the Aurelis gates fell behind us. Heroic roads belonged in ballads: wide stone causeways, clean banners, clear weather. Our road began as narrow, rutted mud out of the valley before frost hardened the shoulders toward the northern foothills.
 
-The left front wheel found every rut. Every jolt came up through the driver's bench, through my gloves, and tugged at the black-and-silver ribbon around my wrist. It had survived more politics than most council seals. Maelin had wrapped my bruised ring finger beneath it before we left. Dried blood from the lower channel still darkened the quick, and every hard turn of the reins sent a narrow pulse down toward my palm. She had called it a small burst blood vessel with no clear magical cause. Elira had heard only unknown. I had called it manageable. Neither of them had forgiven the word.
+The left front wheel found every rut. Every jolt came up through the driver's bench, through my gloves, and tugged at the black-and-silver ribbon around my wrist. It had survived more politics than most council seals. Maelin had wrapped my bruised ring finger in fresh linen below it before we left. Dried blood from the eleventh heartbeat at the lower channel still darkened the ruptured nail bed, and every hard turn of the reins sent a narrow pulse down toward my palm. She had called the lingering rupture a small burst vessel with no clear ongoing magical drain. Elira had heard only unknown. I had called it manageable. Neither of them had forgiven the word.
 
 Inside the carriage, something heavy thumped against the bench.
 
@@ -18,7 +18,7 @@ Elira laughed softly. The sound reached me through the small front window, light
 
 I kept my eyes on the horses. Cassian had chosen them because they looked unimpressed by politics, and he had been right. The carriage carried no house name and no Aurelis treasury seal. On the outer panel, Aira had taped a narrow strip of paper that fluttered whenever the wind struck: **No content purchased. No route owned. Warmth before trace.**
 
-The Care Ledger sat inside in a locked satchel between Aira's boots. A gust of wind pushed across the slope, lifting fine snow around the wheels.
+The Care Ledger copy sat inside in a locked satchel between Aira's boots, alongside the witness pouch Mira had sent north. A gust of wind pushed across the slope, lifting fine snow around the wheels.
 
 Haru: "Easy."
 
@@ -122,7 +122,7 @@ Elira: "Support, not panic."
 
 Haru: "Support."
 
-The mountain cold struck her harder than the rest of us. I saw it in the pause after her boot met snow, in the stiffening of her left shoulder beneath the shawl, and in the brief amber pulse of Maelin's healer charm at her cuff. Elira caught me watching.
+The mountain cold struck her harder than the rest of us. I saw it in the pause after her boot met snow, in the stiffening of her wrenched left shoulder beneath the shawl and the careful way she kept her bandaged cut palm tucked inside her sleeve, and in the brief amber pulse of Maelin's healer charm at her cuff. Elira caught me watching.
 
 Elira: "Do not become tragic."
 
@@ -196,13 +196,13 @@ Elira: "So is snow. We still do not hold it for three hours as a character state
 
 Maelin: "I approve the tone."
 
-Elira took my bare hand between both of hers. Warmth rose from her palms, quiet and unadorned, with no gold flare and no Yellow Circle display. I nearly pulled back, knowing what mana cost her while her own body was still healing.
+Elira took my bare hand gently between hers, keeping the gauze wrap across her sliced palm clear of my knuckles. Warmth rose from her uninjured palm and fingers, quiet and unadorned, with no gold flare and no Yellow Circle display. I nearly pulled back, knowing what mana cost her while her own body was still healing.
 
 Elira: "Do not."
 
-Haru: "Your shoulder."
+Haru: "Your palm and shoulder."
 
-Elira: "My hands are not my shoulder."
+Elira: "My shoulder hurts when lifted, and the palm crease is already knit under clean gauze. Neither stops warm hands."
 
 Maelin: "Technically true. Annoyingly so."
 
@@ -322,25 +322,25 @@ Aira: "Good afternoon to you too."
 
 The clerk swallowed. On the carriage panel, Rhea's certified route stamp glowed faintly.
 
-Valech: "We received President Valmont's certification. We also received Councilor Krail's containment order."
+Captain Valech: "We received President Valmont's certification. We also received Councilor Krail's containment order."
 
 Aira: "How emotionally rich for your inbox."
 
 The road warden nearly smiled.
 
-Valech: "I am not your enemy."
+Captain Valech: "I am not your enemy."
 
 Elira: "Then do not become the lock."
 
 Valech looked at her properly then. Not Yellow Circle. Not resurrected witness. Just Elira Vale, pale from cold and travel, standing upright because Maelin had not yet forced her back onto the bench.
 
-Valech: "Lady Vale, I have orders."
+Captain Valech: "Lady Vale, I have orders."
 
 Elira: "So do we."
 
 Clerk: "The Council order states no emergency transit funds can support private Black Circle movement."
 
-Aira snapped open the Care Ledger. The sound carried over the wind.
+Aira snapped open the Care Ledger copy. The sound carried over the wind.
 
 Aira: "Excellent. No Council emergency transit funds are being used."
 
@@ -354,17 +354,17 @@ She turned the ledger toward Valech. He hesitated, and I saw the weight behind i
 
 Aira: "He is calculating what Krail can do to his pension."
 
-Valech: "My pension was lost three orders ago. I am checking whether this document protects my staff."
+Captain Valech: "My pension was lost three orders ago. I am checking whether this document protects my staff."
 
 The correction cost Aira, and she took it cleanly.
 
 Aira: "It names every reader and road worker who agrees to the difference freely, without pressure."
 
-Valech: "Good. Promises like that are usually traps."
+Captain Valech: "Good. Promises like that are usually traps."
 
 He looked at the road warden instead of ordering her.
 
-Valech: "Tessa, do you want to read it?"
+Captain Valech: "Tessa, do you want to read it?"
 
 Road Warden: "May I?"
 
@@ -378,19 +378,19 @@ Aira: "Tessa Orlin reads Care Ledger at Whispering Pass Gate by choice."
 
 Tessa gave her a dry look.
 
-Tessa: "You write everything."
+Tessa Orlin: "You write everything."
 
 Aira: "Only what people later pretend did not happen."
 
 Tessa read while the clerk leaned over her shoulder. Valech kept his eyes on me.
 
-Valech: "You could open this gate."
+Captain Valech: "You could open this gate."
 
 The Black Circle did not stir, though my anger did.
 
 Haru: "I could. I am not going to."
 
-Valech: "Why?"
+Captain Valech: "Why?"
 
 Haru: "Because the gate is not the enemy."
 
@@ -434,17 +434,17 @@ Elira: "We do not answer the seal first."
 
 Tessa closed the Care Ledger carefully.
 
-Tessa: "Then what do you answer?"
+Tessa Orlin: "Then what do you answer?"
 
 Elira: "The state of things. The gate is frozen by ice, and the lock is frozen by rules. Which part needs warmth, and which part needs refusal?"
 
 Road maintenance came into Tessa's posture like a drawn blade.
 
-Tessa: "The gear housing is iced over. If the teeth clear, the wheel turns on plain mechanics alone."
+Tessa Orlin: "The gear housing is iced over. If the teeth clear, the wheel turns on plain mechanics alone."
 
 Aira: "So we do not touch the Council seal."
 
-Tessa: "We thaw the gate under routine road upkeep."
+Tessa Orlin: "We thaw the gate under routine road upkeep."
 
 Maelin reached into her satchel and held out three folded slips.
 
@@ -466,11 +466,11 @@ Cassian's low-flare fire charms came out of their sealed heat case, Aira reading
 
 The first fire charm warmed the iron too fast. Tessa hissed.
 
-Tessa: "Slow it."
+Tessa Orlin: "Slow it."
 
 Aira: "Charm two runs cooler."
 
-Perrin: "The seal checks for spell tampering."
+Perrin Holt: "The seal checks for spell tampering."
 
 Maelin: "It detects heat. Iron is permitted to become warm, even under Council decree."
 
@@ -480,7 +480,7 @@ Haru: "Gate Captain. When the gear clears, you open it. Not me."
 
 Valech's throat worked.
 
-Valech: "If I open it, I am accountable."
+Captain Valech: "If I open it, I am accountable."
 
 Elira rested her fingers lightly against the wooden doorframe of the carriage.
 
@@ -494,7 +494,7 @@ Valech closed his eyes once, opened them, and stepped to the wheel. Tessa tested
 
 Perrin lifted his slate with shaking hands.
 
-Perrin: "Town upkeep rule logged. Medical travel need logged. No Council funds spent."
+Perrin Holt: "Town upkeep rule logged. Medical travel need logged. No Council funds spent."
 
 Aira: "Voluntary ledger support logged."
 
@@ -516,13 +516,13 @@ Aira: "Provisional title."
 
 Tessa barked a startled laugh. Valech stepped back from the wheel, breathing hard.
 
-Valech: "The gate is open."
+Captain Valech: "The gate is open."
 
 Haru: "You opened it."
 
 It did not make him safe from Krail, and he knew it, yet his shoulders sat squarer for choosing with his own hands.
 
-Valech: "Safe passage."
+Captain Valech: "Safe passage."
 
 Elira leaned forward just enough to incline her head.
 
@@ -530,21 +530,21 @@ Elira: "Thank you."
 
 Perrin glanced at her pendant, flushing.
 
-Perrin: "Is it true? About the children and the channel?"
+Perrin Holt: "Is it true? About the children and the channel?"
 
 Elira: "Enough of it is true that we cannot wait. That is why we are going."
 
 Perrin nodded. Then he reached inside his coat and pulled out a small waxed-paper packet.
 
-Tessa: "Perrin."
+Tessa Orlin: "Perrin."
 
-Perrin: "Dried apple. My sister sends them for long shifts. If it breaks your ledger rules, leave it."
+Perrin Holt: "Dried apple. My sister sends them for long shifts. If it breaks your ledger rules, leave it."
 
 Aira appeared beside him as if paperwork itself had summoned her.
 
 Aira: "Name, consent, value?"
 
-Perrin: "Perrin Holt. Consent. One packet dried apple. No command privilege."
+Perrin Holt: "Perrin Holt. Consent. One packet dried apple. No command privilege."
 
 Aira wrote, then accepted the packet.
 
@@ -682,7 +682,7 @@ Elira: "The least practical gifts are holding longest. The relay is testing whet
 
 Maelin: "Good. Then move before philosophy causes frostbite."
 
-We obeyed, though the lights nearest the Care Ledger lingered above the locked case. Aira noticed and crouched to unlatch it on a flat stone. Blue frost crept along the paper margins without touching Mira's handwriting or Finn's dated receipts. A warmth mark settled above the first line, **Conditions before content. Warmth before trace. Travel without throne**, then drifted over the clear pouch holding Sela's ribbon bead, Perrin's dried apples, the tea, and the blankets. The relay was counting what had been allowed to come with us.
+We obeyed, though the lights nearest the Care Ledger copy lingered above the locked case. Aira noticed and crouched to unlatch it on a flat stone. Blue frost crept along the paper margins without touching the certified witness entries or Finn's dated receipt copies. A warmth mark settled above the first line, **Conditions before content. Warmth before trace. Travel without throne**, then drifted over the clear pouch holding Sela's ribbon bead, Perrin's dried apples, the tea, and the blankets. The relay was counting what had been allowed to come with us.
 
 Aira swallowed.
 
@@ -706,7 +706,7 @@ Elira: "Aira follows with the ledger."
 
 Aira's humor folded straight back into focus.
 
-Aira: "Second. With Care Ledger and Ice Ink. No content purchased. No route owned."
+Aira: "Second. With the Care Ledger copy and Ice Ink. No content purchased. No route owned."
 
 Elira looked toward the spire.
 
@@ -726,7 +726,7 @@ Maelin pointed toward the horses.
 
 Maelin: "Then learn while checking the brake. Practicality before symbolism."
 
-We packed in deliberate pieces. Maelin checked Elira's shoulder and pulse before slinging her two medical satchels, a portable heat-array case, and her medical slate. Aira sealed the Ice Ink inside ward glass, cross-tied the Care Ledger case to her belt, and tucked Perrin's dried apples and Iven's boot sweets into the visible supply pocket so every witness item traveled inside with us. Elira parted her shawl to leave the pendant in plain sight. I secured the team in the lee of the broken stone marker and tested the carriage brake.
+We packed in deliberate pieces. Maelin checked Elira's pulse, shoulder wrap, and palm gauze before slinging her two medical satchels, a portable heat-array case, and her medical slate. Aira sealed the Ice Ink inside ward glass, cross-tied the Care Ledger copy case to her belt, and tucked Perrin's dried apples and Iven's boot sweets into the visible supply pocket so every witness item traveled inside with us. Elira parted her shawl to leave the pendant in plain sight. I secured the team in the lee of the broken stone marker and tested the carriage brake.
 
 When I turned back, Maelin was already at the threshold, a slab of dark blue ice set into black stone carved with relay marks: **Consent before entry.**
 
@@ -734,7 +734,7 @@ Maelin raised one open palm.
 
 Maelin: "Medical warmth entering under consent condition. No touch. No content required."
 
-The frost over the ice thinned by one layer. Aira stepped up next, holding the Care Ledger at chest height.
+The frost over the ice thinned by one layer. Aira stepped up next, holding the Care Ledger copy at chest height.
 
 Aira: "Voluntary road support entering under a shared witness record. No paid access."
 
@@ -1032,7 +1032,9 @@ The first heat array pulsed amber.
 
 Maelin: "Good."
 
-Behind the frost, Lysa's eyes opened with the slow, painful focus of someone dragged back from sleep by a sound she distrusted. Her gaze moved from Maelin's satchel to Aira's ledger, to Elira's pendant, and sharpened only when it found the space I had not crossed. Her lips moved, though no sound carried.
+Behind the frost, Lysa's eyes opened with the slow, painful focus of someone dragged back from sleep by a sound she distrusted. She pressed two bruised fingers flat against the barrier—indicating two of them inside, separated from the rest—though no sound crossed.
+
+She drew one ragged breath, her gaze moving from Maelin's satchel to Aira's ledger, to Elira's pendant and bandaged palm, sharpening only when it found the space I had not crossed. Her lips moved again, though no sound carried.
 
 Aira lifted one hand.
 
@@ -1074,7 +1076,7 @@ Elira: "No classification."
 
 Aira: "No classification. Sequence only."
 
-Maelin set her medical slate down beside the Care Ledger.
+Maelin set her medical slate down beside the Care Ledger copy.
 
 Maelin: "Medical watch without slapping labels on anyone."
 
@@ -1120,7 +1122,7 @@ I looked down. My gloved fingers had curled into a fist. I uncurled them, and Ai
 
 Aira: "Haru Aerlen closes hand under hostile labeling pressure. Elira Vale reminds him to open it. Haru complies. No escalation."
 
-The construct flickered as the relay accepted the record, and the dark frost under my boots broke into harmless lines. Aira opened the Care Ledger's front pouch and set Sela's ribbon bead on the page, absurdly small in the blue chamber for a trinket sent by a child who had never met Sera. Maelin laid Perrin Holt's dried apple packet beside it.
+The construct flickered as the relay accepted the record, and the dark frost under my boots broke into harmless lines. Aira opened the Care Ledger copy's front pouch and set Sela's ribbon bead on the page, absurdly small in the blue chamber for a trinket sent by a child who had never met Sera. Maelin laid Perrin Holt's dried apple packet beside it.
 
 Aira: "Sela's ribbon bead. No currency value. Full witness. Offered as warmth symbol, not access payment."
 
@@ -1364,7 +1366,7 @@ Sera: "Same."
 
 Aira shifted the ledger closer to the heat array and drew three marks on a clean page.
 
-Aira: "Consent anchor: Sera. Warmth anchor: Elira Vale. Witness structure: Aira Solen, Care Ledger, Ice Ink, Maelin Orr medical record."
+Aira: "Consent anchor: Sera. Warmth anchor: Elira Vale. Witness structure: Aira Solen, Care Ledger copy, Ice Ink, Maelin Orr medical record."
 
 Frost answered between Elira and Sera, forming not a circle, but three open handprints glowing pale blue across the stone. My own hands stayed empty, and the ache of that settled into something steady. I held the boundary at the edge of the chamber: if Lucien pushed, I would hold; if the relay shifted, I would steady the threshold; but I would not become the cure.
 
@@ -1400,25 +1402,23 @@ Then the relay floor flashed.
 
 Lightless script crawled across the frost near the exit:
 
-BLACK CIRCLE EXTRACTION EVENT PENDING CLASSIFICATION.
+**BLACK CIRCLE EXTRACTION EVENT PENDING CLASSIFICATION.**
 
 Lysa went rigid beneath her blankets. Sera drew back behind the three glowing handprints, tucking her hands deep inside her sleeves. Elira's warmth flared instinctively at her throat before she checked it, pale and still kneeling at the edge of the station.
-
-Aira: "Oh, absolutely not."
 
 The relay had opened the alcove by consent. Lucien had found the record.
 
 ## Coda: Sera's Stop
 
-In the brief stillness before anyone moved to answer the exit script, Sera tested the word once more.
+In the brief quiet right before the exit floor flashed its accusation, Sera had tested the word one last time.
 
-Elira remained kneeling beside the heat array, letting her breath settle while her left shoulder trembled faintly beneath the shawl. Beside the alcove, Lysa lay wrapped in three heat blankets, eyes fixed on the frost-script near the doorway.
+Elira remained kneeling beside the heat array, letting her breath settle while her left shoulder trembled faintly beneath the shawl. Beside the alcove, Lysa lay wrapped in three heat blankets, eyes narrowed against the frost-light near the doorway.
 
 Sera stared down at her own sleeves.
 
 Sera: "Stop."
 
-Magic and warmth stayed still. Maelin paused with a salve tin half-opened in her hand, looking up without rushing to claim the word before it could belong to the child.
+Magic and warmth stayed still. Maelin paused with a plain ointment jar from her medical satchel half-opened in her hand, looking up without rushing to claim the word before it could belong to the child.
 
 Maelin: "Stopped."
 
@@ -1430,6 +1430,6 @@ Sera swallowed.
 
 Sera: "Stop."
 
-Nothing flared. Nothing grabbed. Aira held her pencil steady off the page until Sera finished looking at it. Across the inner frost line, I stayed where she could see me not entering, the Black Circle quiet beneath my ribs.
+Nothing flared. Nothing grabbed. Aira held her pencil steady off the page until Sera finished looking at it. Across the inner frost line, I stayed where she could see me not entering, the Black Circle quiet beneath my ribs—just an instant before lightless script crawled out across the frost at the exit.
 
 Sera tucked her warming hands deeper inside her sleeves beside the three glowing handprints. The word stayed hers.

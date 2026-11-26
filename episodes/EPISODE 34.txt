@@ -16,33 +16,33 @@ He wore layered ceremonial wool against the frost, silver hair combed exact as s
 
 Rhea Valmont stepped into the lantern light outside the green lane, her suspended, cracked mandate mark lowered openly at her wrist.
 
-Rhea: "You are early, Headmaster."
+President Valmont: "You are early, Headmaster."
 
 Headmaster Veris: "Cold mortar sets best before midday foot traffic, President Valmont. And Magistra Voss made the jurisdictional boundaries plain two days ago."
 
 Veris glanced up at the gilded order overhead, then toward the west service arch.
 
-Veris: "I am barred from Foundation, Noctis, and Black Circle matters during the Seal-Audit review. I retain ordinary academic administration. Yesterday morning a neglected service wall split right beneath an occupied bell tower. Sealing unsafe masonry before a student gets crushed is housekeeping, not politics."
+Headmaster Veris: "I am barred from Foundation, Noctis, and Black Circle matters during the Seal-Audit review. I retain ordinary academic administration. Yesterday morning a neglected service wall split right beneath an occupied bell tower. Sealing unsafe masonry before a student gets crushed is housekeeping, not politics."
 
 Krail chimed dryly from the floating glass.
 
-Krail: "Noted for Council minutes, Headmaster. If students obstruct campus repair, Campus Safety clears the lane."
+High Councilor Krail: "Noted for Council minutes, Headmaster. If students obstruct campus repair, Campus Safety clears the lane."
 
 One older mason eyed the glowing green lines beneath his boots and hesitated beside his barrow. Veris gestured calmly toward the arch.
 
-Veris: "Stack course one along the outer lip. Leave student copy boards alone."
+Headmaster Veris: "Stack course one along the outer lip. Leave student copy boards alone."
 
 Haru: "You know what sits on the other side of that wall."
 
 My voice carried flat across the frost. Veris turned with courteous, impenetrable patience.
 
-Veris: "Mr. Aerlen. By Council ruling you are a threshold witness, not a structural engineer. I have no wish to drag the Black Circle into routine masonry."
+Headmaster Veris: "Mr. Aerlen. By Council ruling you are a threshold witness, not a structural engineer. I have no wish to drag the Black Circle into routine masonry."
 
 Haru: "Four Green students in Noctis are pinned under a bronze counterweight and a lime sluice while you call it routine."
 
 Veris did not blink.
 
-Veris: "Unverified rumor collected through an uncertified crack. Aurelis will not leave an unstable tower open because angry students read conspiracy into every draft."
+Headmaster Veris: "Unverified rumor collected through an uncertified crack. Aurelis will not leave an unstable tower open because angry students read conspiracy into every draft."
 
 Behind the green line, Bramwell Orren cleared his throat.
 
@@ -50,13 +50,13 @@ A dry, rusty cough. The fifty-six-year-old clerk stepped past Halden's shoulder 
 
 Veris's mask stayed smooth, though his eyes narrowed by a fraction.
 
-Veris: "Mr. Orren. The Dead-Letter Vault does not open until seven."
+Headmaster Veris: "Mr. Orren. The Dead-Letter Vault does not open until seven."
 
 Orren drew no badge from his coat. Only Mira's jagged copy of Waybill 7-B folded between stiff knuckles. He squinted down through his mended glass.
 
 Orren: "Autumn twenty-four years ago. Inter-Academy Transit Desk. Waybill 7-B."
 
-Veris: "Mr. Orren, basement clerical chatter during a hazard repair-"
+Headmaster Veris: "Mr. Orren, basement clerical chatter during a hazard repair-"
 
 Orren read right over him in dry registrar's cadence that carried to every mason and mirror in the yard.
 
@@ -76,11 +76,11 @@ Beside me, Leon Varek stood with both fists buried deep in his coat pockets, jaw
 
 Krail snapped from the mirror.
 
-Krail: "A twenty-four-year-old cellar scrap read by a disgruntled clerk proves nothing about today's fissure. Auditor Falk holds your seal audit behind closed doors. Build the wall."
+High Councilor Krail: "A twenty-four-year-old cellar scrap read by a disgruntled clerk proves nothing about today's fissure. Auditor Falk holds your seal audit behind closed doors. Build the wall."
 
 Veris turned smoothly toward the slate-gray figure standing silent beside Architect Sovan Reith.
 
-Veris: "Auditor Falk. Your division respects the line between historical audit and immediate safety."
+Headmaster Veris: "Auditor Falk. Your division respects the line between historical audit and immediate safety."
 
 Auditor Tamsin Falk stepped into the center of the lantern ring.
 
@@ -94,19 +94,19 @@ Auditor Falk: "Headmaster Veris. Six months ago you dropped your primary office 
 
 Veris froze. The composure around his mouth hardened to stone.
 
-Falk: "This counter-foil came out of Noctis's Lower Bell-Shaft Seven last night. Still soft on the bevel. Your live matrix stamped it less than three weeks ago, inside my active audit window, holding Key Number Seven open on this exact arch."
+Auditor Falk: "This counter-foil came out of Noctis's Lower Bell-Shaft Seven last night. Still soft on the bevel. Your live matrix stamped it less than three weeks ago, inside my active audit window, holding Key Number Seven open on this exact arch."
 
 Krail's voice pitched sharp inside the glass.
 
-Krail: "Seal that exhibit under Section Four immediately! You have no authority to broadcast unverified items!"
+High Councilor Krail: "Seal that exhibit under Section Four immediately! You have no authority to broadcast unverified items!"
 
 Falk ignored him. She unclipped her silver Commission plate and pressed her Red Circle against the brass until formal forensic light flared across every mirror in the yard.
 
-Falk: "Not Section Four, Councilor. Inter-National Forensic Fraud Charter Section Nine. A concealed live-dated cross-school counter-key voids ordinary administrative immunity immediately."
+Auditor Falk: "Not Section Four, Councilor. Inter-National Forensic Fraud Charter Section Nine. A concealed live-dated cross-school counter-key voids ordinary administrative immunity immediately."
 
 Veris stepped back a pace before catching himself.
 
-Falk: "Headmaster Veris's structural order is voided for active evidence destruction. I certify Bramwell Orren's carbon Waybill 7-B, Mira Castellan's witness copies, and Petra Brin's twelve-waybill oiled-cloth ledger as Irrevocable Cross-School Forensic Exhibits."
+Auditor Falk: "Headmaster Veris's structural order is voided for active evidence destruction. I certify Bramwell Orren's carbon Waybill 7-B, Mira Castellan's witness copies, and Petra Brin's twelve-waybill oiled-cloth ledger as Irrevocable Cross-School Forensic Exhibits."
 
 Aira let out a quiet, breathless laugh behind her pad.
 
@@ -114,19 +114,19 @@ Aira: "She just certified ugly copies as Council evidence. Frame the sky."
 
 Falk turned on the masons.
 
-Falk: "Leave the barrows. Step off that arch, or I log your guild seals under Section Nine obstruction."
+Auditor Falk: "Leave the barrows. Step off that arch, or I log your guild seals under Section Nine obstruction."
 
 All six masons backed ten paces off the stone before Veris framed a word.
 
-Falk tapped her brass relay pin once.
+Auditor Falk tapped her brass relay pin once.
 
-Falk: "Opening Inter-National Forensic Broadcast. All academy seats."
+Auditor Falk: "Opening Inter-National Forensic Broadcast. All academy seats."
 
-Krail barked an objection as three new mirror frames split the frost air above the fountain.
+High Councilor Krail barked an objection as four new mirror frames split the frost air above the fountain.
 
-Two answered inside ninety seconds.
+Three answered inside ninety seconds—every rival delegation responding from home or sanctuary chambers after Magistra Voss's audit cleared visiting teams back to standby while tournament standings remained frozen.
 
-Silver-blue uniform light flared first: **VALEMERE ROYAL INSTITUTE - CONNECTED**. Soren Ashvale filled the left glass in plain training wool, dark hair uncombed off dawn drill. Just behind his shoulder stood Talen Mire, braced right hand held open in plain view.
+White-and-blue uniform light flared first: **VALEMERE ROYAL INSTITUTE - CONNECTED**. Soren Ashvale filled the left glass in plain training wool, dark hair uncombed off dawn drill. Just behind his shoulder stood Talen Mire, braced left hand held open in plain view.
 
 Soren's eyes swept down the scrolling forensic ledger and locked onto line two.
 
@@ -136,29 +136,33 @@ Talen spoke low beside him, voice flat.
 
 Talen: "My mother knew Halek's sister. That family never signed a withdrawal slip."
 
-Before Krail could cut the link, ash-gray light lit the right mirror: **DRAKENSHARD - CONNECTED**. Mara Kest stood upright in an unheated stone gallery, sword belt absent, jaw set like slate.
+Before Krail could cut the link, iron-red and slate light lit the second mirror: **DRAKENSHARD MILITARY ACADEMY - CONNECTED**. Mara Kest stood upright in an unheated stone gallery, sword belt absent, jaw set like slate.
 
 Mara: "T. Sorrel. Blue Circle archivist, nineteen years past. Plus two more Drakenshard names inside five years, both buried as border accidents."
 
 Her dark eyes burned straight through Krail's hovering glass.
 
-Mara: "Noctis ran a quiet disposal chute under four academies' noses. Drakenshard enters formal witness demand alongside Valemere and Aurelis. Keep that arch open."
+Mara: "Noctis ran a quiet disposal chute under five academies' noses. Drakenshard enters formal witness demand alongside Valemere and Aurelis. Keep that arch open."
+
+Bright sun-gold and white flared in the next frame: **SOL AETERNUM CONSERVATORY - CONNECTED**. A silver-haired senior healer stood beside Sol Aeternum's seal table, robes pulled hasty over night wool.
+
+Sol Aeternum Healer: "C. Dene, Green triage apprentice, twelve years back. Sol Aeternum enters a two-line co-sign alongside Valemere and Drakenshard. Hold that threshold open."
 
 Soren: "Valemere seconds. Nobody bricks over living witnesses while our missing rosters sit inside that shaft."
 
-Krail drained gray in the center glass. Beside the abandoned barrows, Headmaster Veris stood isolated in the glare of three academies watching his three-week-old wax disc rotate slowly inside Falk's forensic frame.
+Krail drained gray in the center glass. Beside the abandoned barrows, Headmaster Veris stood isolated in the glare of all five academies watching his three-week-old wax disc rotate slowly inside Falk's forensic frame.
 
-Rhea spoke quietly to two senior Aurelis guards by the east arcade.
+President Valmont spoke quietly to two senior Aurelis guards by the east arcade.
 
-Rhea: "Escort Headmaster Veris to his quarters under Section Nine confinement. No office access. No relay access."
+President Valmont: "Escort Headmaster Veris to his quarters under Section Nine confinement. No office access. No relay access."
 
-Veris did not fight. He smoothed one ceremonial cuff with hollow dignity and looked once at Falk before turning away.
+Veris did not fight. He smoothed one ceremonial cuff with hollow dignity and looked once at Auditor Falk before turning away.
 
-Veris: "You think exposing every crack saves the building, Auditor. Wait until you see what walks in when all four walls lose trust at once."
+Headmaster Veris: "You think exposing every crack saves the building, Auditor. Wait until you see what walks in when all five academies lose trust at once."
 
 Falk met his eyes without blinking.
 
-Falk: "If a building only stands because children disappear into its basement, Headmaster, it stopped being a school twenty-four years ago."
+Auditor Falk: "If a building only stands because children disappear into its basement, Headmaster, it stopped being a school twenty-four years ago."
 
 Silence settled sharp over the frost as guards led Veris out of sight.
 
@@ -166,17 +170,19 @@ Then the flagstones beneath the west arch shuddered hard. Not a six-pause-seven 
 
 Iven spun toward the service door, pale beneath his crusting cheek cut.
 
-Iven: "Vaust heard the three-school broadcast. She isn't waiting for sunrise."
+Iven: "Vaust heard the four-school broadcast. She isn't waiting for sunrise."
 
-Beside me, Professor Iris Valen stepped briskly to the damp stone and angled Liora Aerlen-Valen's clouded witness-glass down over the shaking mortar.
+Beside me, Professor Iris Valen stepped briskly to the damp stone and angled Liora Aerlen-Valen's damaged vellum folio down over the shaking mortar.
 
-Amber light cleared inside the pane, steadier than yesterday, as if hearing her brother's name across three relays had anchored the echo one last time.
+Pale amber light flickered faintly across the split parchment leaf until Valen spoke a single name aloud.
 
 Professor Valen: "Liora. We found Eris Vell's note. Corin Aerlen."
 
+At her brother's name, the echo across the vellum cleared steadier than yesterday, anchoring one last time.
+
 Liora's tired eyes softened for a breath before hardening back.
 
-Liora: "My brother. Before the academies standardized four colors, Corin carried the quiet black bloodline and refused Regalia's single-throne charter. He built the Seven-Hand Sanctuary Corridors under all four foundations so ordinary Green hands could counter high-rank seizure without begging a crown."
+Liora: "My brother. Before the academies standardized four colors, Corin carried the quiet black bloodline and refused Regalia's single-throne charter. He built the Seven-Hand Sanctuary Corridors under all five foundations so ordinary Green hands could counter high-rank seizure without begging a crown."
 
 Her gaze dropped to the cold Regalia shard sitting dark inside Valen's cedar case.
 
@@ -184,13 +190,13 @@ Liora: "Regalia never opposed Veris's key because Regalia honors unbroken seals,
 
 Haru: "How do we open it without dropping the ceiling on them?"
 
-Liora's shoulders frayed into pale amber dust.
+Liora's voice frayed into fading ink-glow along the torn margin.
 
 Liora: "Seven balanced hands across the threshold. Keep the Black Circle on the lintel line, never down the stair. Hold the seventh beat until every boot clears stone."
 
-The witness-glass went black.
+The vellum folio went dark.
 
-Beneath my bare ring fingernail, Maelin's blue cloth bit freezing as bedrock groaned ten miles northeast.
+Beneath my bare ring fingernail, Maelin's blue cloth bit freezing as bedrock groaned across the folded northern border seam.
 
 Elira pushed off the bench, pulling Maelin's heavy coat over her shoulders.
 
@@ -216,7 +222,7 @@ Willem bolted across the iron grating clutching the heavy oilcloth bag, eyes red
 
 Hettie: "Breathing cloth! Don't swallow the white mist!"
 
-Petra tied the wet wool behind her jaw and looked down into the pit. Pale caustic mud hissed across the blown drain-seal. It had already eaten the bottom three rungs off the inspection ladder, cutting away the only climb back to the Obedience Hall. Even if Vaust threw the top bolt open right now, nobody climbed twenty feet of iron through burning mortar.
+Petra tied the wet wool behind her jaw and looked down into the pit. Pale caustic mud hissed across the blown drain-seal. It had already eaten the bottom pit stays while boiling white vapor and Vaust's bolted upper hatch cut off every climb back to the Obedience Hall. Even if Vaust threw the top bolt open right now, nobody climbed twenty feet of iron through blinding lime steam.
 
 Petra: "Smart, Hettie. Back behind the buttress pier. Dax, watch the counterweight pin. Shout if the cotter shifts a hair."
 
@@ -266,7 +272,7 @@ Dax: "Iron's getting hot! Two minutes before it tops the walk!"
 
 Petra jammed her spike under plug six as caustic mud lapped mortar two inches under her knee, stinging through wool like cold acid. Her wrist screamed. Limestone bit back stubbornly before shearing loose with a dry snap.
 
-Her bleeding fingers caught the tin rim of Plate Six. Heavier than the first five, thicker cedar inside the metal wrap, right corner cut with a jagged pointing notch. In the yellow sway of the oil lamp, Petra caught four punched words before stuffing it inside the sack: **SOUTH - POST FOUR**.
+Her bleeding fingers caught the tin rim of Plate Six. Heavier than the first five, thicker cedar inside the metal wrap, right corner cut with a jagged pointing notch. In the yellow sway of the oil lamp, Petra caught one punched line before stuffing it inside the sack: **SOUTH TO POST FOUR**.
 
 She yanked the hemp drawstring shut around all six plates, whipped a rigger's double hitch in one breath, and slung the heavy strap across Dax's narrow chest.
 
@@ -302,7 +308,7 @@ Then seven jagged vertical seams of warm gold split the dry mortar in a balanced
 
 Not a tight three-inch crack this time. Limestone folded inward around the seven glowing vents into a braced, level doorway humming with steady low-draw magic. Cold night air curled through, smelling of frost and pine.
 
-Iven Sahl's twelve-year-old voice cut clear across the roar of caustic mud.
+Iven Sahl's fourteen-year-old voice cut clear across the roar of caustic mud.
 
 Iven: "Six, pause, seven! Petra, pull your crew back! Blue water coming through low!"
 
@@ -316,7 +322,7 @@ Elira: "Got your drop height! Hold clear while we flush the step!"
 
 A flat, roaring blade of pressurized blue water shot low through the bottom gold vents across the steaming stone. It struck the rising white slurry head-on, driving caustic mud back down into the pit floor in a violent cloud of harmless gray steam.
 
-Petra watched solid rough stone steps unfold level out of the wall. Beneath her lime-dusted boots, the hum felt nothing like monster-rank force tearing rock apart. Seven separate quiet grips held ten miles of dark earth open together.
+Petra watched solid rough stone steps unfold level out of the wall. Beneath her lime-dusted boots, the hum felt nothing like monster-rank force tearing rock apart. Seven separate quiet grips held miles of folded bedrock open together.
 
 For the first time since third bell yesterday, Petra Brin let out a tight, fierce grin.
 
@@ -336,7 +342,7 @@ What she built now on a scarred bench three paces off the arch looked uneven and
 
 Sovan crouched beside her knee holding his lantern low over the chalk lines scored onto damp stone.
 
-Sovan: "Seven load-bearing seams match Corin Aerlen's bedrock ribs to the inch, Miss Vale. If any two points lock rigid, the arch shears. Keep the vents angled."
+Architect Reith: "Seven load-bearing seams match Corin Aerlen's bedrock ribs to the inch, Miss Vale. If any two points lock rigid, the arch shears. Keep the vents angled."
 
 Elira: "Angled is the only architecture I trust this week."
 
@@ -384,27 +390,23 @@ Elira: "Mira. Base anchors now."
 
 Mira and Finn Castellan dropped onto both knees across the frosted flagstones, ink-stained palms pressing flat to the pale green maintenance lanes. Four younger Green aides knelt along the outer flags behind them. One first-year boy's wrists trembled in the cold.
 
-Finn: "Don't push, Pellar. Just hold your weight flat on the stone."
+Finn: "Don't push, Garren Brann. Just hold your weight flat on the stone."
 
-Pellar blew out a pale cloud of breath and steadied his knuckles against frost.
+Garren Brann blew out a pale cloud of breath and steadied his knuckles against frost.
 
-Pellar: "Flat. Got it."
+Garren Brann: "Flat. Got it."
 
 Instantly, the dragging strain beneath Elira's collarbones cut in two as Green foundation magic spread the load wide across twenty feet of courtyard.
 
 Mira: "Holding! Floor's level!"
 
-By the left jamb, Iven Sahl crouched close enough for warm gold air to brush his bandaged wrist, waiting on the seventh beat. Two paces off his elbow, Sera sat upright on an upturned crate holding her taped tin cup in both hands, her quiet stare keeping the younger aides behind her from bunching forward whenever mist puffed off the door.
+By the left jamb, Iven Sahl crouched close enough for warm gold air to brush his bandaged wrist, waiting on the seventh beat. Four paces back inside the warmed infirmary-porch doorway where Maelin kept braziers lit when the pre-dawn tremor shook the recovery wing, Sera sat tucked in heated wool wraps beside Lysa Pell under a trauma aide's watch, holding her taped tin cup in both hands while her steady stare kept younger observers behind her from crowding forward whenever mist puffed off the door.
 
-Petra's urgent knock rang hard through the mortar.
-
-*Clang. Clang. Clang. Clang. Clang. Clang.* Pause. *Clang.*
+Across the stone, Petra's urgent seven-beat knock rang hard through the mortar.
 
 Elira breathed out once, angled the seventh vent open, and felt Corin Aerlen's folded corridor unlock.
 
-Iven tapped back against the stone frame and shouted clear of the step. Seconds later Petra's rasping voice barked back drop heights and rising lime.
-
-Elira: "Got your drop height! Hold clear while we flush the step!"
+Iven tapped back against the stone frame and shouted clear of the step, catching Petra's barked drop heights and rising lime so Elira could call back the clearance order.
 
 Leon Varek dropped to one knee beside the bottom threshold, jaw tight against his bruised shoulder. His Blue Circle snapped sharp around both cuffs. Elira felt the sharp cold kick of his pressurized water slam against her bottom gold vents, hot caustic mist spitting back across her knuckles as Leon pinned Noctis's rising slurry away from the stone.
 
@@ -426,7 +428,7 @@ Darian: "Upper drain lock cycling three-five! Nera, cut hook three!"
 
 Nera: "Cut!"
 
-Out by the perimeter, Rhea Valmont held the live three-school relay mirrors beside Auditor Falk and Sovan Reith, keeping Valemere's Soren Ashvale and Drakenshard's Mara Kest locked onto full broadcast. Cassian Veyr prowled the stairwell flank, fingers resting light on his pommel.
+Out by the perimeter, President Valmont held the live four-school relay mirrors beside Auditor Falk and Architect Reith, keeping Valemere's Soren Ashvale, Drakenshard's Mara Kest, and Sol Aeternum's senior healer locked onto full broadcast. Cassian Veyr prowled the stairwell flank, left knuckles banked with slow Red heat above his wrapped right wrist.
 
 Cold sweat chilled Elira's temples. Deep inside the arch, folded stonework groaned once and settled dead level. Corin Aerlen's impossible sideways stair unfolded into one rough stone bridge linking Aurelis frost to Bell-Shaft Seven's wet north ledge.
 
@@ -468,7 +470,7 @@ Behind me on the frosted flags, Mira caught the waxed rigging-sack against her c
 
 Willem caught sight of Iven crouched beside the jamb and stopped dead, eyes wide above his wet cloth.
 
-Willem: "Iven? They told the lower halls you washed out at the Wounded City!"
+Willem: "Iven? They told the lower halls you broke during winter relocation!"
 
 Iven didn't leave his post at the mortar.
 
@@ -482,7 +484,7 @@ Darian caught him cleanly by both shoulders before his boot touched the threshol
 
 Darian: "Cross that step and you collapse the stair on her. Stay back!"
 
-I didn't turn my head. I looked past Petra Brin's bare shoulders, up two hundred feet through rising caustic vapor, and saw Deputy Director Maris Vaust standing calm behind the upper iron grate.
+I didn't turn my head. I listened past Petra Brin's bare shoulders up into the caustic white steam shrouding the upper iron grate, where Deputy Director Maris Vaust stood silent two hundred feet overhead.
 
 No frantic shouting. No fleeing masons. Beside Rhea's shoulder, Councilor Krail's silver mirror swung off the rescued kids and zoomed dead onto my chest. Waiting for black lightning to burst across the Noctis line and hand every frightened governor on the continent filmed proof of a Black Circle assault.
 
@@ -490,7 +492,7 @@ Vaust hadn't cut the hoist chain to bury four riggers. She had cut it to buy one
 
 Her voice dropped cool down the shaft as her gloved fingers tripped the upper winch release.
 
-Director Vaust: "Step across, Mr. Aerlen. Show three academies what happens when a Black Circle refuses borders."
+Director Vaust: "Step across, Mr. Aerlen. Show every academy what happens when a Black Circle refuses borders."
 
 Metal sheared upstairs with a rifle crack.
 
@@ -498,7 +500,7 @@ The bronze counterweight tore loose off its rusted catch and dropped like a shea
 
 Willem screamed her name. Dax bucked hard against Darian's grip.
 
-Inside my ribs, every animal instinct in the Black Circle surged upward at once. Heatless, immense, ready. One snap of my fingers would crush the falling bronze to gravel before it cleared ten feet. One step across the doorway stone, one open display of celestial force, and nobody on either side of the hill would ever ask permission from smaller hands again.
+Inside my ribs, every animal instinct in the Black Circle surged upward at once. Heatless, immense, ready. One snap of my fingers would crush the falling bronze to gravel before it cleared ten feet. One step across the doorway stone, one open display of celestial force, and nobody on either end of the folded sanctuary seam would ever ask permission from smaller hands again.
 
 I planted my left boot dead square on Aurelis stone and refused to cross.
 
@@ -534,13 +536,13 @@ Cassian Veyr planted both boots solidly on Aurelis stone without crossing into N
 
 Cassian: "Move your boots!"
 
-He drove a tight lance of Red heat right into the heart of Leon's water stream.
+He drove a tight lance of left-handed Red heat right into the heart of Leon's water stream.
 
 Water met fire square against the split casting seam.
 
 Superheated steam exploded sideways with a quarry crack. The lateral shockwave hammered the flawed bronze and kicked the tumbling weight four feet east off the doorway axis, skidding its rim clear past Petra's bare shoulders toward the flooded pit.
 
-Recoil roared back through the ten-mile tunnel and hit Aurelis's west arch like a battering ram.
+Recoil roared back through the folded border seam and hit Aurelis's west arch like a battering ram.
 
 Mortar shrieked. Dust rained off the upper stone. The granite keystone overhead split with a sharp crack.
 
@@ -574,11 +576,9 @@ I lifted my fingertips off the hinge.
 
 The folded stone doorway groaned inward and slammed shut with a dry, final click. Deputy Headmaster Veris's twenty-four-year-old Provisional Transit Key #07 sheared dead forever.
 
-Through the last vanishing inch of gold mist before rock met rock, Deputy Director Maris Vaust stared down through the upper grate two hundred feet overhead.
+Through the last vanishing inch of gold mist before rock met rock, no body remained on the wet limestone ledge—only boiling white slurry swallowing an empty pit, zero Black Circle breach across her border, and six hammered tin plates already safe inside Mira's waxed sack in full view of Valemere Royal Institute, Drakenshard, and Sol Aeternum.
 
-An empty lime pit. Zero bodies. Zero Black Circle breach across her border. And six hammered tin plates already safe inside Mira's waxed sack in full view of Valemere Royal Institute and Drakenshard.
-
-For the first time since I had seen her face, the locked door looked startled.
+Overhead behind the sealed shaft grate, Vaust's crisp boots halted dead for the first time since dusk.
 
 Then the wall turned solid gray stone, silent as ordinary mortar.
 
@@ -614,13 +614,13 @@ Maelin: "No more stone hinges until next week, Aerlen. You did not heal overnigh
 
 Haru: "Understood."
 
-Ten paces off by the fountain rim, Petra Brin knelt coughing white dust into her sleeve. Willem, Hettie, and Dax huddled tight against her shoulder under thick wool blankets Finn and Sera had hauled out from the recovery wing.
+Ten paces off by the fountain rim, Petra Brin knelt coughing white dust into her sleeve. Willem, Hettie, and Dax huddled tight against her shoulder under thick wool blankets Finn and Lysa Pell had hauled out from the recovery wing, while Sera remained sheltered inside the warmed infirmary doorway with a trauma aide handing out spare wool wraps.
 
 Darian Thorne walked up slowly, stopping three paces clear with hands open at his sides.
 
 Petra's eyes narrowed immediately, tracking the old Noctis cut of his posture before clocking the stripped rank tabs on his collar.
 
-Petra: "Red senior. Thorne, third year. What are you doing on this side of the hill?"
+Petra: "Red senior. Thorne, third year. What are you doing in Aurelis frost?"
 
 Darian didn't flinch or soften his tone.
 
@@ -630,13 +630,13 @@ Petra spat gray lime onto the gravel and wiped her mouth on a greasy wrist.
 
 Petra: "Definitely too late. You still caught my boot before I broke my collarbone, though. Calls it even for today."
 
-She pushed up onto her knees and glared at Rhea Valmont, Auditor Falk, and the silver-blue and ash-gray mirrors burning beside the board.
+She pushed up onto her knees and glared at President Valmont, Auditor Falk, and the white-and-blue, iron-red, and sun-gold mirrors burning beside the board.
 
 Petra: "Alright. Three live kids, zero collapsed shafts, and your archive plates sitting on that table. Now answer the one question that actually weighs anything."
 
 Rhea met her stare steadily.
 
-Rhea: "Ask it."
+President Valmont: "Ask it."
 
 Petra: "My mother's furnace charter at Brin Ironworks sits on Maris Vaust's desk outside Noctis's north wall. Vaust already threatened to freeze our coal by Friday. What happens to my mum when Vaust finishes staring at an empty pit?"
 
@@ -644,25 +644,29 @@ Nobody rushed in with a soothing speech. That mattered more than promises.
 
 Auditor Tamsin Falk stepped beside the mirrors. Frost and mortar dust smudged her gray wool; her silver loupe lay quiet against her collar.
 
-Falk: "I cannot promise Noctis will behave honestly, Miss Brin. I can strip them of legal cover before breakfast."
+Auditor Falk: "I cannot promise Noctis will behave honestly, Miss Brin. I can strip them of legal cover before breakfast."
 
-She tapped her brass audit pin. Soren Ashvale and Mara Kest shifted squarely into center frame.
+She tapped her brass audit pin. Soren Ashvale, Mara Kest, and Sol Aeternum's senior healer shifted squarely into frame.
 
-Falk: "Under Forensic Fraud Charter Section Nine, I am entering an immediate Inter-National freeze on all border-foundry indenture penalties tied to Lower Bell-Shaft Seven personnel. Any retaliatory coal seizure against Brin Ironworks triggers automatic trade-sanction review by Valemere and Drakenshard."
+Auditor Falk: "Under Forensic Fraud Charter Section Nine, I am entering an immediate Inter-National freeze on all border-foundry indenture penalties tied to Lower Bell-Shaft Seven personnel. Any retaliatory coal seizure against Brin Ironworks triggers automatic trade-sanction review by Valemere, Drakenshard, and Sol Aeternum."
 
-Soren nodded sharply from the silver-blue glass.
+Soren nodded sharply from the white-and-blue glass.
 
 Soren: "Valemere Royal Institute enters full Protected Witness Sanctuary for Petra Brin, Dax, Hettie, and Willem. Brin Ironworks goes under joint border-trade protection."
 
-Mara Kest laid two bare fingers flat across her ash-gray collar in Drakenshard oath.
+Mara Kest laid two bare fingers flat across her iron-red collar in Drakenshard oath.
 
 Mara: "Drakenshard backs the freeze. Vaust touches a border ropewalk over our missing archivists' files, and our iron barges stop clearing Noctis river locks by noon."
 
-Rhea stepped beside Architect Sovan Reith. He was already copying every stipulation by hand onto his smudged sheet.
+From the sun-gold frame, the Sol Aeternum healer lifted two fingers in matching conservatory seal.
 
-Rhea: "Aurelis joins Three-Academy Protected Witness Sanctuary. You stay free to walk out whenever you choose, Miss Brin. No badges. No speeches."
+Sol Aeternum Healer: "Sol Aeternum Conservatory enters matching witness co-sign and medical sanctuary guarantee."
 
-Petra studied all four faces: Rhea's cracked wrist, Falk's dust-stained wool, Soren's quiet grit, Mara's cold oath. A short, rough breath left her chest. She didn't smile or pretend the cold weeks ahead would be easy. She stood stiff-legged, walked three paces to Mira Castellan's table, and set her scarred iron spike beside Mira's open inkwell.
+President Valmont stepped beside Architect Reith. He was already copying every stipulation by hand onto his smudged sheet.
+
+President Valmont: "Aurelis joins Four-Academy Protected Witness Sanctuary. You stay free to walk out whenever you choose, Miss Brin. No badges. No speeches."
+
+Petra studied all five witnesses across yard and mirror: President Valmont's cracked wrist, Falk's dust-stained wool, Soren's quiet grit, Mara's cold oath, and Sol Aeternum's lifted two-finger seal. A short, rough breath left her chest. She didn't smile or pretend the cold weeks ahead would be easy. She stood stiff-legged, walked three paces to Mira Castellan's table, and set her scarred iron spike beside Mira's open inkwell.
 
 Petra: "Your people are still terrible with ropes."
 
@@ -680,7 +684,7 @@ Orren: "Suppose the Council holds hearings before recess?"
 
 Falk picked up the signed sheet with quiet respect.
 
-Falk: "Yes, Mr. Orren. And I will enter in the margin that you unlocked the chest before my warrant could."
+Auditor Falk: "Yes, Mr. Orren. And I will enter in the margin that you unlocked the chest before my warrant could."
 
 Orren reached into his coat, found his tin empty of mints, and shrugged once.
 
@@ -692,21 +696,21 @@ Valen, Halden, Aira, and Falk leaned close as morning light hit the punched scri
 
 Halden read first, barely above a whisper.
 
-Halden: "Corin Aerlen's Seven-Hand Charter. Dated two generations before the standardization accords."
+Professor Halden: "Corin Aerlen's Seven-Hand Charter. Dated two generations before the standardization accords."
 
 Aira's eyes flew across Plate Three and Plate Four, pen scratching fast on fresh scrap.
 
 Aira: "Look at Plate Four. Green foundation witnesses held formal legal veto over Regalia seals whenever a single high-rank office tried to transfer or silence a witness without open copy."
 
-Valen's gloved fingers stopped on the bottom rim of Plate Five. Four miniature academy crests sat punched dark into tin beside one dated line from half a century past.
+Professor Valen's gloved fingers stopped on the bottom rim of Plate Five. Five miniature academy crests sat punched dark into tin beside one dated line from half a century past.
 
-Valen: "And here is why it vanished."
+Professor Valen: "And here is why it vanished."
 
-Falk leaned close with her silver loupe, draining pale all over again.
+Auditor Falk leaned close with her silver loupe, draining pale all over again.
 
-Falk: "Four suppression seals. Fifty years ago. Aurelis, Noctis, Valemere, and Drakenshard all signed the pact burying Corin Aerlen's Charter together."
+Auditor Falk: "Five suppression seals. Fifty years ago. Aurelis, Noctis, Valemere, Drakenshard, and Sol Aeternum all signed the pact burying Corin Aerlen's Charter together."
 
-In the live mirrors, Soren Ashvale's jaw locked. Mara Kest turned grim as wet slate. Neither closed a channel or scrubbed the stain off their own school's crest.
+In the live mirrors, Soren Ashvale's jaw locked. Mara Kest turned grim as wet slate. Sol Aeternum's healer went still behind the gold crest. None closed a channel or scrubbed the stain off their own school's seal.
 
 Mira tilted Plate Six toward pale dawn light. Its hammered corner held a jagged notch matching the missing seventh groove in the charcoal lock rubbing. Beneath it sat two last cramped lines punched deep by Eris Vell's own hand four years ago.
 
@@ -724,7 +728,7 @@ Elira: "Post Four. Old border relay station on the southern road?"
 
 Valen nodded slowly.
 
-Valen: "Decommissioned thirty years ago. If Eris Vell reached the south with that seventh plate, the original Circle-Zero Foundation Hall is still mapped somewhere outside all four academies."
+Professor Valen: "Decommissioned thirty years ago. If Eris Vell reached the south with that seventh plate, the original Circle-Zero Foundation Hall is still mapped somewhere outside all five academies."
 
 Before anyone could plan a southern road, the center Council mirror chimed one last time.
 
@@ -736,7 +740,7 @@ The courtyard hushed.
 
 Lucien Voss stood framed against an unremarkable timber room lit by early sun. No Noctis marble. No academy hall. Only plain rough wood behind his neat dark collar. He looked rested, composed, and smiling like a blade pretending to be a mirror.
 
-Lucien: "Good morning, Aurelis. Valemere. Drakenshard. Auditor Falk."
+Lucien Voss: "Good morning, Aurelis. Valemere. Drakenshard. Sol Aeternum. Auditor Falk."
 
 His voice glided across the frost, carrying zero anger over Vaust's flooded pit or Veris's confinement.
 
@@ -744,7 +748,7 @@ Lucien: "Noctis Dominion welcomes a full, transparent Inter-National Audit of th
 
 Soren snapped hard through the left mirror.
 
-Soren: "Save the speech, Voss. Your deputy just dropped three tons of bronze on four Green riggers live on three relays."
+Soren: "Save the speech, Voss. Your deputy just dropped three tons of bronze on four Green riggers live on four relays."
 
 Lucien tilted his head with polite regret.
 
@@ -776,11 +780,11 @@ Aira: "Plain timber walls. Daylight already hitting the glass from east-south. H
 
 Rhea looked down at the six tin plates resting beside Eris Vell's half-burned page.
 
-Rhea: "He knew Vaust was losing Shaft Seven before we opened the arch."
+President Valmont: "He knew Vaust was losing Shaft Seven before we opened the arch."
 
 Falk closed her brass folio with a dry snap, steel-gray eyes steady.
 
-Falk: "Let him race south, President Valmont. He still thinks burning a single seventh plate erases the first six."
+Auditor Falk: "Let him race south, President Valmont. He still thinks burning a single seventh plate erases the first six."
 
 Mira picked up her blunt pencil and glanced once at Petra's scarred iron spike resting beside the inkwell.
 
@@ -788,7 +792,7 @@ Mira: "Then he hasn't checked how fast ugly copies move."
 
 High above the cracked west bell, the fifth green window dimmed slowly to the quiet glow of a landing lantern left lit against pale morning sky.
 
-By the north planter, Sera poured steaming tea from a borrowed kettle into her dented tin cup, careful not to wet the taped label reading **SERA'S CUP. ASK SERA.** She set a second plain mug down beside Iven's bruised hands without a word.
+Inside the warmed infirmary doorway beside Lysa Pell, Sera poured steaming tea from a borrowed kettle into her dented tin cup under the aide's watch, careful not to wet the taped label reading **SERA'S CUP. ASK SERA.** She set a second plain mug down near the outer bench arm for Iven's bruised hands without a word.
 
 At the public board, Mira Castellan pinned six rough charcoal copies of Corin Aerlen's Charter plates beneath Cael's line and Leon's torn refusal. Beside her, the unnamed younger transfer girl with blunt dark hair pressed her small thumb flat against the bottom corner of Plate Six to hold it steady in the draft.
 

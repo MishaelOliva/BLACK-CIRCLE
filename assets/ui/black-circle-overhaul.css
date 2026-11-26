@@ -2017,6 +2017,15 @@ html[data-theme="light"] .story-body {
 	content-visibility: visible;
 }
 
+html.is-instant-jump,
+html.is-instant-jump body {
+	scroll-behavior: auto !important;
+}
+
+html.is-instant-jump .story-body > * {
+	content-visibility: visible !important;
+}
+
 .story-body h2,
 .story-body h3 {
 	font-family: var(--bc-font-display) !important;

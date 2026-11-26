@@ -2,7 +2,7 @@
 
 Morning arrived before I was ready for it.
 
-We had returned to Aurelis two evenings earlier, once the northern road lost the last of its frost and the carriage wheels began sounding like ordinary wood again. The journey back had been quieter than the journey out. Sera's cup rode wrapped in cloth on Maelin's lap. Elira slept for twelve uneven minutes with her head against my shoulder, woke before the academy gate, and said nothing when the old ward-stones recognized us. The next day disappeared into reports, medical restrictions, and one ward-window visit where Sera showed us the cup had remained hers. By the time Rhea walked us back to the witness cottage, the lamps were burning again. Sleep came in pieces. Morning found whatever was left.
+We had returned to Aurelis two evenings earlier, once the northern road lost the last of its frost and the carriage wheels began sounding like ordinary wood again. The journey back had been quieter than the journey out. Sera kept Tessa's empty soup cup tucked under the blanket against her chest inside the carriage while I drove from the box seat; Elira leaned against the front bulkhead for twelve uneven minutes of sleep before the north gate opened straight into High Councilor Krail's relay confrontation. President Valmont and Maelin pushed class resumption a full extra day beyond arrival so that first day could go to medical clearance, filing reports, and one ward-window visit where Sera showed us the taped cup had remained hers. By the time President Valmont walked beside us back to the witness cottage, the lamps were burning again. Sleep came in pieces. Morning found whatever was left.
 
 The first light over Aurelis did not enter the bedroom dramatically. No old system wrote warnings across the window. No relay frost crawled over the sill. No black ring opened in the reflection of the water pitcher beside the bed.
 
@@ -10,7 +10,7 @@ Pale gold slipped through the curtains, catching dust where the room had been pr
 
 For several minutes, I stayed still. That was not the same as resting.
 
-Lying still still took effort when weeks of alarms had trained my body to expect a bell, a filing, a severance line, a witness rail, a child asking whether I could open her, or a Councilor finding a new way to make fear sound responsible.
+Lying quietly still took effort when weeks of alarms had trained my body to expect a bell, a filing, a severance line, a witness rail, a child asking whether I could open her, or a Councilor finding a new way to make fear sound responsible.
 
 Yet no alarm sounded. Nobody shouted from the garden path, and no red-black projection spread across the plaster.
 
@@ -80,7 +80,7 @@ Maelin held a diagnostic charm above the skin without touching, since Elira had 
 
 The charm glowed gold, shifted blue, and settled into a steady green-white pulse. Maelin read her slate.
 
-Maelin: "Shoulder strain is steady. Channel recovery is solid. Not enough sleep, though not disgraceful. Pendant quiet. No sudden panic attacks overnight?"
+Maelin: "Shoulder strain is steady. The sliced palm has knit cleanly under fresh tape. Channel recovery is solid. Not enough sleep, though not disgraceful. Pendant quiet. No sudden panic attacks overnight?"
 
 Elira: "One."
 
@@ -196,7 +196,7 @@ When she stepped out from behind the screen, she wore her Aurelis uniform again.
 
 The sight hit harder than I expected. It was only silver-blue academy cloth, neatly tailored, a little too formal for someone who had spent the previous week arguing with ancient systems that treated crowns like character flaws.
 
-The last time Elira had worn it to an academy event, Dominion Severance had entered below her pendant and killed her in front of the world. My fingers curled.
+Only weeks ago, Dominion Severance had pierced this same silver-blue cloth below her pendant in front of the world—and though she had worn altered coats through Lake Velis and the lower channel, stepping back into standard morning class attire made my fingers curl.
 
 The room cooled by half a degree. Elira noticed at once, crossed to me, and stopped within arm's reach so choosing to close the gap stayed mine.
 
@@ -264,7 +264,7 @@ Aira's head came up.
 
 Aira: "Plural?"
 
-Rhea: "That is why we are here."
+President Valmont: "That is why we are here."
 
 The air in the room shifted. Not much, just enough.
 
@@ -272,13 +272,13 @@ Haru: "What did they do?"
 
 Rhea's gaze moved to me.
 
-Rhea: "Nothing irreversible."
+President Valmont: "Nothing irreversible."
 
 Elira: "Rhea."
 
 Rhea exhaled once.
 
-Rhea: "Advanced Mana Theory first period was moved from classroom three to lecture hall nine. Officially, for space and observer seating."
+President Valmont: "Advanced Mana Theory first period was moved from classroom three to lecture hall nine. Officially, for space and observer seating."
 
 Aira: "Observer seating."
 
@@ -300,11 +300,11 @@ The Black Circle stirred. Elira touched my wrist with two fingers, a reminder ra
 
 Haru: "Who requested the room change?"
 
-Rhea: "Deputy Registrar Pellon, under instruction from Academic Safety Review."
+President Valmont: "Deputy Registrar Pellon, under instruction from Academic Safety Review."
 
 Aira: "Krail."
 
-Rhea: "His signature is not on it."
+President Valmont: "His signature is not on it."
 
 Aira: "Krail with cleaner boots."
 
@@ -312,21 +312,21 @@ Maelin held out a hand, took the map from Finn, and wore the expression healers 
 
 Maelin: "No."
 
-Rhea: "Agreed."
+President Valmont: "Agreed."
 
 Elira: "Has Halden seen this?"
 
-Rhea: "He filed an objection at sixth bell."
+President Valmont: "He filed an objection at sixth bell."
 
 Haru: "Wait. Sixth bell this morning, or yesterday?"
 
-Rhea: "Yesterday evening. Before Pellon even submitted the room change."
+President Valmont: "Yesterday evening. Before Pellon even submitted the room change."
 
 Aira brightened.
 
 Aira: "He objected before they filed?"
 
-Rhea: "Professor Halden submitted a standing objection to any room arrangement that places Haru Aerlen below observers, Elira Vale on open display for staring, or Green Circle witnesses in back containment rows. He titled it 'Preemptive Refusal of Predictable Cowardice.'"
+President Valmont: "Professor Halden submitted a standing objection to any room arrangement that places Haru Aerlen below observers, Elira Vale on open display for staring, or Green Circle witnesses in back containment rows. He titled it 'Preemptive Refusal of Predictable Cowardice.'"
 
 For a second, nobody spoke. Then Cassian laughed.
 
@@ -338,7 +338,7 @@ Mira's eyes went wide.
 
 Mira: "Can professors title objections like that?"
 
-Rhea: "Apparently."
+President Valmont: "Apparently."
 
 Aira wrote something down with visible reverence. Elira pressed her knuckles to her mouth.
 
@@ -346,7 +346,7 @@ Haru: "Where is class now?"
 
 Rhea's expression sobered.
 
-Rhea: "Still lecture hall nine unless we force the change. Senna is in Council session. Valen is arguing old classroom rules. Halden is standing outside the doors refusing to begin until the seating changes, while Dren and Seraphine keep observers out of the pit."
+President Valmont: "Still lecture hall nine unless we force the change. Senna is in Council session. Valen is arguing old classroom rules. Halden is standing outside the doors refusing to begin until the seating changes, while Dren and Seraphine keep observers out of the pit."
 
 Leon: "Observers?"
 
@@ -364,15 +364,15 @@ Maelin looked sharply at Rhea.
 
 Maelin: "Why bring this to them before fixing it?"
 
-Rhea: "Because if we settle every condition behind closed doors, the first lesson becomes that ordinary life is something adults secretly arrange around Haru and Elira."
+President Valmont: "Because if we settle every condition behind closed doors, the first lesson becomes that ordinary life is something adults secretly arrange around Haru and Elira."
 
 Elira's posture changed, subtle enough that only someone watching closely would catch it. Rhea had caught it.
 
-Rhea: "You have the right to see the room before you walk into it."
+President Valmont: "You have the right to see the room before you walk into it."
 
 Elira: "And the right to refuse."
 
-Rhea: "Full right."
+President Valmont: "Full right."
 
 She tapped the corner of the seating map rather than folding it away.
 
@@ -420,13 +420,13 @@ Maelin: "Also denied."
 
 Rhea rolled the map back up.
 
-Rhea: "Then we do not enter lecture hall nine as arranged."
+President Valmont: "Then we do not enter lecture hall nine as arranged."
 
 Haru: "Will that count as refusing instruction?"
 
 Rhea's smile was thin.
 
-Rhea: "Only if Academic Safety Review wants to explain why the first ordinary class after ruling against containment needed a pit to put him in."
+President Valmont: "Only if Academic Safety Review wants to explain why the first ordinary class after ruling against containment needed a pit to put him in."
 
 Aira: "I would enjoy taking minutes on that explanation."
 
@@ -470,11 +470,11 @@ That quiet had not grown on its own; Rhea had built it. Council aides stood at i
 
 Professor Valen appeared halfway along the arcade with three thick history books tucked under one arm and a pale Council clerk trailing behind her.
 
-Valen: "Classification under uncertainty is hardly new. If the Council wants to pretend it invented caution this morning, it can start with the older room rules I flagged—from before the current standards even existed."
+Professor Valen: "Classification under uncertainty is hardly new. If the Council wants to pretend it invented caution this morning, it can start with the older room rules I flagged—from before the current standards even existed."
 
 Council Clerk: "Professor, those are four hundred pages."
 
-Valen: "Then the Council will remain cautious for some time."
+Professor Valen: "Then the Council will remain cautious for some time."
 
 Elira's mouth curved.
 
@@ -508,7 +508,7 @@ Aira: "Ward transfer from the trauma wing. Sender status?"
 
 Rhea checked the corner seal.
 
-Rhea: "Sera authorized a single copy to the public fountain. No response required. No visit requested. Nothing beyond the text."
+President Valmont: "Sera authorized a single copy to the public fountain. No response required. No visit requested. Nothing beyond the text."
 
 Elira's eyes shone. She blinked once and left everyone else to pretend not to notice.
 
@@ -518,7 +518,7 @@ That was the only word I trusted not to overreach.
 
 A boy near the Green cluster whispered too loudly.
 
-Student: "She can write?"
+Green First-Year: "She can write?"
 
 Mira turned, sharp without raising her voice.
 
@@ -526,7 +526,7 @@ Mira: "She can choose what gets copied."
 
 The boy flushed red.
 
-Student: "I meant-"
+Green First-Year: "I meant-"
 
 Mira: "I know. Say it better next time."
 
@@ -550,19 +550,19 @@ The inspector bristled without knowing why.
 
 Halden's gaze swept over us, pausing on Elira's shoulder, my hands, Aira's notebook, Mira's folio, Finn's maps, and Rhea's council mark before he gave one crisp nod.
 
-Halden: "You are on time."
+Professor Halden: "You are on time."
 
 Aira checked the corridor clock.
 
 Aira: "We are seven minutes late."
 
-Halden: "Class has not begun."
+Professor Halden: "Class has not begun."
 
-Rhea: "Why?"
+President Valmont: "Why?"
 
 Halden turned toward the doors.
 
-Halden: "Because the assigned room is unfit for teaching."
+Professor Halden: "Because the assigned room is unfit for teaching."
 
 One of the faculty delegates cleared his throat.
 
@@ -570,11 +570,11 @@ Delegate: "Professor Halden, lecture hall nine is certified for high-risk demons
 
 Halden looked at him.
 
-Halden: "Today is not a high-risk demonstration."
+Professor Halden: "Today is not a high-risk demonstration."
 
 Delegate: "With respect, the presence of Haru Aerlen-"
 
-Halden: "Is the attendance of an enrolled student."
+Professor Halden: "Is the attendance of an enrolled student."
 
 The delegate's mouth shut. Krail would have hated that answer, which made me like it immediately. Elira stepped forward.
 
@@ -582,13 +582,13 @@ Elira: "Professor, what is today's lesson?"
 
 Halden's gaze moved to her. For a heartbeat, something almost gentle softened his austere face before settling back into gravel.
 
-Halden: "Classification under uncertainty."
+Professor Halden: "Classification under uncertainty."
 
 Aira's pencil started moving.
 
 Elira: "Does the lesson require a sunken pit?"
 
-Halden: "No lesson requires a sunken pit unless the instructor lacks imagination."
+Professor Halden: "No lesson requires a sunken pit unless the instructor lacks imagination."
 
 Seraphine's mouth twitched. Dren examined the ceiling as if he had refused to witness humor in an official corridor.
 
@@ -620,7 +620,7 @@ Finn did not smile; his hands were shaking too hard for that. Mira stepped half 
 
 The delegate looked to Rhea for rescue.
 
-Rhea: "Answer him."
+President Valmont: "Answer him."
 
 Delegate: "The seating follows standard academy rank."
 
@@ -630,11 +630,11 @@ Elira: "Then it follows the wrong standard. A class coming back after what every
 
 Halden looked back at the delegate.
 
-Halden: "There is your answer."
+Professor Halden: "There is your answer."
 
 Delegate: "Professor, with respect-"
 
-Seraphine: "You keep using that phrase for someone offering remarkably little of it."
+Lady Seraphine: "You keep using that phrase for someone offering remarkably little of it."
 
 The delegate stopped.
 
@@ -674,23 +674,23 @@ Halden walked down into the pit alone. For one absurd second, I thought he meant
 
 Halden climbed back up to the doorway.
 
-Halden: "Class will not be held here."
+Professor Halden: "Class will not be held here."
 
 The delegate stiffened.
 
 Delegate: "You cannot simply refuse an assigned hall."
 
-Halden: "I can when the hall undermines the lesson."
+Professor Halden: "I can when the hall undermines the lesson."
 
 He looked over at us.
 
-Halden: "Courtyard."
+Professor Halden: "Courtyard."
 
 Leon stared.
 
 Leon: "Outside?"
 
-Halden: "Most concepts survive air."
+Professor Halden: "Most concepts survive air."
 
 Cassian: "This may end up my favorite class."
 
@@ -712,11 +712,11 @@ Elira picked a stone bench by the fountain where she could rest her bad shoulder
 
 Halden stood before us with no chalkboard.
 
-Professor Valen arrived carrying the lesson. Soren Ashvale held one end of a tournament safety-ward panel, and Talen Mire carried the other with his good hand while his braced arm stayed tucked against his coat. The waist-high silver frame was split across one corner, yet its center still hummed with the clean sheen of a spell that had passed every standard inspection.
+Professor Valen arrived carrying the lesson alongside Soren Ashvale and Talen Mire—who had ridden in that morning from Valemere's nearby delegation lodge under Magistra Voss's audit summons with the broken tournament panel they had recovered after the suspension rather than let anyone else interpret Talen's withdrawal readings. Soren held one end of the safety-ward frame, and Talen carried the other with his good hand while his braced arm stayed tucked against his coat. The waist-high silver frame was split across one corner, yet its center still hummed with the clean sheen of a spell that had passed every standard inspection.
 
 Students crowded closer before remembering old habit and giving the frame room.
 
-Valen: "Suspended bracket equipment. Valemere logged the failure during inventory."
+Professor Valen: "Suspended bracket equipment. Valemere logged the failure during inventory."
 
 Soren lowered his end onto two stone blocks while Talen set down the other.
 
@@ -732,11 +732,11 @@ He drew a single line underneath them.
 
 **UNCERTAINTY IS NOT PERMISSION TO INVENT.**
 
-Halden: "This panel passed standard inspection. It fails only when incoming mana turns uneven or a caster pulls back. Today you will determine why."
+Professor Halden: "This panel passed standard inspection. It fails only when incoming mana turns uneven or a caster pulls back. Today you will determine why."
 
 His eyes crossed me without lingering.
 
-Halden: "No Black Circle correction. No overpowering the spell. No pulling on Mr. Mire's magic without fresh permission before each test. If you make the panel look stable without finding the fault, you fail."
+Professor Halden: "No Black Circle correction. No overpowering the spell. No pulling on Mr. Mire's magic without fresh permission before each test. If you make the panel look stable without finding the fault, you fail."
 
 Cassian: "A class that punishes surface polish. Leon is in mortal danger."
 
@@ -744,7 +744,7 @@ Leon: "Your collar is crooked."
 
 Cassian checked it on reflex. Aira laughed before he could pretend otherwise.
 
-The first repair group went straight for the visible crack. Leon laid Blue pressure along the silver border, Cassian threaded heat underneath, and a Yellow senior filled the gap with enough clean light to make the frame hum. The split sealed over. Inspection runes along the edge turned green one by one.
+The first repair group went straight for the visible crack. Leon laid Blue pressure along the silver border, Cassian threaded left-handed heat underneath while keeping his wrapped right wrist clear, and a Yellow senior filled the gap with enough clean light to make the frame hum. The split sealed over. Inspection runes along the edge turned green one by one.
 
 For six seconds, the repair looked flawless.
 
@@ -776,7 +776,7 @@ Elira: "Someone stripped out the release path and kept my name in the design log
 
 Nobody told her to calm down. That helped.
 
-Cold pressed behind my sternum as the Black Circle read the panel without asking: nine overloaded joins, a false green inspection loop, and an original release seam buried under heavier reinforcement. I could have quieted all nine with less effort than keeping the false Green crest active at my wrist.
+Cold pressed behind my sternum as the Black Circle read the panel without asking: nine overloaded joins, a false green inspection loop, and an original release seam buried under heavier reinforcement. I could have quieted all nine with less effort than it had once taken to keep the shattered false Green crest active at my wrist.
 
 Pain pulsed beneath the fingernail Maelin had wrapped after the lower channel. My hand twitched forward anyway. Elira caught it.
 
@@ -802,7 +802,7 @@ Talen almost smiled.
 
 Talen: "One low-output hold. When I say stop, nobody keeps measuring."
 
-Rhea: "Condition logged. Readings remain yours unless you choose to release them."
+President Valmont: "Condition logged. Readings remain yours unless you choose to release them."
 
 Talen stepped up and held his braced hand near the silver border. Soren moved in a pace, then stopped.
 
@@ -830,7 +830,7 @@ Soren buckled the loose outer strap and kept his hands clear.
 
 Elira glared at the split panel. The Yellow senior glared back at her.
 
-Senior: "You wrecked our repair."
+Yellow Senior: "You wrecked our repair."
 
 Elira: "Your repair heard *stop* and tightened its grip. It was already broken."
 
@@ -838,23 +838,23 @@ Her anger had real color now, not defending me or answering Krail, just Elira Va
 
 Halden tapped the row of inspection runes along the silver edge, still glowing green right beside the widened crack.
 
-Halden: "Observation?"
+Professor Halden: "Observation?"
 
 Aira: "Talen's brace vibrated before any rune reported instability."
 
-Halden: "Inference?"
+Professor Halden: "Inference?"
 
 Elira: "The ward treats pulling back as a fault and drags power out of the channel trying to leave."
 
-Halden: "Claim?"
+Professor Halden: "Claim?"
 
 Soren: "This panel is unsafe for tournament play."
 
-Halden: "Supported for this panel under these conditions. Not yet universal."
+Professor Halden: "Supported for this panel under these conditions. Not yet universal."
 
 He turned to the courtyard.
 
-Halden: "Fear can be observed, though it cannot testify beyond what it knows. Neither can pride in a tidy patch."
+Professor Halden: "Fear can be observed, though it cannot testify beyond what it knows. Neither can pride in a tidy patch."
 
 Mira had been leaning forward from the Green benches, squinting at the silver edge.
 
@@ -868,7 +868,7 @@ Mira swallowed.
 
 Mira: "Mine."
 
-Halden: "The frame may snap a strip and chill the hand holding it. You may pass."
+Professor Halden: "The frame may snap a strip and chill the hand holding it. You may pass."
 
 I stepped toward the heavy corner to take some of the load for her. Mira saw me reach.
 
@@ -904,7 +904,7 @@ Elira: "I can cut this seam open. One section only. If I try the whole frame now
 
 Maelin: "Accurate."
 
-Rhea: "Talen decides whether his channel goes near it again."
+President Valmont: "Talen decides whether his channel goes near it again."
 
 Talen flexed his fingers inside the strapped brace, waited a beat, and unhooked only the cuff clasp.
 
@@ -916,11 +916,11 @@ Leon and Cassian held the frame steady while arguing over whose earlier patch ha
 
 Her first gold seam collapsed, and she swore under her breath. Her second opened too wide and nearly spilled load into the neighboring quadrant.
 
-Halden: "That is not a release. That is the whole frame giving out."
+Professor Halden: "That is not a release. That is the whole frame giving out."
 
 Elira: "I saw it."
 
-Halden: "Your expression suggested you wanted the mistake to feel ashamed."
+Professor Halden: "Your expression suggested you wanted the mistake to feel ashamed."
 
 Elira: "It should."
 
@@ -958,7 +958,7 @@ Leon's chin came up, accepting the challenge. Talen snapped his cuff clasp shut.
 
 Talen: "I will not endorse restarting matches while safety wards treat pulling back as an attack. I will help test them if my readings remain mine. That is not a promise to compete."
 
-Rhea: "The Board asked for future resumption standards, not a restart date. Your condition goes into the audit record, not the bracket."
+President Valmont: "The Board asked for future resumption standards, not a restart date. Your condition goes into the audit record, not the bracket."
 
 Talen: "Good."
 
@@ -966,7 +966,7 @@ Elira was still watching the crooked gold seam.
 
 Elira: "I want my own research track. Wards built to let go when asked. Tested on injured casters, uneven power, early surrender, pulling back mid-spell, and every Circle rank."
 
-Halden: "That is not a small project."
+Professor Halden: "That is not a small project."
 
 Elira: "I did not ask for a small one."
 
@@ -992,21 +992,21 @@ The answers came fast because the design belonged to her, not because every solu
 
 Halden studied the split panel and the girl sitting in the grass beside it.
 
-Halden: "You may have laboratory access after medical clearance. Access is not project approval, and today's cut is not a finished design."
+Professor Halden: "You may have laboratory access after medical clearance. Access is not project approval, and today's cut is not a finished design."
 
 Elira: "I know."
 
-Halden: "You look pleased."
+Professor Halden: "You look pleased."
 
 Elira: "I am glad there is work nobody can finish for me before I start."
 
 A Council filing crystal arrived at the edge of the grass in a clerk's shaking hands. Rhea did not touch it.
 
-Rhea: "Class is still in session."
+President Valmont: "Class is still in session."
 
 Krail's recorded voice pressed once against the crystal seal. Halden set the shattered inspection rune right on top of it.
 
-Halden: "It can wait beside the other false result."
+Professor Halden: "It can wait beside the other false result."
 
 The clerk backed away.
 
@@ -1016,7 +1016,7 @@ Maelin handed Elira a folded slip from the trauma wing.
 
 Sera had asked whether we made it through. Elira pressed a hand to her mouth, eyes bright before she looked back down at the panel.
 
-Halden: "Assignment: one page on what failed. If your paper includes the words *fixed*, *universal*, or *destiny*, start over."
+Professor Halden: "Assignment: one page on what failed. If your paper includes the words *fixed*, *universal*, or *destiny*, start over."
 
 It took Soren, Leon, Mira, and the Yellow senior together to haul the panel back toward storage, since the metal refused to turn lighter just because we had learned something from it.
 
@@ -1030,19 +1030,19 @@ Rhea found me beside the herb garden behind the council annex. The difference be
 
 She stood by the low stone wall with her hands clasped behind her back and her council mark dim at her wrist.
 
-Rhea: "I used to hate Green Circle students."
+President Valmont: "I used to hate Green Circle students."
 
 I looked over at her. Her expression did not budge.
 
-Rhea: "Not personally. That would have been easier. I hated what our treatment of them showed about Aurelis while everyone congratulated themselves for not being Noctis."
+President Valmont: "Not personally. That would have been easier. I hated what our treatment of them showed about Aurelis while everyone congratulated themselves for not being Noctis."
 
 Garden wind moved through the rosemary between us.
 
-Rhea: "I thought if I made procedure sharp enough, it would stop being cruel by accident."
+President Valmont: "I thought if I made procedure sharp enough, it would stop being cruel by accident."
 
 She looked toward the academic wing.
 
-Rhea: "It did not."
+President Valmont: "It did not."
 
 That cost her to say aloud. Rhea Valmont did not confess; she entered corrections into the record.
 
@@ -1054,27 +1054,29 @@ Haru: "For dragging all of it into the open."
 
 She weighed the question with the same severity she gave rulings.
 
-Rhea: "Sometimes."
+President Valmont: "Sometimes."
 
 Her honesty steadied me more than reassurance would have.
 
-Rhea: "Being out in the open makes work. It exposes cracks I wanted to patch before anyone walked across them, and it stops me from pretending fixing things is a private virtue."
+President Valmont: "Being out in the open makes work. It exposes cracks I wanted to patch before anyone walked across them, and it stops me from pretending fixing things is a private virtue."
 
 She met my eyes squarely.
 
-Rhea: "I do not resent you for surviving loudly enough that Aurelis had to listen to itself."
+President Valmont: "I do not resent you for surviving loudly enough that Aurelis had to listen to itself."
 
 I had no answer ready, and she did not ask for one.
 
-Rhea: "That is not comfort. It is a position."
+President Valmont: "That is not comfort. It is a position."
 
 Haru: "I understand."
 
 Rhea's mouth tightened by a fraction.
 
-Rhea: "I believe you do."
+President Valmont: "I believe you do."
 
 Then she walked back toward the annex, leaving the rosemary and the answer behind.
+
+---
 
 ## Elira Vale - Useless Light
 
@@ -1082,7 +1084,7 @@ Maelin cleared ten minutes of low-output practice after checking Elira's pulse t
 
 The west terrace sat empty after the afternoon bell. No healer trailed her up the steps, and no witness seal opened along the parapet.
 
-Old chalk marks scarred the flagstone. Unused target rings leaned against the stone wall. Beyond the railing, Lake Velis caught the lowering sun in narrow strips of gold. Elira sat down on a bench first, letting the irritation at needing to sit stay plain irritation instead of turning it into disobedience.
+Old chalk marks scarred the flagstone. Unused target rings leaned against the stone wall. Beyond the railing, the sunken fountain basin and the east courtyard roofs caught the lowering sun in narrow strips of gold. Elira sat down on a bench first, letting the irritation at needing to sit stay plain irritation instead of turning it into disobedience.
 
 She opened a fresh notebook to the first page.
 
@@ -1100,7 +1102,7 @@ Tomorrow she would ask Halden for a lab key. Talen would decide whether his data
 
 That work belonged to tomorrow. The remaining six minutes belonged to her.
 
-Elira lifted her right hand. The Yellow Circle at her wrist brightened softly, well under Maelin's cap.
+Elira lifted her right hand, keeping the taped palm crease relaxed, while the Yellow Circle beneath her collarbone brightened softly, well under Maelin's cap.
 
 Gold light gathered above her palm: no shield, no blade, no healing lattice, no witness seam, no proof that she deserved the rank pinned onto her before she knew its cost.
 
@@ -1124,7 +1126,7 @@ The cottage lamps lit themselves one by one as the sky behind the trees bruised 
 
 Elira read both notes and made the quiet sound that had almost become laughter again.
 
-We ate at the front window because the table was there, the soup was warm, and neither of us had the patience to carry dinner somewhere more meaningful. Outside, council aides changed shifts along the garden path, and two first-years walked past arguing over whether Halden had technically taught outdoors or committed architecture. Near the fountain, someone stopped to copy Mira's note into a slate.
+We ate at the front window because the table was there, the soup was warm, and neither of us had the patience to carry dinner somewhere more meaningful. Outside, council aides changed shifts along the garden path, and two first-years walked past arguing over whether Halden had technically taught outdoors or committed architecture. Near the fountain, someone stopped to copy Sera's cup note into a slate.
 
 Elira's spoon clicked softly against her bowl. Beneath my ribs, the Black Circle noticed and stayed down, listening the way something dangerous listens to rain once it learns rain is not an attack.
 
@@ -1149,6 +1151,8 @@ Outside, the bell tower marked the evening hour at a bearable volume.
 Elira glanced toward the dark window, then back at me.
 
 Elira: "Leave the lamp on."
+
+---
 
 ## Coda: Haru and Elira - First Bell
 

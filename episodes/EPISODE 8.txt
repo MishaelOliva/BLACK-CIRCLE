@@ -142,7 +142,7 @@ Cassian: "See? Independent judgment."
 
 A few startled laughs escaped the gallery.
 
-Cassian: "In the Crown Field, I moved because Cael was breaking and the field was lying about it. If Haru had told me to leave the boy there, we would have had a short tactical disagreement and a long medical one."
+Cassian: "In the Crown Field, I backed the rescue play on Cael Nox because the field was lying about what Noctis was doing to him—and I stayed on Tovan's line until Haru could clear the overload. If Haru had told me to leave the boy behind, we would have had a short tactical disagreement and a long medical one."
 
 Lucien: "Bravado is not autonomy."
 
@@ -186,7 +186,7 @@ Rhea: "No."
 
 Mira stepped inside anyway, frightened enough that the taped page rattled between her fingers.
 
-Mira: "On Haru's first day, the instructor knew every Red and Blue name. Three Green students were called *support row*. I wrote their names because I was angry. Haru did not ask. I still do not know most of what he is."
+Mira: "On Haru's first day, the system flashed SUPPORT TRACK over the first Green student in our room before she even lowered her disk, while nobody bothered learning Green names at all. I wrote her name down because I was angry. Haru did not ask. I still do not know most of what he is."
 
 Lucien: "Yet being noticed by him pleased you."
 
@@ -260,7 +260,7 @@ His breath hitched.
 
 Cael: "I need them."
 
-A sharp flicker of triumph crossed Lucien's frost outline. Cael saw it and did not blink.
+A sharp flicker of triumph crossed Lucien's pale silhouette. Cael saw it and did not blink.
 
 Cael: "Need does not make them owners. It means I am hurt."
 
@@ -282,7 +282,7 @@ Elira: "I love Haru."
 
 Every pen in the gallery paused except Aira's.
 
-Elira: "Yesterday I told him to stop deciding for me. He stopped. This morning I asked him to stay. He stayed."
+Elira: "When he tried to carry danger alone, I told him to stop deciding for me. He stopped. When Noctis tried to trap him in this hearing, I chose to stand beside him on my own terms, and he respected that choice."
 
 She turned her clear gaze onto Lucien.
 
@@ -342,9 +342,9 @@ The pool answered in older, heavier script:
 
 **PRIMARY WITNESS PRESSURE REVIEW: PENDING**
 
-Beneath Elira's collar, the pendant went violently cold.
+Under cover of the pool's heavy flash, a hair-thin pale frost needle slipped out from Lucien's sleeve toward her throat—only to hit the pendant's threshold ring before it could pierce her channels, flaring into bright white frost along the dark collar seam where his magic struck the outer ward.
 
-White frost bloomed along the edge of her dark fabric, sharp enough that she winced in full view of the gallery.
+Sharp enough that Elira winced in full view of the gallery as the cold bit her skin above the chain.
 
 A private gift became public evidence in half a second. The whole chamber saw that something bound Elira's skin to my power, something that could be named, pressured, and pulled.
 
@@ -420,7 +420,7 @@ Leon: "Keep that."
 
 The Foundation rings dimmed and released us. Nobody rushed the doors.
 
-At the lower rail, Mira stayed pressed over her Green Circle copies with Finn beside her. On the western glass, Talen's relay stayed open past Valemere's cutoff, his mother sitting close while Soren Ashvale stood behind Talen's chair with one hand resting steadily on the wooden back. Nera and Oric stayed beside Cael's ring until the silver trace faded beneath their boots. Lucien had already left the chamber.
+At the lower rail, Mira stayed pressed over her Green Circle copies with Finn beside her. On the western glass, Talen's relay stayed open past Valemere's cutoff with his mother sitting beside him, while across the floor at Valemere's rail, Soren Ashvale rested one hand steadily against the frame edge in support. Nera and Oric stayed beside Cael's ring until the silver trace faded beneath their boots. Lucien had already left the chamber.
 
 Rhea looked at the empty Noctis platform, then across the witnesses who remained.
 
@@ -648,7 +648,11 @@ Nera looked toward the glass door.
 
 Nera: "It usually is."
 
-Inside the greenhouse, the faculty aide snapped, "That is not your shelf!" at the vine. The leaves rustled with unmistakable contempt.
+Inside the greenhouse, the runaway vine draped itself squarely across a seed tray while the faculty aide glared at it.
+
+Faculty Aide: "That is not your shelf!"
+
+The leaves rustled with unmistakable contempt.
 
 Cael laughed once, cracked and startled, gone almost before Nera turned. She knew better than to smile at him.
 
@@ -700,7 +704,7 @@ He reached the second pylon before the Noctis aide stepped into the archway.
 
 Aide: "Oric Sen."
 
-Oric stopped. His hand twitched toward the old obedience mark on his bare wrist before he remembered the ring was gone. The aide saw the reflex.
+Oric stopped. His hand twitched toward the old obedience scar across his bare wrist before he remembered no Noctis band locked his cuff anymore. The aide saw the reflex.
 
 She was not much older than him. Seventeen, maybe, wearing a dark Noctis uniform under a borrowed Aurelis rain cloak. Her jaw-length hair looked unevenly hacked on one side, as if cut with a blade and no mirror, her lips chapped raw from the cold. Having a real face made the ambush worse.
 
@@ -832,7 +836,7 @@ Cassian spun toward the smoking stone with absurd solemnity.
 
 Cassian: "Remarkable fracture line. Deeply educational."
 
-Nera turned toward it too, and Oric turned last. Spared their stares, Vessa let out another smaller laugh. When Maelin hurried into the yard two minutes later demanding why a Noctis student was sitting in wet grass beside an illegal retrieval trap, Vessa answered before anyone else could.
+Nera turned toward it too, and Oric turned last. Spared their stares, Vessa let out another smaller laugh. When head infirmary healer Maelin hurried into the yard two minutes later demanding why a Noctis student was sitting in wet grass beside an illegal retrieval trap, Vessa answered before anyone else could.
 
 Vessa: "Because I sat down."
 
@@ -874,13 +878,13 @@ Haru: "Elira?"
 
 She turned her chin slightly, and my stomach dropped.
 
-Above the thin black chain of her pendant, the white frost-burn Maelin had supposedly cleared that morning was glowing faintly pale again against her skin. It was not spreading. It pulsed once, sharp and deliberate, like an answered trace.
+Above the thin black chain of her pendant, the faint frost-burn Maelin's warming seal had stabilized that morning was glowing sharply pale again against her skin—and the medical seal snapped bright crimson once, firing an immediate triage alert down to the infirmary desk below. It was not spreading. It pulsed once, sharp and deliberate, like an answered trace.
 
-Under my sleeve, the false Green crest shivered violently against my wrist as the Black Circle reacted to something far deeper than the trial hall. Whatever Lucien had triggered during the autonomy proof had not just tested the pendant.
+Under my sleeve, the false Green crest shivered violently against my wrist as the Black Circle reacted to something far deeper than the trial hall. Whatever frost-route Lucien had slipped at her throat during the autonomy proof had not broken her guard.
 
 It had mapped it. And somewhere beneath Noctis's buried doctrine, something old was waking up to read the shape.
 
-Rapid footsteps echoed up the stairwell behind us: three healers in white cuffs, a council officer carrying an intake clipboard, and Leon already striding ahead with his jaw locked at the sight of the frost line above Elira's throat.
+Rapid footsteps echoed up the adjacent stairwell within seconds as the lower infirmary doors banged open: three duty healers in white cuffs, a council officer grabbing an intake clipboard, and Leon—who had been downstairs checking on Cael's evening wrap—already striding ahead with his jaw locking the moment his eyes caught the bright frost line above Elira's throat.
 
 Elira lowered her hand from the collar, met my eyes once with quiet steel, and squared her shoulders toward the approaching healers.
 

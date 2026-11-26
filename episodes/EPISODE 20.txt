@@ -64,11 +64,11 @@ Lucien: "The trial offers mercy. Each witness may step away from Haru Aerlen's f
 
 The floor between us darkened into a path leading toward the far side of the room, away from me and away from the table where we had eaten bread, argued, and revised the pendant with human hands.
 
-Krail's voice cut through the mirror.
+High Councilor Krail's voice cut through the mirror.
 
-Krail: "Magistra, this is an unauthorized breach. I request containment-"
+High Councilor Krail: "Magistra, this is an unauthorized breach. I request containment-"
 
-Senna: "Denied pending survival."
+Magistra Voss: "Denied pending survival."
 
 I liked her more with every crisis.
 
@@ -176,7 +176,7 @@ Haru: "No."
 
 The seventh ring screamed. Every window cracked. Krail stood in the Council chamber.
 
-Krail: "There. There is the confession."
+High Councilor Krail: "There. There is the confession."
 
 I swallowed the cold taste in my mouth.
 
@@ -198,7 +198,7 @@ Lucien: "Careful. The trial has not closed."
 
 She kept walking.
 
-Krail: "Miss Vale-"
+High Councilor Krail: "Miss Vale-"
 
 Elira reached me and took my open hand. The seventh ring went dark because return had been chosen, and the pendant fell silent.
 
@@ -210,9 +210,9 @@ Instead, the reflection of the Council chamber folded into a narrow black corrid
 
 Lucien: "Then let us test return."
 
-Behind him, hundreds of small lights appeared: Blue, Red, Yellow, and a few green points nearly swallowed by dark. Noctis student crests. Cael had not been the only conduit-track student. Iven Sahl's name burned in my memory from the funeral. The lights flickered like trapped breaths.
+Behind him, twelve small reserve lights flared down the dark span—Blue, Red, Yellow, and three faint green points nearly swallowed by dark. Noctis student crests. Cael had not been the only conduit-track student. Iven Sahl's name burned in my memory from the funeral. The lights flickered like trapped breaths.
 
-Nera stepped forward from the side hall doorway, where she and Darian had been waiting under Rhea's witness seal until the windows cracked. She looked silent as guilt and twice as pale.
+Nera stepped forward from the side hall doorway, where Senna's rear-gate escort had quietly brought her and Darian in out of the Council mirror's range during the opening procedural motions—Darian newly clear of Noctis's crumbling house arrest through Senna's emergency line while Oric stayed back at Aurelis to guard the archive. She looked silent as guilt and twice as pale.
 
 Nera: "Those are students."
 
@@ -238,7 +238,7 @@ Lucien: "Still useful. How reassuring."
 
 Nera went white. He had not raised his voice. One sentence snapped years of training back into her posture: shoulders squared, hands visible, guilt standing at attention.
 
-Darian stepped beside her out of the doorway and struck his own binding ring against the floor. The sound was ugly and human. Nera's shoulders lowered. Lucien noticed him then.
+Nera pulled her re-riveted Noctis binding bands out of her evidence pouch and snapped both split clasps back over the healed pale scars on her wrists so the corridor would recognize an officer's authority. Darian stepped beside her out of the doorway and struck his own snapped Noctis ring against the floor. The sound was ugly and human. Nera's shoulders lowered. Lucien noticed him then.
 
 Lucien: "Darian Thorne. You always did mistake proximity to courage for possession of it."
 
@@ -308,9 +308,9 @@ Nera looked into the corridor. The seventh light pulsed green at its outer rim, 
 
 Nera: "The relay carries a route list. If we catch one cycle, we can keep the path open after he shuts it."
 
-Rhea: "Method?"
+President Valmont: "Method?"
 
-Nera was already loosening the clasp on her right binding ring.
+Nera was already loosening the re-riveted clasp on her right wrist band.
 
 Nera: "I go in. Darian holds me. Aira calls the cycle."
 
@@ -324,7 +324,7 @@ Darian: "And Lucien knows your guilt."
 
 They stared at each other. No time for a perfect answer. Rhea turned the choice into clear, strict orders instead.
 
-Rhea: "Nera steps in one body length. Darian holds her from behind. Leon guards the doorway. Cassian burns only the floor marks. Aira calls the retreat whether we get the list or not."
+President Valmont: "Nera steps in one body length. Darian holds her from behind. Leon guards the doorway. Cassian burns only the floor marks. Aira calls the retreat whether we get the list or not."
 
 Nera: "Accepted."
 
@@ -334,7 +334,7 @@ Lucien laughed through the fracture in his face.
 
 Lucien: "Aurelis turns panic into committees with admirable speed."
 
-Rhea: "And Noctis turns children into batteries. I prefer our delay."
+President Valmont: "And Noctis turns children into batteries. I prefer our delay."
 
 Leon drove water into the shattered mirror frame, spreading a blue border around the corridor to give the threshold a physical edge. Cassian burned the frost away from Nera's path in short left-handed bursts of red flame while his darkened right wrist spasmed at his side. Aira tracked the cycling lights.
 
@@ -380,7 +380,7 @@ His eyes sharpened. Good. I opened my hand.
 
 He expected resistance. My release made him pull too hard, and the relay-body staggered backward into its own corridor. Cassian burned the last floor sigil. Leon slammed the water border shut.
 
-Elira, pale in Maelin's arms, lifted two fingers. Gold light struck the cracked mirror at its weakest point, and the relay-body shattered inward. Every fragment carried Lucien's face for one falling instant before dissolving into frost that blew back down the corridor without touching the students behind it. The twelve lights remained, and so did Lucien's voice.
+Elira, pale in Maelin's arms, kept her hand down at her side, eyes locked on the cracked mirror. The gold fracture her single strike had torn from jaw to collar split wide under Leon's border slam, and the relay-body shattered inward. Every fragment carried Lucien's face for one falling instant before dissolving into frost that blew back down the corridor without touching the students behind it. The twelve lights remained, and so did Lucien's voice.
 
 I crossed back to Elira. Maelin kept one arm around her ribs without blocking the hand Elira held out for me. Elira's fingers tightened around mine to anchor me where I stood.
 
@@ -392,7 +392,7 @@ The corridor snapped shut.
 
 The Council chamber returned in broken fragments, Senna's voice cutting through static.
 
-Senna: "Emergency session suspended. Aurelis, secure your students. All schools, lock conduit registries now."
+Magistra Voss: "Emergency session suspended. Aurelis, secure your students. All schools, lock conduit registries now."
 
 The mirror went black. No one moved.
 
@@ -422,7 +422,7 @@ Aira: "I need rhythm, color, position. Call them."
 
 Nera's lips had gone pale.
 
-Nera: "First: Blue, fast triple pulse, second-year cadence. Second..."
+Nera: "First: Blue, fast triple pulse, first-year cadence. Second..."
 
 She stopped. The second was gone. Nera struck the floor with her good hand.
 
@@ -436,7 +436,7 @@ Cruel wording from anyone else. From him, a rope. Nera looked back at the slate.
 
 Nera: "Third: Green. Weak pulse against the cold. Younger than Iven. Fourth: Red, brace interference on the second beat. Fifth: Blue..."
 
-Aira wrote furiously. Mira was not there, and the Green copy table was days away at Aurelis. No duplicate hands waited automatically. So Rhea tore the Council petition in half and wrote on the blank backs. Professor Valen took the margins of her historical notes. Cassian, his right wrist frost-locked and his reserves nearly spent, used his left hand to copy colors onto the paper wrapping from the food basket. Leon kept the slate steady with water while holding Nera still.
+Aira wrote furiously. Mira was not there, and the Green copy table was hours away across the hills at Aurelis. No duplicate hands waited automatically. So Rhea tore the Council petition in half and wrote on the blank backs. Professor Valen took the margins of her historical notes. Cassian, his right wrist frost-locked and his reserves nearly spent, used his left hand to copy colors onto the paper wrapping from the food basket. Leon kept the slate steady with water while holding Nera still.
 
 Elira reached for a page. Maelin slapped her fingers away.
 
@@ -450,7 +450,7 @@ Maelin: "Dictate."
 
 Elira tracked the visible order while Nera named cadence.
 
-Elira: "Sixth spot dimmed before fifth. Mark a break in the line. Seventh is Iven. Eighth: Blue, flickering in pairs with ninth."
+Elira: "Sixth spot dimmed before fifth. Mark a break in the line. Seventh is Iven—weak Green outside, faint blue-white shiver at the core. Eighth: Blue, flickering in pairs with ninth—Red, fast short pulse."
 
 The slate grew cold enough for Leon's water support to freeze. He swore and increased pressure. The glass cracked.
 
@@ -510,7 +510,7 @@ Nera: "Noctis will say the record is broken."
 
 Rhea locked the evidence case.
 
-Rhea: "It is broken. We pulled it out while bleeding, off an enemy spell powered by captive kids. The damage is part of the proof."
+President Valmont: "It is broken. We pulled it out while bleeding, off an enemy spell powered by captive kids. The damage is part of the proof."
 
 Aira underlined the sentence.
 
@@ -530,7 +530,7 @@ Elira: "Record both."
 
 Aira did. Then Rhea spoke.
 
-Rhea: "Recovery leave is over."
+President Valmont: "Recovery leave is over."
 
 Elira looked at the silent crystal, then at me. Her eyes were gold, steady, alive, and furious.
 
@@ -544,11 +544,11 @@ Rhea did not let anyone rush for the carriages until she had three sealed record
 
 Aira: "History can survive fruit."
 
-Rhea: "History can survive legibility."
+President Valmont: "History can survive legibility."
 
 Aira copied it again.
 
-Elira sat near the window while Maelin checked her pulse for the fourth time in ten minutes. The trial had not wounded her in any visible way, which almost made it easier for frightened people to ignore what it had done. Her hands were steady. Her breathing was controlled. Her pendant was quiet. Yet her gaze kept returning to the empty space where Lucien's black corridor had stood.
+Elira sat near the window while Maelin checked her pulse for the fourth time in ten minutes. Pale beneath her cloak with dried blood faintly tinting the corner of her mouth and every seventh heartbeat still skipping under Maelin's thumb, she kept both hands folded still and her breathing even so no clerk could mistake physical injury for broken will. Her pendant was quiet. Yet her gaze kept returning to the empty space where Lucien's black corridor had stood.
 
 I saw it because I was watching too closely, then made myself look away before watching became another form of taking. Maelin noticed, of course.
 
@@ -574,7 +574,7 @@ Elira's fingers tightened once on the chair arm.
 
 Elira: "He did not use the archive."
 
-I waited. She looked toward the darkened mirror.
+I waited. She looked toward the splintered Council frame on the mantle.
 
 Elira: "He used the idea that private things become dirty when hostile people see them."
 
@@ -594,19 +594,19 @@ Elira touched my shoulder.
 
 Elira: "Better."
 
-The mirror chimed again, and every person in the room looked ready to destroy it. Senna's seal appeared in the glass with visible strain lines.
+The portable folding mirror beside the bread basket chimed, and every person in the room looked ready to destroy it. Senna's seal appeared in the small undamaged glass with visible strain lines.
 
-Senna: "I am cutting in on an emergency witness line. It stays clean for about ninety seconds."
+Magistra Voss: "I am cutting in on an emergency witness line. It stays clean for about ninety seconds."
 
 Rhea stepped into frame immediately.
 
-Rhea: "Report."
+President Valmont: "Report."
 
-Senna: "Krail is trying to spin that attack as proof that Lake Velis triggers unstable old magic. I shut down the session before he could enter it into the record."
+Magistra Voss: "Krail is trying to spin that attack as proof that Lake Velis triggers unstable old magic. I shut down the session before he could enter it into the record."
 
-Rhea: "Can he reopen?"
+President Valmont: "Can he reopen?"
 
-Senna: "Yes. Not today if I keep being professionally unpleasant."
+Magistra Voss: "Yes. Not today if I keep being professionally unpleasant."
 
 Aira whispered from beside the table.
 
@@ -614,59 +614,55 @@ Aira: "Notebook Senna."
 
 Rhea ignored her. Senna's eyes moved to me.
 
-Senna: "Mr. Aerlen, the Council will ask why you did not destroy the hostile corridor when the trapped Noctis students appeared."
+Magistra Voss: "Mr. Aerlen, the Council will ask why you did not destroy the hostile corridor when the trapped Noctis students appeared."
 
 Haru: "Because I did not know what would happen to the students connected to it."
 
-Senna: "Good. Say exactly that later. Do not improve it."
+Magistra Voss: "Good. Say exactly that later. Do not improve it."
 
 Elira almost smiled again. Senna looked at her.
 
-Senna: "Miss Vale, the Council will ask whether the proximity trial altered your stated feelings toward Haru Aerlen."
+Magistra Voss: "Miss Vale, the Council will ask whether the proximity trial altered your stated feelings toward Haru Aerlen."
 
 Elira: "It clarified my anger."
 
-Senna paused.
+Magistra Voss: "That is acceptable if followed by medical confirmation."
 
-Senna: "That is acceptable if followed by medical confirmation."
-
-Maelin leaned toward the mirror.
+Maelin leaned toward the folding mirror.
 
 Maelin: "Her anger is stable."
 
-Senna blinked once.
+Magistra Voss: "Noted."
 
-Senna: "Noted."
+The small glass crackled, Senna's image distorting around the edges.
 
-The mirror crackled, Senna's image distorting around the edges.
+Magistra Voss: "One last point. Since locking down its main dorm wing after Cael's funeral, Noctis has now sealed the inner annex completely and blocked outside checks, claiming new magic contamination. Even without the scrap you took from the corridor, we managed to pick up partial crest traces on our own."
 
-Senna: "One last point. Noctis has locked down its main dorm wing and blocked outside checks. They claim it's to stop magic contamination. Even without the scrap you took from the corridor, we managed to pick up partial crest traces on our own."
-
-Nera, standing near the side hall with her bandaged shoulder and both binding rings refastened beneath her sleeves, lifted her head.
+Nera, standing near the side hall with her bandaged shoulder and her re-riveted binding bands tucked beneath her sleeves, lifted her head.
 
 Nera: "That means they moved students before sealing."
 
 Darian's jaw tightened.
 
-Senna: "We suspect so."
+Magistra Voss: "We suspect so."
 
-Nera's binding rings clicked together as her hands curled into fists.
+Nera's re-clasped metal bands clicked together as her hands curled into fists.
 
 Nera: "Send the signatures. We need to match them before Noctis moves the routes again."
 
-Senna: "Not yet. We have partial crest signatures."
+Magistra Voss: "Not yet. We have partial crest signatures."
 
-Rhea: "Nera."
+President Valmont: "Nera."
 
-Nera did not look away from the mirror.
+Nera did not look away from the folding mirror.
 
 Nera: "I know the conduit track. I know how they hide weak crests under training labels."
 
 Senna studied her for half a second, then nodded.
 
-Senna: "Through Aurelis protection channel only."
+Magistra Voss: "Through Aurelis protection channel only."
 
-The mirror flashed. Twelve small lights appeared above the table, each one blurred where the name had been scrubbed away: Blue, Blue, Green, Red, Blue, Yellow, Green, Blue, Red, Blue, Yellow, Green. Twelve students, whose names had been rubbed thin enough that these lights had to stand in.
+The folding mirror flashed. Twelve small lights appeared above the table, each one blurred where the name had been scrubbed away: Blue, Blue, Green, Red, Blue, Yellow, Green, Blue, Red, Blue, Yellow, Green. Twelve students, whose names had been rubbed thin enough that these lights had to stand in.
 
 Nera approached them as if walking toward a grave. Darian stood beside her. Elira stood too. Maelin made an objection with her entire face, yet Elira ignored the face and did not cast. That was their compromise.
 
@@ -682,31 +678,31 @@ At the third, green, Nera flinched.
 
 Nera: "Too young for conduit track."
 
-No one spoke. Then the seventh light pulsed weakly, green at the outer ring. Iven's name already existed on the stolen corridor slate, yet this was the first outside trace that could confirm the route instead of just echoing Lucien's own trap. Nera stared at it.
+No one spoke. Then the seventh light pulsed weakly, green at the outer ring. Iven's name already existed on the stolen corridor slate, yet this was the first outside trace confirming the route independently of Lucien's own trap. Nera stared at it, matching it against the slate's seventh slot.
 
-Nera: "That one matches."
+Nera: "That external pulse matches the seventh line—Iven's exact cadet cadence."
 
-Darian: "You know him?"
+Darian: "How did the Council sweep catch his crest trace under masking?"
 
 Nera's voice became very quiet.
 
-Nera: "Cael once gave a thermal charm to a first-year who cried during winter endurance drills."
+Nera: "Cael once gave him a winter-drill thermal charm whose weave still leaves a faint blue-white shimmer under his Green crest."
 
 Elira closed her eyes.
 
-Haru: "Iven Sahl."
+Haru: "Confirming Iven Sahl from outside."
 
 Nera nodded once.
 
-The seventh green light flickered blue-white at its core, matching the conduit masking Elira had spotted on the slate. Confirming who he was from the outside didn't free him, yet it made him harder to erase. Senna's image broke apart.
+The seventh green light flickered blue-white at its core—echoing the nested blue-white glow beneath Green that Elira had spotted on the slate, though here it traced Cael's thermal charm rather than Noctis masking. Confirming his identity from the outside didn't free him, yet it made him harder to erase. Senna's image broke apart.
 
-Senna: "Time's up. Get back to Aurelis. The academy has stronger wards against old magic than Lake Velis if Noctis tries this again."
+Magistra Voss: "Time's up. Get back to Aurelis. The academy has stronger wards against old magic than Lake Velis if Noctis tries this again."
 
-Rhea: "Under escort."
+President Valmont: "Under escort."
 
-Senna: "Under witnesses."
+Magistra Voss: "Under witnesses."
 
-The mirror went dark.
+The folding mirror went dark.
 
 Nera remained beside the lights until they faded, then turned toward me. Fear showed in her face, directed at what she needed from me rather than at me.
 
@@ -724,9 +720,9 @@ Haru: "Then we decide with witnesses present."
 
 Elira's hand slipped into mine. This time no trial answered. Only the house, old and tired and perhaps a little relieved, releasing the door wards one by one for departure.
 
-By the time we packed, the afternoon sky could not decide whether to rain. Elira changed into her formal white-and-navy academy uniform with gold trim, Professor Valen altering the collar quickly by hand so the crystal could sit visible at her throat over a pale cloak. I pulled on a plain black coat instead of Green. No one bothered pretending Green cloth still meant anything.
+By the time we packed, the afternoon sky could not decide whether to rain. Elira changed into her formal white-and-navy academy uniform with gold trim, Professor Valen altering the collar quickly by hand so the crystal could sit visible at her throat over a pale cloak. I pulled on a plain black coat over my dark shirt. No one bothered pretending a Green crest still waited inside the lining.
 
-Outside, Lake Velis shone dull silver while two Aurelis carriages waited at the gate. Rhea checked the travel seals, Maelin argued with the luggage because apparently even bags could be medically irresponsible, and Aira tried to organize everyone into a seating order that did not accidentally imply I was either prisoner or king.
+Outside, Lake Velis shone dull silver while two Aurelis vehicles waited at the gate: a wide eight-seat council coach and a four-seat medical carriage. Rhea checked the travel seals, Maelin argued with the luggage because apparently even bags could be medically irresponsible, and Aira tried to organize everyone into a seating order that did not accidentally imply I was either prisoner or king.
 
 Aira: "This is harder than it looks."
 
@@ -738,11 +734,11 @@ Cassian leaned against the lead carriage door with his right arm tucked stiffly 
 
 Cassian: "Do we need a formation name?"
 
-Rhea: "No."
+President Valmont: "No."
 
 Cassian: "Witness diamond?"
 
-Rhea: "No."
+President Valmont: "No."
 
 Cassian: "Protective social rhombus?"
 
@@ -786,7 +782,7 @@ Aira called from the carriage window.
 
 Aira: "My phrasing survives under pressure."
 
-Rhea: "Your phrasing causes pressure."
+President Valmont: "Your phrasing causes pressure."
 
 Elira smiled faintly, then looked back at Nera.
 
@@ -802,7 +798,7 @@ Elira: "We keep moving anyway."
 
 Nera nodded once. No absolution, no forgiveness forced from the future, only direction.
 
-Professor Valen climbed into the following carriage beside Maelin and the medical supplies. When the rest of us entered the lead carriage, I sat beside Elira because pretending otherwise would give Krail's argument more respect than it deserved. Rhea, Nera, and Darian took the opposite bench with the evidence case and documents. Leon rode across from me near the window, Aira wedged herself into the corner with her notebooks, and Cassian claimed the seat nearest the door because he said it had the best dramatic exit potential. Outside on the box, the Aurelis driver told him to stop narrating.
+Professor Valen climbed into the following medical carriage beside Maelin and the supply crates. When the rest of us entered the wide council coach, I sat beside Elira because pretending otherwise would give Krail's argument more respect than it deserved. Rhea, Nera, and Darian shared the facing bench with the evidence case and documents. Leon rode opposite me near the window, Aira wedged herself into the corner with her notebooks, and Cassian claimed the end seat nearest the door because he said it had the best dramatic exit potential. Outside on the box, the Aurelis driver told him to stop narrating.
 
 As the restoration house receded behind us, Elira's hand found mine beneath the edge of her cloak, hidden from the road yet open to our witnesses. Aira saw and said nothing. That was how I knew she understood.
 
@@ -824,7 +820,7 @@ The carriage slid another foot. Elira tried to stand, and Maelin's remote medica
 
 Rhea threw open the door.
 
-Rhea: "Who can release the axle without answering origin?"
+President Valmont: "Who can release the axle without answering origin?"
 
 Aira was already halfway under the bench, pulling luggage straps free.
 
@@ -940,11 +936,11 @@ For a while, the carriage wheels made the only steady sound. Then Nera spoke.
 
 Nera: "Noctis teaches that the first answer belongs to the highest authority in the room."
 
-Rhea: "Aurelis frequently teaches the same thing with better curtains."
+President Valmont: "Aurelis frequently teaches the same thing with better curtains."
 
 Nera looked startled.
 
-Rhea: "We are not innocent. We are responsible."
+President Valmont: "We are not innocent. We are responsible."
 
 The sentence settled over the carriage. I thought of Aurelis halls, rank seating, students stepping back from me, Green Circle observers learning to write because nobody had given them swords that counted.
 
@@ -964,7 +960,7 @@ Rhea looked up.
 
 Elira: "He means me."
 
-Rhea: "I assumed."
+President Valmont: "I assumed."
 
 The carriage reached the first outer Aurelis road marker in late afternoon as the clouds parted into pale, too-bright sunlight ahead of the valley. The marker's crystal lit as we passed, flickered black for one heartbeat, and settled into gold.
 
@@ -990,7 +986,7 @@ Elira, pale against my shoulder, opened one eye.
 
 Elira: "You have volume."
 
-That ended the objection more effectively than policy. For a few breaths, the carriage held laughter so fragile no one leaned on it. Outside, the road toward the eastern bridge cut between wet cedar slopes and cold afternoon glare. Inside, Nera kept naming possible students behind the twelve reserve lights until her voice frayed.
+That ended the objection more effectively than policy. For a few breaths, the coach held laughter so fragile no one leaned on it. As the final valley curve brought Aurelis's eastern bridge towers into view between wet cedar slopes and cold afternoon glare, Nera kept naming possible students behind the twelve reserve lights until her voice frayed.
 
 Cassian stopped joking first. That was how everyone knew the map had become real to him. He tapped Iven's name on Aira's sequence sheet with two fingers.
 

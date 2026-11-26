@@ -10,11 +10,9 @@ I had not slept much. It was not unusual.
 
 What was unusual was the reason.
 
-Lucien Voss had looked at me once across the courtyard, and the hidden Black Circle beneath my false crest had answered with patience instead of sleep.
+Lucien Voss had looked at me once across the courtyard, and the hidden Black Circle beneath my false crest had answered with wakeful patience instead of sleep.
 
-The burned listening glyph in the north library had not left a name behind. It had left **SEEN**.
-
-Now the clean academic residue had a face. That bothered me.
+For days, the burned listening glyph in the north library—clean academic residue stamped with SEEN—had felt like Professor Halden tightening a net. Now another shadow had stepped onto campus wearing black and silver.
 
 Power did not usually react to people.
 
@@ -438,7 +436,7 @@ The second crest fragment flashed at the far end of a ruined hall.
 
 Between us and it stood Valemere's team, neither hostile nor friendly.
 
-In the center of their formation was Soren Ashvale, the Red Circle duelist we had met with Valemere's advance party. He had dark hair, a neat uniform, and the posture of someone raised to treat pressure as manners.
+In the center of their formation stood Soren Ashvale, Valemere's dark-haired Red Circle duelist from the courtyard welcome the evening before, wearing the same steady posture of someone raised to treat pressure as manners.
 
 Soren: "Aurelis."
 
@@ -580,7 +578,7 @@ For the first time, the opening event felt less like a trial and more like a rac
 
 The third field change was water.
 
-The ruins broke apart beneath our feet and became floating platforms over a black lake. Bridges appeared and vanished. Mana currents twisted under the surface. The final crest fragment hovered above the center gate, and every school now shared the same zone. Limited interference was permitted.
+The ruins broke apart beneath our feet and became floating platforms over a black lake. Bridges appeared and vanished. Mana currents twisted under the surface. At the far sanctuary dais across the dark water hovered the final pairs of third-stage crest fragments—while behind us, on the opposite shore, stood the tall silver-blue **center gate**. Limited interference was permitted.
 
 That meant everyone became a problem. Drakenshard charged first.
 
@@ -658,9 +656,9 @@ Golden light spread from her feet in thin rings, reading the lake. Lucien notice
 
 For the first time, he moved directly toward her.
 
-The arena seemed to feel it. Two Yellow Circles approaching the same center gate: Elira's light, warm and precise; Lucien's lightless field, pale and cold.
+The arena seemed to feel it. Two Yellow Circles converging on the outer lake sanctuary: Elira's light, warm and precise; Lucien's lightless field, pale and cold.
 
-The final crest fragment hovered between them.
+The sanctuary's crest pedestals shimmered between them.
 
 Lucien: "Still trying to save everyone?"
 
@@ -672,7 +670,7 @@ Lucien: "Clarity does not require kindness."
 
 Elira: "No. But strength does."
 
-Their mana met. The center gate shuddered where their two magics clashed.
+Their mana met. The stone sanctuary platform shuddered where their two magics clashed.
 
 Golden threads pushed through lightless rings. Pale bands tried to close around the fragment. Elira did not flinch. She shifted one foot, drew his binding pattern wide, and left an opening behind it for our team.
 
@@ -698,15 +696,16 @@ Haru: "Now."
 
 Cassian shattered the right pylon. The lake current reversed. Leon cut the pull. Aira sealed the backlash.
 
-Elira turned Lucien's own ring into an opening and took the final crest fragment with two fingers.
+Elira turned Lucien's own ring into an opening and took Aurelis's final crest fragment with two fingers. Just behind him across the sanctuary dais, Nera snapped a pale cord to snatch Noctis's third shard off its dropping pillar an instant before the pedestal sank.
 
-The center gate blazed silver-blue.
+The sanctuary beacon blazed silver-blue.
 
 **AURELIS: FINAL FRAGMENT SECURED**
+**NOCTIS: FINAL FRAGMENT SECURED**
 
 The arena erupted.
 
-The event was not over yet. The fragments still had to be returned to the center gate, and Lucien was already reaching for the field beneath us.
+The event was not over yet. Both teams still had to sprint their three fragments back across the lake to the center gate, and Lucien was already reaching for the water bridges beneath us.
 
 Haru: "Move."
 
@@ -1146,12 +1145,6 @@ Haru: "Keep your guard up. Nera's resetting."
 
 Aira: "I hate learning under threat."
 
-Noctis lost one binder marker.
-
-**NOCTIS: MARKER ONE DISABLED**
-
-The arena shouted.
-
 Lucien did not look irritated, which worried me. Nera did.
 
 Her expression did not twist into anger. Noctis students seemed trained out of wasteful faces. Still, her next spell changed texture, abandoning the outer barrier and sliding directly toward Aira's casting hand in a needle-thin bind.
@@ -1178,11 +1171,15 @@ Cassian: "You two flirt like people dodging knives."
 
 Oric took advantage of the exchange, sending a low containment ring toward Leon's feet.
 
-Haru: "Leon, jump."
+Haru: "Leon, jump—then step through his right flank!"
 
-He did, without questioning, without checking for confirmation. Immediately.
+He did, without questioning or checking for confirmation. Immediately.
 
-The ring closed on empty air. Cassian drove Tovan back two steps, and Aira flicked a support glyph through Leon's landing path before he touched down. Small choices. Fast trust. That was how a team became harder to break apart.
+The ring closed on empty air. Before Oric could draw his guard back in, Leon twisted mid-stride off his landing glyph and slapped a pressurized palm straight against Oric's shoulder surrender marker. Gold-blue light sparked dead across the crest, forcing Oric out of the active ring.
+
+**NOCTIS: MARKER ONE DISABLED**
+
+The arena roared as Aira flicked a support thread behind Leon's heel to steady him. Small choices. Fast trust. Cassian drove Tovan back two steps before Noctis's front line could cover the gap.
 
 Tovan drove Cassian backward with a heavy strike. Cassian blocked, slid, and nearly answered with a wide flame burst, then caught himself.
 
@@ -1562,7 +1559,7 @@ Cael did not pick the cloth up until he was alone. Even then, he stared at it fo
 
 ---
 
-The closing ceremony for Aurelis' qualifying rounds happened at sunset. The continental tournament was supposed to continue through three more brackets, yet the opening block (the selection, visiting delegations, relay, and Crown Field match) had ended with Aurelis leading the standings and Group Three at the center of every conversation.
+The sunset standings assembly for the tournament's opening block happened just before dusk. Three more brackets remained on the multi-day continental schedule, yet Day One alone (the morning opening, the relay, and the Crown Field match) had ended with Aurelis leading the standings and Group Three at the center of every conversation.
 
 Headmaster Veris announced provisional results with the solemn pride of a man already imagining commemorative plaques.
 
@@ -1590,7 +1587,7 @@ Something had shifted all the same. Leon had chosen the team over pride. Cassian
 
 That felt small. It was not.
 
-After the ceremony, the five of us stood at the edge of the arena while the crowd began to empty.
+After the suspension order, the five of us descended to the arena's lower causeway balcony above the exit ramp while the stands began to empty.
 
 Aira leaned against the railing.
 
@@ -1600,7 +1597,7 @@ Cassian: "So a boring day."
 
 Aira: "A sacred day."
 
-Leon looked down toward the Noctis delegation as they assembled by the causeway carriages.
+Leon looked down toward the Noctis delegation as their students assembled beside black carriages waiting at the causeway below to withdraw them from Aurelis's shared guest wings to their delegation's private enclave beyond the northern perimeter gate.
 
 Leon: "Voss will not forget this."
 
@@ -1608,27 +1605,27 @@ Haru: "No."
 
 Elira: "Neither will Cael."
 
-We all looked down.
+We all looked down over the balcony rail.
 
-Cael stood near the exit, surrounded by his team yet separate from them. Before the line moved, he glanced up at us and gave one small, quick bow.
+Cael stood near the loading yard right below our parapet, surrounded by his team yet separate from them. Before the line moved, he glanced up at us and gave one small, quick bow.
 
 When Magister Rusk gestured toward the black carriages, Cael did not follow.
 
-His whole body shook. His voice did too.
+His whole body shook. His voice carried clearly up through the hushed causeway.
 
 Cael: "I require medical observation."
 
-The words sounded memorized until he looked at Rhea Valmont and added a single word.
+The words sounded memorized until he looked straight at Rhea Valmont standing beside the council healers and added a single word.
 
 Cael: "Here."
 
-Rhea opened a red witness seal between him and the departing formation. Two neutral tournament healers stepped into it, leaving the road back to Noctis visible and the path into Aurelis unblocked.
+Rhea opened a red witness seal between him and the departing formation. Two neutral tournament healers stepped into it, leaving the delegation road open for Noctis while holding Cael safely inside Aurelis's campus clinic until review.
 
-Rhea: "Overnight medical hold recognized under the student-harm order. No team takes him out of here until the healers clear him and the review is on record."
+Rhea: "Overnight medical hold recognized under the student-harm order. No delegation removes him from tournament grounds until the healers clear him and the review is on record."
 
 Lucien studied Cael for one long second. Then he stepped aside so Rusk, Nera, Oric, and Tovan could board the black carriage. The door shut.
 
-The carriage rolled down the causeway toward the northern transit gate, leaving Cael behind, while Lucien lingered unhurriedly beneath the far stone arch, waiting for the delegation's transit seal to clear.
+The carriage rolled down the causeway toward the northern perimeter transit gate, leaving Cael behind, while Lucien walked out behind it to oversee his delegation's altered exit manifest at the checkpoint arch.
 
 Aira softened first.
 
@@ -1742,13 +1739,13 @@ Her smile softened.
 
 Elira: "Then do not carry it alone."
 
-For a heartbeat, the world became simple: her hand in mine, the arena cooling under starlight, the qualifying rounds behind us and the consequences ahead.
+For a heartbeat, the world became simple: her hand in mine, dusk deepening into early starlight above the cooling stone, the opening rounds behind us and the consequences ahead.
 
-Then, high above the emptying arena, one hidden projection crystal flickered once.
+Then, high above the emptying arena floor, one restricted diagnostic crystal flickered once—and mirrored its alert burst across the perimeter gate-check seal below.
 
-A line of text appeared where no audience could see it. I saw it. So did Professor Halden from the far platform.
+A line of text surfaced where no ordinary audience could read it. I saw it from the balcony. So did Professor Halden from the upper faculty platform.
 
-And, from the northern transit arch where Noctis's ward was finally closing, Lucien Voss.
+And, down beneath the lit northern transit arch as council clerks finalized the convoy log, Lucien Voss.
 
 The first two lines were bad enough.
 
@@ -1780,7 +1777,7 @@ Elira followed my gaze.
 
 Haru: "The secret is not."
 
-Far across the courtyard, Lucien smiled once before stepping through the Noctis transit gate.
+Beneath the silver gate-lamps across the courtyard, Lucien smiled once before stepping through the Noctis perimeter arch.
 
 And behind me, Professor Halden began to take notes.
 
@@ -1788,7 +1785,7 @@ And behind me, Professor Halden began to take notes.
 
 ## Coda: The Wrong Ripple
 
-While the arena emptied, Mira Castellan stood at the repaired courtyard fountain with three other Green Circle students and watched one ripple run backward across the basin.
+While the arena emptied, Mira Castellan stood at the east arcade courtyard fountain with three other Green Circle students and watched one ripple run backward across the basin.
 
 Behind the reflected tournament lights, a ring darker than shadow surfaced and vanished.
 

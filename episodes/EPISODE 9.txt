@@ -12,7 +12,7 @@ Leon: "That was not my question."
 
 Elira: "You did not ask one."
 
-Cassian leaned toward me from the wall.
+Cassian arrived half a beat later down the stairwell with heat still smelling faintly of practice tea and sprinted errands, dropping his shoulder against the wall beside me.
 
 Cassian: "That means she won."
 
@@ -204,7 +204,9 @@ The stitched vellum leaf lifted off the oak table by itself, rising as though so
 
 Silver light and fine chalk dust gathered above the folio. An elderly woman took shape in broken fragments: silver hair pinned in a severe knot, one hand braced on a cane whose lower half had been lost from the recording. No Circle color held on her long enough to read.
 
-Professor Valen whispered, "Liora."
+Professor Valen caught her breath, the whisper barely clearing her throat.
+
+Professor Valen: "Liora."
 
 The echo looked at Valen first, then fixed on me.
 
@@ -240,11 +242,21 @@ Liora: "The record remembers fear better than signatures."
 
 She dissolved without farewell, silver dust drifting down over seven pale handprints fading into the tabletop and floor.
 
-Aira stared at the empty air above the oak.
+Aira stared at the empty air above the oak, then swung straight toward me before the dust even settled.
 
-Aira: "That was not enough information."
+Aira: "Wait—*Aerlen-Valen*?"
 
-Valen's face had gone chalk-pale.
+Halden's gaze locked onto mine like a latch clicking shut. Beside him, Leon stopped mid-breath, and even Mira's nib hovered two inches off her folio margin.
+
+Haru: "Don't look at me. Border districts recycle old charter names—nobody in Lumeris ever claimed kin to an Aurelis witness."
+
+Professor Valen's face had gone chalk-pale, yet her voice cut sharp enough to stop the room from splintering.
+
+Professor Valen: "Older Aurelis safeguard oaths hyphenated witness-line surnames together for record filing. It wasn't marriage law, and chasing bloodlines won't answer tomorrow's test."
+
+Aira narrowed her eyes once between Valen and me, clearly not finished with the question, before lowering her pen back onto the margin anyway.
+
+Aira: "Fine. Either way, that was not enough information."
 
 Professor Valen: "It was never made to be enough."
 
@@ -396,7 +408,7 @@ Cassian: "You would last six minutes."
 
 Aira: "Five if there are forms."
 
-Near the starting arch, Cael stood beside Nera with one palm pressed tight over the healer seal on his wrist. Elira caught the gesture.
+Near the starting arch, Cael stood beside Nera with one palm pressed tight over the healer seal at his collar. Elira caught the gesture.
 
 Elira: "Cael."
 
@@ -558,7 +570,7 @@ The black shopfront beside him had stopped showing the square. Inside the glass 
 
 *Useful children do not tremble.*
 
-Lucien did not speak the line. Cael's own memory supplied it. The healer seal on his wrist flickered violently.
+Lucien did not speak the line. Cael's own memory supplied it. The chest seal at his collar flickered violently.
 
 Nera stepped right into his sightline, blocking the window with her shoulders.
 
@@ -582,7 +594,7 @@ Leon: "Good. Keep going."
 
 Cael forced every present fact out between shallow breaths.
 
-Cael: "Aira holds the support mark. Rhea holds the red seal. Leon is in front of me. Nera is left. Oric is at the rail. Elira is not Noctis. Haru is not Noctis. I am not in the east hall."
+Cael: "Aira holds the support mark. Rhea holds the red seal. Leon is in front of me. Nera is left. Oric is right behind me. Elira is not Noctis. Haru is not Noctis. I am not in the east hall."
 
 The black pane nearest his elbow shifted to a younger version of his own hand pressed flat to stone. Cael squeezed his eyes shut.
 
@@ -606,7 +618,7 @@ Nera paused half a beat.
 
 Nera: "Objection withdrawn."
 
-Oric called down from the rail.
+Oric snapped back from just beside Cael's shoulder.
 
 Oric: "Noctis would never withdraw an objection that fast."
 
@@ -780,11 +792,11 @@ It wore Cael's face.
 
 Leon swore aloud. Cassian's fire snapped sharp crimson. Beside Nera, Cael's chest locked mid-breath.
 
-Up in the neutral gallery, a woman in dark grey robes bearing a silver dragon crest rose to her feet. She had sat so still until now that the motion felt like steel clearing a scabbard. Mara Kest, combat observer for Drakenshard Martial Academy, a fourth voice bound to neither Valemere, Noctis, nor Aurelis.
+Up in the neutral delegation tier, Mara Kest rose to her feet in Drakenshard Military Academy's dark slate and iron-red trim, bearing a silver dragon crest across her shoulder. She had sat so still until now that the motion felt like steel clearing a scabbard—Drakenshard's front-line competitor speaking with the plain authority of a fourth school bound to neither Valemere, Noctis, nor Aurelis.
 
-Mara: "Mara Kest. Drakenshard combat observer. Formal objection."
+Mara: "Mara Kest. Drakenshard Military Academy. Formal objection."
 
-Lucien's reflections angled upward toward the iron-gray banner.
+Lucien's reflections angled upward toward the iron-red banner.
 
 Mara: "Using a living witness's face as rescue bait is mental torture, not a test."
 
@@ -794,7 +806,7 @@ Mara's jaw hardened. Her thumb came to rest against her sword guard, warning rat
 
 Mara: "Honor is what keeps victory from rotting into cruelty."
 
-Drakenshard's observer seal flared iron-gray along the rail.
+Drakenshard's delegation seal flared iron-red along the rail.
 
 Two sections over, Soren Ashvale rose in Valemere's white-and-blue trim.
 
@@ -1048,7 +1060,7 @@ Cael's faint smile came back, and this time it stayed an extra second.
 
 The healer suite latch clicked open. Aira stepped out first, scanned the three of us lined up like sentries, and pointed at Leon's hand.
 
-Aira: "Is that dinner?"
+Aira: "Is that lunch?"
 
 Leon: "Tactical bread."
 
@@ -1132,7 +1144,9 @@ The words sat across the vellum like smooth frost over a grave. She stared at th
 
 *Windows turned toward Elira before impact. Pendant answered as mapped target. Frost followed a carved route, not an accident.*
 
-At the next library table, three Green Circle students leaned over without pretending to study. One of them, her older brother Finn, with the same stubborn auburn curl and dark ink across both thumbs, tapped the margin and whispered, "Can we sign that?"
+At the next library table, three Green Circle students leaned over without pretending to study. One of them, her older brother Finn, with the same stubborn auburn curl and dark ink across both thumbs, tapped the margin softly.
+
+Finn: "Can we sign that?"
 
 Mira glanced up at him, surprised. Green Circle students at Aurelis did not sign formal filings unless a higher rank invited them to hold the pen. It was not written in any rulebook, which made it worse; it was a habit everyone called manners.
 

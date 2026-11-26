@@ -2,7 +2,7 @@
 
 Noctis apologized. That was how we knew the next attack had already begun.
 
-The apology arrived on crisp white parchment, carried by a Noctis courier in silver gloves with a face scrubbed blank of expression. It acknowledged "procedural irregularity" inside the autonomy field, accepted "limited responsibility for relay ambiguity," and commended Aurelis for its "continued commitment to student safety."
+The apology arrived at the council annex beside the infirmary, where Rhea had gathered Group Three, Cael, Nera, Oric, Mira, Professors Valen and Halden, and two duty healers rechecking Elira's collar before morning classes began. It arrived on crisp white parchment, carried by a Noctis courier in silver gloves with a face scrubbed blank of expression. It acknowledged "procedural irregularity" inside the autonomy field, accepted "limited responsibility for relay ambiguity," and commended Aurelis for its "continued commitment to student safety."
 
 Aira read the first paragraph, flipped the sheet over, and inspected the back.
 
@@ -10,21 +10,21 @@ Aira: "I was hoping the real message was written in blood. This is worse."
 
 She held the parchment by one corner as though it might grow teeth.
 
-The courier waited with the stiff patience of someone trained to turn into furniture while other people lost their temper. I recognized him a heartbeat late from the suspended bracket: Tovan Reiss, Noctis Red Circle close-combat reserve, reassigned as a messenger after the freeze as if hauling their trap across campus were just another match.
+The courier waited with the stiff patience of someone trained to turn into furniture while other people lost their temper. I recognized him a heartbeat late from the suspended bracket: Tovan Reiss, Noctis's starting Red Circle striker from the Crown Field match, stripped down to messenger duty after the freeze as if hauling their trap across campus were just another assignment.
 
 Rhea did not wave him away. She let the quiet stretch long enough for the room to notice Noctis had sent someone easy to ignore if Aurelis took the easy way out. Then she met his eyes directly.
 
 President Valmont: "Your name."
 
-The courier blinked.
+Tovan blinked.
 
-Clerk: "Pardon?"
+Tovan: "Pardon?"
 
 President Valmont: "For the receipt record. Your name."
 
 His silver-gloved fingers tightened on the leather delivery case.
 
-Clerk: "Tovan Reiss."
+Tovan: "Tovan Reiss."
 
 Rhea wrote it down in her own hand.
 
@@ -66,7 +66,7 @@ Tovan: "Receipt confirmed."
 
 He walked out too fast to look ceremonial.
 
-Rhea sent a council aide after him—not to question or escort him, just to make sure the compliance clause let go at the courtyard gate instead of waiting for an empty hallway. Ten minutes later, the aide returned carrying a single silver glove on a sealed brass tray.
+Rhea sent a council aide after him—not to question or escort him, just to make sure the compliance clause let go cleanly before he crossed the courtyard stairs. A few minutes later, the aide returned carrying a single scorched silver glove on a sealed brass tray; the moment Rhea's receipt registered at the gate steps, the lining had burned its seal shut against Tovan's skin until the aide forced him to drop it and sent him to a duty healer.
 
 Inside the palm, heat had scorched *Tovan Reiss* deep into the cloth lining.
 
@@ -78,7 +78,7 @@ Noctis had tried to erase the person behind the delivery. The glove made the cos
 
 Nera studied the glove from a foot away without touching the tray.
 
-Nera: "His name works as both release key and penalty log. If delivery failed, the lining would keep burning deeper until a superior accepted custody of the case."
+Nera: "His name works as both release key and burn-seal. Delivery closes by scorching the lining off his hand; failing to deliver would keep burning deeper until a superior accepted custody of the case."
 
 Rhea sealed the glove in a separate case beside the parchment.
 
@@ -98,7 +98,7 @@ Rhea lifted the parchment under a hovering red seal.
 
 President Valmont: "They want yesterday's interference to read like shared confusion."
 
-Professor Halden stood at the tall window, watching Tovan cross the lower courtyard.
+Professor Halden stood at the tall window, watching Tovan cross the far edge of the lower courtyard toward the outer arch.
 
 Professor Halden: "No. They are making the apology admissible."
 
@@ -144,7 +144,7 @@ Professor Halden: "A protective weave showing hesitation before it decides."
 
 Haru: "Not a decision. A clash of definitions."
 
-Elira laid two fingers lightly over the dark crystal.
+Elira laid two fingers lightly over the dark crystal. Even she could feel why the pendant stalled instead of striking out: beneath its protective design sat the Archive mana vow binding my power never to bring her harm. It refused to break its own oath, leaving only locked tension when outside magic pushed back.
 
 Elira: "Because Noctis is trying to classify my bond with Haru as unlawful influence."
 
@@ -154,21 +154,21 @@ Nera: "Dominion Severance does not begin with a cut. It begins by relabeling."
 
 Oric dragged both palms down his face.
 
-Oric: "If the grammar convinces the system that your protection counts as possession, the next defensive pulse can stall or turn inward."
+Oric: "If the grammar convinces the system that your protection counts as possession, the next defensive rebound won't lash outward—it will trap the cold backlash straight along the threshold."
 
 Leon stared at the pendant as if looking for a throat to punch inside grammar itself.
 
-Leon: "Turn inward where?"
+Leon: "Right onto who?"
 
 Nera hesitated. Cael answered from his chair.
 
-Cael: "Into the person wearing it."
+Cael: "Right onto the throat wearing it."
 
-Every set of shoulders in the room drew tight around Elira. She did not flinch or pull back; she simply buttoned her collar over the crystal.
+Every set of shoulders in the room drew tight around Elira. She did not flinch or unfasten the chain—taking it off before Noctis would register on the record as voluntary severance before the hearing even began. She simply buttoned her collar over the crystal.
 
 Elira: "Then we stop the relabeling."
 
-Rhea lowered her red seal over the apology.
+Rhea locked the folded white apology inside an exhibition band for the afternoon session.
 
 President Valmont: "Noctis has requested a joint clarification session in the old west transept. Neutral ground between the council tower and the tournament wing."
 
@@ -184,7 +184,7 @@ The west transept had once linked Aurelis's oldest dueling chapel to the newer t
 
 By midafternoon, Rhea had layered enough protections across the nave to offend the stonework. Red council seals braced every narrow window. Blue support anchors marked the floor tiles. Green Circle witnesses sat in pairs along the public gallery rail, each armed with a ledger and a partner assigned to keep them from being politely escorted out.
 
-Valen arranged three historical folios across a stone lectern at center floor. Halden stood beside it like an unblinking warning. Along the eastern wall, Nera and Oric mapped Noctis grammar risks in heavy black chalk while Cael watched from a warded chair, healer seal bright on his wrist and Leon planted half a pace from his shoulder.
+Rhea set the morning's folded white apology under an exhibition ward on the stone lectern beside Valen's three historical folios at center floor. Halden stood beside it like an unblinking warning. Along the eastern wall, Nera and Oric mapped Noctis grammar risks in heavy black chalk while Cael watched from a warded chair, his chest healer seal steady at his collar and Leon planted half a pace from his shoulder.
 
 The transept resisted the black chalk. Ancient Aurelis stone kept soaking up the lines, softening jagged hooks into graceful flourishes that looked decorative and therefore useless. Nera redrew the same custody hook three times before snapping the chalk clean in half.
 
@@ -254,11 +254,11 @@ Lucien: "You have become remarkably difficult to speak with in private."
 
 Elira: "Correct."
 
-Aira muttered from her support desk:
+Aira muttered from her support desk.
 
 Aira: "Strong opening."
 
-Magister Rusk laid the white apology flat across the center lectern.
+Magister Rusk stepped to the center lectern and laid one gloved finger beside the folded white apology beneath Rhea's exhibition band.
 
 Magister Rusk: "Noctis requests formal clarification to prevent further misunderstanding between protective doctrines."
 
@@ -338,9 +338,9 @@ Lucien: "Good."
 
 The hook did not strike Elira. It bit directly into the white apology resting on the stone lectern.
 
-The parchment unfolded by itself. Every neat line of Noctis courtesy twisted and snapped into old Dominion script.
+The parchment snapped open, unfolding itself flat across the wood. Every neat line of Noctis courtesy twisted and snapped into old Dominion script.
 
-Nera shouted from the eastern wall:
+Nera shouted from the eastern wall.
 
 Nera: "Do not read it!"
 
@@ -366,7 +366,7 @@ Nera went chalk-white, fingers clamping over her bare forearms.
 
 Nera: "Yes."
 
-Elira's pendant flashed pure black against her throat, not from anything inside me, but from Dominion grammar forcing my own protective weave to turn against itself. Pain flashed sharp across her brow.
+Pure black light flared sharply beneath Elira's buttoned wool collar, not from anything inside me, but from Dominion grammar forcing my oath-locked shield into violent surface rebound against her skin. Pain flashed sharp across her brow.
 
 Behind my ribs, Black Circle hammered against the inside of my restraint. Cold silver rings ground hard enough that the false Green crest beneath my wrist cuff burned, and the flagstone directly under my boot split with a crisp hairline crack.
 
@@ -448,7 +448,7 @@ Nobody cleared the transept after they left. Nobody trusted empty rooms anymore.
 
 Rhea ordered the double doors propped open and the public gallery maintained while healers set up a folding privacy screen for Elira. Public enough to block quiet rewriting; shielded enough that Elira did not become a spectacle. An ugly compromise, like everything else keeping us upright.
 
-No one touched the gray ash piled across the lectern. On Rhea's order, three seals ringed the pile: Rhea's red seal for custody, Aira's blue seal for sequence, and a green seal from Mira, which Mira had tried very hard to refuse until Rhea informed her that public witness evidence did not stop being official just because the person holding the pen had sweaty palms.
+No one touched the gray ash piled across the lectern. On Rhea's order, Mira hurried down the gallery stairs to join us beside the lectern while three seals ringed the pile: Rhea's red seal for custody, Aira's blue seal for sequence, and a green seal from Mira, which Mira had tried very hard to refuse until Rhea informed her that public witness evidence did not stop being official just because the person holding the pen had sweaty palms.
 
 Mira's green seal came out lopsided. It leaned slightly left and pulsed off-beat against Rhea's crisp red geometry.
 
@@ -566,7 +566,7 @@ Professor Valen closed her folio gently.
 
 Professor Valen: "We kept them from stealing consent. We did not stop them from mapping the route."
 
-Near the rail, Cael stood rigid with both arms wrapped tight around his ribs. Nera walked over and stopped half a pace away.
+Near the front benches, Cael stood rigid with both arms wrapped tight around his ribs. Nera walked over and stopped half a pace away.
 
 Nera: "The first hinge was not your fault."
 
@@ -602,7 +602,7 @@ Oric flinched.
 
 Professor Valen: "A record can hold the truth steady until belief catches up."
 
-Up on the gallery rail, Mira entered the sentence into her log. Oric saw her pen move, opened his mouth to protest, and let it go.
+Beside the lectern, Mira entered the sentence into her log. Oric saw her pen move, opened his mouth to protest, and let it go.
 
 Still, Cael had not stopped staring across the nave at Elira behind the folding screen, not like Lucien, like a man watching a timber beam about to catch flame. Elira noticed through the gap.
 
@@ -642,7 +642,7 @@ Elira rose from the healer stool. Both healers protested; she ignored them with 
 
 Elira: "Do not apologize for warning me."
 
-Cael swallowed hard, fingers locking over his wrapped wrist.
+Cael swallowed hard, fingers locking over his wrapped right hand.
 
 Cael: "Dominion Severance cannot kill a primary witness just for standing in the room. It works because decent people move. It arranges the floor so the right step counts as the fatal one. And you will take it."
 
@@ -780,13 +780,13 @@ For one unguarded second, Cael looked his actual age.
 
 Cael: "I am trying."
 
-Before Rhea's wax finished cooling on the docket, footsteps hurried down the gallery stairs. A Green Circle student stepped up directly behind Mira: older, broader through the shoulders, the same stubborn auburn curl and ink smudged across both thumbs.
+Before Rhea's wax finished cooling on the docket, hurried footsteps came down the gallery stairs straight toward the lectern. A Green Circle student stepped up directly behind Mira: older, broader through the shoulders, the same stubborn auburn curl and ink smudged across both thumbs.
 
 Mira spun around.
 
 Mira: "Finn?"
 
-Finn Castellan held out a green-bound roll of parchment tied with plain twine.
+Finn Castellan held out a green-bound roll of parchment tied with plain twine, with two freshly inked sheets pinned on top.
 
 Finn: "Before anyone gets nervous, this is not a loyalty petition for Haru Aerlen."
 
@@ -794,13 +794,13 @@ Several faculty members stiffened and leaned closer.
 
 Finn: "It is forty-three Green Circle signatures requesting that the Foundation attach our witness logs instead of binning them as redundant."
 
-He unrolled the top sheet. Six heavy red rejection stamps slashed across the margins:
+He unrolled the top sheets. Six heavy red rejection stamps slashed across yesterday's margins:
 
 **DUPLICATE OBSERVATION / LOWER-RANK COPY / NO ADDITIONAL WEIGHT**
 
-Finn tapped a line inked neatly beneath the stamps.
+Finn tapped yesterday's stamped lines, then pointed to the two fresh afternoon sheets clipped above them.
 
-Finn: "Yesterday an archive clerk handed back six Green copies and told us to leave timing logs to higher circles. Two of our copies caught the ash shifting before the official council seal even engaged. The senior sheet missed it completely."
+Finn: "Yesterday an archive clerk handed back six Green copies from the plaza field and told us to leave timing logs to higher circles—even though our observers caught the black glass shifting three seconds before the official council seal engaged. Just now up in the gallery, two more observers logged that lectern ash moving before the clerk's senior slate even registered it."
 
 Surprise vanished from Mira's face, replaced instantly by hot anger.
 
@@ -812,11 +812,11 @@ Finn: "Attach the pages. Then argue with what they record."
 
 Forty-three tiny preservation charms lit softly along the twine, each etched in a different student's uneven handwriting.
 
-Rhea beckoned the Foundation Archive Clerk forward from the gallery desk and opened the official timing ledger beside Finn's six stamped pages. Professor Valen leaned over her shoulder, checking line against line while the room held its breath.
+Rhea beckoned the Foundation Archive Clerk forward from the gallery desk and opened the official timing ledger beside Finn's stamped sheets and fresh gallery log. Professor Valen leaned over her shoulder, checking line against line while the room held its breath.
 
-Valen tapped two timestamps with her brass stylus.
+Valen tapped both sets of timestamps with her brass stylus.
 
-Professor Valen: "Both differences matter. The ash moved three seconds before the senior log entry."
+Professor Valen: "The discrepancy holds across both days. Yesterday's glass and today's ash both shifted three seconds ahead of the senior log entry."
 
 The archive clerk swallowed hard and dipped his pen.
 
@@ -902,7 +902,7 @@ The chamber beyond did not look like any chapel in modern Aurelis. Seven weather
 
 One of those blank spaces made my eyes ache the moment I looked at it. Something behind my ribs knew the exact curve of what had been cut away.
 
-Cael stopped at the stone threshold. The healer seal on his wrist flickered hard. Across the mirror-still basin, the silver-black water reflected him for one sharp heartbeat as a smaller boy kneeling on Noctis stone, before shifting back to who stood here now: thin, frightened, alive.
+Cael stopped at the stone threshold. The chest healer seal beneath his collar flickered hard. Across the mirror-still basin, the silver-black water reflected him for one sharp heartbeat as a smaller boy kneeling on Noctis stone, before shifting back to who stood here now: thin, frightened, alive.
 
 Old script rose through the water, pulling pieces from every reflection ringing the rim. Cael's shadow supplied *Votive*. Elira's supplied *Return*. Mine left only a blind dark gap the water refused to read. Then the surface shivered and drew the rest out of the room around us: Nera's cold dread, Oric's scarred memory, Aira's refusal to let words hide cost, Rhea's rigid order, Mira's stubborn ledger, Leon's blunt fury, Cassian's banked flame, Valen's grief, Halden's discipline.
 
@@ -928,7 +928,7 @@ Aira: "Define *incomplete*."
 
 The water dimmed. Instead of text, a scene surfaced beneath the ripples: seven figures reaching toward a body of bright light while robed Aurelis officials hauled two of them backward out of the ring. One witness vanished. The light fractured, edges turning ink-black. A second witness vanished. The image snapped off before the end.
 
-Mira whispered from behind Aira's elbow:
+Mira whispered from behind Aira's elbow.
 
 Mira: "It does not want to show the finish."
 
@@ -1136,7 +1136,7 @@ Aira: "Messy evidentiary integrity."
 
 Halden stared up at the vaulted stone ceiling as if requesting patience from three centuries of dead founders. Unhelpfully, the chapel offered none.
 
-Beside the rail, Cael watched Mira ink a tiny arrow around the word *DRAMATIC*, and for one quiet heartbeat the haunted tightness eased around his eyes. Not joyful, just present. Elira saw it and stayed silent, letting him keep the first bearable breath he had taken all afternoon.
+From the curved stone bench behind her, Cael watched Mira ink a tiny arrow around the word *DRAMATIC*, and for one quiet heartbeat the haunted tightness eased around his eyes. Not joyful, just present. Elira saw it and stayed silent, letting him keep the first bearable breath he had taken all afternoon.
 
 Once Rhea sealed Mira's sketch, Professor Halden lingered alone beside the rim. For once his notebook stayed shut. His gaze lifted to the blank scraped space hovering above the pool where the erased ring belonged.
 
@@ -1278,18 +1278,18 @@ Scholars were trained to distrust symbols that arrived too neatly. A blank gap i
 
 And yet.
 
-Before dawn, he walked back into the locked archive without an assistant, a lamp, or a requisition slip. He laid four modern rank seals across the worktable: Green, Blue, Red, Yellow.
+Before dawn, carrying only a shaded scholar's lantern and no assistant or requisition slip, he returned to his locked research study, laid out his reactive chalk-and-silver copy of the chapel's damaged ring diagram across the worktable, and placed four modern rank seals beside it: Green, Blue, Red, Yellow.
 
-The ancient diagram accepted none of them.
+The reactive diagram accepted none of them.
 
 It did not reject them either.
 
 That unsettled him worse. Rejection would have been an answer.
 
-Halden drew a fresh sheet of foolscap toward him and wrote a single sentence he had no intention of filing:
+Halden dipped his nib beside the lantern flame and wrote a single sentence on fresh foolscap he had no intention of filing:
 
-*If Black Circle is not above Yellow but outside the ladder, every law built as a ladder is already aimed wrong.*
+*If the erased fifth circle is not above Yellow but outside the ladder altogether, every law built as a ladder is already aimed wrong.*
 
 He folded the page once and tucked it deep inside his coat pocket.
 
-Then he straightened his spectacles and went down to the morning hall to teach first-years how not to lie with diagrams.
+Then he straightened his spectacles, banked the lantern, and walked down toward the morning record office to face Magistra Voss's dawn inspection before noon's trial protocol—still refusing to pretend a clean ladder could measure the truth.

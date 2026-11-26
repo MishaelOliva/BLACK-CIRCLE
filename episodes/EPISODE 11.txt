@@ -4,9 +4,9 @@ Wounded City Protocol opened beneath the old chapel at noon.
 
 That timing was the first insult.
 
-Noctis had spent enough of the Foundation Trial losing in rooms where records could answer back. The Protocol was their reply: move the argument from testimony into live crisis, then dare Aurelis to prove its rescue ethics under full public light. Even with Council Investigator Senna Voss shut away in the morning record office since dawn, Lucien did not ask for a closed floor.
+Noctis had spent enough of the Foundation Trial losing in rooms where records could answer back. The Protocol was their reply: move the argument from testimony into live crisis, then dare Aurelis to prove its rescue ethics under full public light. Even with Council Investigator Senna Voss auditing the morning filings since dawn and watching the noon floor from the sealed Council gallery high above the square, Lucien did not ask for a closed hall.
 
-He wanted an audience. Valemere. Two minor academy delegations that had lingered past the tournament to watch the Foundation Trial. Selected Aurelis faculty. Student Council recorders. Green Circle public witnesses. Noctis called it transparency. Rhea called it leverage.
+He wanted an audience. Valemere, Drakenshard Military Academy, and Sol Aeternum Conservatory—all three rival delegations held on campus while the suspended tournament waited on the Foundation Trial. Selected Aurelis faculty. Student Council recorders. Green Circle public witnesses. Noctis called it transparency. Rhea called it leverage.
 
 Aira called it "setting the room on fire and inviting people to admire the smoke."
 
@@ -82,7 +82,7 @@ Cassian: "I am going to enjoy the day you run out of elegant sentences."
 
 Lucien: "Then I hope you are patient."
 
-Elira stepped onto the activity floor beside me. Under her collar, the black-and-gold pendant gave one warm pulse against her skin, then went quiet.
+Elira stepped onto the activity floor beside me. Under her collar, the black-and-silver pendant gave one warm pulse against her skin, then went quiet.
 
 Cael entered with Nera on one side and Leon on the other. His healer seal had been reinforced, yet the silver thread around his injured hand had darkened overnight. He had slept even less than I had, and that was saying something.
 
@@ -144,7 +144,7 @@ Cael: "Good."
 
 He stepped back into formation without apologizing. Leon let him take his place without crowding him. That quiet restraint mattered almost as much as catching him would have yesterday.
 
-As the chamber chimes warned of activation, Nera withdrew from the floor to take her assigned Noctis observer post along the upper witness rail beside Oric, leaving the active roster clear. Mira and the Green Circle witnesses filled the public record rail above the square, each pair armed with a timestamp crystal, ink, and duplicate ledger sheets. Mira caught my eye from above. She looked terrified.
+As the chamber chimes warned of activation, Nera withdrew from the floor to take her protected technical-witness seat along the upper rail beside Oric, leaving the active roster clear. Mira and the Green Circle witnesses filled the public record rail above the square, each pair armed with a timestamp crystal, ink, and duplicate ledger sheets. Mira caught my eye from above. She looked terrified.
 
 Then she raised her spare pencil, ready.
 
@@ -408,7 +408,7 @@ Finn went pale when every eye in the square snapped up at him.
 
 Finn: "Magic is food in there. Stop feeding it magic."
 
-Leon stripped off his ward-lined academy coat. Cassian unbuckled his fire-threaded bracer and dropped it beside his ruined glove. Elira banked her Yellow Circle until her wrist went bare. We walked in dark.
+Leon stripped off his ward-lined academy coat. Cassian unbuckled his fire-threaded bracer and dropped it beside his ruined glove. Elira banked the Yellow Circle beneath her collar until only pale dark wool remained. We walked in dark.
 
 Forty paces of alley stretched into the longest road in the city. The bricks bled warmth out of muscle, steadiness out of balance, light from the rim of vision. At twenty paces, Leon stumbled hard; Cassian caught his elbow with the hand that still blistered. At thirty, Elira's knees gave an inch and she started to wave me off before glancing at the marker, rethinking what pride was for, and taking my arm.
 
@@ -440,7 +440,7 @@ A cracked lintel hung above Leon, seven seconds from shearing loose. I caught th
 
 Haru: "Leon. Arch weight."
 
-Leon glanced up, kicked his water brace wider beneath the stone, and hauled the marker clear a heartbeat before the block smashed down.
+Leon glanced up, kicked his water brace wider beneath the stone, and dragged Cael clear with him a heartbeat before the block smashed down.
 
 Mira's voice rang from the gallery.
 
@@ -476,7 +476,7 @@ Professor Valen echoed from the rail above:
 
 Professor Valen: "Observation entered. Elira Vale chooses route."
 
-Elira veered sharp left, hauling the marker toward a crooked alley full of broken cobbles and honest strain.
+Elira veered sharp left, guiding her lane clear of the ambush toward a crooked alley full of broken cobbles and honest strain.
 
 Lucien's gaze stayed pinned on me.
 
@@ -488,7 +488,7 @@ Aira let out a strangled cough.
 
 Aira: "I am proud and terrified."
 
-Once the marker crossed the line, Elira let a small smile show, just for a second. That brief smile cost Lucien far more than my retort had.
+Once they reached solid ground beyond the trap line, Elira let a small smile show, just for a second. That brief smile cost Lucien far more than my retort had.
 
 At the fourth marker, the city changed pitch.
 
@@ -506,7 +506,7 @@ Soren Ashvale stepped straight to the edge of the neutral witness rail.
 
 Soren: "Valemere objection. The marker exploits a living witness's trauma without consent."
 
-Inside the Valemere observer frame, Talen's relay projection brightened. He stood before anyone prompted him, his braced right hand held clear against his dark sleeve.
+Inside the Valemere observer frame, Talen's relay projection brightened. He stood before anyone prompted him, his braced left hand held clear against his dark sleeve.
 
 Talen: "I will provide context with consent."
 
@@ -520,7 +520,7 @@ The Foundation bell chimed crisp silver as it entered his statement.
 
 **OBJECTION ENTERED**
 
-Talen lowered his braced hand. This time, the memory did not own him, and the marker's stolen voice dissolved into blank static.
+Talen lowered his braced hand. This time, the memory did not own him; the marker's stolen voice dissolved into blank static, and the steadied fourth outline stepped cleanly across the western safe line without interference.
 
 Elira looked up at Soren.
 
@@ -540,7 +540,7 @@ The public record rail scratched that line straight into the ledger.
 
 Noctis had planted the echo expecting us to fracture over guilt. Instead, the gallery woke up. For the first time, Wounded City Protocol stopped feeling like a closed stage built for five students and started feeling like a room full of people deciding they refused to stay furniture.
 
-One of the minor delegates, a gray-haired woman from Lirenth who had stayed silent ever since signing Mira's sheet, raised her hand.
+One of the visiting observers, a gray-haired instructor from Sol Aeternum Conservatory who had stayed silent ever since signing Mira's sheet, raised her hand.
 
 Delegate: "Can an observer enter a consent objection if the harmed person isn't in the room?"
 
@@ -554,7 +554,7 @@ Talen: "They can. As long as the objection names me as a person, not as evidence
 
 The delegate squared her shoulders.
 
-Delegate: "Then Lirenth observer record objects to the reuse of living witness trauma as educational material."
+Delegate: "Then the Sol Aeternum observer record objects to the reuse of living witness trauma as educational material."
 
 The bell chimed again, a thinner note than Soren's, yet it rang true.
 
@@ -622,7 +622,7 @@ Mira leaned over the rail.
 
 Mira: "Recorded!"
 
-The false notice shattered into pale sparks, and the pressure-burn marker stabilized. Lucien offered a thin, practiced smile.
+The false notice shattered into pale sparks, and the pressure-burn marker stabilized. Before Lucien could re-route the load, Elira and Leon flanked the fifth outline cleanly across the safe boundary, leaving only two marks active in the square. Lucien offered a thin, practiced smile.
 
 Lucien: "Good. You are learning to narrate every instinct before it damns you."
 
@@ -636,7 +636,7 @@ The hook appeared as a razor-thin black stroke in midair, clean as fresh calligr
 
 Cael saw it before the rest of us, not out of sharper sight, simply because his bones still remembered the shape of being claimed.
 
-His hand flew halfway toward his wrist, then froze. For one heartbeat, old conditioning won the first twitch. In the next, Cael forced his hand back down to his side.
+His hand flew halfway toward his collar, then froze. For one heartbeat, old conditioning won the first twitch. In the next, Cael forced his hand back down to his side.
 
 Cael: "Return hook."
 
@@ -688,7 +688,7 @@ Mira: "Recorded!"
 
 The black hook whipped off course, aiming past Elira's chest straight for the pendant at her throat. My breath stopped.
 
-Black and gold burst out of the pendant at once. Elira threw her hand up, not to shield herself, to catch the black stroke before it could jump back to Cael.
+Black and silver burst out of the pendant at once. Elira threw her hand up, not to shield herself, to catch the black stroke before it could jump back to Cael.
 
 Cael: "No!"
 
@@ -826,7 +826,7 @@ Professor Halden: "No office of mine holds sole custody of classification."
 
 Professor Valen set Liora's damaged folio beside his pages without explaining a word. The torn-out names said enough.
 
-Nera wrenched the Noctis authorization ring off her wrist, leaving a raw red groove where the metal had bitten deep. Oric caught it midair, laid his own beside it, and kicked both rings under the rail barrier onto the outer stone ledge where every Noctis observer could see them and nobody could quietly pocket them.
+Nera ripped her silver Noctis delegation crest-pin straight off her wool collar, tearing the thread clean above the pale faded bands on her bare wrists. Oric unlatched his own Noctis seal clasp beside hers, laid both metal tokens on the flagstones, and kicked them under the rail barrier onto the outer stone ledge where every Noctis observer could see them and nobody could quietly pocket them.
 
 Down on the cobbles, Aira stared at the open seventh marker.
 
@@ -856,13 +856,13 @@ The hook yanked hard at Elira's wrist. Cael flinched and held his ground.
 
 Cael: "Not property."
 
-Behind him, the Foundation pool swelled dark. Cael looked across the scattered ledger pages, the kicked-aside rings, Halden's unlocked mistakes, Soren's torn seal, and a room full of people still arguing while refusing to walk out.
+Behind him, the city's dark fountain basin swelled dark. Cael looked across the scattered ledger pages, the kicked-aside Noctis crests, Halden's unlocked mistakes, Soren's torn seal, and a room full of people still arguing while refusing to walk out.
 
 Cael: "Present."
 
 The empty marker shattered.
 
-Every proof flooded the chamber together. No tidy unison followed; mismatched people simply stood inside the same danger and refused to hand their reasons to one master. The black hook slackened around Elira's wrist.
+Every proof flooded the chamber together. No tidy unison followed; mismatched people simply stood inside the same danger and refused to hand their reasons to one master. The black hook slackened around Elira's wrist; freed from its anchor tether, the sixth outline lifted clear, and Leon and Cassian immediately ushered it across the nearest active safe line just before the chamber bell tolled.
 
 Elira dragged in a ragged breath. Against her throat, the pendant flared warm.
 
@@ -874,7 +874,7 @@ Elira dragged in a ragged breath. Against her throat, the pendant flared warm.
 
 **AURELIS WITNESS METHOD: PROVISIONALLY ACCEPTED FOR THIS ACTIVITY**
 
-We had earned that verdict. The seventh marker stayed unclosed, yet Lucien could no longer argue that asking consent slowed rescue or that shared authority left a team paralyzed.
+Up in the sealed Council gallery, Magistra Senna Voss's stylus paused over her risk ledger as the amber status lamp blinked once—logging procedural hazard without triggering suspension while civic loss stayed at zero. We had earned that verdict. The seventh marker stayed unclosed, yet Lucien could no longer argue that asking consent slowed rescue or that shared authority left a team paralyzed.
 
 Relief rushed into the square too fast.
 
@@ -886,7 +886,7 @@ The chamber released us before anyone could answer.
 
 Release did not mean the city intended to let us walk out intact.
 
-The paving began sliding inward toward the restoration pool. Buildings lost depth first, glass flattening into bright paper-thin squares before walls folded straight down through narrow seams in the floor. Every safe zone vanished. One single archway opened beneath the chapel stair.
+The paving began sliding inward toward the sunken fountain basin. Buildings lost depth first, glass flattening into bright paper-thin squares before walls folded straight down through narrow seams in the floor. Every safe zone vanished. One single archway opened onto the stone stairwell rising back toward the chapel.
 
 Four crest marks burned across the threshold: Green, Blue, Red, Yellow. No unclassified lane. No span wide enough for Cael's contested Noctis seal and Elira's hooked wrist to clear together.
 
@@ -908,7 +908,7 @@ President Valmont: "Emergency mixed-witness passage!"
 
 The four colored marks rejected her seal and pinched narrower.
 
-Beyond the shrinking square, Lucien already stood clear on the chapel stone outside the trap his protocol had sprung.
+Beyond the shrinking square, Lucien already stood clear on the first stair landing outside the trap his protocol had sprung.
 
 Lucien: "Classification is not violence merely because the unclassified dislike choosing."
 
@@ -938,11 +938,11 @@ Cassian: "This is an appalling group decision."
 
 Aira piled in behind them.
 
-Overhead, the upper witness gallery dropped to floor level on screaming iron chains as the chamber walls folded inward. Its barrier unlocked only when Rhea forced the shared route open as an emergency exit. Faculty and visiting delegates surged forward, followed closely by Nera, Oric, and Mira clutching her bandaged palm. Rhea stepped out of the Red lane last.
+Overhead, the upper witness gallery dropped to floor level on screaming iron chains as the chamber walls folded inward. Its barrier unlocked only when Rhea forced the shared route open as an emergency exit, clearing the way onto the lower stair landing for Soren, Halden, Valen, and the visiting delegates, followed closely by Nera, Oric, and Mira clutching her bandaged palm. Rhea held the outer margin open behind them, refusing the Red lane altogether.
 
-Every official color lane stood empty.
+Blue and Red stood empty while four mismatched students packed into Green and Elira stood pinned inside Yellow.
 
-The sorting gate tried to lump the whole crowd into Green. Mira's crest flared first, trying to shove her to the front of the line. She stepped backward behind Cael.
+The sorting gate tried to lump the whole rear crowd into Green. Mira's crest flared first, trying to shove her ahead of the others. She stepped backward behind Cael.
 
 Mira: "No rank order."
 
@@ -966,9 +966,9 @@ I hooked her unmarked arm across my shoulders and drove us out of Yellow togethe
 
 The exit screamed. No human throat could make that sound: stone, law, and ancient rank-sorting shrieking as a dozen people refused to file into their neat lanes. The four colored marks blew apart into loose sparks.
 
-Leon hurled water underfoot. Cassian flashed it into a broad surge of steam. Rhea drove her council seal forward like a wedge, and we hurtled across the threshold in one tangled, sliding heap as the false bell tower vanished behind us into the dark pool.
+Leon hurled water underfoot. Cassian flashed it into a broad surge of steam. Rhea drove her council seal forward like a wedge, and we hurtled across the threshold onto the lower stair landing just behind the delegates as the false bell tower vanished behind us into the dark basin.
 
-Cael hit the chapel flagstones first. Mira landed across his calves. Cassian slammed into Leon and immediately blamed architecture. Aira lost two spare maps and kept the torn sheet bearing Cael's refusal. Elira and I tumbled across last as the stone arch sealed shut behind my heel.
+Halden and the visiting observers scrambled up the narrow stone steps first in the steam, with Nera and Oric hauling Mira up right behind them. Cael caught the middle landing first; Cassian slammed into Leon and immediately blamed architecture while boosting him upright. Aira clutched the torn sheet bearing Cael's refusal under one arm after losing two spare maps, and Elira and I drove up the last flight together as the lower door sealed shut beneath the chapel floor, spilling our whole battered heap out onto the chapel flagstones.
 
 Across the flagstones where the four rank marks had burned, one new line flared for a single breath:
 
@@ -976,11 +976,11 @@ Across the flagstones where the four rank marks had burned, one new line flared 
 
 Then Lucien's relay wiped it clean.
 
-Approved crest colors flickered back unevenly across the floor. Cassian's Red returned first, bright and angry. Leon's Blue stuttered back after it. Elira's gold ring closed faintly around the black mark still biting into her wrist.
+Approved crest colors flickered back unevenly across the floor. Cassian's Red returned first, bright and angry. Leon's Blue stuttered back after it. Elira's gold crest returned faintly below her collarbone while a thin protective glimmer closed around the black mark still biting into her wrist.
 
 Cael's healer seal stayed dead blank.
 
-He stared down at the empty patch of skin on his forearm and went motionless.
+He tugged his coat collar open an inch, stared down at the dead gray line below his collarbone, and went motionless.
 
 Mira pressed her bandaged palm flat onto the flagstones where the vanished line had burned.
 
@@ -1002,7 +1002,7 @@ The phrasing sounded suspiciously borrowed from Maelin. Cael let out a short, st
 
 Mira had already inked the erased line into her notebook. Lucien saw her close the cover. His expression shifted by less than the ghost of a smile, just enough to tell me the shattered exit had never been part of his design, before he turned out of the chapel without giving anyone the satisfaction of watching him leave.
 
-Up in the chapel healing circle, healers went to work stripping the black mark off Elira's wrist by peeling away the outer layer of mana clinging to her skin. It hurt cleanly and sharply. Beneath her collar, a faint trace of Dominion frost still chilled the edge of her pendant chain. She bore it without flinching.
+Up in the chapel healing circle, two duty healers went to work stripping the black mark off Elira's wrist by peeling away the outer layer of mana clinging to her skin. Meanwhile Maelin caught the dark stain spreading below my ribs, pressed a cold coagulant wrap against the re-split gash without waiting for an invitation, and bound it tight enough to keep me upright beside the chalk ring. Beneath Elira's collar, a faint trace of Dominion frost still chilled the edge of her pendant chain. She bore it without flinching.
 
 Cael stood just outside the chalk healing ring, arms stiff at his sides. Leon stood beside him and refused to let him slip out the door. Good.
 
@@ -1194,7 +1194,7 @@ I closed my hand over her warm, living fingers. She was still here. Outside the 
 
 ## Coda: Leon Stays Beside
 
-Leon caught up to Cael in the quiet corridor outside the infirmary and nearly made the same old mistake.
+Hours earlier, moments after they stepped back out of Elira's infirmary room, Leon caught up to Cael in the quiet corridor and nearly made the same old mistake.
 
 He almost stepped in front.
 
@@ -1206,7 +1206,7 @@ Leon opened both hands at his sides where Cael could see them.
 
 Leon: "Do you want me here?"
 
-The question sounded stupidly small in the empty hall. Too late, too clumsy, yet it was the first honest thing Leon knew how to offer.
+The question sounded stupidly small in the empty hall. No crisis demanded it, no witness rail was watching, and for once Leon did not dress guard duty up as a favor.
 
 Cael stared at him long enough for embarrassment to flare hot under Leon's collar, trying hard to curdle into temper. Leon stayed put anyway.
 
@@ -1214,4 +1214,4 @@ Cael: "Beside."
 
 Leon stepped up beside him, keeping his hands to himself and the corridor ahead wide open.
 
-Inside the infirmary, Elira slept with frost lingering cold beneath her collar. Outside in the hall, Leon learned that standing in the right place could be harder than throwing a punch.
+Back inside the infirmary, Elira slept through the still hours before the dawn summons, frost lingering cold beneath her collar. Outside in the corridor, Leon learned that holding the right distance when nobody was watching could be harder than throwing a punch.

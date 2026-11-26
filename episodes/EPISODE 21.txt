@@ -14,7 +14,7 @@ Leon rode opposite us, one knee bouncing until Rhea threatened to classify it as
 
 Cassian leaned near the window, red hair catching the glare, eyes sharper than his smile. His right wrist stayed wrapped beneath his sleeve after the relay frost, every small reach favoring his left hand.
 
-Nera sat across from him with both binding rings covered by plain cuffs and a fresh compression bandage crossing the shoulder Lucien's corridor had cut. Darian Thorne rode beside her, severed from Noctis in every way that mattered.
+Nera sat across from him with her re-riveted Noctis binding bands hidden under plain cuffs and a fresh compression bandage crossing the shoulder Lucien's corridor had cut. Darian Thorne rode beside her, having slipped Noctis house arrest through Magistra Voss's emergency line before noon while Oric Sen held Aurelis's archive desk behind them, severed from Noctis in every way that mattered.
 
 Aira had three notebooks open across her lap at once.
 
@@ -26,7 +26,7 @@ Elira: "She has a point."
 
 I looked toward Rhea.
 
-Rhea: "Do not drag me into this. I have four copies of the same emergency order because three different offices will try to misplace it."
+President Valmont: "Do not drag me into this. I have four copies of the same emergency order because three different offices will try to misplace it."
 
 The carriage wheels struck the paved academy road. My sternum tightened.
 
@@ -58,23 +58,23 @@ I drew a full breath and let the Black Circle stay quiet beneath my skin.
 
 Instructor Dren met us at the main gate, wearing the exact stern scowl he brought to every morning drill. After everything else, his predictability felt almost like mercy.
 
-Dren: "Aerlen."
+Instructor Dren: "Aerlen."
 
 Haru: "Instructor."
 
 Dren looked me up and down.
 
-Dren: "You are taller when everyone stops pretending not to look."
+Instructor Dren: "You are taller when everyone stops pretending not to look."
 
 Cassian choked on a laugh. Dren ignored him completely.
 
 Elira stepped down beside me, and Dren's eyes flicked from the pendant to her face.
 
-Dren: "Vale."
+Instructor Dren: "Vale."
 
 Elira: "Instructor."
 
-Dren: "Medical restrictions?"
+Instructor Dren: "Medical restrictions?"
 
 Maelin materialized behind him with a healer's satchel and the posture of judgment given legs.
 
@@ -86,7 +86,7 @@ Maelin: "You agreed to all of them."
 
 Dren grunted.
 
-Dren: "Good. Then you will both hate the next hour."
+Instructor Dren: "Good. Then you will both hate the next hour."
 
 He turned toward the central courtyard.
 
@@ -96,17 +96,17 @@ The repaired fountain no longer rippled backward. It watched normally now, which
 
 Haru: "Professor."
 
-Halden: "Aerlen."
+Professor Halden: "Aerlen."
 
 His gaze shifted to Elira.
 
-Halden: "Vale."
+Professor Halden: "Vale."
 
 Elira: "Professor."
 
 All our tangled history hung between us: his early suspicion, my concealment, the old observatory, and his decision not to lock me in a cell when he had the chance.
 
-Halden: "I have been asked to lead Aurelis's internal watch on the Black Circle."
+Professor Halden: "I have been asked to lead Aurelis's internal watch on the Black Circle."
 
 Leon muttered under his breath.
 
@@ -114,17 +114,17 @@ Leon: "That sounds comforting."
 
 Halden's eyes cut toward him. Leon straightened.
 
-Halden: "It is not meant to comfort."
+Professor Halden: "It is not meant to comfort."
 
 Aira: "Spectacular. We are doomed by branding."
 
 Halden let the remark pass, though his jaw twitched.
 
-Halden: "I refused twice. The first request from the board called it classification. The second, from Councilor Krail's office, called it containment readiness. I accepted only after Magistra Senna rewrote the orders."
+Professor Halden: "I refused twice. The first request from the board called it classification. The second, from High Councilor Krail's office, called it containment readiness. I accepted only after Magistra Voss rewrote the orders."
 
-Rhea: "Witness stability."
+President Valmont: "Witness stability."
 
-Halden: "My task is to record whether Haru Aerlen remains answerable under pressure, not to decide what he is."
+Professor Halden: "My task is to record whether Haru Aerlen remains answerable under pressure, not to decide what he is."
 
 I studied his face.
 
@@ -132,35 +132,35 @@ Haru: "And if I do not?"
 
 Halden's mouth hardened.
 
-Halden: "Then I record that too, with witnesses standing beside you, before anyone turns fear into a locked room."
+Professor Halden: "Then I record that too, with witnesses standing beside you, before anyone turns fear into a locked room."
 
 It was the closest thing to trust Halden could afford. I took it.
 
 Above the fountain, Senna's remote seal flared open.
 
-Senna: "Aurelis, report."
+Magistra Voss: "Aurelis, report."
 
-Rhea stepped forward, crisp as flint.
+President Valmont stepped forward, crisp as flint.
 
-Rhea: "Haru Aerlen, Elira Vale, and registered witnesses have returned under escort. No Black Circle outbreak on the road. One Noctis hold trap at the outer ridge marker was bypassed and logged. A partial list names Iven Sahl; we are still confirming his conduit match."
+President Valmont: "Haru Aerlen, Elira Vale, and registered witnesses have returned under escort. No Black Circle outbreak on the road. One Noctis hold trap at the outer ridge marker was bypassed and logged. From Lake Velis, we matched the seventh slot on Nera's stolen slate to Iven Sahl."
 
-Senna: "Received. Drakenshard and Valemere have sealed their student registries. Three minor academies report unauthorized relay pings. Noctis Dominion College has refused our conduit audit."
+Magistra Voss: "Confirmed on our end as well. Drakenshard and Valemere have sealed their student registries. Three minor academies report unauthorized relay pings. Noctis Dominion College has refused our conduit audit."
 
 Color drained from Nera's face. Darian's fists clenched at his sides.
 
-Senna: "We have confirmed that at least twelve Noctis conduit-track students were moved out of their dormitory wing during the funeral."
+Magistra Voss: "After Noctis's delegation returned from Cael's funeral and locked their dormitory wing, eleven conduit-track students stopped answering roll. Overnight, Iven Sahl was taken from Aurelis's dissenting guest wing. That makes twelve living students on the board."
 
-The courtyard went dead quiet. Twelve. Cael had been one, and Lucien still had eleven more on the board.
+The courtyard went dead quiet. Eleven taken inside Noctis's locked wing after the funeral, and Iven pulled from Aurelis's dissenting wing overnight. Twelve living students on Lucien's board.
 
 Nera stepped into the seal's light.
 
-Nera: "Do you have names?"
+Nera: "Then our slate read true."
 
-Senna hesitated for half a beat.
+Magistra Voss inclined her head once.
 
 Darian: "Magistra."
 
-Senna: "Confirmed. Iven Sahl is among the missing."
+Magistra Voss: "Both counts align. Eleven Noctis-wing transfers, plus Iven Sahl."
 
 The name hit like a second blow on an unhealed bruise. I remembered Iven from Cael's funeral: pale, first-year, standing in the separate Noctis cluster, holding onto a story about a borrowed thermal charm as proof Cael had been kind when nobody was watching.
 
@@ -168,27 +168,27 @@ Elira's pendant warmed against her throat.
 
 Haru: "Lucien showed us reserves."
 
-Halden: "Say that again."
+Professor Halden: "Say that again."
 
-I laid it out slowly: the Noctis corridor, the hanging crest lights, Nera stepping one body-length into the dark, the slate she tore free, and Lucien's single word. Reserves.
+I laid it out for Halden and Dren slowly: the Noctis corridor, the hanging crest lights, Nera stepping one body-length into the dark, the slate she tore free, and Lucien's single word. Reserves.
 
-By the time I finished, Dren's knuckles were white, Maelin had stopped pretending she was only here to monitor Elira, and Rhea's council sigil burned dark crimson.
+By the time I finished, Dren's knuckles were white, Maelin had stopped pretending she was only here to monitor Elira, and President Valmont's council sigil burned dark crimson.
 
-Senna: "Then the Council has probable cause for a protective audit of Noctis."
+Magistra Voss: "Then the Council has probable cause for a protective audit of Noctis."
 
-Councilor Krail's voice sliced across the projection.
+High Councilor Krail's voice sliced across the projection.
 
-Krail: "The Council has cause to lock down the unclassified student who provoked Lucien Voss into threatening children."
+High Councilor Krail: "The Council has cause to lock down the unclassified student who provoked Lucien Voss into threatening children."
 
 The fountain water flattened into glass. Krail's image formed beside Senna's, sharp and unwelcome.
 
-Krail: "Do not confuse timing with innocence. Voss is a criminal, and Aerlen is the excuse criminals are rallying around."
+High Councilor Krail: "Do not confuse timing with innocence. Voss is a criminal, and Aerlen is the excuse criminals are rallying around."
 
 Elira stepped forward. Maelin hissed a warning, but Elira kept her hands still and let her voice carry.
 
 Elira: "No. Lucien organized cruelty long before Haru stepped into public view. Talen Mire proves it. Cael proves it. Nera and Oric prove it. Noctis' buried doctrine proves it. You do not get to blame Haru for the rot his exposure dragged into the light."
 
-Krail: "Miss Vale, you remain under trauma review."
+High Councilor Krail: "Miss Vale, you remain under trauma review."
 
 Elira's smile had frost on it.
 
@@ -204,11 +204,11 @@ Haru: "Recorded?"
 
 Halden swallowed once.
 
-Halden: "Recorded."
+Professor Halden: "Recorded."
 
 Krail smiled thinly.
 
-Krail: "How cooperative."
+High Councilor Krail: "How cooperative."
 
 A sharp crack split the air.
 
@@ -222,11 +222,11 @@ Mira's notebook hit the paving stones. Another line scrolled beneath the first.
 
 Professor Valen's hand froze over her slate.
 
-Halden: "Impossible."
+Professor Halden: "Impossible."
 
-Rhea: "Explain impossible quickly."
+President Valmont: "Explain impossible quickly."
 
-Valen: "Noctis should have zero access to the lower observatory after the Foundation locks."
+Professor Valen: "Noctis should have zero access to the lower observatory after the Foundation locks."
 
 The fountain mist answered before she finished.
 
@@ -242,7 +242,7 @@ Panic in the courtyard sharpened into direction. Lucien hadn't only stolen stude
 
 Dren pivoted toward the lower path.
 
-Dren: "Combat team."
+Instructor Dren: "Combat team."
 
 Leon rolled his shoulders. Cassian bared his teeth in a joyless grin, left hand curling into a fist. Aira snapped two notebooks shut and kept the third open. Rhea fired off three perimeter orders before anyone else drew breath.
 
@@ -274,13 +274,13 @@ She ran three steps, caught herself because sprinting after an emergency escort 
 
 Rhea spotted them without turning around.
 
-Rhea: "Castellan."
+President Valmont: "Castellan."
 
 Mira stopped short.
 
 Mira: "President Valmont."
 
-Rhea: "This route is restricted."
+President Valmont: "This route is restricted."
 
 Mira flushed, glanced at me and Elira, then back toward the glowing warning still fading above the fountain.
 
@@ -308,21 +308,21 @@ Pella: "We can keep count."
 
 Aira's mouth softened with something close to pride. Rhea checked Dren.
 
-Dren: "Behind the combat line."
+Instructor Dren: "Behind the combat line."
 
 Maelin: "Behind my medical line."
 
-Halden: "Where nobody can claim their notes were tampered with."
+Professor Halden: "Where nobody can claim their notes were tampered with."
 
 Aira: "That is three different lines and none of you drew a map."
 
-Rhea: "Then you are drawing it."
+President Valmont: "Then you are drawing it."
 
 Aira: "I regret being competent."
 
 Mira's shoulders dropped an inch, tension settling into focus. Rhea stepped forward and pressed a coin-sized crimson council seal onto Mira's notebook cover, then onto Finn's scroll strap and Pella's slate.
 
-Rhea: "You are not down there to prove bravery, or to turn Green Circle students into martyrs. You leave the instant Dren, Maelin, Aira, or I give the word."
+President Valmont: "You are not down there to prove bravery, or to turn Green Circle students into martyrs. You leave the instant Dren, Maelin, Aira, or I give the word."
 
 Mira: "Understood, President."
 
@@ -408,37 +408,37 @@ The words felt strange coming out of my mouth, less like advice and more like a 
 
 The Blue student looked down in quiet shame. I didn't absolve him, and I didn't glare at him. Fear wasn't a crime. We kept walking.
 
-At the annex gate, Examiner Seraphine Morn waited in tactical black with red trim, hair pulled tight, one hand resting against the iron gate ward.
+At the annex gate, Lady Seraphine Morn waited in tactical black with red trim, hair pulled tight, one hand resting against the iron gate ward.
 
 Cassian straightened immediately.
 
-Seraphine: "Veyr."
+Lady Seraphine: "Veyr."
 
 Cassian: "Lady Morn."
 
-Seraphine shifted her gaze to me.
+Lady Seraphine shifted her gaze to me.
 
-Seraphine: "Aerlen."
+Lady Seraphine: "Aerlen."
 
-Haru: "Examiner."
+Haru: "Lady Morn."
 
 Her eyes swept Elira, the crystal at her collar, and the column behind us.
 
-Seraphine: "The gate holds three clashing locks: medical archive, tournament authority, and visiting custody. Whoever rigged it wanted investigators arguing on the steps."
+Lady Seraphine: "The gate holds three clashing locks: medical archive, tournament authority, and visiting custody. Whoever rigged it wanted investigators arguing on the steps."
 
-Rhea: "Can you open it?"
+President Valmont: "Can you open it?"
 
-Seraphine: "I can."
+Lady Seraphine: "I can."
 
-Rhea: "Cleanly?"
+President Valmont: "Cleanly?"
 
 A faint edge touched Seraphine's mouth.
 
-Seraphine: "No."
+Lady Seraphine: "No."
 
 Dren stepped up beside her, hand on his hilt.
 
-Dren: "Then open it loudly."
+Instructor Dren: "Then open it loudly."
 
 Seraphine pressed her palm flat to the ward. Sharp Red Circle light flared around her fingers. Dren laid his combat seal beside it, Rhea locked her council mark above both, and Valen threaded older Aurelis script beneath the hinge. Halden refused to let the gate unlatch without reading every syllable between the wards as it broke.
 
@@ -464,11 +464,11 @@ The gate crystal lit each circle in order until it reached me, where it failed a
 
 Halden leaned over the crystal.
 
-Halden: "Interesting."
+Professor Halden: "Interesting."
 
 Aira: "Professor, please stop calling ominous traps interesting while we are standing inside them."
 
-Halden: "Would you prefer I find them dull?"
+Professor Halden: "Would you prefer I find them dull?"
 
 Leon: "Frankly, yes."
 
@@ -476,13 +476,13 @@ Leon shifted his weight forward, shoulders squared. Halden ignored him, which re
 
 Valen touched the crystal rim with one gloved finger.
 
-Valen: "It is not hiding him."
+Professor Valen: "It is not hiding him."
 
-Rhea: "Then what is it doing?"
+President Valmont: "Then what is it doing?"
 
-Valen: "Refusing to log him under medical custody."
+Professor Valen: "Refusing to log him under medical custody."
 
-The crystal flickered. My false Green Circle surfaced for half a beat, collided with the public Black Circle trace, and shattered apart. Haru Aerlen stayed unlisted.
+The annex crystal hunted my wrist for the shattered Green crest it used to log, struck only the dark hairline scar beneath my skin, and spat out a blank error bar. Haru Aerlen stayed unlisted.
 
 Being unclassifiable wasn't freedom. Things outside a ledger were usually where cages got built.
 
@@ -490,11 +490,11 @@ Elira studied the dim stone instead of touching her pendant.
 
 Elira: "Log that the annex failed to classify Haru without asking him to perform."
 
-Rhea: "Logged."
+President Valmont: "Logged."
 
 Halden's pen scratched fast. Seraphine watched me with a soldier's sharp eye.
 
-Seraphine: "Can you still move?"
+Lady Seraphine: "Can you still move?"
 
 Haru: "I can."
 
@@ -514,13 +514,13 @@ Nobody breathed. Crown language didn't belong in a modern tournament file, not u
 
 Valen went pale in the way scholars did when a modern nightmare turned up an older footnote.
 
-Halden: "Professor."
+Professor Halden: "Professor."
 
-Valen: "Crown pressure isn't a tournament term."
+Professor Valen: "Crown pressure isn't a tournament term."
 
-Seraphine: "Noctis?"
+Lady Seraphine: "Noctis?"
 
-Valen: "Or something Noctis dug up and copied."
+Professor Valen: "Or something Noctis dug up and copied."
 
 The glass shuddered. A faint blue-white line bled across the scraped name strip.
 
@@ -552,7 +552,7 @@ At the next turn, rough corridor stone gave way to white infirmary tile, easy to
 
 Leon: "Used recently."
 
-Seraphine: "How recently?"
+Lady Seraphine: "How recently?"
 
 Leon closed his eyes, blue light tracing his wrist.
 
@@ -562,19 +562,19 @@ The sentence landed like a bolt sliding shut behind us. Somebody hadn't just lef
 
 Rhea's voice dropped to ice.
 
-Rhea: "Pull every Aurelis internal access log."
+President Valmont: "Pull every Aurelis internal access log."
 
 Aira flipped a page.
 
 Aira: "Requesting now."
 
-Rhea: "No. Seizing now. This entire wing is under student protection evidence hold."
+President Valmont: "No. Seizing now. This entire wing is under student protection evidence hold."
 
 Seraphine's mouth curved faintly.
 
-Seraphine: "Aggressive."
+Lady Seraphine: "Aggressive."
 
-Rhea: "Necessary."
+President Valmont: "Necessary."
 
 Up ahead, Dren raised one fist. Everyone froze.
 
@@ -596,9 +596,9 @@ The spoon sound stopped at a tiled vestibule whose walls were covered in layered
 
 Halden ran his gaze across the wall script.
 
-Halden: "These were altered."
+Professor Halden: "These were altered."
 
-Valen: "No. Overwritten. Older Aurelis grammar sits underneath. Noctis just traced over the scar."
+Professor Valen: "No. Overwritten. Older Aurelis grammar sits underneath. Noctis just traced over the scar."
 
 Cold settled deeper behind my ribs.
 
@@ -606,13 +606,13 @@ Haru: "This wing connects to Circle Zero."
 
 Valen glanced back at me.
 
-Valen: "It may connect straight to the failure."
+Professor Valen: "It may connect straight to the failure."
 
 Dren pushed the heavy door wide, and we stepped into the first examination room. Its brass lintel plate read:
 
 **VISITING STUDENT RECOVERY ROOM - CROWN FIELD BLOCK**
 
-Cael had been brought here after I stabilized him in secret. The stone didn't have feelings, yet mana remembered habits, and this room had been trained by fear. Too many iron anchor rings bolted beneath the bed frame. Too many drain sigils masked as healer monitors.
+Cael had been locked inside here between preliminary Noctis evaluations before the Crown Field match. The stone didn't have feelings, yet mana remembered habits, and this room had been trained by fear. Too many iron anchor rings bolted beneath the bed frame. Too many drain sigils masked as healer monitors.
 
 Valen stopped dead on the threshold, refusing to set foot inside until Dren and Maelin had swept the room. Even then, Nera stayed by the overwritten wall near the doorway, pressing two fingers lightly to the tile.
 
@@ -666,7 +666,7 @@ Aira clicked her tongue in approval.
 
 Aira: "Boring proof wins trials."
 
-Nera hovered near the third tablet, pointing with a trembling hand at a faint blue-white shimmer clinging to the blank space.
+Nera hovered near the seventh tablet, pointing with a trembling hand at a faint blue-white shimmer clinging to the blank space.
 
 Nera: "Winter-drill weave. Cael built a thermal charm like this for Iven."
 
@@ -714,9 +714,9 @@ A faint chime rang through the ancient stone beneath our feet.
 
 Valen caught her breath.
 
-Valen: "That line."
+Professor Valen: "That line."
 
-Halden: "I heard it."
+Professor Halden: "I heard it."
 
 Lucien's image stayed composed, yet frost crept harder up the rim of the relay well. Elira had struck the structural pin.
 
@@ -734,9 +734,9 @@ Aira answered first, cold and quick.
 
 Aira: "Lucien."
 
-Rhea: "Krail's containment bloc."
+President Valmont: "Krail's containment bloc."
 
-Halden: "Anyone looking for one hidden weapon to blame instead of a rotting system."
+Professor Halden: "Anyone looking for one hidden weapon to blame instead of a rotting system."
 
 Nera: "Noctis."
 
@@ -758,7 +758,7 @@ Lucien's lip curled.
 
 Lucien: "A crowd is not a chain of command."
 
-Rhea: "Correct."
+President Valmont: "Correct."
 
 Aira: "Try to keep up."
 
@@ -770,17 +770,17 @@ Cassian: "Let her work."
 
 Lucien's patience snapped. Frost slammed outward across the well, dimming all twelve lights.
 
-Gold light gathered around Elira's hands, razor-thin and steady, obeying her anger without spilling past her limits.
+Silver-gold archive threads gathered around Professor Valen's hands instead—while Elira kept her own fingers still, guiding the anchor questions solely through the cold shimmer of her remade pendant with zero Yellow spark.
 
-Maelin: "Watch your output, Vale."
+Maelin: "Watch both channels, Valen. Not one drop from Vale."
 
-Elira: "I know my edge."
+Professor Valen: "My channels, not hers."
 
-Seven gold needles lanced out and pinned the air around the well, exposing the black grammar threads binding each light to the seven chairs. Each thread carried a glowing label: Obedience, Return, Proof, Reserve, Use, Property, Final.
+Seven silver-gold needles lanced out from Valen's palms and pinned the air around the well, exposing the black grammar threads binding each light to the seven chairs. Each thread carried a glowing label: Obedience, Return, Proof, Reserve, Use, Property, Final.
 
 Cael's last note had rejected every one of those words.
 
-Darian swore softly. Nera's plain cuffs split open as her binding rings flared blue-gray, snapping around the threads. She did not sever them; she indexed them, carrying every lesson she and Oric had survived.
+Darian swore softly. Nera's plain cuffs split open as her re-clasped Noctis binding rings flared blue-gray, snapping around the threads. She did not sever them; she indexed them, carrying every lesson she and Oric had survived.
 
 Nera: "Thread one hooks into Noctis' dormitory basement. Thread two links to delegation mirror residue. Thread three..."
 
@@ -796,9 +796,9 @@ Lucien had built his bridge out of the open wound Aurelis left behind after Cael
 
 Haru: "How do we drop the hooks without dragging the kids through?"
 
-Valen: "Split the weight."
+Professor Valen: "Split the weight."
 
-Halden: "Dangerous. Each hook is built to bait one strong mage into grabbing it. If Haru grabs them all, Lucien claims Black Circle takeover. If we slash them blindly, the students eat the backlash."
+Professor Halden: "Dangerous. Each hook is built to bait one strong mage into grabbing it. If Haru grabs them all, Lucien claims Black Circle takeover. If we slash them blindly, the students eat the backlash."
 
 Leon rolled his neck.
 
@@ -810,11 +810,11 @@ Leon: "What? I listen sometimes."
 
 Cassian: "Mark the calendar."
 
-Dren: "Focus."
+Instructor Dren: "Focus."
 
 Witness magic hated secrecy, so we broke the circuit right in front of Lucien's eyes. Leon drowned Obedience beneath flowing water so it couldn't lock. Cassian scorched Return at the edges without touching the names underneath. Rhea pinned Proof under strict council law. Aira dissected Reserve in ink until the word looked obscene. Mira gripped her pen with trembling hands and wrote along the glowing air beside Use: a person cannot be a function. Finn wrapped Property in his seam-tracking marks. Nera held Final, tears running down her cheeks while her rings bit deep.
 
-Elira anchored the center with her seven gold needles. I stayed on the outer ring, hands empty.
+Professor Valen anchored the center with her seven silver-gold needles while Elira held the anchor cadence steady through her pendant alone. I stayed on the outer ring, hands empty.
 
 Lucien: "Still hiding from yourself, Aerlen."
 
@@ -822,17 +822,17 @@ Haru: "Still hiding behind children, Voss."
 
 Frost cracked sharply inside the well. Halden caught it instantly.
 
-Halden: "He is holding these hooks on pride as much as craft."
+Professor Halden: "He is holding these hooks on pride as much as craft."
 
 Lucien: "Your ambition is showing, Professor."
 
-Halden: "Good. It means I am still a flawed man, not a doctrine pretending to be clean."
+Professor Halden: "Good. It means I am still a flawed man, not a doctrine pretending to be clean."
 
 One by one, the threads parted. Obedience dissolved in Leon's water. Return unraveled in Cassian's flame. Proof buckled, Reserve emptied, Use snapped as Mira's hand steadied, and Property cracked under Finn's ledger script.
 
 Final fought back.
 
-Nera screamed as the seventh thread turned pitch black and yanked inward, trying to turn her own binding rings into a fresh conduit tether. Darian lunged and caught her shoulders. Maelin cursed, Elira's gold light flared, and I crossed the ring in two strides.
+Nera screamed as the seventh thread turned pitch black and yanked inward, trying to turn her re-clasped binding rings into a fresh conduit tether. Darian lunged and caught her shoulders. Maelin cursed, Professor Valen's silver-gold net flared to hold the perimeter, and I crossed the ring in two strides.
 
 Nobody tried to stop me this time.
 
@@ -850,7 +850,7 @@ The seventh thread shattered.
 
 Eleven crest lights shot upward through the ceiling and scattered back into the wider relay net, free of Aurelis' traps.
 
-One light stayed behind. Small, pale blue-white. Iven Sahl's trace.
+One light stayed behind. Small, pale green beneath a blue-white shimmer—Iven Sahl's trace.
 
 Instead of rising, it darted sideways toward a low stone archway beside the recovery room stairs, opening into an old service tunnel.
 
@@ -876,11 +876,11 @@ Elira: "Then we take them apart piece by piece."
 
 Rhea's council seal flared beside the low archway.
 
-Rhea: "Protocol first."
+President Valmont: "Protocol first."
 
 Leon stared at her as if the word had slapped him.
 
-Rhea: "Yes, Varek, even now."
+President Valmont: "Yes, Varek, even now."
 
 Aira was already writing.
 
@@ -896,15 +896,15 @@ Leon's mouth twitched into a brief, crooked grin, and the tension eased just eno
 
 Valen knelt at the tunnel threshold and held a strip of archive vellum over the opening. The edge browned without catching fire. Halden crouched across from her, his slate hovering over the floor sigils as his fingers traced the diagram's border on the stone.
 
-Halden: "Three layers. First, a distress lure keyed to familiar names. Second, a lock spell waiting for anyone trying to pull him out. Third..."
+Professor Halden: "Three layers. First, a distress lure keyed to familiar names. Second, a lock spell waiting for anyone trying to pull him out. Third..."
 
 He paused, frowning as broken old circles glowed beneath the Noctis hooks.
 
-Halden: "The tunnel predates the annex. Noctis wove doctrine through it, yet they did not lay the foundation."
+Professor Halden: "The tunnel predates the annex. Noctis wove doctrine through it, yet they did not lay the foundation."
 
 Valen's eyes sharpened.
 
-Valen: "Tournament annexes were built on top of older recovery halls. If this began as a pre-Circle witness infirmary..."
+Professor Valen: "Tournament annexes were built on top of older recovery halls. If this began as a pre-Circle witness infirmary..."
 
 Elira finished the thought quietly.
 
@@ -916,7 +916,7 @@ Mira: "Can the older magic help us?"
 
 Valen laid her palm flat on the floor stone outside the tunnel.
 
-Valen: "Aurelis witness inquiry. We are not claiming patient custody. We are checking whether a living student is below and whether the path holds active traps."
+Professor Valen: "Aurelis witness inquiry. We are not claiming patient custody. We are checking whether a living student is below and whether the path holds active traps."
 
 The older floor circles flared gold. The Noctis hooks overhead jerked tight. Somewhere down in the dark, a muffled sound broke loose, a child fighting not to cry out.
 
@@ -926,15 +926,15 @@ Haru: "Boundary only."
 
 Halden's pen moved instantly.
 
-Halden: "Minimal cast. Witnessed. Purpose: boundary."
+Professor Halden: "Minimal cast. Witnessed. Purpose: boundary."
 
 Dren kept his eyes on the dark tunnel.
 
-Dren: "Useful."
+Instructor Dren: "Useful."
 
 He caught the weight of his own word and added quietly.
 
-Dren: "By choice."
+Instructor Dren: "By choice."
 
 Leon stepped up to the mouth and sent a thin ribbon of water creeping along the stone floor, sliding cleanly around each white hook without brushing it.
 
@@ -982,19 +982,19 @@ Elira looked straight into the blackness.
 
 Elira: "Children suffer because you built rooms that treat rescue like ownership."
 
-Gold flared through the ancient Aurelis foundation stones. The archway groaned wider, Lucien's voice cut off, and cold air spilled out across our boots.
+Professor Valen drove the resonance pulse down through the ancient Aurelis foundation stones. The archway groaned wider, Lucien's voice cut off, and cold air spilled out across our boots.
 
 From deep below, a child sobbed once before a gag spell snapped over his mouth.
 
 Cassian lunged forward, and Dren caught him hard by the shoulder. The fact that Cassian let himself be held told me how badly that sound had cut him.
 
-Dren: "Line holds."
+Instructor Dren: "Line holds."
 
 Cassian's jaw flexed.
 
 Cassian: "A child just..."
 
-Dren: "I heard him. That is why the line holds."
+Instructor Dren: "I heard him. That is why the line holds."
 
 Cold poured out of the tunnel mouth, thick with the sensory ghost of winter drill yards and numb fingers. Maelin swept low healer light across the threshold without crossing the stone line.
 
@@ -1014,7 +1014,7 @@ Mira: "How do we tell without hurting him?"
 
 Valen turned slowly, struck by the question.
 
-Valen: "We stop demanding certainty first. We test in a way that never punishes the boy if we read it wrong."
+Professor Valen: "We stop demanding certainty first. We test in a way that never punishes the boy if we read it wrong."
 
 The wall sconces dimmed slightly at the word boy.
 
@@ -1024,13 +1024,13 @@ Aira: "Notice how it hates ordinary nouns."
 
 Seraphine flicked a thin red thread six feet into the tunnel. It folded straight back against her palm.
 
-Seraphine: "Spatial loop."
+Lady Seraphine: "Spatial loop."
 
 Leon tested the air currents with water-sense, frowning hard.
 
 Leon: "It stretches longer the faster we push."
 
-Elira knelt beside the threshold despite Maelin's immediate glare and laid two fingertips against the stone lip, letting a patient glow rest at the edge without crossing inside.
+Elira knelt beside the threshold despite Maelin's immediate glare and laid two uncasting fingertips—bare skin, zero spark—against the stone lip, letting permission rather than magic answer the ancient ward.
 
 Elira: "Iven Sahl. You do not have to answer if answering hurts."
 
@@ -1042,11 +1042,11 @@ Aira: "Look at the masonry. Commands lengthen the hall. Permission shortens it."
 
 Valen stepped back to the ancient inscription carved beside the archway, reading the worn lettering aloud by touch.
 
-Valen: "Witness proximity... patient consent... no single bearer... room opens when pain is named by the one bearing it..."
+Professor Valen: "Witness proximity... patient consent... no single bearer... room opens when pain is named by the one bearing it..."
 
 She stopped abruptly. Halden stepped close and read the scarred final line softly.
 
-Halden: "Companion must be chosen before treatment begins."
+Professor Halden: "Companion must be chosen before treatment begins."
 
 Maelin spun around toward the open doorway of the recovery room just behind us. I turned with her.
 
@@ -1064,7 +1064,7 @@ Maelin: "A companion chair."
 
 Valen crossed the threshold at last, standing beside the bed as if looking down into an open grave.
 
-Valen: "Original healing law required the injured student to pick someone to sit within reach before treatment seals locked."
+Professor Valen: "Original healing law required the injured student to pick someone to sit within reach before treatment seals locked."
 
 Darian stared at the lone observation chair.
 
@@ -1078,9 +1078,9 @@ Care had once meant keeping someone close enough to hold your hand. Someone had 
 
 Elira stood over the dust scar, fingers hovering above the clean tile.
 
-Elira: "Cael woke up in this bed after Haru stabilized him. While everyone argued over what his body proved, did anybody ask who he wanted beside him?"
+Elira: "Cael was locked in here between Noctis prep drills before Aurelis's healers ever met him. While everyone argued over what his body proved, did anybody ask who he wanted beside him?"
 
-Maelin shut her eyes. Silence gave the answer.
+Maelin shut her eyes. Nera's silence gave the answer.
 
 I remembered Cael standing pale in the trial hall, apologizing for taking up space before Votive Return tore him apart. The empty patch of floor suddenly shouted louder than any spell trap.
 
@@ -1092,7 +1092,7 @@ Finn: "There are old visitor chairs in the supply closet at the end of the hall.
 
 Seraphine nodded toward the corridor.
 
-Seraphine: "Fetch it. Stay inside the red line."
+Lady Seraphine: "Fetch it. Stay inside the red line."
 
 Finn and Pella bolted down the hall and hauled the chair back together, bumping one leg against the doorframe and wincing. It was plain dark wood, one arm patched with mismatched screws, the seat worn smooth by decades of ordinary students.
 
@@ -1104,7 +1104,7 @@ The question hung sharp in the air. If I placed it, the annex might read Black C
 
 Rhea understood immediately.
 
-Rhea: "Cael is not here to choose."
+President Valmont: "Cael is not here to choose."
 
 Nera stepped forward first.
 
@@ -1152,15 +1152,15 @@ Light flared along the far wall. Beneath layers of Noctis monitoring script, old
 
 Halden stared at the letters as if an argument he had fought his whole career had just been settled in blood.
 
-Halden: "Aurelis stripped this law before Noctis ever copied the room."
+Professor Halden: "Aurelis stripped this law before Noctis ever copied the room."
 
 Rhea whipped around toward Valen.
 
-Rhea: "Aurelis did this?"
+President Valmont: "Aurelis did this?"
 
 Valen didn't flinch or defend the academy.
 
-Valen: "Old tournament healers grew obsessed with cold distance after Circle Zero failed. Chosen presence was treated like contamination. Noctis just inherited our scar and sharpened it into a weapon."
+Professor Valen: "Old tournament healers grew obsessed with cold distance after Circle Zero failed. Chosen presence was treated like contamination. Noctis just inherited our scar and sharpened it into a weapon."
 
 Mira's pencil moved fast across her notebook.
 
@@ -1168,7 +1168,7 @@ Mira: "Aurelis wound. Noctis blade."
 
 Valen looked at the Green Circle girl with quiet respect.
 
-Valen: "Precisely."
+Professor Valen: "Precisely."
 
 Behind us, the service tunnel groaned and shortened by another brick.
 
@@ -1184,7 +1184,7 @@ Leon crouched and ran a fresh ribbon of water over the threshold lip. It returne
 
 Maelin: "He moved on his own."
 
-Rhea: "Could someone force him to tap?"
+President Valmont: "Could someone force him to tap?"
 
 Nera swallowed hard.
 
@@ -1202,11 +1202,11 @@ We gathered back at the threshold, leaving the worn wooden chair standing guard 
 
 Seraphine checked the dark bore ahead.
 
-Seraphine: "Now we move."
+Lady Seraphine: "Now we move."
 
 Dren nodded once.
 
-Dren: "Slowly."
+Instructor Dren: "Slowly."
 
 Lucien's voice scraped thin with irritation out of the well behind us.
 
@@ -1216,13 +1216,13 @@ Haru: "No. It is how we stop building rooms like yours."
 
 Dren stepped into the tunnel first. Leon sent cool water gliding ahead down the stone floor while Cassian warmed the damp air without sparking open flame. Aira marched behind them with her notebook open, followed closely by Halden, Maelin, Rhea, Mira, and Finn, while Seraphine, Valen, and Pella held the upper annex gate and seals.
 
-Nera froze at the lip as the smell of winter drills drifted up from below. Her uncovered binding rings trembled.
+Nera froze at the lip as the smell of winter drills drifted up from below. The re-riveted binding rings locked around her scarred wrists trembled.
 
 Nera: "If I hear a bell down there, I might stop moving."
 
 Rhea paused beside her.
 
-Rhea: "Then the whole line stops with you."
+President Valmont: "Then the whole line stops with you."
 
 Nera exhaled shakily, nodded, and stepped down beside Darian.
 
@@ -1236,20 +1236,20 @@ We stepped down into the cold together, close enough to see each other breathe, 
 
 ---
 
-## Coda: The Chair Registry
+## Interlude: Pella - The Chair Registry
 
-While Seraphine and Valen locked the outer annex gate behind the descending column, Pella stayed inside the quiet recovery room under a single desk lamp. Mira had drilled one habit into every Green records aide since the Foundation gallery: never trust an erasure until you check the underside.
+While Lady Seraphine kept watch at the outer annex lock behind the descending column, Professor Valen stepped just inside Cael's upper recovery annex room with Pella under a single desk lamp. Mira had drilled one habit into every Green records aide since the Foundation gallery: never trust an erasure until you check the underside.
 
-She tipped the badly mended companion chair onto its side. Beneath thick layers of gray varnish, lamplight caught a scratched brass tag bearing three stamped digits and a carpenter's repair stamp dated fifteen years back.
+Pella tipped the badly mended companion chair onto its side. Beneath thick layers of gray varnish, lamplight caught a scratched brass tag bearing three stamped digits and a carpenter's repair stamp dated fifteen years back.
 
-Across the hall in the storage closet, a first-year Green runner held the lantern steady while Pella paged through the battered supply ledger. Seven times over fifteen years, the chair had been moved. Never burned. Never broken up for kindling. Every clerk who hid it had written down a fresh lie to keep it out of an inventory purge: spare hall bench, damaged classroom prop, unsorted archive wood, nonessential frame.
+Across the landing in the storage closet, Professor Valen held the lantern steady while Pella paged through the battered supply ledger. Seven times over fifteen years, the chair had been moved. Never burned. Never broken up for kindling. Every clerk who hid it had written down a fresh lie to keep it out of an inventory purge: spare hall bench, damaged classroom prop, unsorted archive wood, nonessential frame.
 
-Pella copied every false label onto a clean sheet to fold into Mira's archive the moment they climbed back up, neat and plain, then underlined the real entry beneath them.
+Pella copied every false label onto a clean sheet to fold into Mira's archive the moment they reopened the hall, neat and plain, then underlined the real entry beneath them.
 
 Companion chair. Preserved off-ledger. Unknown protector.
 
-The first-year runner waiting by the annex stairs asked softly if an old chair's tag really mattered with everything waiting below.
+Stepping back to the upper annex gate and seals, Professor Valen asked softly if an old chair's tag really mattered with everything waiting below.
 
-Pella set the chair carefully upright beside Cael's bed, straightened her sleeve, and glanced toward the dark service tunnel mouth where Haru, Elira, Mira, and Finn had vanished minutes earlier.
+Pella set the chair carefully upright just inside the open recovery doorway where Seraphine and Valen could watch it from the upper gate, straightened her sleeve, and glanced toward the stair descending toward the lower service tunnel where Haru, Elira, Mira, and Finn had vanished minutes earlier.
 
 Pella: "Somebody risked keeping it when the rules wanted it gone. So yes. It goes in the record."
